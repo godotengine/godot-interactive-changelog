@@ -7,7 +7,7 @@ const ExitCodes = {
     "ParseFailure": 2,
 };
 
-const PULLS_PER_PAGE = 100;
+const ITEMS_PER_PAGE = 100;
 const API_RATE_LIMIT = `
   rateLimit {
     limit
@@ -40,7 +40,7 @@ class DataFetcher {
             console.error("Error saving log file: " + err);
         }
     }
-    
+
     _handleResponseErrors(queryID, res) {
         console.warn(`    Failed to get data from '${queryID}'; server responded with ${res.status} ${res.statusText}`);
         const retry_header = res.headers.get("Retry-After");
@@ -48,7 +48,7 @@ class DataFetcher {
             console.log(`    Retry after: ${retry_header}`);
         }
     }
-    
+
     _handleDataErrors(data) {
         if (typeof data["errors"] === "undefined") {
             return;
@@ -59,7 +59,15 @@ class DataFetcher {
            console.log(`    [${item.type}] ${item.message}`);
         });
     }
-    
+
+    async checkoutRepo(atCommit) {
+
+    }
+
+    getCommitHistory(fromCommit, toCommit) {
+
+    }
+
     async fetchGithub(query) {
         const init = {};
         init.method = "POST";
@@ -91,7 +99,7 @@ class DataFetcher {
     
         return await fetch(`${this.api_rest_path}${query}`, init);
     }
-    
+
     async checkRates() {
         try {
             const query = `
@@ -119,26 +127,24 @@ class DataFetcher {
             return;
         }
     }
-    
-    async fetchPulls(page) {
-        try {
-            let after_cursor = "";
-            let after_text = "initial";
-            if (this.last_cursor !== "") {
-                after_cursor = `after: "${this.last_cursor}"`;
-                after_text = after_cursor;
-            }
 
-            const query = `
-            query {
-              ${API_RATE_LIMIT}
-              repository(${this.api_repository_id}) {
-                pullRequests(first:${PULLS_PER_PAGE} ${after_cursor} states: MERGED) {
-                  totalCount
-                  pageInfo {
-                    endCursor
-                    hasNextPage
-                  }
+    _getCommitQuery(commitHash) {
+        return `
+          commit_${commitHash}: repository (${this.api_repository_id}) {
+            object (expression: "${commitHash}") {
+              ... on Commit {
+                oid
+                commitUrl
+
+                messageHeadline
+                messageBody
+                author {
+                  date
+                  email
+                  name
+                }
+
+                associatedPullRequests (first: 100) {
                   edges {
                     node {
                       id
@@ -147,24 +153,24 @@ class DataFetcher {
                       title
                       state
                       isDraft
-                      
+
                       createdAt
                       updatedAt
-                      
+
                       baseRef {
                         name
                       }
-                      
+
                       author {
                         login
                         avatarUrl
                         url
-                        
+
                         ... on User {
                           id
                         }
                       }
-                      
+
                       milestone {
                         id
                         title
@@ -175,13 +181,23 @@ class DataFetcher {
                 }
               }
             }
+          }
+        `
+    }
+
+    async fetchCommits(commits) {
+        try {
+            const query = `
+            query {
+                ${API_RATE_LIMIT}
+
+                ${commits.map((item) => {
+                    return this._getCommitQuery(item) + "\n";
+                })}
+              }
             `;
-    
-            let page_text = page;
-            if (this.page_count > 1) {
-                page_text = `${page}/${this.page_count}`;
-            }
-            console.log(`    Requesting page ${page_text} of pull request data (${after_text}).`);
+
+            console.log(`    Requesting a batch of ${commits.length} commits.`);
     
             const res = await this.fetchGithub(query);
             if (res.status !== 200) {
@@ -189,21 +205,23 @@ class DataFetcher {
                 process.exitCode = ExitCodes.RequestFailure;
                 return [];
             }
-    
+
             const data = await res.json();
-            await this._logResponse(data, `data_page_${page}`);
+            await this._logResponse(data, `data_commits`);
             this._handleDataErrors(data);
-    
+
             const rate_limit = data.data["rateLimit"];
-            const repository = data.data["repository"];
-            const pulls_data = mapNodes(repository.pullRequests);
-    
-            console.log(`    [$${rate_limit.cost}] Retrieved ${pulls_data.length} pull requests; processing...`);
-    
-            this.last_cursor = repository.pullRequests.pageInfo.endCursor;
-            this.page_count = Math.ceil(repository.pullRequests.totalCount / PULLS_PER_PAGE);
-    
-            return pulls_data;
+
+            let commit_data = {};
+            for (let dataKey in data.data) {
+                if (!dataKey.startsWith("commit_")) {
+                    continue;
+                }
+                commit_data[dataKey.substring(7)] = data.data[dataKey];
+            }
+
+            console.log(`    [$${rate_limit.cost}] Retrieved ${commit_data.length} commits; processing...`);
+            return commit_data;
         } catch (err) {
             console.error("    Error fetching pull request data: " + err);
             process.exitCode = ExitCodes.RequestFailure;
@@ -218,25 +236,28 @@ class DataProcessor {
         this.pulls = [];
     }
 
-    processPulls(pullsRaw) {
+    processCommits(commitsRaw) {
         try {
-            pullsRaw.forEach((item) => {
+            commitsRaw.forEach((item) => {
+                const pullsRaw = mapNodes(item.associatedPullRequests);
+                const pullItem = pullsRaw[0];
+
                 // Compile basic information about a PR.
                 let pr = {
-                    "id": item.id,
-                    "public_id": item.number,
-                    "url": item.url,
-                    "diff_url": `${item.url}.diff`,
-                    "patch_url": `${item.url}.patch`,
+                    "id": pullItem.id,
+                    "public_id": pullItem.number,
+                    "url": pullItem.url,
+                    "diff_url": `${pullItem.url}.diff`,
+                    "patch_url": `${pullItem.url}.patch`,
 
-                    "title": item.title,
-                    "state": item.state,
-                    "is_draft": item.isDraft,
+                    "title": pullItem.title,
+                    "state": pullItem.state,
+                    "is_draft": pullItem.isDraft,
                     "authored_by": null,
-                    "created_at": item.createdAt,
-                    "updated_at": item.updatedAt,
+                    "created_at": pullItem.createdAt,
+                    "updated_at": pullItem.updatedAt,
 
-                    "target_branch": item.baseRef.name,
+                    "target_branch": pullItem.baseRef.name,
                     "milestone": null,
                 };
 
@@ -253,11 +274,11 @@ class DataProcessor {
                     "url": "https://github.com/ghost",
                     "pull_count": 0,
                 };
-                if (item.author != null) {
-                    author["id"] = item.author.id;
-                    author["user"] = item.author.login;
-                    author["avatar"] = item.author.avatarUrl;
-                    author["url"] = item.author.url;
+                if (pullItem.author != null) {
+                    author["id"] = pullItem.author.id;
+                    author["user"] = pullItem.author.login;
+                    author["avatar"] = pullItem.author.avatarUrl;
+                    author["url"] = pullItem.author.url;
                 }
                 pr.authored_by = author.id;
 
@@ -268,11 +289,11 @@ class DataProcessor {
                 this.authors[author.id].pull_count++;
 
                 // Add the milestone, if available.
-                if (item.milestone) {
+                if (pullItem.milestone) {
                     pr.milestone = {
-                        "id": item.milestone.id,
-                        "title": item.milestone.title,
-                        "url": item.milestone.url,
+                        "id": pullItem.milestone.id,
+                        "title": pullItem.milestone.title,
+                        "url": pullItem.milestone.url,
                     };
                 }
 
@@ -291,6 +312,16 @@ function mapNodes(object) {
 
 async function main() {
     // Internal utility methods.
+    const ensureDir = async (dirPath) => {
+        try {
+            const pathStat = await fs.stat(dirPath);
+            if (!pathStat.isDirectory()) {
+                await fs.mkdir(dirPath);
+            }
+        } catch (err) {
+            await fs.mkdir(dirPath);
+        }
+    }
     const checkForExit = () => {
         if (process.exitCode > 0) {
             process.exit();
@@ -299,6 +330,17 @@ async function main() {
     const delay = async (msec) => {
         return new Promise(resolve => setTimeout(resolve, msec));
     }
+
+    // Getting PRs between two commits is a complicated task, and must be done in
+    // multiple steps. GitHub API does not have a method for that, so we must improvise.
+    // We also need to consider that there is no easy way to fetch information for
+    // an arbitrary list of commits; the API can work on ranges, but not on lists.
+    //
+    // We do not need to run this operation constantly. Release versions don't change.
+    // (Though some metadata of PRs can change, so re-indexing should be possible, on
+    // demand.)
+    // We also have to preconfigure some information, e.g. manually supply the tags
+    // or hashes, which serve as release boundaries.
 
     console.log("[*] Building local pull request database.");
 
@@ -321,13 +363,46 @@ async function main() {
     await dataFetcher.checkRates();
     checkForExit();
 
-    console.log("[*] Fetching pull request data from GitHub.");
+    // First, we checkout the repository for the specified branch/tag/hash. We will
+    // use it to retrieve a clean commit log, ignoring merge commits. We can also use
+    // it as a basis for our list of authors/contributors, as it's not always the
+    // same between the PR and the actual commit.
+
+    await ensureDir("./temp");
+
+
+    // Second, we try to extract information about this being a cherry-pick. We can
+    // rely on the commit message body containing a certain string, from which we can
+    // take the original commit hash.
+    //
+    // Third, we generate a query to the GraphQL API to fetch the information about
+    // linked PRs. GraphQL API supports having multiple sub-queries, which can be our
+    // gateway to fetching the data for a list of specific hashes.
+    // 
+    // This needs to be tested to see if it would blow our API rate budget, or not.
+    // It's also unclear whether this feature is limited to a certain number of subqueries
+    // (say, 100), or not. We may need to do it in batches, as we do with paginated
+    // queries.
+    //
+    // Fourth, we consolidate the information. Each run is performed on a certain range
+    // of branches/tags/hashes, and so we store the information we receive in files
+    // associated with this range. This process can be optimized by only working with
+    // smaller ranges, and composing bigger ranges out of them (e.g. using hashes for
+    // X.Y beta 1 and X.Y beta 2, and then X.Y beta 2 and X.Y beta 3, and then generating
+    // a complete list for X.Y-1 and X.Y on the frontend).
+
+    // Commits can have multiple PRs associated with them, so we need to be on the lookout
+    // for rogue entries. Normally, it will always be one pull per commit (except for direct
+    // commits, which will have none), but GitHub may sometimes link commits to PRs in other
+    // repos/otherwise unrelated. So some form of filtering is required.
+
+    console.log("[*] Fetching commit data from GitHub.");
     // Pages are starting with 1 for better presentation.
     let page = 1;
     while (page <= dataFetcher.page_count) {
-        const pullsRaw = await dataFetcher.fetchPulls(page);
-        dataProcessor.processPulls(pullsRaw);
-        checkForExit();
+        //const commitsRaw = await dataFetcher.fetchCommits(page);
+        //dataProcessor.processCommits(commitsRaw);
+        //checkForExit();
         page++;
 
         // Wait for a bit before proceeding to avoid hitting the secondary rate limit in GitHub API.
@@ -345,9 +420,12 @@ async function main() {
         "authors": dataProcessor.authors,
         "pulls": dataProcessor.pulls,
     };
+
     try {
         console.log("[*] Storing database to file.");
-        await fs.writeFile(`out/${data_owner}.${data_repo}.data.json`, JSON.stringify(output), {encoding: "utf-8"});
+
+        await ensureDir("./out");
+        await fs.writeFile(`./out/${data_owner}.${data_repo}.data.json`, JSON.stringify(output), {encoding: "utf-8"});
         console.log("[*] Database built.");
     } catch (err) {
         console.error("Error saving database file: " + err);
