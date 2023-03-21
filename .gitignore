@@ -1,0 +1,8 @@
+# Project folders.
+node_modules/
+out/
+logs/
+
+# Development environments.
+.idea/
+.vscode/
