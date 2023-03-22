@@ -84,6 +84,13 @@ export default class EntryComponent extends LitElement {
 
         if (data) {
             this._versions = data;
+
+            this._versions.forEach((version) => {
+                version.pull_count = 0;
+                version.releases.forEach((release) => {
+                    release.pull_count = 0;
+                });
+            });
         } else {
             this._versions = [];
         }
@@ -92,19 +99,56 @@ export default class EntryComponent extends LitElement {
         this.requestUpdate();
 
         this._versions.forEach((version) => {
-            this._requestVersionData(version.name);
+            this._requestVersionData(version);
         });
     }
 
     async _requestVersionData(version) {
         // Start loading, show the indicator.
-        this._loadingVersions.push(version);
+        this._loadingVersions.push(version.name);
         
-        const versionData = await greports.api.getVersionData(this._selectedRepository, version);
-        this._versionData[version] = versionData;
+        const versionData = await greports.api.getVersionData(this._selectedRepository, version.name);
+        this._versionData[version.name] = versionData;
+
+        // Calculate number of changes for the version, and each if its releases.
+        const commitLog = versionData.log;
+        commitLog.reverse();
+
+        version.pull_count = commitLog.length;
+        version.releases.forEach((release) => {
+            release.pull_count = 0;
+
+            let counting = false;
+            commitLog.forEach((commitHash, index) => {
+                if (counting) {
+                    release.pull_count += 1;
+                }
+
+                // We need to check indices for some refs, because they are not written
+                // in the commit hash format.
+
+                // Start counting.
+                if (release.from_ref === version.from_ref && index === 0) {
+                    counting = true;
+                    // HACK: Exclude the lower end by default, but include for the first range.
+                    release.pull_count += 1;
+                }
+                else if (commitHash === release.from_ref) {
+                    counting = true;
+                }
+
+                // Stop counting.
+                if (release.ref === version.ref && index === (commitLog.length - 1)) {
+                    counting = false;
+                }
+                else if (commitHash === release.ref) {
+                    counting = false;
+                }
+            });
+        });
 
         // Finish loading, hide the indicator.
-        const index = this._loadingVersions.indexOf(version);
+        const index = this._loadingVersions.indexOf(version.name);
         this._loadingVersions.splice(index, 1);
         this.requestUpdate();
     }
