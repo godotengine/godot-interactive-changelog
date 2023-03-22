@@ -14,10 +14,16 @@ const ReportsAPI = {
     return await res.json();
   },
 
-  async getData(repositoryId) {
+  async getVersionList(repositoryId) {
     const idBits = repositoryId.split("/");
 
-    return await this.get(`${idBits[0]}.${idBits[1]}.data.json`);
+    return await this.get(`data/${idBits[0]}.${idBits[1]}.versions.json`);
+  },
+
+  async getVersionData(repositoryId, versionName) {
+    const idBits = repositoryId.split("/");
+
+    return await this.get(`data/${idBits[0]}.${idBits[1]}.${versionName}.json`);
   },
 };
 

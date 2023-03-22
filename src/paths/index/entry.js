@@ -5,6 +5,8 @@ import SharedNavigation from 'src/shared/components/SharedNavigation';
 import IndexHeader from "./components/IndexHeader";
 import IndexDescription from "./components/IndexDescription";
 
+import VersionList from "./components/versions/VersionList";
+
 @customElement('entry-component')
 export default class EntryComponent extends LitElement {
     static get styles() {
@@ -21,13 +23,13 @@ export default class EntryComponent extends LitElement {
           :host {
           }
 
-          :host .files {
+          :host .versions {
             display: flex;
             padding: 24px 0;
           }
 
           @media only screen and (max-width: 900px) {
-            :host .files {
+            :host .versions {
               flex-wrap: wrap;
             }
           }
@@ -39,9 +41,13 @@ export default class EntryComponent extends LitElement {
 
         this._entryRequested = false;
         this._isLoading = true;
-        this._generatedAt = null;
+
+        this._versions = [];
+        this._versionData = {};
 
         this._selectedRepository = "godotengine/godot";
+        this._selectedVersion = "";
+        this._selectedRelease = "";
 
         this._restoreUserPreferences();
         this._requestData();
@@ -73,33 +79,44 @@ export default class EntryComponent extends LitElement {
         this._entryRequested = true;
         this._isLoading = true;
 
-        const data = await greports.api.getData(this._selectedRepository);
+        const data = await greports.api.getVersionList(this._selectedRepository);
 
         if (data) {
-            this._generatedAt = data.generated_at;
-
-            // ...
+            this._versions = data;
         } else {
-            this._generatedAt = null;
-
-            // ...
+            this._versions = [];
         }
 
         this._isLoading = false;
         this.requestUpdate();
     }
 
+    _onVersionClicked(event) {
+        this._selectedVersion = event.detail.version;
+        this._selectedRelease = event.detail.release;
+        this.requestUpdate();
+
+        window.scrollTo(0, 0);
+    }
+
     render(){
         return html`
             <page-content>
                 <shared-nav></shared-nav>
-                <gr-index-entry .generated_at="${this._generatedAt}"></gr-index-entry>
+                <gr-index-entry></gr-index-entry>
                 <gr-index-description></gr-index-description>
 
                 ${(this._isLoading ? html`
                     <h3>Loading...</h3>
                 ` : html`
-                    <div>...</div>
+                    <div class="versions">
+                        <gr-version-list
+                            .versions="${this._versions}"
+                            .selectedVersion="${this._selectedVersion}"
+                            .selectedRelease="${this._selectedRelease}"
+                            @versionclick="${this._onVersionClicked}"
+                        ></gr-version-list>
+                    </div>
                 `)}
             </page-content>
         `;

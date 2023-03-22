@@ -69,11 +69,12 @@ export default class IndexDescription extends LitElement {
             <div class="header-description">
                 <div class="header-description-column">
                     This page lists comprehensive changelogs for each release of Godot,
-                    including developer previews (alpha, beta, RC).
+                    including developer previews (alphas, betas, RCs).
                     <br>
-                    The purpose of this page is to remove a lot of manual labor from
-                    creating and maintaining a changelog for every release, and to provide
-                    more powerful tools for users browsing the set of changes.
+                    You can browse changes related to every release by commit, by PR, or
+                    by author.
+                    <br>
+                    You can also copy changelogs as text.
                 </div>
                 <div class="header-description-column header-extra-links">
                 </div>

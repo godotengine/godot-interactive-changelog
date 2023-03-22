@@ -58,7 +58,7 @@ class DataFetcher {
 
             await fs.writeFile(filename, fileContent, {encoding: "utf-8"});
         } catch (err) {
-            console.error("   Error saving log file: " + err);
+            console.error("    Error saving log file: " + err);
         }
     }
 
@@ -610,7 +610,7 @@ class DataIO {
         });
 
         if (this.data_owner === "" || this.data_repo === "" || this.data_version === "") {
-            console.error("   Error reading command-line arguments: owner, repo, and version cannot be empty.");
+            console.error("    Error reading command-line arguments: owner, repo, and version cannot be empty.");
             process.exitCode = ExitCodes.IOFailure;
             return;
         }
@@ -628,7 +628,7 @@ class DataIO {
             this.first_commit = this.config.from_ref;
             this.last_commit = this.config.ref;
         } catch (err) {
-            console.error("   Error loading version config file: " + err);
+            console.error("    Error loading version config file: " + err);
             process.exitCode = ExitCodes.IOFailure;
             return;
         }
@@ -637,12 +637,11 @@ class DataIO {
     async saveData(output, fileName) {
         try {
             console.log("[*] Storing database to a file.");
-    
-            await ensureDir("./out");
-            await ensureDir("./out/data");
-            await fs.writeFile(`./out/data/${fileName}`, JSON.stringify(output), {encoding: "utf-8"});
+
+            await ensureDir("./data");
+            await fs.writeFile(`./data/${fileName}`, JSON.stringify(output), {encoding: "utf-8"});
         } catch (err) {
-            console.error("   Error saving database file: " + err);
+            console.error("    Error saving database file: " + err);
             process.exitCode = ExitCodes.IOFailure;
             return;
         }
@@ -689,7 +688,9 @@ async function clearDir(rootPath) {
 
         await removeDir(rootPath);
     } catch (err) {
-        // ..
+        console.error(`    Error clearing a folder at ${rootPath}: ` + err);
+        process.exitCode = ExitCodes.IOFailure;
+        return;
     }
 }
 

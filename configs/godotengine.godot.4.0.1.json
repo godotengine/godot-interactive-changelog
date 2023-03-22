@@ -13,6 +13,11 @@
             "name": "rc2",
             "ref": "6970257cffc6790f4d7e847e87e5cab9e252874e",
             "from_ref": "d23922ffebe48f29126c003411495737d07e5a9f"
+        },
+        {
+            "name": "stable",
+            "ref": "4.0.1-stable",
+            "from_ref": "6970257cffc6790f4d7e847e87e5cab9e252874e"
         }
     ]
 }
