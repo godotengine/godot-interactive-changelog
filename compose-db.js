@@ -8,6 +8,7 @@ const ExitCodes = {
     "RequestFailure": 1,
     "ParseFailure": 2,
     "ExecFailure": 3,
+    "IOFailure": 4,
 };
 
 const LogFormat = {
@@ -57,7 +58,7 @@ class DataFetcher {
 
             await fs.writeFile(filename, fileContent, {encoding: "utf-8"});
         } catch (err) {
-            console.error("Error saving log file: " + err);
+            console.error("   Error saving log file: " + err);
         }
     }
 
@@ -577,6 +578,77 @@ class DataProcessor {
     }
 }
 
+class DataIO {
+    constructor() {
+        // Configurable parameters.
+        this.data_owner = "godotengine";
+        this.data_repo = "godot";
+        this.data_version = "";
+        this.skip_checkout = false;
+
+        // 
+        this.config = null;
+        this.first_commit = ""
+        this.last_commit = "";
+    }
+
+    parseArgs() {
+        process.argv.forEach((arg) => {
+            if (arg.indexOf("owner:") === 0) {
+                this.data_owner = arg.substring(6);
+            }
+            if (arg.indexOf("repo:") === 0) {
+                this.data_repo = arg.substring(5);
+            }
+            if (arg.indexOf("version:") === 0) {
+                this.data_version = arg.substring(8);
+            }
+
+            if (arg === "skip-checkout") {
+                this.skip_checkout = true;
+            }
+        });
+
+        if (this.data_owner === "" || this.data_repo === "" || this.data_version === "") {
+            console.error("   Error reading command-line arguments: owner, repo, and version cannot be empty.");
+            process.exitCode = ExitCodes.IOFailure;
+            return;
+        }
+    }
+
+    async loadConfig() {
+        try {
+            console.log("[*] Loading version configuration from a file.");
+
+            const configPath = `./configs/${this.data_owner}.${this.data_repo}.${this.data_version}.json`;
+            await fs.access(configPath, fsConstants.R_OK);
+            const configContent = await fs.readFile(configPath);
+
+            this.config = JSON.parse(configContent);
+            this.first_commit = this.config.from_ref;
+            this.last_commit = this.config.ref;
+        } catch (err) {
+            console.error("   Error loading version config file: " + err);
+            process.exitCode = ExitCodes.IOFailure;
+            return;
+        }
+    }
+
+    async saveData(output, fileName) {
+        try {
+            console.log("[*] Storing database to a file.");
+    
+            await ensureDir("./out");
+            await ensureDir("./out/data");
+            await fs.writeFile(`./out/data/${fileName}`, JSON.stringify(output), {encoding: "utf-8"});
+        } catch (err) {
+            console.error("   Error saving database file: " + err);
+            process.exitCode = ExitCodes.IOFailure;
+            return;
+        }
+    }
+}
+
 function mapNodes(object) {
     return object.edges.map((item) => item["node"])
 }
@@ -643,32 +715,18 @@ async function main() {
     // We also have to preconfigure some information, e.g. manually supply the tags
     // or hashes, which serve as release boundaries.
 
-    console.log("[*] Building local pull request database.");
+    console.log("[*] Building local commit and pull request database.");
 
-    // Configurable properties.
+    const dataIO = new DataIO();
+    dataIO.parseArgs();
+    checkForExit();
 
-    let data_owner = "godotengine";
-    let data_repo = "godot";
-    let first_commit = "4.0-stable"
-    let last_commit = "4.0.1-stable";
+    await dataIO.loadConfig();
+    checkForExit();
 
-    let skip_checkout = false;
+    console.log(`[*] Configured for the "${dataIO.data_owner}/${dataIO.data_repo}" repository; version ${dataIO.data_version}.`);
 
-    process.argv.forEach((arg) => {
-        if (arg.indexOf("owner:") === 0) {
-            data_owner = arg.substring(6);
-        }
-        if (arg.indexOf("repo:") === 0) {
-            data_repo = arg.substring(5);
-        }
-
-        if (arg === "skip-checkout") {
-            skip_checkout = true;
-        }
-    });
-
-    console.log(`[*] Configured for the "${data_owner}/${data_repo}" repository.`);
-    const dataFetcher = new DataFetcher(data_owner, data_repo);
+    const dataFetcher = new DataFetcher(dataIO.data_owner, dataIO.data_repo);
     const dataProcessor = new DataProcessor();
 
     console.log("[*] Checking the rate limits before.");
@@ -680,15 +738,15 @@ async function main() {
     // as shallow copy, as we are only interested in the history of the branch.
     // Still, it extracts all of the current files, so it may take a bit of time.
 
-    if (!skip_checkout) {
-        console.log(`[*] Checking out the repository at "${last_commit}".`);
-        await dataFetcher.checkoutRepo(last_commit);
+    if (!dataIO.skip_checkout) {
+        console.log(`[*] Checking out the repository at "${dataIO.last_commit}".`);
+        await dataFetcher.checkoutRepo(dataIO.last_commit);
         checkForExit();
     }
 
-    console.log(`[*] Extracting the commit log between "${first_commit}" and "${last_commit}".`);
-    const commitLogSize = await dataFetcher.countCommitHistory(first_commit, last_commit);
-    const commitLog = await dataFetcher.getCommitHistory(first_commit, last_commit);
+    console.log(`[*] Extracting the commit log between "${dataIO.first_commit}" and "${dataIO.last_commit}".`);
+    const commitLogSize = await dataFetcher.countCommitHistory(dataIO.first_commit, dataIO.last_commit);
+    const commitLog = await dataFetcher.getCommitHistory(dataIO.first_commit, dataIO.last_commit);
     checkForExit();
 
     // Second, we parse the extracted commit log, to generate a list of commit hashes
@@ -726,7 +784,7 @@ async function main() {
         // For intermediate releases (developer previews) we have preconfigured hashes and
         // can simply pass them to the final data. Frontend will handle the rest.
     
-        dataProcessor.processCommits(commitsRaw, `${data_owner}/${data_repo}`);
+        dataProcessor.processCommits(commitsRaw, `${dataIO.data_owner}/${dataIO.data_repo}`);
         checkForExit();
 
         page++;
@@ -749,15 +807,10 @@ async function main() {
         "pulls": dataProcessor.pulls,
     };
 
-    try {
-        console.log("[*] Storing database to file.");
+    await dataIO.saveData(output, `${dataIO.data_owner}.${dataIO.data_repo}.${dataIO.data_version}.json`);
+    checkForExit();
 
-        await ensureDir("./out");
-        await fs.writeFile(`./out/${data_owner}.${data_repo}.data.json`, JSON.stringify(output), {encoding: "utf-8"});
-        console.log("[*] Database built.");
-    } catch (err) {
-        console.error("Error saving database file: " + err);
-    }
+    console.log("[*] Database built.");
 }
 
 main();
