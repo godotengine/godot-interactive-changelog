@@ -15,11 +15,12 @@ const LogFormat = {
     "JSON": 1,
 };
 
-const ITEMS_PER_PAGE = 100;
+const COMMITS_PER_PAGE = 150;
 const API_RATE_LIMIT = `
   rateLimit {
     limit
     cost
+    nodeCount
     remaining
     resetAt
   }
@@ -28,8 +29,9 @@ const API_RATE_LIMIT = `
 const GIT_HEAD_COMMIT_RE = RegExp("^commit ([a-zA-Z0-9-_]+)$");
 const GIT_HEAD_AUTHOR_RE = RegExp("^Author: (.+)$");
 const GIT_HEAD_COMMITTER_RE = RegExp("^Commit: (.+)$");
-const GIT_BODY_LINE_RE = RegExp("^[\s]{2,}(.*)$");
-const GIT_BODY_CHERRYPICK_RE = RegExp("^[\s]{2,}\(cherry picked from commit ([a-zA-Z0-9-_]+)\)$");
+const GIT_BODY_LINE_RE = RegExp("^[\\s]{2,}(.*)$");
+const GIT_BODY_CHERRYPICK_RE = RegExp("^[\\s]{2,}\\(cherry picked from commit ([a-zA-Z0-9-_]+)\\)$");
+const COMMIT_CHERRYPICK_RE = RegExp("^\\(cherry picked from commit ([a-zA-Z0-9-_]+)\\)$", "gm");
 
 class DataFetcher {
     constructor(data_owner, data_repo) {
@@ -173,7 +175,7 @@ class DataFetcher {
             this._handleDataErrors(data);
     
             const rate_limit = data.data["rateLimit"];
-            console.log(`    [$${rate_limit.cost}] Available API calls: ${rate_limit.remaining}/${rate_limit.limit}; resets at ${rate_limit.resetAt}`);
+            console.log(`    [$${rate_limit.cost}][${rate_limit.nodeCount}] Available API calls: ${rate_limit.remaining}/${rate_limit.limit}; resets at ${rate_limit.resetAt}`);
         } catch (err) {
             console.error("    Error checking the API rate limits: " + err);
             process.exitCode = ExitCodes.RequestFailure;
@@ -192,16 +194,20 @@ class DataFetcher {
                 messageHeadline
                 messageBody
 
-                author {
-                  user {
-                    login
-                    avatarUrl
-                    url
-                    id
+                authors(first: 12) {
+                  edges {
+                    node {
+                      user {
+                        login
+                        avatarUrl
+                        url
+                        id
+                      }
+                    }
                   }
                 }
 
-                associatedPullRequests (first: 100) {
+                associatedPullRequests (first: 20) {
                   edges {
                     node {
                       id
@@ -216,6 +222,9 @@ class DataFetcher {
 
                       baseRef {
                         name
+                        repository {
+                          nameWithOwner
+                        }
                       }
 
                       author {
@@ -228,10 +237,14 @@ class DataFetcher {
                         }
                       }
 
-                      milestone {
-                        id
-                        title
-                        url
+                      labels (first: 12) {
+                        edges {
+                          node {
+                            id
+                            name
+                            color
+                          }
+                        }
                       }
                     }
                   }
@@ -242,7 +255,7 @@ class DataFetcher {
         `
     }
 
-    async fetchCommits(commitHashes) {
+    async fetchCommits(commitHashes, page, totalPages) {
         try {
             const query = `
             query {
@@ -254,7 +267,7 @@ class DataFetcher {
               }
             `;
 
-            console.log(`    Requesting a batch of ${commitHashes.length} commits.`);
+            console.log(`    Requesting batch ${page}/${totalPages} of commit and pull request data.`);
     
             const res = await this.fetchGithub(query);
             if (res.status !== 200) {
@@ -267,8 +280,6 @@ class DataFetcher {
             await this._logResponse(data, `data_commits`);
             this._handleDataErrors(data);
 
-            const rate_limit = data.data["rateLimit"];
-
             let commit_data = {};
             for (let dataKey in data.data) {
                 if (!dataKey.startsWith("commit_")) {
@@ -277,7 +288,8 @@ class DataFetcher {
                 commit_data[dataKey.substring(7)] = data.data[dataKey].object;
             }
 
-            console.log(`    [$${rate_limit.cost}] Retrieved ${Object.keys(commit_data).length} commits; processing...`);
+            const rate_limit = data.data["rateLimit"];
+            console.log(`    [$${rate_limit.cost}][${rate_limit.nodeCount}] Retrieved ${Object.keys(commit_data).length} commits; processing...`);
             return commit_data;
         } catch (err) {
             console.error("    Error fetching pull request data: " + err);
@@ -289,9 +301,82 @@ class DataFetcher {
 
 class DataProcessor {
     constructor() {
+        this.log = [];
+
         this.authors = {};
         this.commits = {};
-        this.pulls = [];
+        this.pulls = {};
+    }
+
+    _getCommitObject() {
+        return {
+            "hash": "",
+
+            "authored_by": [],
+            "author_raw": "",
+            "committer_raw": "",
+
+            "summary": "",
+            "body": "",
+
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+
+            "pull": "",
+        };
+    }
+
+    _processAuthor(authorItem) {
+        const author = {
+            "id": "",
+            "user": "ghost",
+            "avatar": "https://avatars.githubusercontent.com/u/10137?v=4",
+            "url": "https://github.com/ghost",
+
+            "pull_count": 0,
+            "commit_count": 0,
+        };
+
+        if (authorItem != null) {
+            author["id"] = authorItem.id;
+            author["user"] = authorItem.login;
+            author["avatar"] = authorItem.avatarUrl;
+            author["url"] = authorItem.url;
+        }
+
+        // Store the author if they haven't been stored.
+        if (typeof this.authors[author.id] === "undefined") {
+            this.authors[author.id] = author;
+        }
+
+        return author.id;
+    }
+
+    _processCherrypick(commit) {
+        if (!commit.is_cherrypick) {
+            return;
+        }
+
+        const originalCommit = this._getCommitObject();
+        originalCommit.hash = commit.cherrypick_hash;
+        originalCommit.author_raw = commit.author_raw;
+        originalCommit.committer_raw = commit.author_raw;
+
+        originalCommit.summary = commit.summary;
+        originalCommit.body = commit.body.replace(COMMIT_CHERRYPICK_RE, "").trim();
+
+        this.commits[originalCommit.hash] = originalCommit;
+    }
+
+    _finishCommit(commit) {
+        commit.body = commit.body.trim();
+
+        this.log.push(commit.hash);
+        this.commits[commit.hash] = commit;
+
+        if (commit.is_cherrypick) {
+            this._processCherrypick(commit);
+        }
     }
 
     processLog(logRaw, logSize) {
@@ -332,37 +417,28 @@ class DataProcessor {
             let matches = line.match(GIT_HEAD_COMMIT_RE);
             if (matches) {
                 if (commit != null) {
-                    this.commits[commit.hash] = commit;
+                    this._finishCommit(commit);
                 }
 
-                commit = {
-                    "hash": matches[1],
-                    "author": "",
-                    "committer": "",
-                    
-                    "summary": "",
-                    "body": "",
-
-                    "is_cherrypick": false,
-                    "cherrypick_hash": "",
-                };
+                commit = this._getCommitObject();
+                commit.hash = matches[1];
                 continue;
             }
 
             // Parse the authorship information.
             matches = line.match(GIT_HEAD_AUTHOR_RE);
             if (matches) {
-                commit.author = matches[1];
+                commit.author_raw = matches[1];
                 continue;
             }
             matches = line.match(GIT_HEAD_COMMITTER_RE);
             if (matches) {
-                commit.committer = matches[1];
+                commit.committer_raw = matches[1];
                 continue;
             }
 
             // By this point we should have the entire header, or we're broken.
-            if (commit.hash === "" || commit.author === "" || commit.committer === "") {
+            if (commit.hash === "" || commit.author_raw === "" || commit.committer_raw === "") {
                 console.error("    Error parsing commit log: Invalid format.");
                 process.exitCode = ExitCodes.ParseFailure;
                 break;
@@ -399,28 +475,58 @@ class DataProcessor {
 
         // Store the last commit.
         if (commit != null) {
-            this.commits[commit.hash] = commit;
+            this._finishCommit(commit);
         }
 
-        let commitHashes = Object.keys(this.commits);
-        if (commitHashes.length !== logSize) {
-            console.error(`    Error parsing commit log: Expected to received ${logSize} commits, but got ${commitHashes.length} instead.`);
+        if (this.log.length !== logSize) {
+            console.error(`    Error parsing commit log: Expected to received ${logSize} commits, but got ${this.log.length} instead.`);
             process.exitCode = ExitCodes.ParseFailure;
         }
 
-        return commitHashes;
+        return Object.keys(this.commits);
     }
 
-    processCommits(commitsRaw) {
+    processCommits(commitsRaw, targetRepo) {
         try {
-            commitsRaw.forEach((item) => {
+            for (let commitHash in commitsRaw) {
+                if (typeof this.commits[commitHash] === "undefined") {
+                    throw new Error(`Received data for a commit hash "${commitHash}", but this commit is unknown.`);
+                }
+                const commit = this.commits[commitHash];
+                const item = commitsRaw[commitHash];
+
+                // Commits can have multiple authors, we will list all of them. Also, associated PRs
+                // can be authored by somebody else entirely. We will store them with the PR, and will
+                // display them as well on the frontend.
+
+                const commitAuthors = mapNodes(item.authors);
+                commitAuthors.forEach((authorItem) => {
+                    const authorId = this._processAuthor(authorItem.user);
+                    commit.authored_by.push(authorId);
+                    this.authors[authorId].commit_count++;
+                });
+
                 // Commits can have multiple PRs associated with them, so we need to be on the lookout
                 // for rogue entries. Normally, it will always be one pull per commit (except for direct
                 // commits, which will have none), but GitHub may sometimes link commits to PRs in other
                 // repos/otherwise unrelated. So some form of filtering is required.
 
-                const pullsRaw = mapNodes(item.associatedPullRequests);
-                const pullItem = pullsRaw[0];
+                const pullsRaw = mapNodes(item.associatedPullRequests)
+                    .filter((pullData) => {
+                        return pullData.baseRef.repository.nameWithOwner === targetRepo;
+                    });
+                if (pullsRaw.length === 0) {
+                    continue;
+                }
+
+                let pullItem = pullsRaw[0];
+                commit.pull = pullItem.number;
+
+                // Another commit is already linked to this PR.
+                if (typeof this.pulls[pullItem.number] !== "undefined") {
+                    this.pulls[pullItem.number].commits.push(commitHash);
+                    continue;
+                }
 
                 // Compile basic information about a PR.
                 let pr = {
@@ -438,47 +544,32 @@ class DataProcessor {
                     "updated_at": pullItem.updatedAt,
 
                     "target_branch": pullItem.baseRef.name,
-                    "milestone": null,
-                };
+                    "labels": [],
 
-                // Store the target branch if it hasn't been stored.
-                if (!this.branches.includes(pr.target_branch)) {
-                    this.branches.push(pr.target_branch);
-                }
+                    "commits": [ commitHash ],
+                };
+                this.pulls[pullItem.number] = pr;
 
                 // Compose and link author information.
-                const author = {
-                    "id": "",
-                    "user": "ghost",
-                    "avatar": "https://avatars.githubusercontent.com/u/10137?v=4",
-                    "url": "https://github.com/ghost",
-                    "pull_count": 0,
-                };
-                if (pullItem.author != null) {
-                    author["id"] = pullItem.author.id;
-                    author["user"] = pullItem.author.login;
-                    author["avatar"] = pullItem.author.avatarUrl;
-                    author["url"] = pullItem.author.url;
-                }
-                pr.authored_by = author.id;
+                const authorId = this._processAuthor(pullItem.author);
+                pr.authored_by = authorId;
+                this.authors[authorId].pull_count++;
 
-                // Store the author if they haven't been stored.
-                if (typeof this.authors[author.id] === "undefined") {
-                    this.authors[author.id] = author;
-                }
-                this.authors[author.id].pull_count++;
-
-                // Add the milestone, if available.
-                if (pullItem.milestone) {
-                    pr.milestone = {
-                        "id": pullItem.milestone.id,
-                        "title": pullItem.milestone.title,
-                        "url": pullItem.milestone.url,
-                    };
-                }
-
-                this.pulls.push(pr);
-            });
+                // Add labels, if available.
+                let labels = mapNodes(pullItem.labels);
+                labels.forEach((labelItem) => {
+                    pr.labels.push({
+                        "id": labelItem.id,
+                        "name": labelItem.name,
+                        "color": "#" + labelItem.color
+                    });
+                });
+                pr.labels.sort((a, b) => {
+                    if (a.name > b.name) return 1;
+                    if (a.name < b.name) return -1;
+                    return 0;
+                });
+            }
         } catch (err) {
             console.error("    Error parsing pull request data: " + err);
             process.exitCode = ExitCodes.ParseFailure;
@@ -539,7 +630,7 @@ async function main() {
     };
     const delay = async (msec) => {
         return new Promise(resolve => setTimeout(resolve, msec));
-    };
+    }
 
     // Getting PRs between two commits is a complicated task, and must be done in
     // multiple steps. GitHub API does not have a method for that, so we must improvise.
@@ -555,6 +646,7 @@ async function main() {
     console.log("[*] Building local pull request database.");
 
     // Configurable properties.
+
     let data_owner = "godotengine";
     let data_repo = "godot";
     let first_commit = "4.0-stable"
@@ -613,20 +705,36 @@ async function main() {
     // which is our way in.
     // 
     // While paginated queries are limited to 100 entries per page, sub-queries do not
-    // appear to be similarly limited. Over 100 queries can be send just fine, and it
-    // still costs like a single request. This is still something to keep in mind with
-    // bigger queries, though, when we start to fetch 100s or 1000s of commits.
+    // appear to be similarly limited. We are still limited by the total number of nodes
+    // we can theoretically fetch, which is 500 000. As such, we still want to do this
+    // in batches, so the number of nodes in each request is manageable.
 
     console.log("[*] Fetching commit data from GitHub.");
-    const commitsRaw = await dataFetcher.fetchCommits(commitHashes);
-    checkForExit();
 
-    // Fourth, we consolidate the information. Each run is performed on a certain range
-    // of branches/tags/hashes, and so we store the information we receive in files
-    // associated with this range. This process can be optimized by only working with
-    // smaller ranges, and composing bigger ranges out of them (e.g. using hashes for
-    // X.Y beta 1 and X.Y beta 2, and then X.Y beta 2 and X.Y beta 3, and then generating
-    // a complete list for X.Y-1 and X.Y on the frontend).
+    const totalPages = Math.ceil(commitHashes.length / COMMITS_PER_PAGE);
+    // Pages are starting with 1 for better presentation.
+    let page = 1;
+    while (page <= totalPages) {
+        const batchHashes = commitHashes.splice(0, COMMITS_PER_PAGE);
+        const commitsRaw = await dataFetcher.fetchCommits(batchHashes, page, totalPages);
+        checkForExit();
+
+        // Fourth, we consolidate the information. Commits are populated with links to their
+        // respective PRs, and PRs store references to their commits. We will save this to
+        // a file for the specified range, which should be between two stable releases.
+        //
+        // For intermediate releases (developer previews) we have preconfigured hashes and
+        // can simply pass them to the final data. Frontend will handle the rest.
+    
+        dataProcessor.processCommits(commitsRaw, `${data_owner}/${data_repo}`);
+        checkForExit();
+
+        page++;
+
+        // Wait for a bit before proceeding to avoid hitting the secondary rate limit in GitHub API.
+        // See https://docs.github.com/en/rest/guides/best-practices-for-integrators#dealing-with-secondary-rate-limits.
+        await delay(1500);
+    }
 
     console.log("[*] Checking the rate limits after.")
     await dataFetcher.checkRates();
@@ -635,6 +743,7 @@ async function main() {
     console.log("[*] Finalizing database.")
     const output = {
         "generated_at": Date.now(),
+        "log": dataProcessor.log,
         "authors": dataProcessor.authors,
         "commits": dataProcessor.commits,
         "pulls": dataProcessor.pulls,
