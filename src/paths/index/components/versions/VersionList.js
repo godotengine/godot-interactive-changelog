@@ -106,6 +106,8 @@ export default class VersionList extends LitElement {
 
     @property({ type: Array }) versions = [];
 
+    @property({ type: Array }) loadingVersions = [];
+
     @property({ type: Array }) toggledVersions = [];
     @property({ type: String }) selectedVersion = "";
     @property({ type: String }) selectedRelease = "";
@@ -130,7 +132,7 @@ export default class VersionList extends LitElement {
     }
 
     _onItemClicked(versionType, versionName, releaseName) {
-      this._toggleEntry(versionType, versionName, true);
+      //this._toggleEntry(versionType, versionName, true);
 
       this.dispatchEvent(greports.util.createEvent("versionclick", {
           "type": versionType,
@@ -162,6 +164,7 @@ export default class VersionList extends LitElement {
                                 .type="${"main"}"
                                 ?active="${this.selectedVersion === item.name}"
                                 ?expanded="${this.toggledVersions.includes(item.name)}"
+                                ?loading="${this.loadingVersions.includes(item.name)}"
                                 @click="${this._onItemClicked.bind(this, "main", item.name, "")}"
                                 @iconclick="${this._onItemIconClicked.bind(this, "main", item.name, "")}"
                             ></gr-version-item>

@@ -41,6 +41,7 @@ export default class EntryComponent extends LitElement {
 
         this._entryRequested = false;
         this._isLoading = true;
+        this._loadingVersions = [];
 
         this._versions = [];
         this._versionData = {};
@@ -89,6 +90,23 @@ export default class EntryComponent extends LitElement {
 
         this._isLoading = false;
         this.requestUpdate();
+
+        this._versions.forEach((version) => {
+            this._requestVersionData(version.name);
+        });
+    }
+
+    async _requestVersionData(version) {
+        // Start loading, show the indicator.
+        this._loadingVersions.push(version);
+        
+        const versionData = await greports.api.getVersionData(this._selectedRepository, version);
+        this._versionData[version] = versionData;
+
+        // Finish loading, hide the indicator.
+        const index = this._loadingVersions.indexOf(version);
+        this._loadingVersions.splice(index, 1);
+        this.requestUpdate();
     }
 
     _onVersionClicked(event) {
@@ -100,6 +118,10 @@ export default class EntryComponent extends LitElement {
     }
 
     render(){
+        // Dereferencing to ensure it triggers an update.
+        const [...versions] = this._versions;
+        const [...loadingVersions] = this._loadingVersions;
+
         return html`
             <page-content>
                 <shared-nav></shared-nav>
@@ -111,7 +133,8 @@ export default class EntryComponent extends LitElement {
                 ` : html`
                     <div class="versions">
                         <gr-version-list
-                            .versions="${this._versions}"
+                            .versions="${versions}"
+                            .loadingVersions="${loadingVersions}"
                             .selectedVersion="${this._selectedVersion}"
                             .selectedRelease="${this._selectedRelease}"
                             @versionclick="${this._onVersionClicked}"

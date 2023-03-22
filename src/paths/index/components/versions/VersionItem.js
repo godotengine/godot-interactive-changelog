@@ -86,6 +86,37 @@ export default class VersionItem extends LitElement {
             font-weight: 700;
           }
 
+          @keyframes loader-rotate {
+            from {
+              transform: rotate(0deg);
+            }
+            to {
+              transform: rotate(360deg);
+            }
+          }
+
+          :host .version-loader {
+            background-image: url('loader.svg');
+            background-size: 20px 20px;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            border-radius: 2px;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            min-width: 20px;
+            animation-name: loader-rotate;
+            animation-duration: 1.25s;
+            animation-timing-function: steps(8);
+            animation-iteration-count: infinite;
+          }
+
+          @media (prefers-color-scheme: light) {
+            :host .version-loader {
+              filter: invert(1);
+            }
+          }
+
           @media only screen and (max-width: 900px) {
             :host .version-item {
               padding: 10px 20px 10px 16px;
@@ -104,6 +135,7 @@ export default class VersionItem extends LitElement {
     @property({ type: String, reflect: true }) type = "";
     @property({ type: Boolean, reflect: true }) active = false;
     @property({ type: Boolean, reflect: true }) expanded = false;
+    @property({ type: Boolean, reflect: true }) loading = false;
     @property({ type: Number }) pull_count = 0;
 
     _onIconClicked(event) {
@@ -141,9 +173,14 @@ export default class VersionItem extends LitElement {
                 <span class="version-title">
                     ${this.name}
                 </span>
+
                 <span class="${countClassList.join(" ")}">
-                    ${this.pull_count}
+                    ${this.loading ? "" : this.pull_count}
                 </span>
+
+                ${(this.loading ? html`
+                  <div class="version-loader"></div>
+                ` : null)}
             </div>
         `;
     }
