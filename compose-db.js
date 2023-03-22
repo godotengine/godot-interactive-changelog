@@ -39,9 +39,6 @@ class DataFetcher {
         this.repo_ssh_path = `git@github.com:${data_owner}/${data_repo}.git`;
         this.api_rest_path = `https://api.github.com/repos/${data_owner}/${data_repo}`;
         this.api_repository_id = `owner:"${data_owner}" name:"${data_repo}"`;
-
-        this.page_count = 1;
-        this.last_cursor = "";
     }
 
     async _logResponse(data, name, format = LogFormat.JSON) {
@@ -277,10 +274,10 @@ class DataFetcher {
                 if (!dataKey.startsWith("commit_")) {
                     continue;
                 }
-                commit_data[dataKey.substring(7)] = data.data[dataKey];
+                commit_data[dataKey.substring(7)] = data.data[dataKey].object;
             }
 
-            console.log(`    [$${rate_limit.cost}] Retrieved ${commit_data.length} commits; processing...`);
+            console.log(`    [$${rate_limit.cost}] Retrieved ${Object.keys(commit_data).length} commits; processing...`);
             return commit_data;
         } catch (err) {
             console.error("    Error fetching pull request data: " + err);
@@ -611,26 +608,18 @@ async function main() {
     checkForExit();
 
     // Third, we generate a query to the GraphQL API to fetch the information about
-    // linked PRs. GraphQL API supports having multiple sub-queries, which can be our
-    // gateway to fetching the data for a list of specific hashes.
+    // linked PRs. GraphQL API doesn't have a filter to extract data for a list of
+    // commit hashes, but it supports having multiple sub-queries within the same request,
+    // which is our way in.
     // 
-    // This needs to be tested to see if it would blow our API rate budget, or not.
-    // It's also unclear whether this feature is limited to a certain number of subqueries
-    // (say, 100), or not. We may need to do it in batches, as we do with paginated
-    // queries.
+    // While paginated queries are limited to 100 entries per page, sub-queries do not
+    // appear to be similarly limited. Over 100 queries can be send just fine, and it
+    // still costs like a single request. This is still something to keep in mind with
+    // bigger queries, though, when we start to fetch 100s or 1000s of commits.
 
     console.log("[*] Fetching commit data from GitHub.");
-    // Pages are starting with 1 for better presentation.
-    let page = 1;
-    while (page <= dataFetcher.page_count) {
-        //const commitsRaw = await dataFetcher.fetchCommits(page);
-        //checkForExit();
-        page++;
-
-        // Wait for a bit before proceeding to avoid hitting the secondary rate limit in GitHub API.
-        // See https://docs.github.com/en/rest/guides/best-practices-for-integrators#dealing-with-secondary-rate-limits.
-        await delay(1500);
-    }
+    const commitsRaw = await dataFetcher.fetchCommits(commitHashes);
+    checkForExit();
 
     // Fourth, we consolidate the information. Each run is performed on a certain range
     // of branches/tags/hashes, and so we store the information we receive in files
@@ -647,6 +636,7 @@ async function main() {
     const output = {
         "generated_at": Date.now(),
         "authors": dataProcessor.authors,
+        "commits": dataProcessor.commits,
         "pulls": dataProcessor.pulls,
     };
 
