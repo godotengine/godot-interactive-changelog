@@ -6,6 +6,7 @@ import IndexHeader from "./components/IndexHeader";
 import IndexDescription from "./components/IndexDescription";
 
 import VersionList from "./components/versions/VersionList";
+import ChangesList from "./components/changes/ChangesList";
 
 @customElement('entry-component')
 export default class EntryComponent extends LitElement {
@@ -86,9 +87,9 @@ export default class EntryComponent extends LitElement {
             this._versions = data;
 
             this._versions.forEach((version) => {
-                version.pull_count = 0;
+                version.commit_log = [];
                 version.releases.forEach((release) => {
-                    release.pull_count = 0;
+                    release.commit_log = [];
                 });
             });
         } else {
@@ -108,20 +109,21 @@ export default class EntryComponent extends LitElement {
         this._loadingVersions.push(version.name);
         
         const versionData = await greports.api.getVersionData(this._selectedRepository, version.name);
+        versionData.config = version;
         this._versionData[version.name] = versionData;
 
         // Calculate number of changes for the version, and each if its releases.
-        const commitLog = versionData.log;
+        const [...commitLog] = versionData.log;
         commitLog.reverse();
 
-        version.pull_count = commitLog.length;
+        version.commit_log = commitLog;
         version.releases.forEach((release) => {
-            release.pull_count = 0;
+            release.commit_log = [];
 
             let counting = false;
             commitLog.forEach((commitHash, index) => {
                 if (counting) {
-                    release.pull_count += 1;
+                    release.commit_log.push(commitHash);
                 }
 
                 // We need to check indices for some refs, because they are not written
@@ -131,7 +133,7 @@ export default class EntryComponent extends LitElement {
                 if (release.from_ref === version.from_ref && index === 0) {
                     counting = true;
                     // HACK: Exclude the lower end by default, but include for the first range.
-                    release.pull_count += 1;
+                    release.commit_log.push(commitHash);
                 }
                 else if (commitHash === release.from_ref) {
                     counting = true;
@@ -166,6 +168,22 @@ export default class EntryComponent extends LitElement {
         const [...versions] = this._versions;
         const [...loadingVersions] = this._loadingVersions;
 
+        let version = {};
+        let commitLog = [];
+        let authors = {};
+        let commits = {};
+        let pulls = {};
+
+        if (this._selectedVersion !== "" && typeof this._versionData[this._selectedVersion] !== "undefined") {
+            const versionData = this._versionData[this._selectedVersion];
+
+            version = versionData.config;
+            commitLog = versionData.log;
+            authors = versionData.authors;
+            commits = versionData.commits;
+            pulls = versionData.pulls;
+        }
+
         return html`
             <page-content>
                 <shared-nav></shared-nav>
@@ -183,6 +201,20 @@ export default class EntryComponent extends LitElement {
                             .selectedRelease="${this._selectedRelease}"
                             @versionclick="${this._onVersionClicked}"
                         ></gr-version-list>
+
+                        ${(this._selectedVersion !== "" ? html`
+                            <gr-changes-list
+                                .version=${version}
+                                .log="${commitLog}"
+                                .authors="${authors}"
+                                .commits="${commits}"
+                                .pulls="${pulls}"
+
+                                .selectedVersion="${this._selectedVersion}"
+                                .selectedRelease="${this._selectedRelease}"
+                                ?loading="${loadingVersions.indexOf(this._selectedVersion) >= 0}"
+                            ></gr-changes-list>
+                        ` : null)}
                     </div>
                 `)}
             </page-content>

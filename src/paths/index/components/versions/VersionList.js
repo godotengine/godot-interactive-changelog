@@ -162,7 +162,7 @@ export default class VersionList extends LitElement {
                             <gr-version-item
                                 .name="${item.name}"
                                 .type="${"main"}"
-                                .pull_count="${item.pull_count}"
+                                .pull_count="${item.commit_log.length}"
                                 ?active="${this.selectedVersion === item.name}"
                                 ?expanded="${this.toggledVersions.includes(item.name)}"
                                 ?loading="${this.loadingVersions.includes(item.name)}"
@@ -178,7 +178,7 @@ export default class VersionList extends LitElement {
                                             <gr-version-item
                                                 .name="${release.name}"
                                                 .type="${"sub"}"
-                                                .pull_count="${release.pull_count}"
+                                                .pull_count="${release.commit_log.length}"
                                                 ?active="${this.selectedVersion === item.name && this.selectedRelease === release.name}"
                                                 @click="${this._onItemClicked.bind(this, "sub", item.name, release.name)}"
                                                 @iconclick="${this._onItemIconClicked.bind(this, "sub", item.name, release.name)}"

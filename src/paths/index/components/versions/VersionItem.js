@@ -174,7 +174,10 @@ export default class VersionItem extends LitElement {
                     ${this.name}
                 </span>
 
-                <span class="${countClassList.join(" ")}">
+                <span
+                  class="${countClassList.join(" ")}"
+                  title="${this.loading ? "" : `${this.pull_count} changes since last release.`}"
+                >
                     ${this.loading ? "" : this.pull_count}
                 </span>
 
