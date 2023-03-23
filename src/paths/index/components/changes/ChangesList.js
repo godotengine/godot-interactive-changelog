@@ -117,13 +117,18 @@ export default class ChangesList extends LitElement {
             if (commit.is_cherrypick && typeof this.commits[commit.cherrypick_hash] !== "undefined") {
                 originalCommit = this.commits[commit.cherrypick_hash];
             }
-
             this._appendCommit(commit, originalCommit);
 
-            if (originalCommit.pull !== "" && typeof this.pulls[originalCommit.pull] !== "undefined") {
-                const pull = this.pulls[originalCommit.pull];
-                this._appendPull(pull);
+            let pull = null;
+            let originalPull = null;
+            if (commit.pull !== "" && typeof this.pulls[commit.pull] !== "undefined") {
+                pull = this.pulls[commit.pull];
+                originalPull = pull;
             }
+            if (originalCommit.pull !== "" && typeof this.pulls[originalCommit.pull] !== "undefined") {
+                originalPull = this.pulls[originalCommit.pull];
+            }
+            this._appendPull(pull, originalPull);
         });
 
         this._filtered_authors.sort((a, b) => {
@@ -131,8 +136,8 @@ export default class ChangesList extends LitElement {
             if (a.commits.length > b.commits.length) return -1;
             if (a.commits.length < b.commits.length) return 1;
             // Then sort by name (ASC).
-            if (a.author.user > b.author.user) return 1;
-            if (a.author.user < b.author.user) return -1;
+            if (a.author.user.toLowerCase() > b.author.user.toLowerCase()) return 1;
+            if (a.author.user.toLowerCase() < b.author.user.toLowerCase()) return -1;
 
             return 0;
         });
@@ -140,13 +145,16 @@ export default class ChangesList extends LitElement {
 
     _appendCommit(commit, originalCommit) {
         const filteredCommit = {
-            "commit": commit,
-            "original_commit": null,
+            "commit": null,
+            "cherrypick_commit": null,
             "authors": [],
         };
 
         if (commit !== originalCommit) {
-            filteredCommit.original_commit = originalCommit;
+            filteredCommit.commit = originalCommit;
+            filteredCommit.cherrypick_commit = commit;
+        } else {
+            filteredCommit.commit = commit;
         }
 
         const authorIds = this._findCommitAuthors([ commit.hash, originalCommit.hash ]);
@@ -156,22 +164,34 @@ export default class ChangesList extends LitElement {
         this._appendAuthors(filteredCommit.authors, commit);
     }
 
-    _appendPull(pull) {
+    _appendPull(pull, originalPull) {
+        if (!pull || !originalPull) {
+            return;
+        }
+
         const existing = this._filtered_pulls.find((item) => {
-            return item.pull === pull;
+            return item.pull === originalPull;
         });
         if (typeof existing !== "undefined") {
             return;
         }
 
         const filteredPull = {
-            "pull": pull,
+            "pull": null,
+            "cherrypick_pull": null,
             "authors": [],
         };
 
-        let authorIds = this._findCommitAuthors(pull.commits);
-        if (authorIds.indexOf(pull.authored_by) < 0) {
-            authorIds.push(pull.authored_by);
+        if (pull !== originalPull) {
+            filteredPull.pull = originalPull;
+            filteredPull.cherrypick_pull = pull;
+        } else {
+            filteredPull.pull = pull;
+        }
+
+        let authorIds = this._findCommitAuthors(originalPull.commits);
+        if (authorIds.indexOf(originalPull.authored_by) < 0) {
+            authorIds.push(originalPull.authored_by);
         }
         filteredPull.authors = this._getAuthors(authorIds);
 
@@ -285,10 +305,12 @@ export default class ChangesList extends LitElement {
 
                 ${this._viewMode === "pulls" ? this._filtered_pulls.map((item) => {
                     const pull = item.pull;
+                    const cherrypick_pull = item.cherrypick_pull;
 
                     return html`
                         <gr-pull-item
                             .id="${pull.public_id}"
+                            .cherrypick_id="${(cherrypick_pull ? cherrypick_pull.public_id : "")}"
                             .title="${pull.title}"
                             .authors="${item.authors}"
                             .url="${pull.url}"
@@ -302,10 +324,12 @@ export default class ChangesList extends LitElement {
 
                 ${this._viewMode === "commits" ? this._filtered_commits.map((item) => {
                     const commit = item.commit;
+                    const cherrypick_commit = item.cherrypick_commit;
 
                     return html`
                         <gr-commit-item
                             .hash="${commit.hash}"
+                            .cherrypick_hash="${(cherrypick_commit ? cherrypick_commit.hash : "")}"
                             .title="${commit.summary}"
                             .authors="${item.authors}"
                             .repository="${this.selectedRepository}"

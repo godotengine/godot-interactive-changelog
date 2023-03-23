@@ -87,6 +87,7 @@ export default class PullRequestItem extends LitElement {
     }
 
     @property({ type: String, reflect: true }) id = '';
+    @property({ type: String }) cherrypick_id = '';
     @property({ type: String }) title = '';
     @property({ type: Array }) authors = [];
     @property({ type: String }) url = '';
@@ -126,16 +127,6 @@ export default class PullRequestItem extends LitElement {
                     </div>
 
                     <div class="item-people">
-                        <div>
-                            <span>submitted as </span>
-                            <a
-                                href="${this.url}"
-                                target="_blank"
-                                title="Open PR #${this.id} on GitHub"
-                            >
-                                GH-${this.id}
-                            </a>
-                        </div>
                         <div class="item-authors">
                             <span>by </span>
                             ${this.authors.map((author) => {
@@ -151,6 +142,29 @@ export default class PullRequestItem extends LitElement {
                                     ></gr-change-author>
                                 `;
                             })}
+                        </div>
+
+                        <div>
+                            <span>submitted as </span>
+                            <a
+                                href="${this.url}"
+                                target="_blank"
+                                title="Open PR #${this.id} on GitHub"
+                            >
+                                GH-${this.id}
+                            </a>
+
+                            ${(this.cherrypick_id !== "" ? html`
+                                <span> · </span>
+                                <span>cherry-picked in </span>
+                                <a
+                                    href="https://github.com/${this.repository}/pull/${this.cherrypick_id}"
+                                    target="_blank"
+                                    title="Open PR #${this.cherrypick_id} on GitHub"
+                                >
+                                    GH-${this.cherrypick_id}
+                                </a>
+                            ` : null)}
                         </div>
                     </div>
                 </div>

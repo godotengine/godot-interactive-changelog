@@ -86,6 +86,7 @@ export default class CommitItem extends LitElement {
     }
 
     @property({ type: String, reflect: true }) hash = '';
+    @property({ type: String }) cherrypick_hash = '';
     @property({ type: String }) title = '';
     @property({ type: Array }) authors = [];
 
@@ -102,16 +103,6 @@ export default class CommitItem extends LitElement {
                     <div></div>
 
                     <div class="item-people">
-                        <div>
-                            <span>committed in </span>
-                            <a
-                                href="https://github.com/${this.repository}/commit/${this.hash}"
-                                target="_blank"
-                                title="Open commit #${this.id} on GitHub"
-                            >
-                                ${this.hash.substring(0, 9)}
-                            </a>
-                        </div>
                         <div class="item-authors">
                             <span>by </span>
                             ${this.authors.map((author) => {
@@ -127,6 +118,29 @@ export default class CommitItem extends LitElement {
                                     ></gr-change-author>
                                 `;
                             })}
+                        </div>
+
+                        <div>
+                            <span>committed in </span>
+                            <a
+                                href="https://github.com/${this.repository}/commit/${this.hash}"
+                                target="_blank"
+                                title="Open commit #${this.hash} on GitHub"
+                            >
+                                ${this.hash.substring(0, 9)}
+                            </a>
+
+                            ${(this.cherrypick_hash !== "" ? html`
+                                <span> · </span>
+                                <span>cherry-picked in </span>
+                                <a
+                                    href="https://github.com/${this.repository}/commit/${this.cherrypick_hash}"
+                                    target="_blank"
+                                    title="Open commit #${this.cherrypick_hash} on GitHub"
+                                >
+                                    ${this.cherrypick_hash.substring(0, 9)}
+                                </a>
+                            ` : null)}
                         </div>
                     </div>
                 </div>
