@@ -163,7 +163,7 @@ export default class EntryComponent extends LitElement {
         window.scrollTo(0, 0);
     }
 
-    render(){
+    render() {
         // Dereferencing to ensure it triggers an update.
         const [...versions] = this._versions;
         const [...loadingVersions] = this._loadingVersions;
