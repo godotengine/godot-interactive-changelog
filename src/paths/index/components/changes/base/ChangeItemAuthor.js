@@ -72,7 +72,8 @@ export default class ChangeItemAuthor extends LitElement {
     render(){
         const authorClassList = [ "item-author" ];
         if (this.is_hot) {
-            authorClassList.push("item-author--hot");
+            // TODO: Either restore or remove it, but it's rather noisy as it is.
+            //authorClassList.push("item-author--hot");
         }
         if (this.id === "") {
             authorClassList.push("item-author--ghost");

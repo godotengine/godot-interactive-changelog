@@ -35,6 +35,7 @@ export default class ChangeItemLabel extends LitElement {
             display: inline-block;
             width: 8px;
             height: 8px;
+            filter: brightness(0.75);
           }
           :host .item-label-name {
             padding-left: 3px;

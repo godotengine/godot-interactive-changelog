@@ -53,7 +53,7 @@ export default class CommitItem extends LitElement {
             font-size: 13px;
           }
 
-          :host .item-people {
+          :host .item-links {
             display: flex;
             flex-direction: column;
             gap: 2px;
@@ -78,7 +78,7 @@ export default class CommitItem extends LitElement {
               flex-direction: column;
             }
 
-            :host .item-people {
+            :host .item-links {
                 text-align: left;
             }
           }
@@ -100,9 +100,7 @@ export default class CommitItem extends LitElement {
                 </div>
 
                 <div class="item-meta">
-                    <div></div>
-
-                    <div class="item-people">
+                    <div>
                         <div class="item-authors">
                             <span>by </span>
                             ${this.authors.map((author) => {
@@ -119,7 +117,9 @@ export default class CommitItem extends LitElement {
                                 `;
                             })}
                         </div>
+                    </div>
 
+                    <div class="item-links">
                         <div>
                             <span>committed in </span>
                             <a

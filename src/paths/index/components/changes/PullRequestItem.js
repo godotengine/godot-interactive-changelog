@@ -54,7 +54,7 @@ export default class PullRequestItem extends LitElement {
             font-size: 13px;
           }
 
-          :host .item-people {
+          :host .item-links {
             display: flex;
             flex-direction: column;
             gap: 2px;
@@ -79,7 +79,7 @@ export default class PullRequestItem extends LitElement {
               flex-direction: column;
             }
 
-            :host .item-people {
+            :host .item-links {
                 text-align: left;
             }
           }
@@ -126,7 +126,7 @@ export default class PullRequestItem extends LitElement {
                         })}
                     </div>
 
-                    <div class="item-people">
+                    <div class="item-links">
                         <div class="item-authors">
                             <span>by </span>
                             ${this.authors.map((author) => {
