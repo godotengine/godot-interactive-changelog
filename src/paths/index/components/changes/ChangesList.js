@@ -125,6 +125,17 @@ export default class ChangesList extends LitElement {
                 this._appendPull(pull);
             }
         });
+
+        this._filtered_authors.sort((a, b) => {
+            // Sort by contributions first (DESC).
+            if (a.commits.length > b.commits.length) return -1;
+            if (a.commits.length < b.commits.length) return 1;
+            // Then sort by name (ASC).
+            if (a.author.user > b.author.user) return 1;
+            if (a.author.user < b.author.user) return -1;
+
+            return 0;
+        });
     }
 
     _appendCommit(commit, originalCommit) {
@@ -142,7 +153,7 @@ export default class ChangesList extends LitElement {
         filteredCommit.authors = this._getAuthors(authorIds);
 
         this._filtered_commits.push(filteredCommit);
-        this._appendAuthors(filteredCommit.authors);
+        this._appendAuthors(filteredCommit.authors, commit);
     }
 
     _appendPull(pull) {
@@ -165,17 +176,17 @@ export default class ChangesList extends LitElement {
         filteredPull.authors = this._getAuthors(authorIds);
 
         this._filtered_pulls.push(filteredPull);
-        this._appendAuthors(filteredPull.authors);
+        this._appendAuthors(filteredPull.authors, null, pull);
     }
 
-    _appendAuthors(authors) {
+    _appendAuthors(authors, commit = null, pull = null) {
         authors.forEach((item) => {
-            this._appendAuthor(item);
+            this._appendAuthor(item, commit, pull);
         });
     }
 
-    _appendAuthor(author) {
-        const existing = this._filtered_authors.find((item) => {
+    _appendAuthor(author, commit = null, pull = null) {
+        let existing = this._filtered_authors.find((item) => {
             return item.author === author;
         });
 
@@ -187,6 +198,14 @@ export default class ChangesList extends LitElement {
             }
 
             this._filtered_authors.push(filteredAuthor);
+            existing = filteredAuthor;
+        }
+
+        if (commit) {
+            existing.commits.push(commit);
+        }
+        if (pull && existing.pulls.indexOf(pull) < 0) {
+            existing.pulls.push(pull);
         }
     }
 
@@ -301,6 +320,9 @@ export default class ChangesList extends LitElement {
                         <gr-author-item
                             .id="${author.id}"
                             .user="${author.user}"
+                            .avatar="${author.avatar}"
+                            .commits="${item.commits}"
+                            .pulls="${item.pulls}"
                             .repository="${this.selectedRepository}"
                         />
                     `;
