@@ -1,10 +1,9 @@
 import { LitElement, html, css, customElement, property } from 'lit-element';
 
 import ChangeItemAuthor from './base/ChangeItemAuthor';
-import ChangeItemLabel from './base/ChangeItemLabel';
 
-@customElement('gr-pull-item')
-export default class PullRequestItem extends LitElement {
+@customElement('gr-commit-item')
+export default class CommitItem extends LitElement {
     static get styles() {
         return css`
           /** Colors and variables **/
@@ -75,27 +74,13 @@ export default class PullRequestItem extends LitElement {
         `;
     }
 
-    @property({ type: String, reflect: true }) id = '';
+    @property({ type: String, reflect: true }) hash = '';
     @property({ type: String }) title = '';
     @property({ type: Array }) authors = [];
-    @property({ type: String }) url = '';
-    @property({ type: String }) created_at = '';
-    @property({ type: String }) updated_at = '';
-    @property({ type: Array }) labels = [];
 
     @property({ type: String }) repository = '';
 
     render(){
-        // Some labels aren't useful in this context; hide them.
-        let filteredLabels = [];
-        this.labels.forEach((item) => {
-            if (item.name.startsWith("cherrypick:")) {
-                return;
-            }
-
-            filteredLabels.push(item);
-        });
-
         return html`
             <div class="item-container">
                 <div class="item-title">
@@ -103,26 +88,17 @@ export default class PullRequestItem extends LitElement {
                 </div>
 
                 <div class="item-meta">
-                    <div class="item-labels">
-                        ${filteredLabels.map((item) => {
-                            return html`
-                                <gr-change-label
-                                    .name="${item.name}"
-                                    .color="${item.color}"
-                                ></gr-change-label>
-                            `;
-                        })}
-                    </div>
+                    <div></div>
 
                     <div class="item-people">
                         <div>
-                            <span>submitted as </span>
+                            <span>committed in </span>
                             <a
-                                href="${this.url}"
+                                href="https://github.com/${this.repository}/commit/${this.hash}"
                                 target="_blank"
-                                title="Open PR #${this.id} on GitHub"
+                                title="Open commit #${this.id} on GitHub"
                             >
-                                GH-${this.id}
+                                ${this.hash.substring(0, 9)}
                             </a>
                         </div>
                         <div class="item-authors">
@@ -133,10 +109,10 @@ export default class PullRequestItem extends LitElement {
                                         .id="${author.id}"
                                         .user="${author.user}"
                                         .avatar="${author.avatar}"
-                                        .is_hot="${author.pull_count > 12}"
+                                        .is_hot="${author.commit_count > 12}"
 
-                                        .url="${`https://github.com/${this.repository}/pulls/${author.user}`}"
-                                        .url_title="${`Open all PRs by ${author.user}`}"
+                                        .url="${`https://github.com/${this.repository}/commits/?author=${author.user}`}"
+                                        .url_title="${`Open all commits by ${author.user}`}"
                                     ></gr-change-author>
                                 `;
                             })}

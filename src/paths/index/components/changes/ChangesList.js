@@ -2,6 +2,8 @@ import { LitElement, html, css, customElement, property } from 'lit-element';
 
 import ChangesToolbar from "./ChangesToolbar"
 import PullRequestItem from "./PullRequestItem";
+import CommitItem from "./CommitItem";
+import AuthorItem from "./AuthorItem";
 
 @customElement('gr-changes-list')
 export default class ChangesList extends LitElement {
@@ -62,6 +64,8 @@ export default class ChangesList extends LitElement {
 
     constructor() {
         super();
+
+        this._viewMode = "pulls";
 
         this._active_log = [];
         this._filtered_commits = [];
@@ -207,6 +211,11 @@ export default class ChangesList extends LitElement {
         return authors;
     }
 
+    _onModeChanged(event) {
+        this._viewMode = event.detail.mode;
+        this.requestUpdate();
+    }
+
     update(changedProperties) {
         this._updateActiveLog();
         this._updateLists();
@@ -230,13 +239,16 @@ export default class ChangesList extends LitElement {
                     .pull_count="${this._filtered_pulls.length}"
                     .commit_count="${this._filtered_commits.length}"
                     .author_count="${this._filtered_authors.length}"
+
+                    .current_mode="${this._viewMode}"
+                    @modechange="${this._onModeChanged}"
                 ></gr-changes-toolbar>
 
                 ${(this._filtered_pulls.length === 0 ? html`
                     <span class="version-changes-empty">This version contains no new changes.</span>
                 ` : null)}
 
-                ${this._filtered_pulls.map((item) => {
+                ${this._viewMode === "pulls" ? this._filtered_pulls.map((item) => {
                     const pull = item.pull;
 
                     return html`
@@ -251,7 +263,32 @@ export default class ChangesList extends LitElement {
                             .repository="${this.selectedRepository}"
                         />
                     `;
-                })}
+                }) : null}
+
+                ${this._viewMode === "commits" ? this._filtered_commits.map((item) => {
+                    const commit = item.commit;
+
+                    return html`
+                        <gr-commit-item
+                            .hash="${commit.hash}"
+                            .title="${commit.summary}"
+                            .authors="${item.authors}"
+                            .repository="${this.selectedRepository}"
+                        />
+                    `;
+                }) : null}
+
+                ${this._viewMode === "authors" ? this._filtered_authors.map((item) => {
+                    const author = item.author;
+
+                    return html`
+                        <gr-author-item
+                            .id="${author.id}"
+                            .user="${author.user}"
+                            .repository="${this.selectedRepository}"
+                        />
+                    `;
+                }) : null}
             </div>
         `;
     }
