@@ -84,19 +84,19 @@ export default class ChangesList extends LitElement {
         }
 
         // Default to the main log of the version.
-        this._active_log = this.version.commit_log;
-        this._version_ref = this.version.ref;
-        this._version_from_ref = this.version.from_ref;
-        this._version_article = this.version.article;
+        this._active_log = this.version.commit_log || [];
+        this._version_ref = this.version.ref || "";
+        this._version_from_ref = this.version.from_ref || "";
+        this._version_article = this.version.article || "";
 
         // But if we're in a specific release, find its log.
-        if (this.selectedRelease !== "") {
+        if (this.selectedRelease !== "" && typeof this.version.releases !== "undefined") {
             for (let release of this.version.releases) {
                 if (release.name === this.selectedRelease) {
-                    this._active_log = release.commit_log;
-                    this._version_ref = release.ref;
-                    this._version_from_ref = release.from_ref;
-                    this._version_article = release.article;
+                    this._active_log = release.commit_log || [];
+                    this._version_ref = release.ref || "";
+                    this._version_from_ref = release.from_ref || "";
+                    this._version_article = release.article || "";
                     break;
                 }
             }

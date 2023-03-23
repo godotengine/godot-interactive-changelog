@@ -109,61 +109,64 @@ export default class EntryComponent extends LitElement {
         this._loadingVersions.push(version.name);
 
         const versionData = await greports.api.getVersionData(this._selectedRepository, version.name);
-        versionData.config = version;
-        this._versionData[version.name] = versionData;
 
-        // Calculate number of changes for the version, and each if its releases.
-        const [...commitLog] = versionData.log;
-        commitLog.reverse();
+        if (versionData) {
+            versionData.config = version;
+            this._versionData[version.name] = versionData;
 
-        // We need to filter out all merge commits for display and the count.
-        version.commit_log = [];
-        commitLog.forEach((commitHash) => {
-            const commit = versionData.commits[commitHash];
-            if (commit.is_merge) {
-                return; // Continue.
-            }
+            // Calculate number of changes for the version, and each if its releases.
+            const [...commitLog] = versionData.log;
+            commitLog.reverse();
 
-            version.commit_log.push(commitHash);
-        });
-
-        version.releases.forEach((release) => {
-            release.commit_log = [];
-
-            let counting = false;
-            commitLog.forEach((commitHash, index) => {
+            // We need to filter out all merge commits for display and the count.
+            version.commit_log = [];
+            commitLog.forEach((commitHash) => {
                 const commit = versionData.commits[commitHash];
-                // We need to filter out all merge commits for display and the count.
-                if (counting && !commit.is_merge) {
-                    release.commit_log.push(commitHash);
+                if (commit.is_merge) {
+                    return; // Continue.
                 }
 
-                // We need to check indices for some refs, because they are not written
-                // in the commit hash format.
+                version.commit_log.push(commitHash);
+            });
 
-                // Start counting.
-                if (release.from_ref === version.from_ref && index === 0) {
-                    counting = true;
-                    // HACK: Exclude the lower end by default, but include for the first range.
-                    if (!commit.is_merge) {
-                        // It shouldn't be possible for the first commit to be a merge commit,
-                        // but let's guard anyway.
+            version.releases.forEach((release) => {
+                release.commit_log = [];
+
+                let counting = false;
+                commitLog.forEach((commitHash, index) => {
+                    const commit = versionData.commits[commitHash];
+                    // We need to filter out all merge commits for display and the count.
+                    if (counting && !commit.is_merge) {
                         release.commit_log.push(commitHash);
                     }
-                }
-                else if (commitHash === release.from_ref) {
-                    counting = true;
-                }
 
-                // Stop counting.
-                if (release.ref === version.ref && index === (commitLog.length - 1)) {
-                    counting = false;
-                }
-                else if (commitHash === release.ref) {
-                    counting = false;
-                }
+                    // We need to check indices for some refs, because they are not written
+                    // in the commit hash format.
+
+                    // Start counting.
+                    if (release.from_ref === version.from_ref && index === 0) {
+                        counting = true;
+                        // HACK: Exclude the lower end by default, but include for the first range.
+                        if (!commit.is_merge) {
+                            // It shouldn't be possible for the first commit to be a merge commit,
+                            // but let's guard anyway.
+                            release.commit_log.push(commitHash);
+                        }
+                    }
+                    else if (commitHash === release.from_ref) {
+                        counting = true;
+                    }
+
+                    // Stop counting.
+                    if (release.ref === version.ref && index === (commitLog.length - 1)) {
+                        counting = false;
+                    }
+                    else if (commitHash === release.ref) {
+                        counting = false;
+                    }
+                });
             });
-        });
+        }
 
         // Finish loading, hide the indicator.
         const index = this._loadingVersions.indexOf(version.name);
