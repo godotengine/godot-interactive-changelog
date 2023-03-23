@@ -1,0 +1,53 @@
+name: Continuous integration
+
+on:
+  push:
+    branches: [ master ]
+
+# Make sure jobs cannot overlap (e.g. one from push and one from schedule).
+concurrency:
+  group: pages-ci
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build and deploy to GitHub Pages
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install Node.js 16.x
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16.x
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Build the static content using npm
+      run: npm run build
+
+    - name: Prepare and copy configuration and data
+      run: npm run publish-db
+      env:
+        GRAPHQL_TOKEN: ${{ secrets.GRAPHQL_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: web-static
+        path: out
+
+    - name: Deploy to GitHub Pages 🚀
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: gh-pages
+        folder: out
+        # Configure the commit author.
+        git-config-name: 'Godot Organization'
+        git-config-email: '<>'
+        # Don't keep the history.
+        single-commit: true
