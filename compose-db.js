@@ -28,6 +28,7 @@ const API_RATE_LIMIT = `
 `;
 
 const GIT_HEAD_COMMIT_RE = RegExp("^commit ([a-zA-Z0-9-_]+)$");
+const GIT_HEAD_MERGE_RE = RegExp("^Merge: (.+) (.+)$");
 const GIT_HEAD_AUTHOR_RE = RegExp("^Author: (.+)$");
 const GIT_HEAD_COMMITTER_RE = RegExp("^Commit: (.+)$");
 const GIT_BODY_LINE_RE = RegExp("^[\\s]{2,}(.*)$");
@@ -74,7 +75,7 @@ class DataFetcher {
         if (typeof data["errors"] === "undefined") {
             return;
         }
-    
+
         console.warn(`    Server handled the request, but there were errors:`);
         data.errors.forEach((item) => {
            console.log(`    [${item.type}] ${item.message}`);
@@ -98,7 +99,7 @@ class DataFetcher {
 
     async countCommitHistory(fromCommit, toCommit) {
         try {
-            const { stdout, stderr } = await exec(`git log --pretty=oneline --no-merges ${fromCommit}..${toCommit}`, { cwd: `./temp/${this.data_repo}` });
+            const { stdout, stderr } = await exec(`git log --pretty=oneline ${fromCommit}..${toCommit}`, { cwd: `./temp/${this.data_repo}` });
 
             const commitHistory = stdout.trimEnd();
             await this._logResponse(commitHistory, "_commit_shortlog", LogFormat.Raw);
@@ -112,7 +113,7 @@ class DataFetcher {
 
     async getCommitHistory(fromCommit, toCommit) {
         try {
-            const { stdout, stderr } = await exec(`git log --pretty=full --no-merges ${fromCommit}..${toCommit}`, { cwd: `./temp/${this.data_repo}` });
+            const { stdout, stderr } = await exec(`git log --pretty=full ${fromCommit}..${toCommit}`, { cwd: `./temp/${this.data_repo}` });
 
             const commitHistory = stdout;
             await this._logResponse(commitHistory, "_commit_history", LogFormat.Raw);
@@ -134,11 +135,11 @@ class DataFetcher {
         } else if (process.env.GITHUB_TOKEN) {
             init.headers["Authorization"] = `token ${process.env.GITHUB_TOKEN}`;
         }
-    
+
         init.body = JSON.stringify({
             query,
         });
-    
+
         return await fetch("https://api.github.com/graphql", init);
     }
 
@@ -152,7 +153,7 @@ class DataFetcher {
         } else if (process.env.GITHUB_TOKEN) {
             init.headers["Authorization"] = `token ${process.env.GITHUB_TOKEN}`;
         }
-    
+
         return await fetch(`${this.api_rest_path}${query}`, init);
     }
 
@@ -163,18 +164,18 @@ class DataFetcher {
               ${API_RATE_LIMIT}
             }
             `;
-    
+
             const res = await this.fetchGithub(query);
             if (res.status !== 200) {
                 this._handleResponseErrors(this.api_repository_id, res);
                 process.exitCode = ExitCodes.RequestFailure;
                 return;
             }
-    
+
             const data = await res.json();
             await this._logResponse(data, "_rate_limit");
             this._handleDataErrors(data);
-    
+
             const rate_limit = data.data["rateLimit"];
             console.log(`    [$${rate_limit.cost}][${rate_limit.nodeCount}] Available API calls: ${rate_limit.remaining}/${rate_limit.limit}; resets at ${rate_limit.resetAt}`);
         } catch (err) {
@@ -269,7 +270,7 @@ class DataFetcher {
             `;
 
             console.log(`    Requesting batch ${page}/${totalPages} of commit and pull request data.`);
-    
+
             const res = await this.fetchGithub(query);
             if (res.status !== 200) {
                 this._handleResponseErrors(this.api_repository_id, res);
@@ -312,6 +313,7 @@ class DataProcessor {
     _getCommitObject() {
         return {
             "hash": "",
+            "is_merge": false,
 
             "authored_by": [],
             "author_raw": "",
@@ -426,6 +428,13 @@ class DataProcessor {
                 continue;
             }
 
+            // Check if this is a merge commit.
+            matches = line.match(GIT_HEAD_MERGE_RE);
+            if (matches) {
+                commit.is_merge = true;
+                continue;
+            }
+
             // Parse the authorship information.
             matches = line.match(GIT_HEAD_AUTHOR_RE);
             if (matches) {
@@ -483,8 +492,6 @@ class DataProcessor {
             console.error(`    Error parsing commit log: Expected to received ${logSize} commits, but got ${this.log.length} instead.`);
             process.exitCode = ExitCodes.ParseFailure;
         }
-
-        return Object.keys(this.commits);
     }
 
     processCommits(commitsRaw, targetRepo) {
@@ -576,6 +583,21 @@ class DataProcessor {
             process.exitCode = ExitCodes.ParseFailure;
         }
     }
+
+    getCommitHashes() {
+        const commitHashes = [];
+
+        for (let commitHash in this.commits) {
+            const commit = this.commits[commitHash];
+            if (commit.is_merge) {
+                continue;
+            }
+
+            commitHashes.push(commitHash);
+        }
+
+        return commitHashes;
+    }
 }
 
 class DataIO {
@@ -586,7 +608,7 @@ class DataIO {
         this.data_version = "";
         this.skip_checkout = false;
 
-        // 
+        //
         this.config = null;
         this.first_commit = ""
         this.last_commit = "";
@@ -755,14 +777,18 @@ async function main() {
     // cherry-pick, and not the original commit. We can rely on the commit message body
     // containing a certain string, from which we can take the original commit hash.
 
-    const commitHashes = dataProcessor.processLog(commitLog, commitLogSize);
+    dataProcessor.processLog(commitLog, commitLogSize);
     checkForExit();
+
+    // This method returns only non-merge commits; we don't need to fetch anything about
+    // merge commits. We only need them for commit history.
+    const commitHashes = dataProcessor.getCommitHashes();
 
     // Third, we generate a query to the GraphQL API to fetch the information about
     // linked PRs. GraphQL API doesn't have a filter to extract data for a list of
     // commit hashes, but it supports having multiple sub-queries within the same request,
     // which is our way in.
-    // 
+    //
     // While paginated queries are limited to 100 entries per page, sub-queries do not
     // appear to be similarly limited. We are still limited by the total number of nodes
     // we can theoretically fetch, which is 500 000. As such, we still want to do this
@@ -784,7 +810,7 @@ async function main() {
         //
         // For intermediate releases (developer previews) we have preconfigured hashes and
         // can simply pass them to the final data. Frontend will handle the rest.
-    
+
         dataProcessor.processCommits(commitsRaw, `${dataIO.data_owner}/${dataIO.data_repo}`);
         checkForExit();
 

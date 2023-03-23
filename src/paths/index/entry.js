@@ -107,7 +107,7 @@ export default class EntryComponent extends LitElement {
     async _requestVersionData(version) {
         // Start loading, show the indicator.
         this._loadingVersions.push(version.name);
-        
+
         const versionData = await greports.api.getVersionData(this._selectedRepository, version.name);
         versionData.config = version;
         this._versionData[version.name] = versionData;
@@ -116,13 +116,25 @@ export default class EntryComponent extends LitElement {
         const [...commitLog] = versionData.log;
         commitLog.reverse();
 
-        version.commit_log = commitLog;
+        // We need to filter out all merge commits for display and the count.
+        version.commit_log = [];
+        commitLog.forEach((commitHash) => {
+            const commit = versionData.commits[commitHash];
+            if (commit.is_merge) {
+                return; // Continue.
+            }
+
+            version.commit_log.push(commitHash);
+        });
+
         version.releases.forEach((release) => {
             release.commit_log = [];
 
             let counting = false;
             commitLog.forEach((commitHash, index) => {
-                if (counting) {
+                const commit = versionData.commits[commitHash];
+                // We need to filter out all merge commits for display and the count.
+                if (counting && !commit.is_merge) {
                     release.commit_log.push(commitHash);
                 }
 
@@ -133,7 +145,11 @@ export default class EntryComponent extends LitElement {
                 if (release.from_ref === version.from_ref && index === 0) {
                     counting = true;
                     // HACK: Exclude the lower end by default, but include for the first range.
-                    release.commit_log.push(commitHash);
+                    if (!commit.is_merge) {
+                        // It shouldn't be possible for the first commit to be a merge commit,
+                        // but let's guard anyway.
+                        release.commit_log.push(commitHash);
+                    }
                 }
                 else if (commitHash === release.from_ref) {
                     counting = true;
