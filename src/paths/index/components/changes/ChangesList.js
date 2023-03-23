@@ -124,7 +124,7 @@ export default class ChangesList extends LitElement {
             filteredCommit.original_commit = originalCommit;
         }
 
-        const authorIds = this._findCommitAuthors([ commit, originalCommit ]);
+        const authorIds = this._findCommitAuthors([ commit.hash, originalCommit.hash ]);
         filteredCommit.authors = this._getAuthors(authorIds);
 
         this._filtered_commits.push(filteredCommit);
