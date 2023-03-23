@@ -226,6 +226,7 @@ export default class EntryComponent extends LitElement {
                                 .commits="${commits}"
                                 .pulls="${pulls}"
 
+                                .selectedRepository="${this._selectedRepository}"
                                 .selectedVersion="${this._selectedVersion}"
                                 .selectedRelease="${this._selectedRelease}"
                                 ?loading="${loadingVersions.indexOf(this._selectedVersion) >= 0}"

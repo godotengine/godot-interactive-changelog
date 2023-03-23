@@ -55,6 +55,7 @@ export default class ChangesList extends LitElement {
     @property({ type: Object }) commits = {};
     @property({ type: Object }) pulls = {};
 
+    @property({ type: String }) selectedRepository = "";
     @property({ type: String }) selectedVersion = "";
     @property({ type: String }) selectedRelease = "";
     @property({ type: Boolean, reflect: true }) loading = false;
@@ -239,7 +240,7 @@ export default class ChangesList extends LitElement {
                     const pull = item.pull;
 
                     return html`
-                        <gr-pull-request
+                        <gr-pull-item
                             .id="${pull.public_id}"
                             .title="${pull.title}"
                             .authors="${item.authors}"
@@ -247,6 +248,7 @@ export default class ChangesList extends LitElement {
                             .created_at="${pull.created_at}"
                             .updated_at="${pull.updated_at}"
                             .labels="${pull.labels}"
+                            .repository="${this.selectedRepository}"
                         />
                     `;
                 })}
