@@ -29,8 +29,8 @@ export default class VersionItem extends LitElement {
             cursor: pointer;
             display: flex;
             flex-direction: row;
-            gap: 8px;
-            padding: 6px 16px 6px 10px;
+            gap: 6px;
+            padding: 6px 16px 6px 4px;
             align-items: center;
           }
           :host .version-item:hover {
@@ -39,6 +39,10 @@ export default class VersionItem extends LitElement {
           :host .version-item--active {
             background-color: var(--tab-active-background-color);
             border-left: 5px solid var(--tab-active-border-color);
+          }
+
+          :host .version-item--sub {
+            padding: 4px 16px 4px 20px;
           }
 
           :host .version-icon {
@@ -119,7 +123,11 @@ export default class VersionItem extends LitElement {
 
           @media only screen and (max-width: 900px) {
             :host .version-item {
-              padding: 10px 20px 10px 16px;
+              padding: 10px 20px 10px 8px;
+            }
+
+            :host .version-item--sub {
+              padding: 8px 20px 8px 24px;
             }
 
             :host .version-title,
@@ -145,7 +153,7 @@ export default class VersionItem extends LitElement {
     }
 
     render(){
-        const classList = [ "version-item" ];
+        const classList = [ "version-item", "version-item--" + this.type ];
         if (this.active) {
             classList.push("version-item--active");
         }

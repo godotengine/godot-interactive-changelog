@@ -51,6 +51,7 @@ export default class ChangesToolbar extends LitElement {
             color: var(--g-font-color);
             display: inline-block;
             font-size: 20px;
+            font-weight: 600;
             line-height: 24px;
             margin-top: 6px;
             margin-bottom: 12px;

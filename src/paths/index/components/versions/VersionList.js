@@ -31,49 +31,15 @@ export default class VersionList extends LitElement {
           }
 
           :host .version-list-sub {
+            background-color: rgba(0, 0, 0, 0.08);
             filter: saturate(0.35) brightness(1.0);
-            margin: 4px 0 4px 12px;
+            padding: 4px 0 4px 12px;
           }
           @media (prefers-color-scheme: dark) {
             :host .version-list-sub {
+              background-color: rgba(255, 255, 255, 0.08);
               filter: saturate(0.15) brightness(1.1);
             }
-          }
-
-          :host .branch-selector {
-            display: none;
-            position: absolute;
-            top: 32px;
-            left: 0;
-            right: 0;
-            flex-direction: column;
-            gap: 4px;
-            background-color: var(--g-background-extra2-color);
-            border-top: 2px solid var(--g-background-color);
-            border-bottom: 2px solid var(--g-background-color);
-            padding: 10px 14px;
-          }
-          :host .branch-selector.branch-selector--active {
-            display: flex;
-          }
-
-          :host .branch-selector ul {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-            gap: 2px;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-          }
-
-          :host .branch-selector ul li {
-            color: var(--link-font-color);
-            cursor: pointer;
-            padding: 2px 0;
-          }
-          :host .branch-selector ul li:hover {
-            color: var(--link-font-color-hover);
           }
 
           @media only screen and (max-width: 900px) {
@@ -83,22 +49,6 @@ export default class VersionList extends LitElement {
 
             :host .version-list {
               width: 100% !important;
-            }
-
-            :host .branch-selector {
-              border-top-width: 4px;
-              border-bottom-width: 4px;
-              font-size: 105%;
-              padding: 16px 24px;
-              top: 40px;
-            }
-
-            :host .branch-selector ul {
-              gap: 4px;
-            }
-
-            :host .branch-selector ul li {
-              padding: 4px 8px;
             }
           }
         `;
@@ -170,7 +120,7 @@ export default class VersionList extends LitElement {
                                 @iconclick="${this._onItemIconClicked.bind(this, "main", item.name, "")}"
                             ></gr-version-item>
 
-                            ${(this.toggledVersions.includes(item.name)) ? 
+                            ${(this.toggledVersions.includes(item.name)) ?
                               html`
                                 <div class="version-list-sub">
                                     ${item.releases.map((release) => {
@@ -183,7 +133,7 @@ export default class VersionList extends LitElement {
                                                 @click="${this._onItemClicked.bind(this, "sub", item.name, release.name)}"
                                                 @iconclick="${this._onItemIconClicked.bind(this, "sub", item.name, release.name)}"
                                             ></gr-version-item>
-                                        `; 
+                                        `;
                                     })}
                                 </div>
                               ` : null
