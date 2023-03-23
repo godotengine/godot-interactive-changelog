@@ -4,6 +4,7 @@ import ChangesToolbar from "./ChangesToolbar"
 import PullRequestItem from "./PullRequestItem";
 import CommitItem from "./CommitItem";
 import AuthorItem from "./AuthorItem";
+import ReleaseNotesItem from './ReleaseNotesItem';
 
 @customElement('gr-changes-list')
 export default class ChangesList extends LitElement {
@@ -161,7 +162,7 @@ export default class ChangesList extends LitElement {
         filteredCommit.authors = this._getAuthors(authorIds);
 
         this._filtered_commits.push(filteredCommit);
-        this._appendAuthors(filteredCommit.authors, commit);
+        this._appendAuthors(filteredCommit.authors, filteredCommit.commit);
     }
 
     _appendPull(pull, originalPull) {
@@ -196,7 +197,7 @@ export default class ChangesList extends LitElement {
         filteredPull.authors = this._getAuthors(authorIds);
 
         this._filtered_pulls.push(filteredPull);
-        this._appendAuthors(filteredPull.authors, null, pull);
+        this._appendAuthors(filteredPull.authors, null, filteredPull.pull);
     }
 
     _appendAuthors(authors, commit = null, pull = null) {
@@ -351,6 +352,13 @@ export default class ChangesList extends LitElement {
                         />
                     `;
                 }) : null}
+
+                ${this._viewMode === "release-notes" ? html`
+                    <gr-release-notes
+                        .pulls="${this._filtered_pulls.map(item => item.pull)}"
+                        .repository="${this.selectedRepository}"
+                    ></gr-release-notes>
+                ` : null}
             </div>
         `;
     }

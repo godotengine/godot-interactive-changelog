@@ -99,6 +99,24 @@ export default class ChangesToolbar extends LitElement {
             color: var(--link-font-color-inactive);
           }
 
+          :host .changes-release-notes {
+            background-image: url('release-notes.svg');
+            background-size: 20px 20px;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            border-radius: 2px;
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            filter: brightness(0.85);
+          }
+
+          @media (prefers-color-scheme: light) {
+            :host .changes-release-notes {
+                filter: invert(1);
+            }
+          }
+
           @media only screen and (max-width: 900px) {
             :host .changes-count {
               font-size: 17px;
@@ -218,6 +236,16 @@ export default class ChangesToolbar extends LitElement {
                         <span class="changes-count-label">
                             ${(this.author_count === 1 ? "contributor" : "contributors")}
                         </span>
+                    </div>
+
+                    <div style="flex-grow:1"></div>
+
+                    <div
+                        class="changes-count ${(this.current_mode === "release-notes" ? "changes-count--active" : "")}"
+                        title="Show changes in the form of release notes"
+                        @click="${this._onModeClicked.bind(this, "release-notes")}"
+                    >
+                        <span class="changes-release-notes"></span>
                     </div>
                 </div>
             </div>

@@ -94,15 +94,6 @@ export default class AuthorItem extends LitElement {
             display: block;
           }
 
-          :host .item-changes-link:before {
-            content: "[";
-            color: var(--dimmed-font-color);
-          }
-          :host .item-changes-link:after {
-            content: "]";
-            color: var(--dimmed-font-color);
-          }
-
           :host .item-links {
             display: flex;
             flex-direction: column;
@@ -189,11 +180,11 @@ export default class AuthorItem extends LitElement {
                                 return html`
                                     <li>
                                         <code>
-                                            <a
+                                            [<a
                                                 class="item-changes-link"
                                                 href="https://github.com/${this.repository}/commit/${item.hash}"
                                                 target="_blank"
-                                            >${item.hash.substring(0, 9)}</a>
+                                            >${item.hash.substring(0, 9)}</a>]
                                         </code>
                                         <span>
                                             ${item.summary}
@@ -206,16 +197,16 @@ export default class AuthorItem extends LitElement {
                             ${this.pulls.map((item) => {
                                 return html`
                                     <li>
-                                        <code>
-                                            <a
-                                                class="item-changes-link"
-                                                href="https://github.com/${this.repository}/pull/${item.public_id}"
-                                                target="_blank"
-                                            >GH-${item.public_id}</a>
-                                        </code>
                                         <span>
                                             ${item.title}
                                         </span>
+                                        <code>
+                                            (<a
+                                                class="item-changes-link"
+                                                href="https://github.com/${this.repository}/pull/${item.public_id}"
+                                                target="_blank"
+                                            >GH-${item.public_id}</a>)
+                                        </code>
                                     </li>
                                 `;
                             })}
