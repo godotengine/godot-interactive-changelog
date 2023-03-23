@@ -73,8 +73,6 @@ export default class IndexDescription extends LitElement {
                     <br>
                     You can browse changes related to every release by commit, by PR, or
                     by author.
-                    <br>
-                    You can also copy changelogs as text.
                 </div>
                 <div class="header-description-column header-extra-links">
                 </div>

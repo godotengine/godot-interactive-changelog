@@ -68,8 +68,19 @@ export default class PullRequestItem extends LitElement {
             :host {
               padding: 14px 0 20px 0;
             }
+          }
+
+          @media only screen and (max-width: 640px) {
+            :host .item-container {
+                padding: 0 10px;
+            }
+
             :host .item-meta {
-              flex-wrap: wrap;
+              flex-direction: column;
+            }
+
+            :host .item-people {
+                text-align: left;
             }
           }
         `;

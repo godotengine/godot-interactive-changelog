@@ -185,7 +185,6 @@ export default class EntryComponent extends LitElement {
         const [...loadingVersions] = this._loadingVersions;
 
         let version = {};
-        let commitLog = [];
         let authors = {};
         let commits = {};
         let pulls = {};
@@ -194,7 +193,6 @@ export default class EntryComponent extends LitElement {
             const versionData = this._versionData[this._selectedVersion];
 
             version = versionData.config;
-            commitLog = versionData.log;
             authors = versionData.authors;
             commits = versionData.commits;
             pulls = versionData.pulls;
@@ -221,7 +219,6 @@ export default class EntryComponent extends LitElement {
                         ${(this._selectedVersion !== "" ? html`
                             <gr-changes-list
                                 .version=${version}
-                                .log="${commitLog}"
                                 .authors="${authors}"
                                 .commits="${commits}"
                                 .pulls="${pulls}"

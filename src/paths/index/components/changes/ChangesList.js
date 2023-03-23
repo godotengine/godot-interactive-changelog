@@ -52,7 +52,6 @@ export default class ChangesList extends LitElement {
     }
 
     @property({ type: Object }) version = {};
-    @property({ type: Array }) log = [];
     @property({ type: Object }) authors = {};
     @property({ type: Object }) commits = {};
     @property({ type: Object }) pulls = {};
@@ -68,6 +67,10 @@ export default class ChangesList extends LitElement {
         this._viewMode = "pulls";
 
         this._active_log = [];
+        this._version_ref = "";
+        this._version_from_ref = "";
+        this._version_article = "";
+
         this._filtered_commits = [];
         this._filtered_pulls = [];
         this._filtered_authors = [];
@@ -81,12 +84,18 @@ export default class ChangesList extends LitElement {
 
         // Default to the main log of the version.
         this._active_log = this.version.commit_log;
+        this._version_ref = this.version.ref;
+        this._version_from_ref = this.version.from_ref;
+        this._version_article = this.version.article;
 
         // But if we're in a specific release, find its log.
         if (this.selectedRelease !== "") {
             for (let release of this.version.releases) {
                 if (release.name === this.selectedRelease) {
                     this._active_log = release.commit_log;
+                    this._version_ref = release.ref;
+                    this._version_from_ref = release.from_ref;
+                    this._version_article = release.article;
                     break;
                 }
             }
@@ -239,6 +248,13 @@ export default class ChangesList extends LitElement {
                     .pull_count="${this._filtered_pulls.length}"
                     .commit_count="${this._filtered_commits.length}"
                     .author_count="${this._filtered_authors.length}"
+                    .repository="${this.selectedRepository}"
+
+                    .version_name="${this.selectedVersion}"
+                    .release_name="${this.selectedRelease}"
+                    .version_ref="${this._version_ref}"
+                    .version_from_ref="${this._version_from_ref}"
+                    .version_article="${this._version_article}"
 
                     .current_mode="${this._viewMode}"
                     @modechange="${this._onModeChanged}"
