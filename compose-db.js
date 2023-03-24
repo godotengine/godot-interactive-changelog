@@ -17,6 +17,7 @@ const LogFormat = {
 };
 
 const COMMITS_PER_PAGE = 150;
+const API_DELAY_MSEC = 2500;
 const API_RATE_LIMIT = `
   rateLimit {
     limit
@@ -82,6 +83,10 @@ class DataFetcher {
         });
     }
 
+    async delay(msec) {
+        return new Promise(resolve => setTimeout(resolve, msec));
+    }
+
     async checkoutRepo(atCommit) {
         try {
             // Make sure that the temp folder exists and is empty.
@@ -125,7 +130,7 @@ class DataFetcher {
         }
     }
 
-    async fetchGithub(query) {
+    async fetchGithub(query, retries = 0) {
         const init = {};
         init.method = "POST";
         init.headers = {};
@@ -140,7 +145,18 @@ class DataFetcher {
             query,
         });
 
-        return await fetch("https://api.github.com/graphql", init);
+        let res = await fetch("https://api.github.com/graphql", init);
+        let attempt = 0;
+        while (res.status !== 200 && attempt < retries) {
+            attempt += 1;
+            console.log(`    Failed with status ${res.status}, retrying (${attempt}/${retries})...`);
+
+            // GitHub API is flaky, so we add an extra delay to let it calm down a bit.
+            await this.delay(API_DELAY_MSEC);
+            res = await fetch("https://api.github.com/graphql", init);
+        }
+
+        return res;
     }
 
     async fetchGithubRest(query) {
@@ -271,7 +287,7 @@ class DataFetcher {
 
             console.log(`    Requesting batch ${page}/${totalPages} of commit and pull request data.`);
 
-            const res = await this.fetchGithub(query);
+            const res = await this.fetchGithub(query, 2);
             if (res.status !== 200) {
                 this._handleResponseErrors(this.api_repository_id, res);
                 process.exitCode = ExitCodes.RequestFailure;
@@ -291,7 +307,8 @@ class DataFetcher {
             }
 
             const rate_limit = data.data["rateLimit"];
-            console.log(`    [$${rate_limit.cost}][${rate_limit.nodeCount}] Retrieved ${Object.keys(commit_data).length} commits; processing...`);
+            console.log(`    [$${rate_limit.cost}][${rate_limit.nodeCount}] Retrieved ${Object.keys(commit_data).length} commits.`);
+            console.log(`    --`);
             return commit_data;
         } catch (err) {
             console.error("    Error fetching pull request data: " + err);
@@ -497,11 +514,16 @@ class DataProcessor {
     processCommits(commitsRaw, targetRepo) {
         try {
             for (let commitHash in commitsRaw) {
-                if (typeof this.commits[commitHash] === "undefined") {
-                    throw new Error(`Received data for a commit hash "${commitHash}", but this commit is unknown.`);
+                if (commitsRaw[commitHash] == null) {
+                    console.warn(`    Requested data for a commit hash "${commitHash}", but received nothing.`);
+                    continue;
                 }
-                const commit = this.commits[commitHash];
+                if (typeof this.commits[commitHash] === "undefined") {
+                    console.warn(`    Received data for a commit hash "${commitHash}", but this commit is unknown.`);
+                    continue;
+                }
                 const item = commitsRaw[commitHash];
+                const commit = this.commits[commitHash];
 
                 // Commits can have multiple authors, we will list all of them. Also, associated PRs
                 // can be authored by somebody else entirely. We will store them with the PR, and will
@@ -579,7 +601,7 @@ class DataProcessor {
                 });
             }
         } catch (err) {
-            console.error("    Error parsing pull request data: " + err);
+            console.error("    Error parsing commit and pull request data: " + err);
             process.exitCode = ExitCodes.ParseFailure;
         }
     }
@@ -723,9 +745,6 @@ async function main() {
             process.exit();
         }
     };
-    const delay = async (msec) => {
-        return new Promise(resolve => setTimeout(resolve, msec));
-    }
 
     // Getting PRs between two commits is a complicated task, and must be done in
     // multiple steps. GitHub API does not have a method for that, so we must improvise.
@@ -795,31 +814,41 @@ async function main() {
     // in batches, so the number of nodes in each request is manageable.
 
     console.log("[*] Fetching commit data from GitHub.");
+    let commitsRaw = {};
 
     const totalPages = Math.ceil(commitHashes.length / COMMITS_PER_PAGE);
     // Pages are starting with 1 for better presentation.
     let page = 1;
     while (page <= totalPages) {
         const batchHashes = commitHashes.splice(0, COMMITS_PER_PAGE);
-        const commitsRaw = await dataFetcher.fetchCommits(batchHashes, page, totalPages);
+        const batchCommits = await dataFetcher.fetchCommits(batchHashes, page, totalPages);
         checkForExit();
 
-        // Fourth, we consolidate the information. Commits are populated with links to their
-        // respective PRs, and PRs store references to their commits. We will save this to
-        // a file for the specified range, which should be between two stable releases.
-        //
-        // For intermediate releases (developer previews) we have preconfigured hashes and
-        // can simply pass them to the final data. Frontend will handle the rest.
-
-        dataProcessor.processCommits(commitsRaw, `${dataIO.data_owner}/${dataIO.data_repo}`);
-        checkForExit();
-
+        Object.assign(commitsRaw, batchCommits);
         page++;
 
         // Wait for a bit before proceeding to avoid hitting the secondary rate limit in GitHub API.
         // See https://docs.github.com/en/rest/guides/best-practices-for-integrators#dealing-with-secondary-rate-limits.
-        await delay(1500);
+        await dataFetcher.delay(API_DELAY_MSEC);
+
+        // Add an extra delay every few requests, because the chance to trigger the hidden rate issue
+        // seems to grow with the number of queries.
+        if (page % 8 === 0) {
+            console.log("[*] Waiting a bit for the API to cool down...");
+            await dataFetcher.delay(API_DELAY_MSEC * 4);
+        }
     }
+
+    // Fourth, we consolidate the information. Commits are populated with links to their
+    // respective PRs, and PRs store references to their commits. We will save this to
+    // a file for the specified range, which should be between two stable releases.
+    //
+    // For intermediate releases (developer previews) we have preconfigured hashes and
+    // can simply pass them to the final data. Frontend will handle the rest.
+
+    console.log(`[*] Processing ${Object.keys(commitsRaw).length} commits.`);
+    dataProcessor.processCommits(commitsRaw, `${dataIO.data_owner}/${dataIO.data_repo}`);
+    checkForExit();
 
     console.log("[*] Checking the rate limits after.")
     await dataFetcher.checkRates();

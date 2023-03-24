@@ -77,7 +77,7 @@ async function publishConfigs() {
 
             await fs.access(configPath, fsConstants.R_OK);
             const configContent = await fs.readFile(configPath);
-            
+
             const config = JSON.parse(configContent);
             const [ config_owner, config_repo ] = nameBits;
 
@@ -101,10 +101,16 @@ async function publishConfigs() {
         const envalueVersion = (versionString) => {
             let value = 0;
             const versionBits = versionString.split(".");
+            while (versionBits.length < 4) {
+                // Make sure we have exactly 4 values in the version. Normally Godot
+                // versions are either X.Y or X.Y.Z, but there are exceptions, so we
+                // normalize the size to match them.
+                versionBits.push("0");
+            }
 
             let i = 0;
             while (versionBits.length > 0) {
-                value += versionBits.pop() * Math.pow(100, i);
+                value += parseInt(versionBits.pop(), 10) * Math.pow(100, i);
                 i++;
             }
 
