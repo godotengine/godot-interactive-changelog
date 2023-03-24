@@ -107,11 +107,18 @@ export default class VersionList extends LitElement {
         return html`
             <div class="version-list">
                 ${this.versions.map((item) => {
+                    let versionFlavor = "patch";
+                    let versionBits = item.name.split(".");
+                    if (versionBits.length === 2) {
+                        versionFlavor = (versionBits[1] === "0" ? "major" : "minor");
+                    }
+
                     return html`
                         <div class="version-list-main">
                             <gr-version-item
                                 .name="${item.name}"
                                 .type="${"main"}"
+                                .flavor="${versionFlavor}"
                                 .pull_count="${item.commit_log.length}"
                                 ?active="${this.selectedVersion === item.name}"
                                 ?expanded="${this.toggledVersions.includes(item.name)}"
@@ -128,6 +135,7 @@ export default class VersionList extends LitElement {
                                             <gr-version-item
                                                 .name="${release.name}"
                                                 .type="${"sub"}"
+                                                .flavor="${"preview"}"
                                                 .pull_count="${release.commit_log.length}"
                                                 ?active="${this.selectedVersion === item.name && this.selectedRelease === release.name}"
                                                 @click="${this._onItemClicked.bind(this, "sub", item.name, release.name)}"

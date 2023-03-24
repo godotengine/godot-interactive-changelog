@@ -13,8 +13,8 @@ export default class VersionItem extends LitElement {
           @media (prefers-color-scheme: dark) {
             :host {
               --tab-hover-background-color: rgba(255, 255, 255, 0.14);
-              --tab-active-background-color: #2c3c55;
-              --tab-active-border-color: #397adf;
+              --tab-active-background-color: #283446;
+              --tab-active-border-color: #5394f9;
             }
           }
 
@@ -79,6 +79,12 @@ export default class VersionItem extends LitElement {
             overflow: hidden;
           }
 
+          :host .version-item--major .version-title,
+          :host .version-item--minor .version-title {
+            font-weight: 600;
+            color: var(--tab-active-border-color);
+          }
+
           :host .version-pull-count {
             color: var(--dimmed-font-color);
             flex-grow: 1;
@@ -141,6 +147,7 @@ export default class VersionItem extends LitElement {
     @property({ type: String }) path = "";
     @property({ type: String, reflect: true }) name = "";
     @property({ type: String, reflect: true }) type = "";
+    @property({ type: String, reflect: true }) flavor = "";
     @property({ type: Boolean, reflect: true }) active = false;
     @property({ type: Boolean, reflect: true }) expanded = false;
     @property({ type: Boolean, reflect: true }) loading = false;
@@ -153,7 +160,7 @@ export default class VersionItem extends LitElement {
     }
 
     render(){
-        const classList = [ "version-item", "version-item--" + this.type ];
+        const classList = [ "version-item", "version-item--" + this.type, "version-item--" + this.flavor ];
         if (this.active) {
             classList.push("version-item--active");
         }
