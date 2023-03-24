@@ -1,0 +1,15 @@
+{
+    "name": "2.1",
+    "ref": "2.1-stable",
+    "from_ref": "2.0-stable",
+    "article": "https://godotengine.org/article/godot-reaches-2-1-stable/",
+
+    "releases": [
+        {
+            "name": "stable",
+            "ref": "2.1-stable",
+            "from_ref": "2.0-stable",
+            "article": "https://godotengine.org/article/godot-reaches-2-1-stable/"
+        }
+    ]
+}

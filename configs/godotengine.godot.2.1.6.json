@@ -1,0 +1,21 @@
+{
+    "name": "2.1.6",
+    "ref": "2.1.6-stable",
+    "from_ref": "2.1.5-stable",
+    "article": "https://godotengine.org/article/maintenance-release-godot-2-1-6/",
+
+    "releases": [
+        {
+            "name": "rc1",
+            "ref": "9ef833ec6d275e6271811f256acf23e29b2ccc33",
+            "from_ref": "2.1.5-stable",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-2-1-6-rc-1/"
+        },
+        {
+            "name": "stable",
+            "ref": "2.1.6-stable",
+            "from_ref": "9ef833ec6d275e6271811f256acf23e29b2ccc33",
+            "article": "https://godotengine.org/article/maintenance-release-godot-2-1-6/"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "2.1.1",
+    "ref": "2.1.1-stable",
+    "from_ref": "2.1-stable",
+    "article": "https://godotengine.org/article/maintenance-release-godot-2-1-1/",
+
+    "releases": [
+        {
+            "name": "stable",
+            "ref": "2.1.1-stable",
+            "from_ref": "2.1-stable",
+            "article": "https://godotengine.org/article/maintenance-release-godot-2-1-1/"
+        }
+    ]
+}
