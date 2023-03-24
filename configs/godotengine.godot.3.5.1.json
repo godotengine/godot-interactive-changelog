@@ -6,9 +6,21 @@
 
     "releases": [
         {
+            "name": "rc1",
+            "ref": "293c3844b3424b4a64d6245f99145266101a146f",
+            "from_ref": "3.5-stable",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-5-1-rc-1/"
+        },
+        {
+            "name": "rc2",
+            "ref": "ea5d5704d605decaadcc7099da53eb76ea72d883",
+            "from_ref": "293c3844b3424b4a64d6245f99145266101a146f",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-5-1-rc-2/"
+        },
+        {
             "name": "stable",
             "ref": "3.5.1-stable",
-            "from_ref": "3.5-stable",
+            "from_ref": "ea5d5704d605decaadcc7099da53eb76ea72d883",
             "article": "https://godotengine.org/article/maintenance-release-godot-3-5-1/"
         }
     ]
