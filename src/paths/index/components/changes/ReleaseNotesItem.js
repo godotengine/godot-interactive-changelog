@@ -185,10 +185,10 @@ export default class ReleaseNotesItem extends LitElement {
 
                 // Besides topical labels, we can also check some other ones.
                 if (!topicFound) {
-                    if (allLabels.indexOf("documentation")) {
+                    if (allLabels.indexOf("documentation") >= 0) {
                         groupName = "documentation";
                     }
-                    else if (allLabels.indexOf("usability")) {
+                    else if (allLabels.indexOf("usability") >= 0) {
                         groupName = "editor";
                     }
                 }

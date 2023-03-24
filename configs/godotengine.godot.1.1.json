@@ -1,0 +1,15 @@
+{
+    "name": "1.1",
+    "ref": "1.1-stable",
+    "from_ref": "1.0-stable",
+    "article": "https://godotengine.org/article/godot-1-1-out/",
+
+    "releases": [
+        {
+            "name": "stable",
+            "ref": "1.1-stable",
+            "from_ref": "1.0-stable",
+            "article": "https://godotengine.org/article/godot-1-1-out/"
+        }
+    ]
+}

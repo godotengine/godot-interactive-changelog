@@ -1,0 +1,15 @@
+{
+    "name": "1.0",
+    "ref": "1.0-stable",
+    "from_ref": "0b806ee0fc9097fa7bda7ac0109191c9c5e0a1ac",
+    "article": "https://godotengine.org/article/godot-engine-reaches-1-0/",
+
+    "releases": [
+        {
+            "name": "stable",
+            "ref": "1.0-stable",
+            "from_ref": "0b806ee0fc9097fa7bda7ac0109191c9c5e0a1ac",
+            "article": "https://godotengine.org/article/godot-engine-reaches-1-0/"
+        }
+    ]
+}
