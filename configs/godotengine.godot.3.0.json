@@ -1,0 +1,57 @@
+{
+    "name": "3.0",
+    "ref": "3.0-stable",
+    "from_ref": "2.0-stable",
+    "article": "https://godotengine.org/article/godot-3-0-released/",
+
+    "releases": [
+        {
+            "name": "alpha1",
+            "ref": "be5adec2868983d2ec958e626ba451fbfba0b761",
+            "from_ref": "2.0-stable",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-0-alpha-1/"
+        },
+        {
+            "name": "alpha2",
+            "ref": "f021b0038940ecc03aa43721f03b3b3f283e00ed",
+            "from_ref": "be5adec2868983d2ec958e626ba451fbfba0b761",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-0-alpha-2/"
+        },
+        {
+            "name": "beta1",
+            "ref": "9725f33ac606ed4b26573015bcfdb86ed6741323",
+            "from_ref": "f021b0038940ecc03aa43721f03b3b3f283e00ed",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-0-beta-1/"
+        },
+        {
+            "name": "beta2",
+            "ref": "0b1e6ec2195a22ad66513685d0c0850eaeb9b528",
+            "from_ref": "9725f33ac606ed4b26573015bcfdb86ed6741323",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-0-beta-2/"
+        },
+        {
+            "name": "rc1",
+            "ref": "6a4521da2ae0b08f42001c2c38396b28a2549c14",
+            "from_ref": "0b1e6ec2195a22ad66513685d0c0850eaeb9b528",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-0-rc-1/"
+        },
+        {
+            "name": "rc2",
+            "ref": "fe2932a969cdc0483c31c12c1f8bfd5868401da8",
+            "from_ref": "6a4521da2ae0b08f42001c2c38396b28a2549c14",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-0-rc-2/"
+        },
+        {
+            "name": "rc3",
+            "ref": "59e83af201af5a93c7a13750d781c050c2275c07",
+            "from_ref": "fe2932a969cdc0483c31c12c1f8bfd5868401da8",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-0-rc-3/"
+        },
+        {
+            "name": "stable",
+            "ref": "3.0-stable",
+            "from_ref": "59e83af201af5a93c7a13750d781c050c2275c07",
+            "article": "https://godotengine.org/article/godot-3-0-released/"
+        }
+    ]
+}

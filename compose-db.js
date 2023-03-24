@@ -18,6 +18,7 @@ const LogFormat = {
 
 const COMMITS_PER_PAGE = 150;
 const API_DELAY_MSEC = 2500;
+const API_MAX_RETRIES = 5;
 const API_RATE_LIMIT = `
   rateLimit {
     limit
@@ -27,6 +28,8 @@ const API_RATE_LIMIT = `
     resetAt
   }
 `;
+
+const EXEC_MAX_BUFFER = 1024 * 1024 * 32;
 
 const GIT_HEAD_COMMIT_RE = RegExp("^commit ([a-zA-Z0-9-_]+)$");
 const GIT_HEAD_MERGE_RE = RegExp("^Merge: (.+) (.+)$");
@@ -94,7 +97,7 @@ class DataFetcher {
             await clearDir("./temp");
 
             // Checkout a shallow clone of the repository; we are only interested in its history.
-            await exec(`git clone --filter=tree:0 --branch ${atCommit} --single-branch ${this.repo_ssh_path}`, { cwd: "./temp" });
+            await exec(`git clone --filter=tree:0 --branch ${atCommit} --single-branch ${this.repo_ssh_path}`, { cwd: "./temp", maxBuffer: EXEC_MAX_BUFFER });
         } catch (err) {
             console.error("    Error checking out a copy of the target repository: " + err);
             process.exitCode = ExitCodes.ExecFailure;
@@ -104,7 +107,7 @@ class DataFetcher {
 
     async countCommitHistory(fromCommit, toCommit) {
         try {
-            const { stdout, stderr } = await exec(`git log --pretty=oneline ${fromCommit}..${toCommit}`, { cwd: `./temp/${this.data_repo}` });
+            const { stdout, stderr } = await exec(`git log --pretty=oneline ${fromCommit}..${toCommit}`, { cwd: `./temp/${this.data_repo}`, maxBuffer: EXEC_MAX_BUFFER });
 
             const commitHistory = stdout.trimEnd();
             await this._logResponse(commitHistory, "_commit_shortlog", LogFormat.Raw);
@@ -118,7 +121,7 @@ class DataFetcher {
 
     async getCommitHistory(fromCommit, toCommit) {
         try {
-            const { stdout, stderr } = await exec(`git log --pretty=full ${fromCommit}..${toCommit}`, { cwd: `./temp/${this.data_repo}` });
+            const { stdout, stderr } = await exec(`git log --pretty=full ${fromCommit}..${toCommit}`, { cwd: `./temp/${this.data_repo}`, maxBuffer: EXEC_MAX_BUFFER });
 
             const commitHistory = stdout;
             await this._logResponse(commitHistory, "_commit_history", LogFormat.Raw);
@@ -287,7 +290,7 @@ class DataFetcher {
 
             console.log(`    Requesting batch ${page}/${totalPages} of commit and pull request data.`);
 
-            const res = await this.fetchGithub(query, 2);
+            const res = await this.fetchGithub(query, API_MAX_RETRIES);
             if (res.status !== 200) {
                 this._handleResponseErrors(this.api_repository_id, res);
                 process.exitCode = ExitCodes.RequestFailure;
@@ -543,7 +546,7 @@ class DataProcessor {
 
                 const pullsRaw = mapNodes(item.associatedPullRequests)
                     .filter((pullData) => {
-                        return pullData.baseRef.repository.nameWithOwner === targetRepo;
+                        return pullData.baseRef && pullData.baseRef.repository.nameWithOwner === targetRepo;
                     });
                 if (pullsRaw.length === 0) {
                     continue;
@@ -742,6 +745,7 @@ async function main() {
     // Internal utility methods.
     const checkForExit = () => {
         if (process.exitCode > 0) {
+            console.log(`   Terminating with an exit code ${process.exitCode}.`);
             process.exit();
         }
     };

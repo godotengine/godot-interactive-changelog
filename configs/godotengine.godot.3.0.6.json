@@ -1,0 +1,15 @@
+{
+    "name": "3.0.6",
+    "ref": "3.0.6-stable",
+    "from_ref": "3.0.5-stable",
+    "article": "https://godotengine.org/article/maintenance-release-godot-3-0-6/",
+
+    "releases": [
+        {
+            "name": "stable",
+            "ref": "3.0.6-stable",
+            "from_ref": "3.0.5-stable",
+            "article": "https://godotengine.org/article/maintenance-release-godot-3-0-6/"
+        }
+    ]
+}
