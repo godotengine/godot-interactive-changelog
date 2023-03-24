@@ -303,8 +303,16 @@ export default class ChangesList extends LitElement {
                     @modechange="${this._onModeChanged}"
                 ></gr-changes-toolbar>
 
-                ${(this._filtered_pulls.length === 0 ? html`
+                ${(this._viewMode === "pulls" && this._filtered_pulls.length === 0 ? html`
                     <span class="version-changes-empty">This version contains no new changes.</span>
+                ` : null)}
+
+                ${(this._viewMode === "commits" && this._filtered_commits.length === 0 ? html`
+                    <span class="version-changes-empty">This version contains no new commits.</span>
+                ` : null)}
+
+                ${(this._viewMode === "authors" && this._filtered_authors.length === 0 ? html`
+                    <span class="version-changes-empty">This version contains no contributors.</span>
                 ` : null)}
 
                 ${this._viewMode === "pulls" ? this._filtered_pulls.map((item) => {
