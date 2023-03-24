@@ -130,6 +130,8 @@ export default class ReleaseNotesItem extends LitElement {
                 return "GDScript";
             case "gui":
                 return "GUI";
+            case "visualscript":
+                return "VisualScript";
             case "xr":
                 return "XR";
         }
@@ -137,7 +139,7 @@ export default class ReleaseNotesItem extends LitElement {
         return name.charAt(0).toUpperCase() + name.substring(1);
     }
 
-    update(changedProperties) {
+    _updateNotes() {
         this._sorted_notes = [];
 
         const generalTopics = [
@@ -233,6 +235,13 @@ export default class ReleaseNotesItem extends LitElement {
                 });
             });
         });
+    }
+
+    update(changedProperties) {
+        // Only recalculate when class properties change; skip for manual updates.
+        if (changedProperties.size > 0) {
+            this._updateNotes();
+        }
 
         super.update(changedProperties);
     }

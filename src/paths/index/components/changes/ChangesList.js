@@ -266,8 +266,11 @@ export default class ChangesList extends LitElement {
     }
 
     update(changedProperties) {
-        this._updateActiveLog();
-        this._updateLists();
+        // Only recalculate when class properties change; skip for manual updates.
+        if (changedProperties.size > 0) {
+            this._updateActiveLog();
+            this._updateLists();
+        }
 
         super.update(changedProperties);
     }
