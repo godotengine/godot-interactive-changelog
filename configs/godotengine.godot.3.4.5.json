@@ -1,0 +1,21 @@
+{
+    "name": "3.4.5",
+    "ref": "3.4.5-stable",
+    "from_ref": "3.4.4-stable",
+    "article": "https://godotengine.org/article/maintenance-release-godot-3-4-5/",
+
+    "releases": [
+        {
+            "name": "rc1",
+            "ref": "375d9905b59dcb31edca0a83198199449f094eca",
+            "from_ref": "3.4.4-stable",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-4-5-rc-1/"
+        },
+        {
+            "name": "stable",
+            "ref": "3.4.5-stable",
+            "from_ref": "375d9905b59dcb31edca0a83198199449f094eca",
+            "article": "https://godotengine.org/article/maintenance-release-godot-3-4-5/"
+        }
+    ]
+}

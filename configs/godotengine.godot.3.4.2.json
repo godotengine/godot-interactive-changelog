@@ -1,0 +1,15 @@
+{
+    "name": "3.4.2",
+    "ref": "3.4.2-stable",
+    "from_ref": "3.4.1-stable",
+    "article": "https://godotengine.org/article/maintenance-release-godot-3-4-2/",
+
+    "releases": [
+        {
+            "name": "stable",
+            "ref": "3.4.2-stable",
+            "from_ref": "3.4.1-stable",
+            "article": "https://godotengine.org/article/maintenance-release-godot-3-4-2/"
+        }
+    ]
+}

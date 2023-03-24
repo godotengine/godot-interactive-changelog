@@ -1,0 +1,69 @@
+{
+    "name": "3.4",
+    "ref": "3.4-stable",
+    "from_ref": "3.3-stable",
+    "article": "https://godotengine.org/article/godot-3-4-is-released/",
+
+    "releases": [
+        {
+            "name": "beta1",
+            "ref": "207fb165bfd1fefd1b4339c9427a569b19d0dcae",
+            "from_ref": "3.3-stable",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-4-beta-2/"
+        },
+        {
+            "name": "beta2",
+            "ref": "a71169c0e0ed7644b959189522535337bdb6cb2b",
+            "from_ref": "207fb165bfd1fefd1b4339c9427a569b19d0dcae",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-4-beta-2/"
+        },
+        {
+            "name": "beta3",
+            "ref": "8db0bd44249e9cac56cf24c7c192bc782c118638",
+            "from_ref": "a71169c0e0ed7644b959189522535337bdb6cb2b",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-4-beta-3/"
+        },
+        {
+            "name": "beta4",
+            "ref": "6a058cbf3984131f94c8680970f3c184ddecc801",
+            "from_ref": "8db0bd44249e9cac56cf24c7c192bc782c118638",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-4-beta-4/"
+        },
+        {
+            "name": "beta5",
+            "ref": "dd0ee487280d1a6dc4941235cc85bf211cebc444",
+            "from_ref": "6a058cbf3984131f94c8680970f3c184ddecc801",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-4-beta-5/"
+        },
+        {
+            "name": "beta6",
+            "ref": "3e2bb415a9b186596b9ce02debc79590380c2355",
+            "from_ref": "dd0ee487280d1a6dc4941235cc85bf211cebc444",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-4-beta-6/"
+        },
+        {
+            "name": "rc1",
+            "ref": "90f8cd89a738316563dac9b133628df6bafe2cb2",
+            "from_ref": "3e2bb415a9b186596b9ce02debc79590380c2355",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-4-rc-1/"
+        },
+        {
+            "name": "rc2",
+            "ref": "23955fc282b95bcd318034b5de536d42f2a08359",
+            "from_ref": "90f8cd89a738316563dac9b133628df6bafe2cb2",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-4-rc-2/"
+        },
+        {
+            "name": "rc3",
+            "ref": "1a1a450616d00e301057fec3f7247d57e40a77c3",
+            "from_ref": "23955fc282b95bcd318034b5de536d42f2a08359",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-4-rc-3/"
+        },
+        {
+            "name": "stable",
+            "ref": "3.4-stable",
+            "from_ref": "1a1a450616d00e301057fec3f7247d57e40a77c3",
+            "article": "https://godotengine.org/article/godot-3-4-is-released/"
+        }
+    ]
+}
