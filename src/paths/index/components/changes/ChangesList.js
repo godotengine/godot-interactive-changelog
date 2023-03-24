@@ -166,7 +166,7 @@ export default class ChangesList extends LitElement {
     }
 
     _appendPull(pull, originalPull) {
-        if (!pull || !originalPull) {
+        if (!pull && !originalPull) {
             return;
         }
 
