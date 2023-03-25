@@ -1,0 +1,57 @@
+{
+    "name": "3.2.3",
+    "ref": "3.2.3-stable",
+    "from_ref": "3.2.2-stable",
+    "article": "https://godotengine.org/article/maintenance-release-godot-3-2-3/",
+
+    "releases": [
+        {
+            "name": "beta1",
+            "ref": "89f57ae12244f3269c9e3fe4684e16ec1fd2c989",
+            "from_ref": "3.2.2-stable",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-2-3-beta-1/"
+        },
+        {
+            "name": "rc1",
+            "ref": "a24e30abd7b1bc226dc1231ef2b8eb5a9ee50df6",
+            "from_ref": "89f57ae12244f3269c9e3fe4684e16ec1fd2c989",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-2-3-rc-1/"
+        },
+        {
+            "name": "rc2",
+            "ref": "ac2e7d87d1c398db9c796afba6973a2f170ddfa2",
+            "from_ref": "a24e30abd7b1bc226dc1231ef2b8eb5a9ee50df6",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-2-3-rc-2/"
+        },
+        {
+            "name": "rc3",
+            "ref": "23b553ba0603161346526e1821bff5002520173c",
+            "from_ref": "ac2e7d87d1c398db9c796afba6973a2f170ddfa2",
+            "article": "https://godotengine.org/article/release-candidate-3-2-3-rc-3/"
+        },
+        {
+            "name": "rc4",
+            "ref": "dbb0ad3b59e4d9150d41a0f5177069224cb2f837",
+            "from_ref": "23b553ba0603161346526e1821bff5002520173c",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-2-3-rc-4/"
+        },
+        {
+            "name": "rc5",
+            "ref": "d773de6d244116c3ad26f0506a10038cc11019ff",
+            "from_ref": "dbb0ad3b59e4d9150d41a0f5177069224cb2f837",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-2-3-rc-5/"
+        },
+        {
+            "name": "rc6",
+            "ref": "8c5ed688476da64cbea17b34f1eacc76bac1d9c7",
+            "from_ref": "d773de6d244116c3ad26f0506a10038cc11019ff",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-2-3-rc-6/"
+        },
+        {
+            "name": "stable",
+            "ref": "3.2.3-stable",
+            "from_ref": "8c5ed688476da64cbea17b34f1eacc76bac1d9c7",
+            "article": "https://godotengine.org/article/maintenance-release-godot-3-2-3/"
+        }
+    ]
+}
