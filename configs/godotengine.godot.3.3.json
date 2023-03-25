@@ -1,0 +1,105 @@
+{
+    "name": "3.3",
+    "ref": "3.3-stable",
+    "from_ref": "3.2.3-stable",
+    "article": "https://godotengine.org/article/godot-3-3-has-arrived/",
+
+    "releases": [
+        {
+            "name": "beta1",
+            "ref": "2e073ecbeaf5b502c2b8c3c0510e4a22a56db58f",
+            "from_ref": "3.2.3-stable",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-2-4-beta-1/"
+        },
+        {
+            "name": "beta2",
+            "ref": "04103db6bd5694b81ab0a1717fc5fdde6cb5dd4f",
+            "from_ref": "2e073ecbeaf5b502c2b8c3c0510e4a22a56db58f",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-2-4-beta-2/"
+        },
+        {
+            "name": "beta3",
+            "ref": "b9b773c3f0e7d895b2aaf2c8712b7d55ad0a05dd",
+            "from_ref": "04103db6bd5694b81ab0a1717fc5fdde6cb5dd4f",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-2-4-beta-3/"
+        },
+        {
+            "name": "beta4",
+            "ref": "b5e8b48bb7de2e3cfe8205af9d375eae050c60e6",
+            "from_ref": "b9b773c3f0e7d895b2aaf2c8712b7d55ad0a05dd",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-2-4-beta-4/"
+        },
+        {
+            "name": "beta5",
+            "ref": "a18df71789a36b318c40d691efdb4da1e574bbfd",
+            "from_ref": "b5e8b48bb7de2e3cfe8205af9d375eae050c60e6",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-2-4-beta-5/"
+        },
+        {
+            "name": "beta6",
+            "ref": "7e207cfd48d6077ac6aaa3c45423d3fcf2f90bd7",
+            "from_ref": "a18df71789a36b318c40d691efdb4da1e574bbfd",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-2-4-beta-6/"
+        },
+        {
+            "name": "rc1",
+            "ref": "dae72fcdd50094ef909ab99b7d19e46cdec463d5",
+            "from_ref": "7e207cfd48d6077ac6aaa3c45423d3fcf2f90bd7",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-2-4-rc-1/"
+        },
+        {
+            "name": "rc2",
+            "ref": "9918fd722e3e555cb174f9806cdb38b6e8b0c2b7",
+            "from_ref": "dae72fcdd50094ef909ab99b7d19e46cdec463d5",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-2-4-rc-2/"
+        },
+        {
+            "name": "rc3",
+            "ref": "4f891b706027dc800f6949bec413f448defdd20d",
+            "from_ref": "9918fd722e3e555cb174f9806cdb38b6e8b0c2b7",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-2-4-rc-3/"
+        },
+        {
+            "name": "rc4",
+            "ref": "dc99f04d51d6556e5ba4d9cfcce8117d168ac6f1",
+            "from_ref": "4f891b706027dc800f6949bec413f448defdd20d",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-2-4-rc-4/"
+        },
+        {
+            "name": "rc5",
+            "ref": "b169a16cb51b7203a171245acb5b4193c9d4bca4",
+            "from_ref": "dc99f04d51d6556e5ba4d9cfcce8117d168ac6f1",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-2-4-rc-5/"
+        },
+        {
+            "name": "rc6",
+            "ref": "15ff752737c53a1727cbc011068afa15683509be",
+            "from_ref": "b169a16cb51b7203a171245acb5b4193c9d4bca4",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-3-rc-6/"
+        },
+        {
+            "name": "rc7",
+            "ref": "cca2637b9b9dcb16070eb50a69c601a5f076c683",
+            "from_ref": "15ff752737c53a1727cbc011068afa15683509be",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-3-rc-7/"
+        },
+        {
+            "name": "rc8",
+            "ref": "b076150b086a5001b190a9a20a425d1bc842fe21",
+            "from_ref": "cca2637b9b9dcb16070eb50a69c601a5f076c683",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-3-rc-8/"
+        },
+        {
+            "name": "rc9",
+            "ref": "00d087e47d9f1d9ae358a19a9ac0862349d391ce",
+            "from_ref": "b076150b086a5001b190a9a20a425d1bc842fe21",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-3-rc-9/"
+        },
+        {
+            "name": "stable",
+            "ref": "3.3-stable",
+            "from_ref": "00d087e47d9f1d9ae358a19a9ac0862349d391ce",
+            "article": "https://godotengine.org/article/godot-3-3-has-arrived/"
+        }
+    ]
+}

@@ -9,79 +9,79 @@
             "name": "beta1",
             "ref": "b9b23d2226261e09d4eaa581c865920c00a826c7",
             "from_ref": "3.4-stable",
-            "article": ""
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-5-beta-1/"
         },
         {
             "name": "beta2",
             "ref": "7a4f9dfb15a6817135e753b286cd5b767119d08b",
             "from_ref": "b9b23d2226261e09d4eaa581c865920c00a826c7",
-            "article": ""
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-5-beta-2/"
         },
         {
             "name": "beta3",
             "ref": "3c0d32562b558b60abe382f2a132f4ea0f25b380",
             "from_ref": "7a4f9dfb15a6817135e753b286cd5b767119d08b",
-            "article": ""
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-5-beta-3/"
         },
         {
             "name": "beta4",
             "ref": "b6968ab0602bfe72c71d4efcafe608f9cac36252",
             "from_ref": "3c0d32562b558b60abe382f2a132f4ea0f25b380",
-            "article": ""
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-5-beta-4/"
         },
         {
             "name": "beta5",
             "ref": "815f7fe636e6937f6ae7d7a9e00a85798afb324b",
             "from_ref": "b6968ab0602bfe72c71d4efcafe608f9cac36252",
-            "article": ""
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-5-beta-5/"
         },
         {
             "name": "rc1",
             "ref": "f33899d5bf3c046392a83d46cbf8c4c71e395550",
             "from_ref": "815f7fe636e6937f6ae7d7a9e00a85798afb324b",
-            "article": ""
+            "article": "https://godotengine.org/article/release-candidate-godot-3-5-rc-1/"
         },
         {
             "name": "rc2",
             "ref": "5f9bc7ea5a8f6bd5229af3bfc8115dd80c5834c5",
             "from_ref": "f33899d5bf3c046392a83d46cbf8c4c71e395550",
-            "article": ""
+            "article": "https://godotengine.org/article/release-candidate-3-5-rc-2/"
         },
         {
             "name": "rc3",
             "ref": "af8a02ddafd64f0195956c74c6a60bf389af278f",
             "from_ref": "5f9bc7ea5a8f6bd5229af3bfc8115dd80c5834c5",
-            "article": ""
+            "article": "https://godotengine.org/article/release-candidate-godot-3-5-rc-3/"
         },
         {
             "name": "rc4",
             "ref": "daf6fdf0b7d9d20be7fcc135eccdb6b40f626455",
             "from_ref": "af8a02ddafd64f0195956c74c6a60bf389af278f",
-            "article": ""
+            "article": "https://godotengine.org/article/release-candidate-godot-3-5-rc-4/"
         },
         {
             "name": "rc5",
             "ref": "ae60597930a306097ddbc6e8ad49eb50471533b4",
             "from_ref": "daf6fdf0b7d9d20be7fcc135eccdb6b40f626455",
-            "article": ""
+            "article": "https://godotengine.org/article/release-candidate-godot-3-5-rc-5/"
         },
         {
             "name": "rc6",
             "ref": "f05cecdc43ebfbe58ca9ed5b44fac888b4109dad",
             "from_ref": "ae60597930a306097ddbc6e8ad49eb50471533b4",
-            "article": ""
+            "article": "https://godotengine.org/article/release-candidate-godot-3-5-rc-6/"
         },
         {
             "name": "rc7",
             "ref": "38b95cc2fd7f898ead8c7be2732a6817eed1fba0",
             "from_ref": "f05cecdc43ebfbe58ca9ed5b44fac888b4109dad",
-            "article": ""
+            "article": "https://godotengine.org/article/release-candidate-godot-3-5-rc-7/"
         },
         {
             "name": "rc8",
             "ref": "516d6b6bad68d506391a4262ba40cbceeea8be22",
             "from_ref": "38b95cc2fd7f898ead8c7be2732a6817eed1fba0",
-            "article": ""
+            "article": "https://godotengine.org/article/release-candidate-godot-3-5-rc-8/"
         },
         {
             "name": "stable",
