@@ -1,0 +1,255 @@
+{
+    "name": "4.0",
+    "ref": "4.0-stable",
+    "from_ref": "3.2-stable",
+    "article": "https://godotengine.org/article/godot-4-0-sets-sail/",
+
+    "releases": [
+        {
+            "name": "alpha1",
+            "ref": "31a7ddbf838572e50415159a56720275f9523262",
+            "from_ref": "3.2-stable",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-alpha-1/"
+        },
+        {
+            "name": "alpha2",
+            "ref": "79077e6c10db9e8e53a8134f72e326f3ffb9c51c",
+            "from_ref": "31a7ddbf838572e50415159a56720275f9523262",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-alpha-2/"
+        },
+        {
+            "name": "alpha3",
+            "ref": "256069eaf00be2340259f896695014d92b1e22ed",
+            "from_ref": "79077e6c10db9e8e53a8134f72e326f3ffb9c51c",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-alpha-3/"
+        },
+        {
+            "name": "alpha4",
+            "ref": "f470979732513436124c01a465b22f948637b5fa",
+            "from_ref": "256069eaf00be2340259f896695014d92b1e22ed",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-alpha-4/"
+        },
+        {
+            "name": "alpha5",
+            "ref": "d7d528c15f0e858b52bb0f510ff47e65c2341de1",
+            "from_ref": "f470979732513436124c01a465b22f948637b5fa",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-alpha-5/"
+        },
+        {
+            "name": "alpha6",
+            "ref": "e4f0fc50f79336cf76beec40e5e8e5164b288714",
+            "from_ref": "d7d528c15f0e858b52bb0f510ff47e65c2341de1",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-alpha-6/"
+        },
+        {
+            "name": "alpha7",
+            "ref": "3e9ead05f2e87e46b5982cc9a140e172ee98c227",
+            "from_ref": "e4f0fc50f79336cf76beec40e5e8e5164b288714",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-alpha-7/"
+        },
+        {
+            "name": "alpha8",
+            "ref": "917fd65748957304c987414c63d54ef4f6972394",
+            "from_ref": "3e9ead05f2e87e46b5982cc9a140e172ee98c227",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-alpha-8/"
+        },
+        {
+            "name": "alpha9",
+            "ref": "d9daf3869f27e2afdacb2744168052ce0d4ae43b",
+            "from_ref": "917fd65748957304c987414c63d54ef4f6972394",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-alpha-9/"
+        },
+        {
+            "name": "alpha10",
+            "ref": "4bbe7f0b98de72d6dd77d5ade4b761de375bcf66",
+            "from_ref": "d9daf3869f27e2afdacb2744168052ce0d4ae43b",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-alpha-10/"
+        },
+        {
+            "name": "alpha11",
+            "ref": "afdae67cc381bb340da2e864279da6b836804b7f",
+            "from_ref": "4bbe7f0b98de72d6dd77d5ade4b761de375bcf66",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-alpha-11/"
+        },
+        {
+            "name": "alpha12",
+            "ref": "2c11e6d9efc42370a8d7537eaff8b1ea78a283e5",
+            "from_ref": "afdae67cc381bb340da2e864279da6b836804b7f",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-alpha-12/"
+        },
+        {
+            "name": "alpha13",
+            "ref": "82811367cb36d3124d4e8c0a9c4c7f82dc64f9e4",
+            "from_ref": "2c11e6d9efc42370a8d7537eaff8b1ea78a283e5",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-alpha-13/"
+        },
+        {
+            "name": "alpha14",
+            "ref": "106b6805018649b13da9e9508e80611f62ed660a",
+            "from_ref": "82811367cb36d3124d4e8c0a9c4c7f82dc64f9e4",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-alpha-14/"
+        },
+        {
+            "name": "alpha15",
+            "ref": "432b25d3649319517827dbf7bc275e81e0a2b92e",
+            "from_ref": "106b6805018649b13da9e9508e80611f62ed660a",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-alpha-15/"
+        },
+        {
+            "name": "alpha16",
+            "ref": "86dd3f312c4ff8ef8be04b9a210415d21f2ca269",
+            "from_ref": "432b25d3649319517827dbf7bc275e81e0a2b92e",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-alpha-16/"
+        },
+        {
+            "name": "alpha17",
+            "ref": "22a09fef5d56fc7c37d70118532509076ebd7b12",
+            "from_ref": "86dd3f312c4ff8ef8be04b9a210415d21f2ca269",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-alpha-17/"
+        },
+        {
+            "name": "beta1",
+            "ref": "4ba934bf3d1e697d8f332b5e8cfd694cdf49a7ba",
+            "from_ref": "22a09fef5d56fc7c37d70118532509076ebd7b12",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-beta-1/"
+        },
+        {
+            "name": "beta2",
+            "ref": "f8745f2f71c79972df66f17a3da75f6e328bc55d",
+            "from_ref": "4ba934bf3d1e697d8f332b5e8cfd694cdf49a7ba",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-beta-2/"
+        },
+        {
+            "name": "beta3",
+            "ref": "01ae26d31befb6679ecd92cd3c73aa5a76162e95",
+            "from_ref": "f8745f2f71c79972df66f17a3da75f6e328bc55d",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-beta-3/"
+        },
+        {
+            "name": "beta4",
+            "ref": "e6751549cf7247965d1744b8c464f5e901006f21",
+            "from_ref": "01ae26d31befb6679ecd92cd3c73aa5a76162e95",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-beta-4/"
+        },
+        {
+            "name": "beta5",
+            "ref": "89a33d28f00fec579184fb7193790d40aa09b45b",
+            "from_ref": "e6751549cf7247965d1744b8c464f5e901006f21",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-beta-5/"
+        },
+        {
+            "name": "beta6",
+            "ref": "7f8ecffa56834dce3ccbd736738b613d51133dea",
+            "from_ref": "89a33d28f00fec579184fb7193790d40aa09b45b",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-beta-6/"
+        },
+        {
+            "name": "beta7",
+            "ref": "0ff8742919af72c7412e63ef0f646cb4e7bd7d8f",
+            "from_ref": "7f8ecffa56834dce3ccbd736738b613d51133dea",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-beta-7/"
+        },
+        {
+            "name": "beta8",
+            "ref": "45cac42c0b511672240c1fcccecfd3cc0580edcb",
+            "from_ref": "0ff8742919af72c7412e63ef0f646cb4e7bd7d8f",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-beta-8/"
+        },
+        {
+            "name": "beta9",
+            "ref": "e780dc332a0a3f642a6daf8548cb211d79a2cc45",
+            "from_ref": "45cac42c0b511672240c1fcccecfd3cc0580edcb",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-beta-9/"
+        },
+        {
+            "name": "beta10",
+            "ref": "d0398f62f08ce0cfba80990b21c6af4181f93fe9",
+            "from_ref": "e780dc332a0a3f642a6daf8548cb211d79a2cc45",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-beta-10/"
+        },
+        {
+            "name": "beta11",
+            "ref": "91713ced81792b10fdc9367b7f355738e5d52777",
+            "from_ref": "d0398f62f08ce0cfba80990b21c6af4181f93fe9",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-beta-11/"
+        },
+        {
+            "name": "beta12",
+            "ref": "3c9bf4bc210a8e6a208f30ca59de4d4d7e18c04d",
+            "from_ref": "91713ced81792b10fdc9367b7f355738e5d52777",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-beta-12/"
+        },
+        {
+            "name": "beta13",
+            "ref": "caacade569eb7a541aaa7a8cdc3eedffca1422d9",
+            "from_ref": "3c9bf4bc210a8e6a208f30ca59de4d4d7e18c04d",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-beta-13/"
+        },
+        {
+            "name": "beta14",
+            "ref": "28a24639c3c6a95b5b9828f5f02bf0dc2f5ce54b",
+            "from_ref": "caacade569eb7a541aaa7a8cdc3eedffca1422d9",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-beta-14/"
+        },
+        {
+            "name": "beta15",
+            "ref": "4fa6edc888cfacd5346bf08afa14b5f5a9bd6d0c",
+            "from_ref": "28a24639c3c6a95b5b9828f5f02bf0dc2f5ce54b",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-beta-15/"
+        },
+        {
+            "name": "beta16",
+            "ref": "518b9e5801a19229805fe837d7d0cf92920ad413",
+            "from_ref": "4fa6edc888cfacd5346bf08afa14b5f5a9bd6d0c",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-beta-16/"
+        },
+        {
+            "name": "beta17",
+            "ref": "c40020513ac8201a449b5ae2eeb58fef0ce0a2a4",
+            "from_ref": "518b9e5801a19229805fe837d7d0cf92920ad413",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-0-beta-17/"
+        },
+        {
+            "name": "rc1",
+            "ref": "c4fb119f03477ad9a494ba6cdad211b35a8efcce",
+            "from_ref": "c40020513ac8201a449b5ae2eeb58fef0ce0a2a4",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-0-rc-1/"
+        },
+        {
+            "name": "rc2",
+            "ref": "d2699dc7ab96fbd75faccc1f32f55baebf1d84dc",
+            "from_ref": "c4fb119f03477ad9a494ba6cdad211b35a8efcce",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-0-rc-2/"
+        },
+        {
+            "name": "rc3",
+            "ref": "7e79aead99a53ee7cdf383add9a6a2aea4f15beb",
+            "from_ref": "d2699dc7ab96fbd75faccc1f32f55baebf1d84dc",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-0-rc-3/"
+        },
+        {
+            "name": "rc4",
+            "ref": "e0de3573f3fc86062763152f5a1ac62f5a986da3",
+            "from_ref": "7e79aead99a53ee7cdf383add9a6a2aea4f15beb",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-0-rc-4/"
+        },
+        {
+            "name": "rc5",
+            "ref": "6296b46008fb8d8e5cb9b60af05fa1ea26b8f600",
+            "from_ref": "e0de3573f3fc86062763152f5a1ac62f5a986da3",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-0-rc-5/"
+        },
+        {
+            "name": "rc6",
+            "ref": "0cd148313213e2923004be65bafd6a3781c917ec",
+            "from_ref": "6296b46008fb8d8e5cb9b60af05fa1ea26b8f600",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-0-rc-6/"
+        },
+        {
+            "name": "stable",
+            "ref": "4.0-stable",
+            "from_ref": "0cd148313213e2923004be65bafd6a3781c917ec",
+            "article": "https://godotengine.org/article/godot-4-0-sets-sail/"
+        }
+    ]
+}
