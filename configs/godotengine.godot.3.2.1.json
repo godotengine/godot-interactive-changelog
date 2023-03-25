@@ -13,14 +13,14 @@
         },
         {
             "name": "rc2",
-            "ref": "ea2e976cdd7b8516e881d7ed4588e66601add31",
+            "ref": "75164169c43f6dcef237ac9a7bf842598f5f20f2",
             "from_ref": "1bc1939c63e07c6a03dbb258d765e0f450559706",
             "article": "https://godotengine.org/article/release-candidate-godot-3-2-1-rc-2/"
         },
         {
             "name": "stable",
             "ref": "3.2.1-stable",
-            "from_ref": "ea2e976cdd7b8516e881d7ed4588e66601add31",
+            "from_ref": "75164169c43f6dcef237ac9a7bf842598f5f20f2",
             "article": "https://godotengine.org/article/maintenance-release-godot-3-2-1/"
         }
     ]
