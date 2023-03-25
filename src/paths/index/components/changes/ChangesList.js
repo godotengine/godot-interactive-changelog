@@ -6,16 +6,20 @@ import CommitItem from "./CommitItem";
 import AuthorItem from "./AuthorItem";
 import ReleaseNotesItem from './ReleaseNotesItem';
 
+const SHORTLIST_ITEMS = 600;
+
 @customElement('gr-changes-list')
 export default class ChangesList extends LitElement {
     static get styles() {
         return css`
           /** Colors and variables **/
           :host {
+            --item-border-color: #fcfcfa;
             --changes-background-color: #e5edf8;
           }
           @media (prefers-color-scheme: dark) {
             :host {
+              --item-border-color: #0d1117;
               --changes-background-color: #191d23;
             }
           }
@@ -39,7 +43,8 @@ export default class ChangesList extends LitElement {
             }
           }
 
-          :host .version-changes-empty {
+          :host .version-changes-empty,
+          :host .version-changes-more {
             color: var(--g-font-color);
             display: inline-block;
             font-size: 20px;
@@ -48,6 +53,20 @@ export default class ChangesList extends LitElement {
             margin-bottom: 12px;
             padding: 14px 12px;
             word-break: break-word;
+          }
+
+          :host .version-changes-more {
+            border-bottom: 3px solid var(--item-border-color);
+            color: var(--dimmed-font-color);
+            font-size: 15px;
+          }
+
+          :host .version-changes-action {
+            cursor: pointer;
+            color: var(--link-font-color);
+          }
+          :host .version-changes-action:hover {
+            color: var(--link-font-color-hover);
           }
         `;
     }
@@ -66,6 +85,7 @@ export default class ChangesList extends LitElement {
         super();
 
         this._viewMode = "pulls";
+        this._viewFull = false;
 
         this._active_log = [];
         this._version_ref = "";
@@ -261,13 +281,24 @@ export default class ChangesList extends LitElement {
     }
 
     _onModeChanged(event) {
+        if (this._viewMode === event.detail.mode) {
+            return
+        }
+
         this._viewMode = event.detail.mode;
+        this.requestUpdate();
+    }
+
+    _onMoreClicked() {
+        this._viewFull = !this._viewFull;
         this.requestUpdate();
     }
 
     update(changedProperties) {
         // Only recalculate when class properties change; skip for manual updates.
         if (changedProperties.size > 0) {
+            this._viewFull = false;
+
             this._updateActiveLog();
             this._updateLists();
         }
@@ -283,6 +314,15 @@ export default class ChangesList extends LitElement {
             return html`
                 <span class="version-changes-empty">Loading changes...</span>
             `
+        }
+
+        let commitList = this._filtered_commits;
+        let pullList = this._filtered_pulls;
+        let authorList = this._filtered_authors;
+
+        if (!this._viewFull) {
+            commitList = this._filtered_commits.slice(0, SHORTLIST_ITEMS);
+            pullList = this._filtered_pulls.slice(0, SHORTLIST_ITEMS);
         }
 
         return html`
@@ -303,19 +343,46 @@ export default class ChangesList extends LitElement {
                     @modechange="${this._onModeChanged}"
                 ></gr-changes-toolbar>
 
+
                 ${(this._viewMode === "pulls" && this._filtered_pulls.length === 0 ? html`
-                    <span class="version-changes-empty">This version contains no new changes.</span>
+                    <span class="version-changes-empty">
+                        This version contains no new changes.
+                    </span>
                 ` : null)}
 
                 ${(this._viewMode === "commits" && this._filtered_commits.length === 0 ? html`
-                    <span class="version-changes-empty">This version contains no new commits.</span>
+                    <span class="version-changes-empty">
+                        This version contains no new commits.
+                    </span>
                 ` : null)}
 
                 ${(this._viewMode === "authors" && this._filtered_authors.length === 0 ? html`
-                    <span class="version-changes-empty">This version contains no contributors.</span>
+                    <span class="version-changes-empty">
+                        This version contains no contributors.
+                    </span>
                 ` : null)}
 
-                ${this._viewMode === "pulls" ? this._filtered_pulls.map((item) => {
+
+                ${(!this._viewFull && this._viewMode === "pulls" && this._filtered_pulls.length > SHORTLIST_ITEMS ? html`
+                    <span class="version-changes-more">
+                        This version contains too many changes to display immediately.
+                        <span class="version-changes-action" @click="${this._onMoreClicked}">
+                            Click here to expand the list
+                        </span>.
+                    </span>
+                ` : null)}
+
+                ${(!this._viewFull && this._viewMode === "commits" && this._filtered_commits.length > SHORTLIST_ITEMS ? html`
+                    <span class="version-changes-more">
+                        This version contains too many commits to display immediately.
+                        <span class="version-changes-action" @click="${this._onMoreClicked}">
+                            Click here to expand the list
+                        </span>.
+                    </span>
+                ` : null)}
+
+
+                ${this._viewMode === "pulls" ? pullList.map((item) => {
                     const pull = item.pull;
                     const cherrypick_pull = item.cherrypick_pull;
 
@@ -334,7 +401,7 @@ export default class ChangesList extends LitElement {
                     `;
                 }) : null}
 
-                ${this._viewMode === "commits" ? this._filtered_commits.map((item) => {
+                ${this._viewMode === "commits" ? commitList.map((item) => {
                     const commit = item.commit;
                     const cherrypick_commit = item.cherrypick_commit;
 
@@ -349,7 +416,7 @@ export default class ChangesList extends LitElement {
                     `;
                 }) : null}
 
-                ${this._viewMode === "authors" ? this._filtered_authors.map((item) => {
+                ${this._viewMode === "authors" ? authorList.map((item) => {
                     const author = item.author;
 
                     return html`

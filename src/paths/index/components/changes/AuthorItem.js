@@ -1,5 +1,7 @@
 import { LitElement, html, css, customElement, property } from 'lit-element';
 
+const SHORTLIST_ITEMS = 20;
+
 @customElement('gr-author-item')
 export default class AuthorItem extends LitElement {
     static get styles() {
@@ -88,10 +90,21 @@ export default class AuthorItem extends LitElement {
 
           :host .item-changes-list {
             display: none;
-            padding-left: 20px;
           }
           :host .item-changes-list.item-changes--active {
             display: block;
+          }
+
+          :host .item-changes-list ul {
+            padding-left: 20px;
+          }
+
+          :host .item-changes-more {
+            cursor: pointer;
+            color: var(--link-font-color-inactive);
+          }
+          :host .item-changes-more:hover {
+            color: var(--link-font-color-hover);
           }
 
           :host .item-links {
@@ -137,6 +150,7 @@ export default class AuthorItem extends LitElement {
         super();
 
         this._changesMode = "commits";
+        this._changesFull = false;
     }
 
     _onModeClicked(type) {
@@ -148,7 +162,20 @@ export default class AuthorItem extends LitElement {
         this.requestUpdate();
     }
 
+    _onMoreClicked() {
+        this._changesFull = !this._changesFull;
+        this.requestUpdate();
+    }
+
     render(){
+        let commitList = this.commits;
+        let pullList = this.pulls;
+
+        if (!this._changesFull) {
+            commitList = this.commits.slice(0, SHORTLIST_ITEMS);
+            pullList = this.pulls.slice(0, SHORTLIST_ITEMS);
+        }
+
         return html`
             <div class="item-container">
                 <div class="item-title">
@@ -175,42 +202,64 @@ export default class AuthorItem extends LitElement {
                                 ${this.pulls.length} ${(this.pulls.length === 1 ? "PR" : "PRs")}
                             </span>
                         </div>
-                        <ul class="item-changes-list ${(this._changesMode === "commits" ? "item-changes--active" : "")}">
-                            ${this.commits.map((item) => {
-                                return html`
-                                    <li>
-                                        <code>
-                                            [<a
-                                                class="item-changes-link"
-                                                href="https://github.com/${this.repository}/commit/${item.hash}"
-                                                target="_blank"
-                                            >${item.hash.substring(0, 9)}</a>]
-                                        </code>
-                                        <span>
-                                            ${item.summary}
-                                        </span>
-                                    </li>
-                                `;
-                            })}
-                        </ul>
-                        <ul class="item-changes-list ${(this._changesMode === "pulls" ? "item-changes--active" : "")}">
-                            ${this.pulls.map((item) => {
-                                return html`
-                                    <li>
-                                        <span>
-                                            ${item.title}
-                                        </span>
-                                        <code>
-                                            (<a
-                                                class="item-changes-link"
-                                                href="https://github.com/${this.repository}/pull/${item.public_id}"
-                                                target="_blank"
-                                            >GH-${item.public_id}</a>)
-                                        </code>
-                                    </li>
-                                `;
-                            })}
-                        </ul>
+
+                        <div class="item-changes-list ${(this._changesMode === "commits" ? "item-changes--active" : "")}">
+                            <ul>
+                                ${commitList.map((item) => {
+                                    return html`
+                                        <li>
+                                            <code>
+                                                [<a
+                                                    class="item-changes-link"
+                                                    href="https://github.com/${this.repository}/commit/${item.hash}"
+                                                    target="_blank"
+                                                >${item.hash.substring(0, 9)}</a>]
+                                            </code>
+                                            <span>
+                                                ${item.summary}
+                                            </span>
+                                        </li>
+                                    `;
+                                })}
+                            </ul>
+                            ${(this.commits.length > SHORTLIST_ITEMS ? html`
+                                <span
+                                    class="item-changes-more"
+                                    @click="${this._onMoreClicked}"
+                                >
+                                    ${this._changesFull ? "Show less" : "Show more"}
+                                </span>
+                            ` : null)}
+                        </div>
+
+                        <div class="item-changes-list ${(this._changesMode === "pulls" ? "item-changes--active" : "")}">
+                            <ul>
+                                ${pullList.map((item) => {
+                                    return html`
+                                        <li>
+                                            <span>
+                                                ${item.title}
+                                            </span>
+                                            <code>
+                                                (<a
+                                                    class="item-changes-link"
+                                                    href="https://github.com/${this.repository}/pull/${item.public_id}"
+                                                    target="_blank"
+                                                >GH-${item.public_id}</a>)
+                                            </code>
+                                        </li>
+                                    `;
+                                })}
+                            </ul>
+                            ${(this.pulls.length > SHORTLIST_ITEMS ? html`
+                                <span
+                                    class="item-changes-more"
+                                    @click="${this._onMoreClicked}"
+                                >
+                                    ${this._changesFull ? "Show less" : "Show more"}
+                                </span>
+                            ` : null)}
+                        </div>
                     </div>
 
                     <div class="item-links">
@@ -230,7 +279,7 @@ export default class AuthorItem extends LitElement {
                                 target="_blank"
                                 title="Open all commits by ${this.user}"
                             >
-                                more commits
+                                all commits
                             </a>
                             <span> · </span>
                             <a
@@ -238,7 +287,7 @@ export default class AuthorItem extends LitElement {
                                 target="_blank"
                                 title="Open all PRs by ${this.user}"
                             >
-                                more PRs
+                                all PRs
                             </a>
                         </div>
                     </div>
