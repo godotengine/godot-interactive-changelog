@@ -1,0 +1,16 @@
+{
+    "name": "4.0.2",
+    "git_tag": "4.0",
+    "ref": "50f26811b0409a0b44b1d7df4532c38cafd0a14a",
+    "from_ref": "4.0.1-stable",
+    "article": "",
+
+    "releases": [
+        {
+            "name": "rc1",
+            "ref": "50f26811b0409a0b44b1d7df4532c38cafd0a14a",
+            "from_ref": "4.0.1-stable",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-0-2-rc-1/"
+        }
+    ]
+}

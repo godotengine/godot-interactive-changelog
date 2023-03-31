@@ -90,14 +90,17 @@ class DataFetcher {
         return new Promise(resolve => setTimeout(resolve, msec));
     }
 
-    async checkoutRepo(atCommit) {
+    async checkoutRepo(fromTag, atCommit) {
         try {
             // Make sure that the temp folder exists and is empty.
             await ensureDir("./temp");
             await clearDir("./temp");
 
             // Checkout a shallow clone of the repository; we are only interested in its history.
-            await exec(`git clone --filter=tree:0 --branch ${atCommit} --single-branch ${this.repo_ssh_path}`, { cwd: "./temp", maxBuffer: EXEC_MAX_BUFFER });
+            await exec(`git clone --filter=tree:0 --branch ${fromTag} --single-branch ${this.repo_ssh_path}`, { cwd: "./temp", maxBuffer: EXEC_MAX_BUFFER });
+            if (fromTag !== atCommit) {
+                await exec(`git reset --hard ${atCommit}`, { cwd: `./temp/${this.data_repo}`, maxBuffer: EXEC_MAX_BUFFER });
+            }
         } catch (err) {
             console.error("    Error checking out a copy of the target repository: " + err);
             process.exitCode = ExitCodes.ExecFailure;
@@ -635,6 +638,7 @@ class DataIO {
 
         //
         this.config = null;
+        this.git_tag = "";
         this.first_commit = ""
         this.last_commit = "";
     }
@@ -672,6 +676,7 @@ class DataIO {
             const configContent = await fs.readFile(configPath);
 
             this.config = JSON.parse(configContent);
+            this.git_tag = this.config.git_tag || this.config.ref;
             this.first_commit = this.config.from_ref;
             this.last_commit = this.config.ref;
         } catch (err) {
@@ -786,7 +791,7 @@ async function main() {
 
     if (!dataIO.skip_checkout) {
         console.log(`[*] Checking out the repository at "${dataIO.last_commit}".`);
-        await dataFetcher.checkoutRepo(dataIO.last_commit);
+        await dataFetcher.checkoutRepo(dataIO.git_tag, dataIO.last_commit);
         checkForExit();
     }
 
