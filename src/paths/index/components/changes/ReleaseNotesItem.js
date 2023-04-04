@@ -280,7 +280,7 @@ export default class ReleaseNotesItem extends LitElement {
                                             class="item-changes-link"
                                             href="https://github.com/${this.repository}/pull/${item.public_id}"
                                             target="_blank"
-                                        >GH-${item.public_id}</a>)
+                                        >GH-${item.public_id}</a>).
                                     </code>
                                 </li>
                             `;
@@ -291,7 +291,7 @@ export default class ReleaseNotesItem extends LitElement {
                         <code>
                             ${this._sorted_notes.map((item) => {
                                 return html`
-                                    - ${item.group}: ${item.title} ([GH-${item.public_id}](https://github.com/${this.repository}/pull/${item.public_id}))
+                                    - ${item.group}: ${item.title} ([GH-${item.public_id}](https://github.com/${this.repository}/pull/${item.public_id})).
                                     <br>
                                 `;
                             })}
