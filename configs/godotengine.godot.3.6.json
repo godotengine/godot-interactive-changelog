@@ -10,7 +10,7 @@
             "name": "beta1",
             "ref": "632a544c6e8f847d6796846d44f01231d1744958",
             "from_ref": "3.5-stable",
-            "article": ""
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-6-beta-1/"
         }
     ]
 }
