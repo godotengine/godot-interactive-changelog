@@ -108,9 +108,12 @@ class DataFetcher {
         }
     }
 
-    async countCommitHistory(fromCommit, toCommit) {
+    async countCommitHistory(fromCommit, toCommit, repoFolder = "") {
         try {
-            const { stdout, stderr } = await exec(`git log --pretty=oneline ${fromCommit}..${toCommit}`, { cwd: `./temp/${this.data_repo}`, maxBuffer: EXEC_MAX_BUFFER });
+            if (repoFolder === "") {
+                repoFolder = `./temp/${this.data_repo}`;
+            }
+            const { stdout, stderr } = await exec(`git log --pretty=oneline ${fromCommit}..${toCommit}`, { cwd: repoFolder, maxBuffer: EXEC_MAX_BUFFER });
 
             const commitHistory = stdout.trimEnd();
             await this._logResponse(commitHistory, "_commit_shortlog", LogFormat.Raw);
@@ -122,9 +125,12 @@ class DataFetcher {
         }
     }
 
-    async getCommitHistory(fromCommit, toCommit) {
+    async getCommitHistory(fromCommit, toCommit, repoFolder = "") {
         try {
-            const { stdout, stderr } = await exec(`git log --pretty=full ${fromCommit}..${toCommit}`, { cwd: `./temp/${this.data_repo}`, maxBuffer: EXEC_MAX_BUFFER });
+            if (repoFolder === "") {
+                repoFolder = `./temp/${this.data_repo}`;
+            }
+            const { stdout, stderr } = await exec(`git log --pretty=full ${fromCommit}..${toCommit}`, { cwd: repoFolder, maxBuffer: EXEC_MAX_BUFFER });
 
             const commitHistory = stdout;
             await this._logResponse(commitHistory, "_commit_history", LogFormat.Raw);
@@ -634,7 +640,9 @@ class DataIO {
         this.data_owner = "godotengine";
         this.data_repo = "godot";
         this.data_version = "";
+
         this.skip_checkout = false;
+        this.checkout_dir = "";
 
         //
         this.config = null;
@@ -657,6 +665,9 @@ class DataIO {
 
             if (arg === "skip-checkout") {
                 this.skip_checkout = true;
+            }
+            if (arg.indexOf("dir:") === 0) {
+                this.checkout_dir = arg.substring(4);
             }
         });
 
@@ -795,9 +806,13 @@ async function main() {
         checkForExit();
     }
 
+    if (dataIO.checkout_dir !== "") {
+        console.log(`[*] Using the local clone at "${dataIO.checkout_dir}".`);
+    }
+
     console.log(`[*] Extracting the commit log between "${dataIO.first_commit}" and "${dataIO.last_commit}".`);
-    const commitLogSize = await dataFetcher.countCommitHistory(dataIO.first_commit, dataIO.last_commit);
-    const commitLog = await dataFetcher.getCommitHistory(dataIO.first_commit, dataIO.last_commit);
+    const commitLogSize = await dataFetcher.countCommitHistory(dataIO.first_commit, dataIO.last_commit, dataIO.checkout_dir);
+    const commitLog = await dataFetcher.getCommitHistory(dataIO.first_commit, dataIO.last_commit, dataIO.checkout_dir);
     checkForExit();
 
     // Second, we parse the extracted commit log, to generate a list of commit hashes
