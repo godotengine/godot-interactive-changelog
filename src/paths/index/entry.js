@@ -86,12 +86,32 @@ export default class EntryComponent extends LitElement {
         if (data) {
             this._versions = data;
 
+            let releaseNames = {};
             this._versions.forEach((version) => {
+                releaseNames[version.name] = [];
+
                 version.commit_log = [];
                 version.releases.forEach((release) => {
                     release.commit_log = [];
+
+                    releaseNames[version.name].push(release.name);
                 });
             });
+
+            const requested_slug = greports.util.getHistoryHash();
+            if (requested_slug !== "") {
+                const slug_bits = requested_slug.split("-");
+
+                if (slug_bits[0] !== "" && typeof releaseNames[slug_bits[0]] !== "undefined") {
+                    this._selectedVersion = slug_bits[0];
+
+                    if (slug_bits.length > 1 && releaseNames[slug_bits[0]].indexOf(slug_bits[1]) >= 0) {
+                        this._selectedRelease = slug_bits[1];
+                    } else {
+                        this._selectedRelease = "";
+                    }
+                }
+            }
         } else {
             this._versions = [];
         }
@@ -179,6 +199,11 @@ export default class EntryComponent extends LitElement {
         this._selectedRelease = event.detail.release;
         this.requestUpdate();
 
+        let versionString = event.detail.version;
+        if (event.detail.release !== "") {
+            versionString += `-${event.detail.release}`;
+        }
+        greports.util.setHistoryHash(versionString);
         window.scrollTo(0, 0);
     }
 

@@ -103,6 +103,20 @@ export default class VersionList extends LitElement {
       }
     }
 
+    update(changedProperties) {
+        // Check if the version list was set, this should only happen once.
+        if (changedProperties.size > 0) {
+            const oldVersions = changedProperties.get("versions");
+            // When this happens, we should unfold the selected version,
+            // because it came from the URL slug.
+            if (typeof oldVersions === "undefined" && typeof this.versions !== "undefined") {
+                this._toggleEntry("main", this.selectedVersion);
+            }
+        }
+
+        super.update(changedProperties);
+    }
+
     render() {
         return html`
             <div class="version-list">
