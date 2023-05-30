@@ -152,38 +152,20 @@ export default class EntryComponent extends LitElement {
             version.releases.forEach((release) => {
                 release.commit_log = [];
 
-                let counting = false;
-                commitLog.forEach((commitHash, index) => {
+                if (typeof versionData.release_logs[release.name] === "undefined") {
+                    return; // Continue. This is a bug though.
+                }
+
+                const [...releaseLog] = versionData.release_logs[release.name];
+                releaseLog.reverse();
+
+                releaseLog.forEach((commitHash) => {
                     const commit = versionData.commits[commitHash];
-                    // We need to filter out all merge commits for display and the count.
-                    if (counting && !commit.is_merge) {
-                        release.commit_log.push(commitHash);
+                    if (commit.is_merge) {
+                        return; // Continue.
                     }
 
-                    // We need to check indices for some refs, because they are not written
-                    // in the commit hash format.
-
-                    // Start counting.
-                    if (release.from_ref === version.from_ref && index === 0) {
-                        counting = true;
-                        // HACK: Exclude the lower end by default, but include for the first range.
-                        if (!commit.is_merge) {
-                            // It shouldn't be possible for the first commit to be a merge commit,
-                            // but let's guard anyway.
-                            release.commit_log.push(commitHash);
-                        }
-                    }
-                    else if (commitHash === release.from_ref) {
-                        counting = true;
-                    }
-
-                    // Stop counting.
-                    if (release.ref === version.ref && index === (commitLog.length - 1)) {
-                        counting = false;
-                    }
-                    else if (commitHash === release.ref) {
-                        counting = false;
-                    }
+                    release.commit_log.push(commitHash);
                 });
             });
         }
