@@ -379,18 +379,18 @@ class DataProcessor {
     }
 
     consumeOldLog() {
-        this.log = this.oldData.log;
-        this.releaseLogs = this.oldData.releaseLogs;
-        this.commits = this.oldData.commits;
+        this.log = this.oldData.log || [];
+        this.releaseLogs = this.oldData.releaseLogs || {};
+        this.commits = this.oldData.commits || {};
     }
 
     consumeOldCommits() {
-        this.authors = this.oldData.authors;
-        this.pulls = this.oldData.pulls;
+        this.authors = this.oldData.authors || {};
+        this.pulls = this.oldData.pulls || {};
     }
 
     _getCommitObject(commitHash) {
-        if (typeof this.oldData.commits[commitHash] !== "undefined") {
+        if (typeof this.oldData.commits !== "undefined" && typeof this.oldData.commits[commitHash] !== "undefined") {
             return this.oldData.commits[commitHash];
         }
 
