@@ -1,5 +1,7 @@
 import { LitElement, html, css, customElement, property } from 'lit-element';
 
+import ReleaseNotesFormatter from "../../helpers/ReleaseNotesFormatter"
+
 @customElement('gr-release-notes')
 export default class ReleaseNotesItem extends LitElement {
     static get styles() {
@@ -116,88 +118,17 @@ export default class ReleaseNotesItem extends LitElement {
         this.requestUpdate();
     }
 
-    _humanizeName(name) {
-        switch (name) {
-            case "2d":
-                return "2D";
-            case "3d":
-                return "3D";
-            case "dotnet":
-                return "C#";
-            case "gdextension":
-                return "GDExtension";
-            case "gdscript":
-                return "GDScript";
-            case "gui":
-                return "GUI";
-            case "visualscript":
-                return "VisualScript";
-            case "xr":
-                return "XR";
-        }
-
-        return name.charAt(0).toUpperCase() + name.substring(1);
-    }
-
     _updateNotes() {
         this._sorted_notes = [];
 
-        const generalTopics = [
-            "buildsystem", "porting", "tests", "thirdparty", "2d", "3d", "editor", "codestyle", "core"
-        ];
         let groupedNotes = {};
         this.pulls.forEach((pull) => {
-            // We use labels to deduce which category does the change
-            // fall under. We consider more specific groups before more
-            // general ones. When in doubt, pick any group.
-            let groupName = "core";
-
             // Simplify the array.
             const allLabels = pull.labels.map(item => item.name);
-
-            // Extract all applied topical labels.
-            let topicLabels = allLabels
-                .filter((item) => {
-                    return item.startsWith("topic:");
-                })
-                .map((item) => {
-                    return item.substring(6);
-                });
-
-            // Find the first topical label which is not generic, and
-            // use it.
-            const firstLabel = topicLabels.find((item) => {
-                return generalTopics.indexOf(item) < 0;
-            });
-
-            if (firstLabel) {
-                groupName = firstLabel;
-            } else {
-                // If there is none, pick a general topic, in order of relevance.
-                let topicFound = false;
-                for (let name of generalTopics) {
-                    if (topicLabels.indexOf(name) >= 0) {
-                        groupName = name;
-                        topicFound = true;
-                        break;
-                    }
-                }
-
-                // Besides topical labels, we can also check some other ones.
-                if (!topicFound) {
-                    if (allLabels.indexOf("documentation") >= 0) {
-                        groupName = "documentation";
-                    }
-                    else if (allLabels.indexOf("usability") >= 0) {
-                        groupName = "editor";
-                    }
-                }
-            }
-
-            // If no group was detected, we just stay on "core".
+            let groupName = ReleaseNotesFormatter.determineGroup(allLabels);
 
             // Store under the determined group.
-            const humanizedName = this._humanizeName(groupName);
+            const humanizedName = ReleaseNotesFormatter.humanizeGroupName(groupName);
             if (typeof groupedNotes[humanizedName] === "undefined") {
                 groupedNotes[humanizedName] = [];
             }
@@ -205,11 +136,7 @@ export default class ReleaseNotesItem extends LitElement {
         });
 
         const groupNames = Object.keys(groupedNotes);
-        groupNames.sort((a, b) => {
-            if (a.toLowerCase() > b.toLowerCase()) return 1;
-            if (a.toLowerCase() < b.toLowerCase()) return -1;
-            return 0;
-        });
+        groupNames.sort(ReleaseNotesFormatter.sortGroupNames);
 
         groupNames.forEach((group) => {
             const pulls = groupedNotes[group];
@@ -220,13 +147,7 @@ export default class ReleaseNotesItem extends LitElement {
             });
 
             pulls.forEach((item) => {
-                let cleanTitle = item.title;
-
-                // Some PR titles contain the same group prefix already,
-                // so we're going to remove it for a cleaner look.
-                if (cleanTitle.startsWith(`${group}:`)) {
-                    cleanTitle = cleanTitle.substring(group.length + 1).trim();
-                }
+                let cleanTitle = ReleaseNotesFormatter.cleanupChangeMessage(group, item.title);
 
                 this._sorted_notes.push({
                     "group": group,
