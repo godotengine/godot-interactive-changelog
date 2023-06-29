@@ -1,7 +1,7 @@
 {
     "name": "4.1",
     "git_tag": "master",
-    "ref": "1f9e540f14edbf2d496a1421f8d37e5b483c4c53",
+    "ref": "46424488edc341b65467ee7fd3ac423e4d49ad34",
     "from_ref": "4.0-stable",
     "article": "",
 
@@ -53,6 +53,12 @@
             "ref": "1f9e540f14edbf2d496a1421f8d37e5b483c4c53",
             "from_ref": "ada712e06a471da2a2f4646237830bbd7980c114",
             "article": "https://godotengine.org/article/release-candidate-godot-4-1-rc-1/"
+        },
+        {
+            "name": "rc2",
+            "ref": "46424488edc341b65467ee7fd3ac423e4d49ad34",
+            "from_ref": "1f9e540f14edbf2d496a1421f8d37e5b483c4c53",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-1-rc-2/"
         }
     ]
 }
