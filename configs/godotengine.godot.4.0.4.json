@@ -1,9 +1,8 @@
 {
     "name": "4.0.4",
-    "git_tag": "4.0",
-    "ref": "cfedb0a7a6732ee4bdc5c561bbb27857a890af79",
+    "ref": "4.0.4-stable",
     "from_ref": "4.0.3-stable",
-    "article": "",
+    "article": "https://godotengine.org/article/maintenance-release-godot-4-0-4/",
 
     "releases": [
         {
@@ -11,6 +10,12 @@
             "ref": "cfedb0a7a6732ee4bdc5c561bbb27857a890af79",
             "from_ref": "4.0.3-stable",
             "article": "https://godotengine.org/article/release-candidate-godot-4-0-4-rc-1/"
+        },
+        {
+            "name": "stable",
+            "ref": "4.0.4-stable",
+            "from_ref": "cfedb0a7a6732ee4bdc5c561bbb27857a890af79",
+            "article": "https://godotengine.org/article/maintenance-release-godot-4-0-4/"
         }
     ]
 }
