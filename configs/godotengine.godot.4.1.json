@@ -1,9 +1,8 @@
 {
     "name": "4.1",
-    "git_tag": "master",
-    "ref": "5c2295ff538312884115c2b7a3aec1e301b8b954",
+    "ref": "4.1-stable",
     "from_ref": "4.0-stable",
-    "article": "",
+    "article": "https://godotengine.org/article/godot-4-1-is-here/",
 
     "releases": [
         {
@@ -29,6 +28,48 @@
             "ref": "5c2295ff538312884115c2b7a3aec1e301b8b954",
             "from_ref": "a67d37f7cffe7f31c68e971280950d487ea99e2c",
             "article": "https://godotengine.org/article/dev-snapshot-godot-4-1-dev-4/"
+        },
+        {
+            "name": "beta1",
+            "ref": "828ec2c5d005b6499c7c4c88beaf81767d05614b",
+            "from_ref": "5c2295ff538312884115c2b7a3aec1e301b8b954",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-1-beta-1/"
+        },
+        {
+            "name": "beta2",
+            "ref": "a2575cba48121a9e31c3a550ebd29398a7facf3f",
+            "from_ref": "828ec2c5d005b6499c7c4c88beaf81767d05614b",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-1-beta-2/"
+        },
+        {
+            "name": "beta3",
+            "ref": "ada712e06a471da2a2f4646237830bbd7980c114",
+            "from_ref": "a2575cba48121a9e31c3a550ebd29398a7facf3f",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-1-beta-3/"
+        },
+        {
+            "name": "rc1",
+            "ref": "1f9e540f14edbf2d496a1421f8d37e5b483c4c53",
+            "from_ref": "ada712e06a471da2a2f4646237830bbd7980c114",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-1-rc-1/"
+        },
+        {
+            "name": "rc2",
+            "ref": "46424488edc341b65467ee7fd3ac423e4d49ad34",
+            "from_ref": "1f9e540f14edbf2d496a1421f8d37e5b483c4c53",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-1-rc-2/"
+        },
+        {
+            "name": "rc3",
+            "ref": "cdd2313ba27d0a2600a18e849b4c5d1fd6a6e351",
+            "from_ref": "46424488edc341b65467ee7fd3ac423e4d49ad34",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-1-rc-3/"
+        },
+        {
+            "name": "stable",
+            "ref": "4.1-stable",
+            "from_ref": "cdd2313ba27d0a2600a18e849b4c5d1fd6a6e351",
+            "article": "https://godotengine.org/article/godot-4-1-is-here/"
         }
     ]
 }
