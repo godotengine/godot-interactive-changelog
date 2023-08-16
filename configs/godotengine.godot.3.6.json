@@ -1,7 +1,7 @@
 {
     "name": "3.6",
     "git_tag": "3.x",
-    "ref": "68c507f59b05c4e53411585c9d4a3d1988717de9",
+    "ref": "21ab700f2d3da1848844ed6c2ff0910b3c580107",
     "from_ref": "3.5-stable",
     "article": "",
 
@@ -17,6 +17,12 @@
             "ref": "68c507f59b05c4e53411585c9d4a3d1988717de9",
             "from_ref": "632a544c6e8f847d6796846d44f01231d1744958",
             "article": "https://godotengine.org/article/dev-snapshot-godot-3-6-beta-2/"
+        },
+        {
+            "name": "beta3",
+            "ref": "21ab700f2d3da1848844ed6c2ff0910b3c580107",
+            "from_ref": "68c507f59b05c4e53411585c9d4a3d1988717de9",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-6-beta-3/"
         }
     ]
 }
