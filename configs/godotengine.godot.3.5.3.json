@@ -1,0 +1,16 @@
+{
+    "name": "3.5.3",
+    "git_tag": "3.5",
+    "ref": "fc32e066af1cd6766762dec31c7d2224f3d42c5f",
+    "from_ref": "3.5.2-stable",
+    "article": "",
+
+    "releases": [
+        {
+            "name": "rc1",
+            "ref": "fc32e066af1cd6766762dec31c7d2224f3d42c5f",
+            "from_ref": "3.5.2-stable",
+            "article": "https://godotengine.org/article/release-candidate-godot-3-5-3-rc-1/"
+        }
+    ]
+}
