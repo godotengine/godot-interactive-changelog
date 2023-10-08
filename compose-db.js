@@ -97,7 +97,7 @@ class DataFetcher {
             await clearDir("./temp");
 
             // Checkout a shallow clone of the repository; we are only interested in its history.
-            await exec(`git clone --filter=tree:0 --branch ${fromTag} --single-branch ${this.repo_ssh_path}`, { cwd: "./temp", maxBuffer: EXEC_MAX_BUFFER });
+            await exec(`git clone --filter=tree:0 --branch ${fromTag} --single-branch --no-checkout ${this.repo_ssh_path}`, { cwd: "./temp", maxBuffer: EXEC_MAX_BUFFER });
             if (fromTag !== atCommit) {
                 await exec(`git reset --hard ${atCommit}`, { cwd: `./temp/${this.data_repo}`, maxBuffer: EXEC_MAX_BUFFER });
             }
