@@ -1,7 +1,7 @@
 {
     "name": "4.2",
     "git_tag": "master",
-    "ref": "f8818f85e6c43cdf1277e8ae85eba19ca0a003b0",
+    "ref": "e8d57afaeccf0d9f9726746f49936eb93aa0039b",
     "from_ref": "4.1-stable",
     "article": "",
 
@@ -53,6 +53,12 @@
             "ref": "f8818f85e6c43cdf1277e8ae85eba19ca0a003b0",
             "from_ref": "b1371806ad3907c009458ea939bd4b810f9deb21",
             "article": "https://godotengine.org/article/dev-snapshot-godot-4-2-beta-2/"
+        },
+        {
+            "name": "beta3",
+            "ref": "e8d57afaeccf0d9f9726746f49936eb93aa0039b",
+            "from_ref": "f8818f85e6c43cdf1277e8ae85eba19ca0a003b0",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-2-beta-3/"
         }
     ]
 }
