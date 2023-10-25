@@ -76,6 +76,7 @@ export default class AuthorItem extends LitElement {
           :host .item-changes-type {
             color: var(--light-font-color);
             cursor: pointer;
+            font-weight: 600;
           }
           :host .item-changes-type:hover {
             color: var(--link-font-color-hover);

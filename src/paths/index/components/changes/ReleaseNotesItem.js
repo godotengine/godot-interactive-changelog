@@ -11,6 +11,8 @@ export default class ReleaseNotesItem extends LitElement {
             --item-border-color: #fcfcfa;
             --changes-type-color-hover: #2862cd;
             --changes-type-color-active: #2054b5;
+            --copy-status-color-success: #69be00;
+            --copy-status-color-failure: #f53e13;
           }
 
           @media (prefers-color-scheme: dark) {
@@ -18,6 +20,8 @@ export default class ReleaseNotesItem extends LitElement {
               --item-border-color: #0d1117;
               --changes-type-color-hover: #5b87de;
               --changes-type-color-active: #6b9aea;
+              --copy-status-color-success: #74cb23;
+              --copy-status-color-failure: #e34c28;
             }
           }
 
@@ -40,12 +44,13 @@ export default class ReleaseNotesItem extends LitElement {
             display: flex;
             flex-direction: row;
             justify-content: flex-end;
-            gap: 16px;
+            gap: 14px;
           }
 
           :host .item-changes-type {
             color: var(--light-font-color);
             cursor: pointer;
+            font-weight: 600;
           }
           :host .item-changes-type:hover {
             color: var(--link-font-color-hover);
@@ -58,13 +63,45 @@ export default class ReleaseNotesItem extends LitElement {
             color: var(--changes-type-color-hover);
           }
 
+          @keyframes status-change-success {
+            from {
+              color: var(--copy-status-color-success);
+            }
+            to {
+              color: var(--light-font-color);
+            }
+          }
+
+          @keyframes status-change-failure {
+            from {
+              color: var(--copy-status-color-failure);
+            }
+            to {
+              color: var(--light-font-color);
+            }
+          }
+
+          :host .item-changes-status--success {
+            animation-name: status-change-success;
+            animation-duration: 2.5s;
+            animation-timing-function: cubic-bezier(0, 0, 1, -0.1);
+          }
+          :host .item-changes-status--failure {
+            animation-name: status-change-failure;
+            animation-duration: 2.5s;
+            animation-timing-function: cubic-bezier(0, 0, 1, -0.1);
+          }
+
           :host .item-changes-list {
             display: none;
             line-height: 24px;
-            padding-left: 20px;
           }
           :host .item-changes-list.item-changes--active {
             display: block;
+          }
+
+          :host .item-changes-list ul {
+            padding-left: 20px;
           }
 
           :host .item-changes-markdown {
@@ -105,11 +142,16 @@ export default class ReleaseNotesItem extends LitElement {
         super();
 
         this._viewMode = "pretty";
+        this._groupMode = "unified";
 
-        this._sorted_notes = [];
+        this._sortedNotes = [];
+        this._groupedNotes = [];
+        this._copiableUnifiedText = "";
+        this._copiableGroupedText = "";
+        this._copyStatus = "idle";
     }
 
-    _onModeClicked(type) {
+    _onViewModeClicked(type) {
         if (type === this._viewMode) {
             return;
         }
@@ -118,8 +160,39 @@ export default class ReleaseNotesItem extends LitElement {
         this.requestUpdate();
     }
 
+    _onGroupModeClicked(type) {
+        if (type === this._groupMode) {
+            return;
+        }
+
+        this._groupMode = type;
+        this.requestUpdate();
+    }
+
+    _onCopyClicked() {
+      this._copyStatus = "idle";
+      this.requestUpdate();
+
+      const copiableText = (this._groupMode === "grouped" ? this._copiableGroupedText : this._copiableUnifiedText);
+
+      navigator.clipboard
+          .writeText(copiableText)
+          .then((res) => {
+            this._copyStatus = "success";
+            this.requestUpdate();
+          })
+          .catch((err) => {
+              console.error("Copying failed: " + err);
+              this._copyStatus = "failure";
+              this.requestUpdate();
+          });
+    }
+
     _updateNotes() {
-        this._sorted_notes = [];
+        this._sortedNotes = [];
+        this._groupedNotes = [];
+        this._copiableUnifiedText = "";
+        this._copiableGroupedText = "";
 
         let groupedNotes = {};
         this.pulls.forEach((pull) => {
@@ -146,14 +219,30 @@ export default class ReleaseNotesItem extends LitElement {
                 return 0;
             });
 
-            pulls.forEach((item) => {
-                let cleanTitle = ReleaseNotesFormatter.cleanupChangeMessage(group, item.title);
+            if (this._copiableGroupedText !== "") {
+                this._copiableGroupedText += "\n";
+            }
+            this._copiableGroupedText += `#### ${group}\n\n`
 
-                this._sorted_notes.push({
-                    "group": group,
-                    "title": cleanTitle,
-                    "public_id": item.public_id,
-                });
+            let groupItems = [];
+            pulls.forEach((pull) => {
+                const cleanTitle = ReleaseNotesFormatter.cleanupChangeMessage(group, pull.title);
+                const item = {
+                  "group": group,
+                  "title": cleanTitle,
+                  "public_id": pull.public_id,
+              };
+
+                this._sortedNotes.push(item);
+                groupItems.push(item);
+
+                this._copiableUnifiedText += `- ${group}: ${cleanTitle} ([GH-${pull.public_id}](https://github.com/${this.repository}/pull/${pull.public_id})).\n`;
+                this._copiableGroupedText += `- ${cleanTitle} ([GH-${pull.public_id}](https://github.com/${this.repository}/pull/${pull.public_id})).\n`;
+            });
+
+            this._groupedNotes.push({
+              "name": group,
+              "pulls": groupItems,
             });
         });
     }
@@ -167,6 +256,49 @@ export default class ReleaseNotesItem extends LitElement {
         super.update(changedProperties);
     }
 
+    _renderUnifiedItem(viewMode, item) {
+        return (viewMode === "pretty" ? html`
+            <li>
+                <span class="item-change-group">
+                    ${item.group}:
+                </span>
+                <span>
+                    ${item.title}
+                </span>
+                <code>
+                    (<a
+                        class="item-changes-link"
+                        href="https://github.com/${this.repository}/pull/${item.public_id}"
+                        target="_blank"
+                    >GH-${item.public_id}</a>).
+                </code>
+            </li>
+        ` : html`
+            - ${item.group}: ${item.title} ([GH-${item.public_id}](https://github.com/${this.repository}/pull/${item.public_id})).
+            <br>
+        `);
+    }
+
+    _renderGroupedItem(viewMode, item) {
+        return (viewMode === "pretty" ? html`
+            <li>
+                <span>
+                    ${item.title}
+                </span>
+                <code>
+                    (<a
+                        class="item-changes-link"
+                        href="https://github.com/${this.repository}/pull/${item.public_id}"
+                        target="_blank"
+                    >GH-${item.public_id}</a>).
+                </code>
+            </li>
+        ` : html`
+            - ${item.title} ([GH-${item.public_id}](https://github.com/${this.repository}/pull/${item.public_id})).
+            <br>
+        `);
+    }
+
     render(){
         return html`
             <div class="item-container">
@@ -174,48 +306,78 @@ export default class ReleaseNotesItem extends LitElement {
                     <div class="item-changes-types">
                         <span
                             class="item-changes-type ${(this._viewMode === "pretty" ? "item-changes--active" : "")}"
-                            @click="${this._onModeClicked.bind(this, "pretty")}"
+                            @click="${this._onViewModeClicked.bind(this, "pretty")}"
                         >
                             pretty
                         </span>
                         <span
                             class="item-changes-type ${(this._viewMode === "markdown" ? "item-changes--active" : "")}"
-                            @click="${this._onModeClicked.bind(this, "markdown")}"
+                            @click="${this._onViewModeClicked.bind(this, "markdown")}"
                         >
                             markdown
                         </span>
+                        |
+                        <span
+                            class="item-changes-type ${(this._groupMode === "unified" ? "item-changes--active" : "")}"
+                            @click="${this._onGroupModeClicked.bind(this, "unified")}"
+                        >
+                            unified
+                        </span>
+                        <span
+                            class="item-changes-type ${(this._groupMode === "grouped" ? "item-changes--active" : "")}"
+                            @click="${this._onGroupModeClicked.bind(this, "grouped")}"
+                        >
+                            grouped
+                        </span>
+                        |
+                        <span
+                            class="item-changes-type item-changes-status--${this._copyStatus}"
+                            @click="${this._onCopyClicked.bind(this)}"
+                        >
+                            copy active
+                        </span>
                     </div>
 
-                    <ul class="item-changes-list ${(this._viewMode === "pretty" ? "item-changes--active" : "")}"">
-                        ${this._sorted_notes.map((item) => {
-                            return html`
-                                <li>
-                                    <span class="item-change-group">
-                                        ${item.group}:
-                                    </span>
-                                    <span>
-                                        ${item.title}
-                                    </span>
-                                    <code>
-                                        (<a
-                                            class="item-changes-link"
-                                            href="https://github.com/${this.repository}/pull/${item.public_id}"
-                                            target="_blank"
-                                        >GH-${item.public_id}</a>).
-                                    </code>
-                                </li>
-                            `;
-                        })}
-                    </ul>
+                    <div class="item-changes-list ${(this._viewMode === "pretty" ? "item-changes--active" : "")}"">
+                        ${this._groupMode === "grouped" ? html`
+                            ${this._groupedNotes.map((groupItem) => {
+                              return html`
+                                  <h4>${groupItem.name}</h4>
+                                  <ul>
+                                      ${groupItem.pulls.map((item) => {
+                                          return this._renderGroupedItem("pretty", item);
+                                      })}
+                                  </ul>
+                              `;
+                            })}
+                        ` : html`
+                            <ul>
+                                ${this._sortedNotes.map((item) => {
+                                    return this._renderUnifiedItem("pretty", item);
+                                })}
+                            </ul>
+                        `}
+                    </div>
 
                     <div class="item-changes-markdown ${(this._viewMode === "markdown" ? "item-changes--active" : "")}"">
-                        <code>
-                            ${this._sorted_notes.map((item) => {
-                                return html`
-                                    - ${item.group}: ${item.title} ([GH-${item.public_id}](https://github.com/${this.repository}/pull/${item.public_id})).
-                                    <br>
-                                `;
-                            })}
+                        <code id="item-release-notes">
+                            ${this._groupMode === "grouped" ? html`
+                                ${this._groupedNotes.map((groupItem, index) => {
+                                    return html`
+                                      ${index > 0 ? html`<br>` : ""}
+                                      #### ${groupItem.name}
+                                      <br><br>
+
+                                      ${groupItem.pulls.map((item) => {
+                                          return this._renderGroupedItem("markdown", item);
+                                      })}
+                                    `;
+                                })}
+                            ` : html `
+                                ${this._sortedNotes.map((item) => {
+                                    return this._renderUnifiedItem("markdown", item);
+                                })}
+                            `}
                         </code>
                     </div>
                 </div>
