@@ -1,17 +1,14 @@
 const fs = require('fs').promises;
 const fsConstants = require('fs').constants;
 
-const ExitCodes = {
-    "ParseFailure": 2,
-    "IOFailure": 4,
-};
+const buildCommon = require('./build/utils/build-common.js');
 
 async function publishData() {
     try {
         console.log("[*] Copying pre-generated data files.");
         const sourcePath = "./data";
         const targetPath = "./out/data";
-        await ensureDir(targetPath);
+        await buildCommon.ensureDir(targetPath);
 
         const pathStat = await fs.stat(sourcePath);
         if (!pathStat.isDirectory()) {
@@ -40,7 +37,7 @@ async function publishData() {
         console.log(`    Published ${file_count} data files.`);
     } catch (err) {
         console.error(`    Error publishing data files: ` + err);
-        process.exitCode = ExitCodes.IOFailure;
+        process.exitCode = buildCommon.ExitCodes.IOFailure;
         return;
     }
 }
@@ -95,7 +92,7 @@ async function publishConfigs() {
 
         console.log("[*] Saving unified version configs.");
         const targetPath = "./out/data";
-        await ensureDir(targetPath);
+        await buildCommon.ensureDir(targetPath);
 
         // Comparing strings is kind of meh, so we turn them into numeric values.
         const envalueVersion = (versionString) => {
@@ -145,49 +142,7 @@ async function publishConfigs() {
         }
     } catch (err) {
         console.error(`    Error publishing version configs: ` + err);
-        process.exitCode = ExitCodes.IOFailure;
-        return;
-    }
-}
-
-async function ensureDir(dirPath) {
-    try {
-        await fs.access(dirPath, fsConstants.R_OK | fsConstants.W_OK);
-    } catch (err) {
-        await fs.mkdir(dirPath);
-    }
-}
-
-async function clearDir(rootPath) {
-    try {
-        const pathStat = await fs.stat(rootPath);
-        if (!pathStat.isDirectory()) {
-            return;
-        }
-
-        const removeDir = async (dirPath) => {
-            const dirFiles = await fs.readdir(dirPath);
-            for (let entryName of dirFiles) {
-                if (entryName === "." || entryName === "..") {
-                    continue;
-                }
-
-                const entryPath = `${dirPath}/${entryName}`;
-                const entryStat = await fs.stat(entryPath);
-                if (entryStat.isDirectory()) {
-                    await removeDir(entryPath);
-                    await fs.rmdir(entryPath);
-                }
-                else if (entryStat.isFile()) {
-                    await fs.unlink(entryPath);
-                }
-            }
-        };
-
-        await removeDir(rootPath);
-    } catch (err) {
-        console.error(`    Error clearing a folder at ${rootPath}: ` + err);
-        process.exitCode = ExitCodes.IOFailure;
+        process.exitCode = buildCommon.ExitCodes.IOFailure;
         return;
     }
 }
@@ -201,7 +156,7 @@ async function main() {
     };
 
     console.log("[*] Publishing local commit and pull request database.");
-    await ensureDir("./out");
+    await buildCommon.ensureDir("./out");
 
     // First, we copy all data files that are available to the output directory.
     await publishData();

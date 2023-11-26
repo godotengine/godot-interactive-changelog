@@ -4,12 +4,7 @@ const nodeUtil = require('util');
 const fetch = require('node-fetch');
 const exec = nodeUtil.promisify(require('child_process').exec);
 
-const ExitCodes = {
-    "RequestFailure": 1,
-    "ParseFailure": 2,
-    "ExecFailure": 3,
-    "IOFailure": 4,
-};
+const buildCommon = require('./build/utils/build-common.js');
 
 const LogFormat = {
     "Raw": 0,
@@ -51,7 +46,7 @@ class DataFetcher {
 
     async _logResponse(data, name, format = LogFormat.JSON) {
         try {
-            await ensureDir("./logs");
+            await buildCommon.ensureDir("./logs");
 
             let filename = `./logs/${name}`;
             let fileContent = "" + data;
@@ -93,8 +88,8 @@ class DataFetcher {
     async checkoutRepo(fromTag, atCommit) {
         try {
             // Make sure that the temp folder exists and is empty.
-            await ensureDir("./temp");
-            await clearDir("./temp");
+            await buildCommon.ensureDir("./temp");
+            await buildCommon.clearDir("./temp");
 
             // Checkout a shallow clone of the repository; we are only interested in its history.
             await exec(`git clone --filter=tree:0 --branch ${fromTag} --single-branch ${this.repo_ssh_path}`, { cwd: "./temp", maxBuffer: EXEC_MAX_BUFFER });
@@ -103,7 +98,7 @@ class DataFetcher {
             }
         } catch (err) {
             console.error("    Error checking out a copy of the target repository: " + err);
-            process.exitCode = ExitCodes.ExecFailure;
+            process.exitCode = buildCommon.ExitCodes.ExecFailure;
             return;
         }
     }
@@ -124,7 +119,7 @@ class DataFetcher {
             return commitHistory.split("\n").length;
         } catch (err) {
             console.error("    Error extracting the commit history: " + err);
-            process.exitCode = ExitCodes.ExecFailure;
+            process.exitCode = buildCommon.ExitCodes.ExecFailure;
             return 0;
         }
     }
@@ -141,7 +136,7 @@ class DataFetcher {
             return commitHistory;
         } catch (err) {
             console.error("    Error extracting the commit history: " + err);
-            process.exitCode = ExitCodes.ExecFailure;
+            process.exitCode = buildCommon.ExitCodes.ExecFailure;
             return "";
         }
     }
@@ -162,7 +157,7 @@ class DataFetcher {
             return commitHashes.split("\n");
         } catch (err) {
             console.error("    Error extracting the commit history: " + err);
-            process.exitCode = ExitCodes.ExecFailure;
+            process.exitCode = buildCommon.ExitCodes.ExecFailure;
             return [];
         }
     }
@@ -221,7 +216,7 @@ class DataFetcher {
             const res = await this.fetchGithub(query);
             if (res.status !== 200) {
                 this._handleResponseErrors(this.api_repository_id, res);
-                process.exitCode = ExitCodes.RequestFailure;
+                process.exitCode = buildCommon.ExitCodes.RequestFailure;
                 return;
             }
 
@@ -233,7 +228,7 @@ class DataFetcher {
             console.log(`    [$${rate_limit.cost}][${rate_limit.nodeCount}] Available API calls: ${rate_limit.remaining}/${rate_limit.limit}; resets at ${rate_limit.resetAt}`);
         } catch (err) {
             console.error("    Error checking the API rate limits: " + err);
-            process.exitCode = ExitCodes.RequestFailure;
+            process.exitCode = buildCommon.ExitCodes.RequestFailure;
             return;
         }
     }
@@ -327,7 +322,7 @@ class DataFetcher {
             const res = await this.fetchGithub(query, API_MAX_RETRIES);
             if (res.status !== 200) {
                 this._handleResponseErrors(this.api_repository_id, res);
-                process.exitCode = ExitCodes.RequestFailure;
+                process.exitCode = buildCommon.ExitCodes.RequestFailure;
                 return [];
             }
 
@@ -349,7 +344,7 @@ class DataFetcher {
             return commit_data;
         } catch (err) {
             console.error("    Error fetching pull request data: " + err);
-            process.exitCode = ExitCodes.RequestFailure;
+            process.exitCode = buildCommon.ExitCodes.RequestFailure;
             return [];
         }
     }
@@ -497,7 +492,7 @@ class DataProcessor {
             // Check if the file starts with the first commit record.
             if (commit == null && !GIT_HEAD_COMMIT_RE.test(line)) {
                 console.error("    Error parsing commit log: Invalid format.");
-                process.exitCode = ExitCodes.ParseFailure;
+                process.exitCode = buildCommon.ExitCodes.ParseFailure;
                 break;
             }
 
@@ -537,7 +532,7 @@ class DataProcessor {
             // By this point we should have the entire header, or we're broken.
             if (commit.hash === "" || commit.author_raw === "" || commit.committer_raw === "") {
                 console.error("    Error parsing commit log: Invalid format.");
-                process.exitCode = ExitCodes.ParseFailure;
+                process.exitCode = buildCommon.ExitCodes.ParseFailure;
                 break;
             }
 
@@ -577,7 +572,7 @@ class DataProcessor {
 
         if (this.log.length !== logSize) {
             console.error(`    Error parsing commit log: Expected to received ${logSize} commits, but got ${this.log.length} instead.`);
-            process.exitCode = ExitCodes.ParseFailure;
+            process.exitCode = buildCommon.ExitCodes.ParseFailure;
         }
     }
 
@@ -676,7 +671,7 @@ class DataProcessor {
             }
         } catch (err) {
             console.error("    Error parsing commit and pull request data: " + err);
-            process.exitCode = ExitCodes.ParseFailure;
+            process.exitCode = buildCommon.ExitCodes.ParseFailure;
         }
     }
 
@@ -756,7 +751,7 @@ class DataIO {
 
         if (this.data_owner === "" || this.data_repo === "" || this.data_version === "") {
             console.error("    Error reading command-line arguments: owner, repo, and version cannot be empty.");
-            process.exitCode = ExitCodes.IOFailure;
+            process.exitCode = buildCommon.ExitCodes.IOFailure;
             return;
         }
     }
@@ -777,7 +772,7 @@ class DataIO {
             this.releases = this.config.releases || [];
         } catch (err) {
             console.error("    Error loading version config file: " + err);
-            process.exitCode = ExitCodes.IOFailure;
+            process.exitCode = buildCommon.ExitCodes.IOFailure;
             return;
         }
     }
@@ -786,7 +781,7 @@ class DataIO {
         try {
             console.log("[*] Loading version database from a file.");
 
-            await ensureDir("./data");
+            await buildCommon.ensureDir("./data");
             const databasePath = `./data/${fileName}`;
             await fs.access(databasePath, fsConstants.R_OK);
             const dataContent = await fs.readFile(databasePath);
@@ -794,7 +789,7 @@ class DataIO {
             return JSON.parse(dataContent);
         } catch (err) {
             console.error("    Error loading version database file: " + err);
-            process.exitCode = ExitCodes.IOFailure;
+            process.exitCode = buildCommon.ExitCodes.IOFailure;
             return null;
         }
     }
@@ -803,11 +798,11 @@ class DataIO {
         try {
             console.log("[*] Storing version database to a file.");
 
-            await ensureDir("./data");
+            await buildCommon.ensureDir("./data");
             await fs.writeFile(`./data/${fileName}`, JSON.stringify(dataObject), {encoding: "utf-8"});
         } catch (err) {
             console.error("    Error saving version database file: " + err);
-            process.exitCode = ExitCodes.IOFailure;
+            process.exitCode = buildCommon.ExitCodes.IOFailure;
             return;
         }
     }
@@ -815,48 +810,6 @@ class DataIO {
 
 function mapNodes(object) {
     return object.edges.map((item) => item["node"])
-}
-
-async function ensureDir(dirPath) {
-    try {
-        await fs.access(dirPath, fsConstants.R_OK | fsConstants.W_OK);
-    } catch (err) {
-        await fs.mkdir(dirPath);
-    }
-}
-
-async function clearDir(rootPath) {
-    try {
-        const pathStat = await fs.stat(rootPath);
-        if (!pathStat.isDirectory()) {
-            return;
-        }
-
-        const removeDir = async (dirPath) => {
-            const dirFiles = await fs.readdir(dirPath);
-            for (let entryName of dirFiles) {
-                if (entryName === "." || entryName === "..") {
-                    continue;
-                }
-
-                const entryPath = `${dirPath}/${entryName}`;
-                const entryStat = await fs.stat(entryPath);
-                if (entryStat.isDirectory()) {
-                    await removeDir(entryPath);
-                    await fs.rmdir(entryPath);
-                }
-                else if (entryStat.isFile()) {
-                    await fs.unlink(entryPath);
-                }
-            }
-        };
-
-        await removeDir(rootPath);
-    } catch (err) {
-        console.error(`    Error clearing a folder at ${rootPath}: ` + err);
-        process.exitCode = ExitCodes.IOFailure;
-        return;
-    }
 }
 
 async function main() {
