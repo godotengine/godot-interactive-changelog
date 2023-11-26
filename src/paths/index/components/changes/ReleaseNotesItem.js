@@ -1,7 +1,5 @@
 import { LitElement, html, css, customElement, property } from 'lit-element';
 
-import ReleaseNotesFormatter from "../../helpers/ReleaseNotesFormatter"
-
 @customElement('gr-release-notes')
 export default class ReleaseNotesItem extends LitElement {
     static get styles() {
@@ -196,20 +194,19 @@ export default class ReleaseNotesItem extends LitElement {
 
         let groupedNotes = {};
         this.pulls.forEach((pull) => {
-            // Simplify the array.
-            const allLabels = pull.labels.map(item => item.name);
-            let groupName = ReleaseNotesFormatter.determineGroup(allLabels);
-
             // Store under the determined group.
-            const humanizedName = ReleaseNotesFormatter.humanizeGroupName(groupName);
-            if (typeof groupedNotes[humanizedName] === "undefined") {
-                groupedNotes[humanizedName] = [];
+            if (typeof groupedNotes[pull.group_name] === "undefined") {
+                groupedNotes[pull.group_name] = [];
             }
-            groupedNotes[humanizedName].push(pull);
+            groupedNotes[pull.group_name].push(pull);
         });
 
         const groupNames = Object.keys(groupedNotes);
-        groupNames.sort(ReleaseNotesFormatter.sortGroupNames);
+        groupNames.sort((a, b) => {
+            if (a.toLowerCase() > b.toLowerCase()) return 1;
+            if (a.toLowerCase() < b.toLowerCase()) return -1;
+            return 0;
+        });
 
         groupNames.forEach((group) => {
             const pulls = groupedNotes[group];
@@ -226,18 +223,17 @@ export default class ReleaseNotesItem extends LitElement {
 
             let groupItems = [];
             pulls.forEach((pull) => {
-                const cleanTitle = ReleaseNotesFormatter.cleanupChangeMessage(group, pull.title);
                 const item = {
                   "group": group,
-                  "title": cleanTitle,
+                  "title": pull.title,
                   "public_id": pull.public_id,
               };
 
                 this._sortedNotes.push(item);
                 groupItems.push(item);
 
-                this._copiableUnifiedText += `- ${group}: ${cleanTitle} ([GH-${pull.public_id}](https://github.com/${this.repository}/pull/${pull.public_id})).\n`;
-                this._copiableGroupedText += `- ${cleanTitle} ([GH-${pull.public_id}](https://github.com/${this.repository}/pull/${pull.public_id})).\n`;
+                this._copiableUnifiedText += `- ${group}: ${pull.title} ([GH-${pull.public_id}](https://github.com/${this.repository}/pull/${pull.public_id})).\n`;
+                this._copiableGroupedText += `- ${pull.title} ([GH-${pull.public_id}](https://github.com/${this.repository}/pull/${pull.public_id})).\n`;
             });
 
             this._groupedNotes.push({

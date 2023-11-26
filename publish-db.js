@@ -2,8 +2,11 @@ const fs = require('fs').promises;
 const fsConstants = require('fs').constants;
 
 const buildCommon = require('./build/utils/build-common.js');
+const PullClassifier = require('./build/utils/publish-classifier.js')
 
 async function publishData() {
+    const classifier = new PullClassifier();
+
     try {
         console.log("[*] Copying pre-generated data files.");
         const sourcePath = "./data";
@@ -29,14 +32,26 @@ async function publishData() {
                 continue;
             }
 
-            // Resaving the data entry without extra spaces as a way to compress it a bit.
+            // Resave the data entry without extra spaces as a way to compress it a bit.
+            // We also do some pre-processing to speed up processing on the front end at
+            // a cost of a slightly bigger download.
 
             await fs.access(entryPath, fsConstants.R_OK);
             const entryContent = await fs.readFile(entryPath, { encoding: 'utf-8' });
             const entry = JSON.parse(entryContent);
 
+            // Classify and clean-up pull requests.
+            Object.keys(entry.pulls).forEach((pullKey) => {
+                const pull = entry.pulls[pullKey];
+
+                pull.group_key = classifier.determineGroup(pull);
+                pull.group_name = classifier.humanizeGroup(pull.group_key);
+                pull.title = classifier.cleanupTitle(pull);
+            });
+
             const copyPath = `${targetPath}/${sourceName}`;
             await fs.writeFile(copyPath, JSON.stringify(entry), { encoding: 'utf-8' });
+            console.log(`    Published data from ${sourceName}.`);
 
             file_count++;
         }

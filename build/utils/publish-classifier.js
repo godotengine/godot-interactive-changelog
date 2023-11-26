@@ -7,8 +7,11 @@ const VERSION_PREFIX_REGEX = /^[\(\[][34]\.[0-9x][\)\]]/;
 const VERSION_SUFFIX_REGEX = /[\(\[][34]\.[0-9x][\)\]]$/;
 const AREA_PREFIX_REGEX = /^[\[`']([a-zA-Z0-9]+)[\]`']/;
 
-export default class ReleaseNotesFormatter {
-    static determineGroup(allLabels) {
+class PullClassifier {
+    determineGroup(pull) {
+        // Simplify the array.
+        const allLabels = pull.labels.map(item => item.name);
+
         // We use labels to deduce which category does the change
         // fall under. We consider more specific groups before more
         // general ones. When in doubt, pick any group.
@@ -54,12 +57,11 @@ export default class ReleaseNotesFormatter {
         }
 
         // If no group was detected, we just stay on "core".
-
         return groupName;
     }
 
-    static humanizeGroupName(name) {
-        switch (name) {
+    humanizeGroup(groupName) {
+        switch (groupName) {
             case "2d":
                 return "2D";
             case "3d":
@@ -78,11 +80,11 @@ export default class ReleaseNotesFormatter {
                 return "XR";
         }
 
-        return name.charAt(0).toUpperCase() + name.substring(1);
+        return groupName.charAt(0).toUpperCase() + groupName.substring(1);
     }
 
-    static cleanupChangeMessage(groupName, message) {
-        let cleanMessage = message.trim();
+    cleanupTitle(pull) {
+        let cleanMessage = pull.title.trim();
         // Sometimes there are periods at the end.
         if (cleanMessage.endsWith(".")) {
             cleanMessage = cleanMessage.substring(0, cleanMessage.length - 1);
@@ -113,8 +115,8 @@ export default class ReleaseNotesFormatter {
 
         // Some PR titles contain the same group prefix already,
         // so we're going to remove it for a cleaner look.
-        if (cleanMessage.startsWith(`${groupName}:`)) {
-            cleanMessage = cleanMessage.substring(groupName.length + 1).trim();
+        if (cleanMessage.startsWith(`${pull.group_name}:`)) {
+            cleanMessage = cleanMessage.substring(pull.group_name.length + 1).trim();
         }
 
         // There are also some special cases where the prefix may
@@ -135,10 +137,6 @@ export default class ReleaseNotesFormatter {
 
         return cleanMessage;
     }
-
-    static sortGroupNames(a, b) {
-        if (a.toLowerCase() > b.toLowerCase()) return 1;
-        if (a.toLowerCase() < b.toLowerCase()) return -1;
-        return 0;
-    }
 }
+
+module.exports = PullClassifier;
