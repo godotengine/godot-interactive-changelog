@@ -29,8 +29,15 @@ async function publishData() {
                 continue;
             }
 
+            // Resaving the data entry without extra spaces as a way to compress it a bit.
+
+            await fs.access(entryPath, fsConstants.R_OK);
+            const entryContent = await fs.readFile(entryPath, { encoding: 'utf-8' });
+            const entry = JSON.parse(entryContent);
+
             const copyPath = `${targetPath}/${sourceName}`;
-            await fs.copyFile(entryPath, copyPath);
+            await fs.writeFile(copyPath, JSON.stringify(entry), { encoding: 'utf-8' });
+
             file_count++;
         }
 
@@ -73,7 +80,7 @@ async function publishConfigs() {
             }
 
             await fs.access(configPath, fsConstants.R_OK);
-            const configContent = await fs.readFile(configPath);
+            const configContent = await fs.readFile(configPath, { encoding: 'utf-8' });
 
             const config = JSON.parse(configContent);
             const [ config_owner, config_repo ] = nameBits;

@@ -70,7 +70,7 @@ class DataIO {
 
             const configPath = `./configs/${this.data_owner}.${this.data_repo}.${this.data_version}.json`;
             await fs.access(configPath, fsConstants.R_OK);
-            const configContent = await fs.readFile(configPath);
+            const configContent = await fs.readFile(configPath, { encoding: 'utf-8' });
 
             this.config = JSON.parse(configContent);
 
@@ -92,7 +92,7 @@ class DataIO {
             await buildCommon.ensureDir("./data");
             const databasePath = `./data/${fileName}`;
             await fs.access(databasePath, fsConstants.R_OK);
-            const dataContent = await fs.readFile(databasePath);
+            const dataContent = await fs.readFile(databasePath, { encoding: 'utf-8' });
 
             return JSON.parse(dataContent);
         } catch (err) {
@@ -107,7 +107,7 @@ class DataIO {
             console.log("[*] Storing version database to a file.");
 
             await buildCommon.ensureDir("./data");
-            await fs.writeFile(`./data/${fileName}`, JSON.stringify(dataObject), {encoding: "utf-8"});
+            await fs.writeFile(`./data/${fileName}`, JSON.stringify(dataObject, null, 4), { encoding: 'utf-8' });
         } catch (err) {
             console.error("    Error saving version database file: " + err);
             process.exitCode = buildCommon.ExitCodes.IOFailure;

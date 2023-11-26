@@ -46,7 +46,7 @@ class DataFetcher {
                 fileContent = JSON.stringify(data, null, 4);
             }
 
-            await fs.writeFile(filename, fileContent, {encoding: "utf-8"});
+            await fs.writeFile(filename, fileContent, { encoding: 'utf-8' });
         } catch (err) {
             console.error("    Error saving log file: " + err);
         }
