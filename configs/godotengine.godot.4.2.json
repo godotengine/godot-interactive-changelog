@@ -1,9 +1,8 @@
 {
     "name": "4.2",
-    "git_tag": "master",
-    "ref": "1ba920fada9efc8c4476ded50fe673b8db541366",
+    "ref": "4.2-stable",
     "from_ref": "4.1-stable",
-    "article": "",
+    "article": "https://godotengine.org/article/godot-4-2-arrives-in-style/",
 
     "releases": [
         {
@@ -89,6 +88,12 @@
             "ref": "1ba920fada9efc8c4476ded50fe673b8db541366",
             "from_ref": "ad72de508363ca8d10c6b148be44a02cdf12be13",
             "article": "https://godotengine.org/article/release-candidate-godot-4-2-rc-2/"
+        },
+        {
+            "name": "stable",
+            "ref": "4.2-stable",
+            "from_ref": "1ba920fada9efc8c4476ded50fe673b8db541366",
+            "article": "https://godotengine.org/article/godot-4-2-arrives-in-style/"
         }
     ]
 }
