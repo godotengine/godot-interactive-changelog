@@ -1,6 +1,14 @@
 {
-    "generated_at": 1702033667894,
+    "generated_at": 1702376206853,
     "log": [
+        "b09f793f564a6c95dc76acc654b390e68441bd01",
+        "1dee633c915ac83eebf55c7274ba7f6342bd39f3",
+        "5dd7623ecc98664ed71be1f33ba97a0a98b57e4e",
+        "67038ecd2999e2922860351b0fdb7af73e776dba",
+        "ed55f9d3e9460148865f7dcce8d6c55b71ff8294",
+        "fc15ffed1e585c4f1ff7025a5a0f2306591be36e",
+        "4cce0d971130f7689965042654a7dc2fbedd9bb0",
+        "6e043b80f6023de6cd883598a30a0181aef5388b",
         "daeb1c7292cbb426fd45c5ca98b1c7da40b390ba",
         "9d22668b9fcbc04bbfe721a257443a0a65dedb63",
         "075a5a174feef13ed35ae805428ce99d6864bffb",
@@ -152,6 +160,16 @@
             "013c1191009eab0c85bf75dea098ada2b856d34b",
             "ab7b662353794ee0044b0856951136d963caf7f3",
             "0bf12956a10d216c46368f26b00f6999d000c1d8"
+        ],
+        "stable": [
+            "b09f793f564a6c95dc76acc654b390e68441bd01",
+            "1dee633c915ac83eebf55c7274ba7f6342bd39f3",
+            "5dd7623ecc98664ed71be1f33ba97a0a98b57e4e",
+            "67038ecd2999e2922860351b0fdb7af73e776dba",
+            "ed55f9d3e9460148865f7dcce8d6c55b71ff8294",
+            "fc15ffed1e585c4f1ff7025a5a0f2306591be36e",
+            "4cce0d971130f7689965042654a7dc2fbedd9bb0",
+            "6e043b80f6023de6cd883598a30a0181aef5388b"
         ]
     },
     "authors": {
@@ -161,6 +179,46 @@
             "avatar": "https://avatars.githubusercontent.com/u/4701338?u=4a42fd867f2c449fcc23adf635dd574dae98e6c2&v=4",
             "url": "https://github.com/akien-mga",
             "pull_count": 1,
+            "commit_count": 7
+        },
+        "MDQ6VXNlcjI3MDkyOA==": {
+            "id": "MDQ6VXNlcjI3MDkyOA==",
+            "user": "adamscott",
+            "avatar": "https://avatars.githubusercontent.com/u/270928?v=4",
+            "url": "https://github.com/adamscott",
+            "pull_count": 1,
+            "commit_count": 2
+        },
+        "MDQ6VXNlcjExNzgyODMz": {
+            "id": "MDQ6VXNlcjExNzgyODMz",
+            "user": "YuriSizov",
+            "avatar": "https://avatars.githubusercontent.com/u/11782833?u=fccc436e4c80f272ba6d90e311e32bf8fb3abf0b&v=4",
+            "url": "https://github.com/YuriSizov",
+            "pull_count": 7,
+            "commit_count": 11
+        },
+        "MDQ6VXNlcjMwMzM0ODM0": {
+            "id": "MDQ6VXNlcjMwMzM0ODM0",
+            "user": "HolySkyMin",
+            "avatar": "https://avatars.githubusercontent.com/u/30334834?v=4",
+            "url": "https://github.com/HolySkyMin",
+            "pull_count": 2,
+            "commit_count": 4
+        },
+        "MDQ6VXNlcjE2NTIxMzM5": {
+            "id": "MDQ6VXNlcjE2NTIxMzM5",
+            "user": "clayjohn",
+            "avatar": "https://avatars.githubusercontent.com/u/16521339?u=e44a465cbebabb9ea2be80b59e6dc07966bef5b7&v=4",
+            "url": "https://github.com/clayjohn",
+            "pull_count": 3,
+            "commit_count": 6
+        },
+        "MDQ6VXNlcjYwOTMxMTk=": {
+            "id": "MDQ6VXNlcjYwOTMxMTk=",
+            "user": "groud",
+            "avatar": "https://avatars.githubusercontent.com/u/6093119?u=789cd3344bf445b635897d21c6ae655be56a1a8f&v=4",
+            "url": "https://github.com/groud",
+            "pull_count": 2,
             "commit_count": 4
         },
         "MDQ6VXNlcjM3MjQ3Ng==": {
@@ -170,14 +228,6 @@
             "url": "https://github.com/timothyqiu",
             "pull_count": 3,
             "commit_count": 6
-        },
-        "MDQ6VXNlcjExNzgyODMz": {
-            "id": "MDQ6VXNlcjExNzgyODMz",
-            "user": "YuriSizov",
-            "avatar": "https://avatars.githubusercontent.com/u/11782833?u=fccc436e4c80f272ba6d90e311e32bf8fb3abf0b&v=4",
-            "url": "https://github.com/YuriSizov",
-            "pull_count": 6,
-            "commit_count": 10
         },
         "MDQ6VXNlcjQzNTc3NzQz": {
             "id": "MDQ6VXNlcjQzNTc3NzQz",
@@ -251,14 +301,6 @@
             "pull_count": 1,
             "commit_count": 2
         },
-        "MDQ6VXNlcjMwMzM0ODM0": {
-            "id": "MDQ6VXNlcjMwMzM0ODM0",
-            "user": "HolySkyMin",
-            "avatar": "https://avatars.githubusercontent.com/u/30334834?v=4",
-            "url": "https://github.com/HolySkyMin",
-            "pull_count": 1,
-            "commit_count": 2
-        },
         "MDQ6VXNlcjc3ODIyMTg=": {
             "id": "MDQ6VXNlcjc3ODIyMTg=",
             "user": "DmitriySalnikov",
@@ -299,14 +341,6 @@
             "pull_count": 1,
             "commit_count": 2
         },
-        "MDQ6VXNlcjE2NTIxMzM5": {
-            "id": "MDQ6VXNlcjE2NTIxMzM5",
-            "user": "clayjohn",
-            "avatar": "https://avatars.githubusercontent.com/u/16521339?u=e44a465cbebabb9ea2be80b59e6dc07966bef5b7&v=4",
-            "url": "https://github.com/clayjohn",
-            "pull_count": 2,
-            "commit_count": 4
-        },
         "MDQ6VXNlcjMwNTQxMTgz": {
             "id": "MDQ6VXNlcjMwNTQxMTgz",
             "user": "brno32",
@@ -320,14 +354,6 @@
             "user": "TheSofox",
             "avatar": "https://avatars.githubusercontent.com/u/3089525?u=9c26f4e874d289f4d94ef7ab1954523255db2395&v=4",
             "url": "https://github.com/TheSofox",
-            "pull_count": 1,
-            "commit_count": 2
-        },
-        "MDQ6VXNlcjYwOTMxMTk=": {
-            "id": "MDQ6VXNlcjYwOTMxMTk=",
-            "user": "groud",
-            "avatar": "https://avatars.githubusercontent.com/u/6093119?u=789cd3344bf445b635897d21c6ae655be56a1a8f&v=4",
-            "url": "https://github.com/groud",
             "pull_count": 1,
             "commit_count": 2
         },
@@ -485,6 +511,173 @@
         }
     },
     "commits": {
+        "b09f793f564a6c95dc76acc654b390e68441bd01": {
+            "hash": "b09f793f564a6c95dc76acc654b390e68441bd01",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Bump version to 4.2.1-stable",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "1dee633c915ac83eebf55c7274ba7f6342bd39f3": {
+            "hash": "1dee633c915ac83eebf55c7274ba7f6342bd39f3",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "i18n: Sync translations with Weblate",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "5dd7623ecc98664ed71be1f33ba97a0a98b57e4e": {
+            "hash": "5dd7623ecc98664ed71be1f33ba97a0a98b57e4e",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjI3MDkyOA=="
+            ],
+            "author_raw": "Adam Scott <ascott.ca@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Set what were default values for some emscripten linkflags",
+            "body": "- Set `-sSTACK_SIZE` to what it was before emscripten 3.1.27.\nIt was renamed in 3.1.25 so also set `-sTOTAL_SIZE` for older\nversions for consistency.\n- Set `-sDEFAULT_PTHREAD_STACK_SIZE` to what it was before 3.1.30.\n\nCo-authored-by: Rémi Verschelde <rverschelde@gmail.com>\n(cherry picked from commit 8e5fbd43488ad39a9b987c9abc38134841f44024)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "8e5fbd43488ad39a9b987c9abc38134841f44024",
+            "pull": ""
+        },
+        "8e5fbd43488ad39a9b987c9abc38134841f44024": {
+            "hash": "8e5fbd43488ad39a9b987c9abc38134841f44024",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjI3MDkyOA==",
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Adam Scott <ascott.ca@gmail.com>",
+            "committer_raw": "Adam Scott <ascott.ca@gmail.com>",
+            "summary": "Set what were default values for some emscripten linkflags",
+            "body": "- Set `-sSTACK_SIZE` to what it was before emscripten 3.1.27.\nIt was renamed in 3.1.25 so also set `-sTOTAL_SIZE` for older\nversions for consistency.\n- Set `-sDEFAULT_PTHREAD_STACK_SIZE` to what it was before 3.1.30.\n\nCo-authored-by: Rémi Verschelde <rverschelde@gmail.com>",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 86036
+        },
+        "67038ecd2999e2922860351b0fdb7af73e776dba": {
+            "hash": "67038ecd2999e2922860351b0fdb7af73e776dba",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Yuri Sizov <11782833+YuriSizov@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #86026 from YuriSizov/4.2-cherrypicks",
+            "body": "Cherry-picks for the 4.2 branch (future 4.2.1) - 2nd batch",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "ed55f9d3e9460148865f7dcce8d6c55b71ff8294": {
+            "hash": "ed55f9d3e9460148865f7dcce8d6c55b71ff8294",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjExNzgyODMz"
+            ],
+            "author_raw": "Yuri Sizov <yuris@humnom.net>",
+            "committer_raw": "Yuri Sizov <yuris@humnom.net>",
+            "summary": "Update the changelog for 4.2.1",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 86026
+        },
+        "fc15ffed1e585c4f1ff7025a5a0f2306591be36e": {
+            "hash": "fc15ffed1e585c4f1ff7025a5a0f2306591be36e",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjMwMzM0ODM0"
+            ],
+            "author_raw": "HolySkyMin <fsda109238@gmail.com>",
+            "committer_raw": "Yuri Sizov <yuris@humnom.net>",
+            "summary": "GLES3: Skip batches with zero instance count while rendering",
+            "body": "(cherry picked from commit 51dcb388409095133261fb98c8822fbc6bb55c8e)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "51dcb388409095133261fb98c8822fbc6bb55c8e",
+            "pull": 86026
+        },
+        "51dcb388409095133261fb98c8822fbc6bb55c8e": {
+            "hash": "51dcb388409095133261fb98c8822fbc6bb55c8e",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjMwMzM0ODM0"
+            ],
+            "author_raw": "HolySkyMin <fsda109238@gmail.com>",
+            "committer_raw": "HolySkyMin <fsda109238@gmail.com>",
+            "summary": "GLES3: Skip batches with zero instance count while rendering",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 85778
+        },
+        "4cce0d971130f7689965042654a7dc2fbedd9bb0": {
+            "hash": "4cce0d971130f7689965042654a7dc2fbedd9bb0",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE2NTIxMzM5"
+            ],
+            "author_raw": "Clay John <claynjohn@gmail.com>",
+            "committer_raw": "Yuri Sizov <yuris@humnom.net>",
+            "summary": "Ensure that 2D meshes use a proper input mask",
+            "body": "The input mask was wrongly ignored in earlier versions. Now it is actually used so the input mask variable needs to be a valid number\n\n(cherry picked from commit 777d6ae1c617f3cb711338e745665b6b1837a403)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "777d6ae1c617f3cb711338e745665b6b1837a403",
+            "pull": 86026
+        },
+        "777d6ae1c617f3cb711338e745665b6b1837a403": {
+            "hash": "777d6ae1c617f3cb711338e745665b6b1837a403",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE2NTIxMzM5"
+            ],
+            "author_raw": "Clay John <claynjohn@gmail.com>",
+            "committer_raw": "Clay John <claynjohn@gmail.com>",
+            "summary": "Ensure that 2D meshes use a proper input mask",
+            "body": "The input mask was wrongly ignored in earlier versions. Now it is actually used so the input mask variable needs to be a valid number",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 85972
+        },
+        "6e043b80f6023de6cd883598a30a0181aef5388b": {
+            "hash": "6e043b80f6023de6cd883598a30a0181aef5388b",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjYwOTMxMTk="
+            ],
+            "author_raw": "Gilles Roudiere <gilles.roudiere@gmail.com>",
+            "committer_raw": "Yuri Sizov <yuris@humnom.net>",
+            "summary": "Fixes TileMap occluders",
+            "body": "(cherry picked from commit fcb8d19de0c2155384b629a7cd5dcf84401e3409)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "fcb8d19de0c2155384b629a7cd5dcf84401e3409",
+            "pull": 86026
+        },
+        "fcb8d19de0c2155384b629a7cd5dcf84401e3409": {
+            "hash": "fcb8d19de0c2155384b629a7cd5dcf84401e3409",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjYwOTMxMTk="
+            ],
+            "author_raw": "Gilles Roudiere <gilles.roudiere@gmail.com>",
+            "committer_raw": "Gilles Roudiere <gilles.roudiere@gmail.com>",
+            "summary": "Fixes TileMap occluders",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 85893
+        },
         "daeb1c7292cbb426fd45c5ca98b1c7da40b390ba": {
             "hash": "daeb1c7292cbb426fd45c5ca98b1c7da40b390ba",
             "is_merge": false,
@@ -2466,7 +2659,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjM3MjQ3Ng==",
             "created_at": "2023-06-27T04:02:42Z",
-            "updated_at": "2023-12-05T15:04:33Z",
+            "updated_at": "2023-12-10T13:01:00Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -2500,7 +2693,7 @@
             "is_draft": false,
             "authored_by": "U_kgDOBe5tvQ",
             "created_at": "2023-07-12T17:35:14Z",
-            "updated_at": "2023-12-05T13:45:51Z",
+            "updated_at": "2023-12-09T15:12:31Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -2922,7 +3115,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjgzMTU5ODY=",
             "created_at": "2023-10-31T10:00:25Z",
-            "updated_at": "2023-12-05T13:09:06Z",
+            "updated_at": "2023-12-09T16:40:38Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -2995,7 +3188,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjgzMTU5ODY=",
             "created_at": "2023-11-03T15:49:55Z",
-            "updated_at": "2023-12-05T13:09:25Z",
+            "updated_at": "2023-12-09T16:40:46Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -3243,7 +3436,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjQxOTIxMzk1",
             "created_at": "2023-11-13T17:00:31Z",
-            "updated_at": "2023-12-05T13:47:45Z",
+            "updated_at": "2023-12-08T17:38:28Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -3413,7 +3606,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE5NDU0NDk=",
             "created_at": "2023-11-18T09:36:38Z",
-            "updated_at": "2023-12-05T13:07:35Z",
+            "updated_at": "2023-12-10T22:58:34Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -3481,7 +3674,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjI5MTU4NDA3",
             "created_at": "2023-11-19T13:58:33Z",
-            "updated_at": "2023-12-05T13:34:02Z",
+            "updated_at": "2023-12-09T10:51:38Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -3583,7 +3776,7 @@
             "is_draft": false,
             "authored_by": "U_kgDOBe5tvQ",
             "created_at": "2023-11-21T22:32:53Z",
-            "updated_at": "2023-12-05T13:46:06Z",
+            "updated_at": "2023-12-09T15:13:39Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -3724,7 +3917,7 @@
             "is_draft": false,
             "authored_by": "U_kgDOBe5tvQ",
             "created_at": "2023-11-24T12:24:19Z",
-            "updated_at": "2023-12-05T13:43:55Z",
+            "updated_at": "2023-12-09T15:13:08Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -3948,7 +4141,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjgzMTU5ODY=",
             "created_at": "2023-11-27T11:21:48Z",
-            "updated_at": "2023-12-05T13:33:16Z",
+            "updated_at": "2023-12-09T16:40:58Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -4205,12 +4398,12 @@
             "url": "https://github.com/godotengine/godot/pull/85585",
             "diff_url": "https://github.com/godotengine/godot/pull/85585.diff",
             "patch_url": "https://github.com/godotengine/godot/pull/85585.patch",
-            "title": "Fix SnapGrid is almost invisble in light theme",
+            "title": "Fix SnapGrid is almost invisible in light theme",
             "state": "MERGED",
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjgzMTU5ODY=",
             "created_at": "2023-12-01T04:18:57Z",
-            "updated_at": "2023-12-07T09:27:41Z",
+            "updated_at": "2023-12-11T13:11:51Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -4560,12 +4753,12 @@
             "url": "https://github.com/godotengine/godot/pull/85774",
             "diff_url": "https://github.com/godotengine/godot/pull/85774.diff",
             "patch_url": "https://github.com/godotengine/godot/pull/85774.patch",
-            "title": "[iOS] Use mdfind to check if Xcode is installed in one-click deploy code.",
+            "title": "[iOS] Use `mdfind` to check if Xcode is installed in one-click deploy code.",
             "state": "MERGED",
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
             "created_at": "2023-12-05T07:16:10Z",
-            "updated_at": "2023-12-05T13:43:44Z",
+            "updated_at": "2023-12-08T12:40:16Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -4586,6 +4779,40 @@
             ],
             "commits": [
                 "0e2f297806dc204f2b61dd3727d5ec360205cbdd"
+            ]
+        },
+        "85778": {
+            "id": "PR_kwDOAO6SJc5hKDOf",
+            "public_id": 85778,
+            "url": "https://github.com/godotengine/godot/pull/85778",
+            "diff_url": "https://github.com/godotengine/godot/pull/85778.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/85778.patch",
+            "title": "GLES3: Skip batches with zero instance count while rendering canvas",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjMwMzM0ODM0",
+            "created_at": "2023-12-05T09:58:44Z",
+            "updated_at": "2023-12-11T11:44:06Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAABTZnv2Q",
+                    "name": "cherrypick:4.1",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "51dcb388409095133261fb98c8822fbc6bb55c8e"
             ]
         },
         "85779": {
@@ -4934,6 +5161,165 @@
             ],
             "commits": [
                 "9c83d3db5b02d0c554e9a0a958b6c52ea0d6dc05"
+            ]
+        },
+        "85893": {
+            "id": "PR_kwDOAO6SJc5hckLF",
+            "public_id": 85893,
+            "url": "https://github.com/godotengine/godot/pull/85893",
+            "diff_url": "https://github.com/godotengine/godot/pull/85893.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/85893.patch",
+            "title": "Fix TileMap occluders",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjYwOTMxMTk=",
+            "created_at": "2023-12-07T17:21:28Z",
+            "updated_at": "2023-12-11T10:45:29Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4MDU5",
+                    "name": "topic:2d",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "fcb8d19de0c2155384b629a7cd5dcf84401e3409"
+            ]
+        },
+        "85972": {
+            "id": "PR_kwDOAO6SJc5hmCoW",
+            "public_id": 85972,
+            "url": "https://github.com/godotengine/godot/pull/85972",
+            "diff_url": "https://github.com/godotengine/godot/pull/85972.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/85972.patch",
+            "title": "Ensure that 2D meshes use a proper input mask",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE2NTIxMzM5",
+            "created_at": "2023-12-09T19:17:54Z",
+            "updated_at": "2023-12-11T10:45:12Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4MDU5",
+                    "name": "topic:2d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "777d6ae1c617f3cb711338e745665b6b1837a403"
+            ]
+        },
+        "86026": {
+            "id": "PR_kwDOAO6SJc5hqna4",
+            "public_id": 86026,
+            "url": "https://github.com/godotengine/godot/pull/86026",
+            "diff_url": "https://github.com/godotengine/godot/pull/86026.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/86026.patch",
+            "title": "Cherry-picks for the 4.2 branch (future 4.2.1) - 2nd batch",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjExNzgyODMz",
+            "created_at": "2023-12-11T10:44:49Z",
+            "updated_at": "2023-12-11T13:45:30Z",
+            "target_branch": "4.2",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc5NjY=",
+                    "name": "topic:core",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "ed55f9d3e9460148865f7dcce8d6c55b71ff8294",
+                "fc15ffed1e585c4f1ff7025a5a0f2306591be36e",
+                "4cce0d971130f7689965042654a7dc2fbedd9bb0",
+                "6e043b80f6023de6cd883598a30a0181aef5388b"
+            ]
+        },
+        "86036": {
+            "id": "PR_kwDOAO6SJc5hsxGt",
+            "public_id": 86036,
+            "url": "https://github.com/godotengine/godot/pull/86036",
+            "diff_url": "https://github.com/godotengine/godot/pull/86036.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/86036.patch",
+            "title": "Set what were default values for Web platform linker flags `-sSTACK_SIZE` and `-sDEFAULT_PTHREAD_STACK_SIZE`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjI3MDkyOA==",
+            "created_at": "2023-12-11T15:59:21Z",
+            "updated_at": "2023-12-11T22:01:41Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc77GWog",
+                    "name": "cherrypick:3.5",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwxNjQ3MDUzMjAw",
+                    "name": "cherrypick:3.x",
+                    "color": "#446699"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAABTZnv2Q",
+                    "name": "cherrypick:4.1",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc0NTU=",
+                    "name": "platform:web",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "8e5fbd43488ad39a9b987c9abc38134841f44024"
             ]
         }
     }
