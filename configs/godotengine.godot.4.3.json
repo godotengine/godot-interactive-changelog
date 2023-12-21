@@ -1,0 +1,16 @@
+{
+    "name": "4.3",
+    "git_tag": "master",
+    "ref": "9d1cbab1c432b6f1d66ec939445bec68b6af519e",
+    "from_ref": "4.2-stable",
+    "article": "",
+
+    "releases": [
+        {
+            "name": "dev1",
+            "ref": "9d1cbab1c432b6f1d66ec939445bec68b6af519e",
+            "from_ref": "4.2-stable",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-3-dev-1/"
+        }
+    ]
+}
