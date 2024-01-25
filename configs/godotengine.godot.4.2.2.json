@@ -1,0 +1,16 @@
+{
+    "name": "4.2.2",
+    "git_tag": "4.2",
+    "ref": "c7fb0645af400a1859154bcee9394e63bdabd198",
+    "from_ref": "4.2.1-stable",
+    "article": "",
+
+    "releases": [
+        {
+            "name": "rc1",
+            "ref": "c7fb0645af400a1859154bcee9394e63bdabd198",
+            "from_ref": "4.2.1-stable",
+            "article": ""
+        }
+    ]
+}
