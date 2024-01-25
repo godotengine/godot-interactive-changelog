@@ -140,7 +140,7 @@ export default class ReleaseNotesItem extends LitElement {
         super();
 
         this._viewMode = "pretty";
-        this._groupMode = "unified";
+        this._groupMode = "grouped";
 
         this._sortedNotes = [];
         this._groupedNotes = [];

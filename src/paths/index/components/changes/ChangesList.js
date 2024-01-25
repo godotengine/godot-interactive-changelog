@@ -84,7 +84,8 @@ export default class ChangesList extends LitElement {
     constructor() {
         super();
 
-        this._viewMode = "pulls";
+        // TODO: Pending a design rework that would make this few properly default.
+        this._viewMode = "release-notes";
         this._viewFull = false;
 
         this._active_log = [];
