@@ -1,6 +1,8 @@
 {
-    "generated_at": 1707301811110,
+    "generated_at": 1707305313670,
     "log": [
+        "36e943b6b20cb7a8a89bc30489c4a81c3e149d74",
+        "2e32b93165923e5f5ac87e5f1b3105f8d2a88509",
         "7223c5b54a7958fe8f8176bafe5ea415f0c514a6",
         "08eaeff6402b92d3df4268321ee1ceea8f2bfd5a",
         "f5b238f111b8d176547339f4ec3e37fbdd1d552e",
@@ -2590,6 +2592,8 @@
             "5afc311783609cdc0d09f191b43372692c86df0d"
         ],
         "dev3": [
+            "36e943b6b20cb7a8a89bc30489c4a81c3e149d74",
+            "2e32b93165923e5f5ac87e5f1b3105f8d2a88509",
             "7223c5b54a7958fe8f8176bafe5ea415f0c514a6",
             "08eaeff6402b92d3df4268321ee1ceea8f2bfd5a",
             "f5b238f111b8d176547339f4ec3e37fbdd1d552e",
@@ -3314,8 +3318,8 @@
             "user": "akien-mga",
             "avatar": "https://avatars.githubusercontent.com/u/4701338?u=4a42fd867f2c449fcc23adf635dd574dae98e6c2&v=4",
             "url": "https://github.com/akien-mga",
-            "pull_count": 15,
-            "commit_count": 32
+            "pull_count": 16,
+            "commit_count": 33
         },
         "MDQ6VXNlcjYxMTQwMjEz": {
             "id": "MDQ6VXNlcjYxMTQwMjEz",
@@ -5007,6 +5011,32 @@
         }
     },
     "commits": {
+        "36e943b6b20cb7a8a89bc30489c4a81c3e149d74": {
+            "hash": "36e943b6b20cb7a8a89bc30489c4a81c3e149d74",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #88053 from akien-mga/thorvg-reenable-thread-support",
+            "body": "thorvg: Re-enable thread support, made opt-in upstream",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "2e32b93165923e5f5ac87e5f1b3105f8d2a88509": {
+            "hash": "2e32b93165923e5f5ac87e5f1b3105f8d2a88509",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "thorvg: Re-enable thread support, made opt-in upstream",
+            "body": "Fixes #87788.\nFixes #87962.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 88053
+        },
         "7223c5b54a7958fe8f8176bafe5ea415f0c514a6": {
             "hash": "7223c5b54a7958fe8f8176bafe5ea415f0c514a6",
             "is_merge": false,
@@ -44764,7 +44794,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjExNzk3MTc0",
             "created_at": "2024-01-05T17:28:30Z",
-            "updated_at": "2024-02-07T10:17:25Z",
+            "updated_at": "2024-02-07T10:42:31Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -53690,7 +53720,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjgzMTU5ODY=",
             "created_at": "2024-02-06T03:31:06Z",
-            "updated_at": "2024-02-07T10:15:19Z",
+            "updated_at": "2024-02-07T11:05:37Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -53875,7 +53905,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjgzMTU5ODY=",
             "created_at": "2024-02-07T03:28:06Z",
-            "updated_at": "2024-02-07T10:12:46Z",
+            "updated_at": "2024-02-07T11:05:53Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -53984,6 +54014,45 @@
             ],
             "commits": [
                 "84380a94f776c8c1e7786d2eb3fb811789f42639"
+            ]
+        },
+        "88053": {
+            "id": "PR_kwDOAO6SJc5mP9BK",
+            "public_id": 88053,
+            "url": "https://github.com/godotengine/godot/pull/88053",
+            "diff_url": "https://github.com/godotengine/godot/pull/88053.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/88053.patch",
+            "title": "thorvg: Re-enable thread support, made opt-in upstream",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjQ3MDEzMzg=",
+            "created_at": "2024-02-07T11:16:51Z",
+            "updated_at": "2024-02-07T11:26:16Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAABbYOrww",
+                    "name": "cherrypick:4.2",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwzNzA0NzE3OTU=",
+                    "name": "topic:thirdparty",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "2e32b93165923e5f5ac87e5f1b3105f8d2a88509"
             ]
         }
     }
