@@ -1,12 +1,59 @@
 {
-    "generated_at": 1707208688855,
+    "generated_at": 1707301811110,
     "log": [
+        "7223c5b54a7958fe8f8176bafe5ea415f0c514a6",
+        "08eaeff6402b92d3df4268321ee1ceea8f2bfd5a",
+        "f5b238f111b8d176547339f4ec3e37fbdd1d552e",
+        "e89807514ea6fff2128615e6799b178de76ee7be",
+        "c9c2b1263754e3bfb9025942645352f242670601",
+        "6b1e50ba97e4d60b03098e8eb585a039074c7d35",
+        "67234eafc10d84b25efe706463d9ec6a479940b5",
+        "7cd3467713db090dcf1b839ee47aeee9a578fb97",
+        "9346094fb8eb3823e5a4711ab30dbac0243e07dc",
+        "deda5f799b79809dce4b1f1a6b0fcd907df90520",
+        "99f2ec862c6b87f25b58b9f2adc6131c59147b72",
+        "f3a5c615e28b763da534ac5a2bdbefdac3055aa7",
+        "011ed23ed2889088c04bd4c26000f20898130df2",
+        "bbc1c221f25f249e1bfc53a33bf4a774401c1541",
+        "3b6f2e05251f9b9898b7f00506804f655c759cb1",
+        "8daa633d0ddf13e8115c48c7ddc17997f6f39981",
+        "888299d6f7cf7de03120c64f30d6006b1510d34d",
+        "eac2091345d39990b8d809815c7dda1622a5bb03",
+        "bf8814ed10299fb606ddebb6ee29722cd493dc13",
+        "9cfd6dbab2e12123a8ab59e8d61310f20b51336c",
+        "bc9acde7642ff5f8dcd8627af46fe5d6c3a6f623",
+        "251d5b3669c20c7b18d61767a35b3164c311e3f1",
+        "4f478a55cc40df50b7dd26aef8bf31bc493a79d9",
+        "a5b44c06888e9b3f2f472e3e2d341102b43da887",
+        "40eb988790268552b1a84af3dc47fc8fc857b0cb",
+        "dd2699be19f2c8291b9e80daf0fc574c3fb31aca",
+        "b41403db7145bec395c0e8e43f78b63a79f8b4e9",
+        "84380a94f776c8c1e7786d2eb3fb811789f42639",
+        "8ce4a0cf1554f609b6a12f6bf136440aeb7e34bb",
+        "ea974e18777d60800ac6fe7e4aad6a65b786e693",
+        "2c987833599413ec015e1592619b2db362098855",
+        "d5a5dd52e82c171a3eba449cfdee9eb3be1323d7",
+        "0b43b0124f65418e5e9b82e07ad03dc1168fd0e8",
+        "7b0f2a5f539cafefd89921030ea48dc42c22dd88",
+        "111908c4ed7b5a06bc43ccc8fb1a1e81cc35073e",
+        "3edb671b8a8b16658da7d9ab6dca406004697f4c",
+        "292df42c3f92a1a19bf132457a2336fc0ea98b8a",
+        "cf1ede9129c13c9f3f55a0bd9a750312208c3cc6",
+        "d29b0d90e0d735eee860b977c57cb75423d7a9ba",
+        "f4134fd9b0dc693bbf9c68df50d1bf8a105b3ab9",
+        "c2cfc0d409b5adf892c6daa86d128f6e98633bee",
+        "93be97e6a741ba2fa9dac584219f4f808de237af",
+        "d94ee14123670c630d45b65afef1a0b31d4a2306",
+        "ea229f51488bd70732690fd1691f6a6f22f4ab91",
+        "0e977e087ccf7c1392e56e7ff12dd7bb538ee70a",
+        "becf5b1d2343a8f675300bfbf398140549d641f6",
         "d3352813ea44447bfbf135efdec23acc4d1d3f89",
         "9a63aeda7935a1a65853ecaec6d140725fae4443",
         "843c350ccae0a08db47ce899f5f9f681b2241cd4",
         "5922ac0fb11105da67d28847b60a521406a77cdb",
         "808f4e8cb9be502060317526f887b1d31cbeb40a",
         "f427d2f0d35f27273e856871f8588652632d8ac2",
+        "ba1c5bf4bd4f597f85d73a4bb20ce3b589eec655",
         "f8f2c8c85a91a25560f6742472a3a4afdc400d0f",
         "fb1662b939391cd2af9ce1cc6dba87b364f0ee77",
         "7bcb41914907e17bfd5af934a031f783bb76b969",
@@ -28,17 +75,20 @@
         "07655a0e113e456cfd5bda450b07f28ae4b75d74",
         "e096be85c45729affd2ccc6c0ba4db7f2e63a060",
         "acde2a81ffc27680ac08e32f70134dfcd1dd59f0",
+        "085bc9504b7db92d19903f345af1a7f398c22041",
         "70e328385c8c9e11ff2d62906edd5a0706c27b9f",
         "656bc22e283852a55ad1317048649f0991bc7dcd",
         "6718a9e4cfeffd43b1b9493aa0d3cf9537ab395c",
         "17000bf8c3abb2a6f240bf49800ce8e68e7ced70",
         "71e0082ab035bdcd6372c6faf96596ce9eac5a3c",
         "dc4c6cfb9b78bca962121510b01b7a7605bbbd45",
+        "2bf25954b4aaa746b4dd8cf1d5f823ccf646224a",
         "66d55e62f009876b4e71d988a7a1bfb16c8230fa",
         "43038bbfcb53ccaecc8a258e4d07d0f489292361",
         "4c8d69f264459a9b8b72fa7ffe8a972e821af1a1",
         "0a9715d6b55dfa28f46de8ff4097dacb2f2032a6",
         "d06c526fb06714e16207aa1292146bc283b99e31",
+        "4d0c21c131da07c766801d846929872dc8bd2a66",
         "677bd9783a6dbc40b9202381095b85f4f7b3de0c",
         "0a485fc30aae693e942a5984f149c7aa69f397d7",
         "7a2c386e281db72871dda33944502b7a7e7a6df9",
@@ -98,6 +148,7 @@
         "f7f51bdd7a5b73143ef126c85f767cb5d5b54e84",
         "a2c2caa2f495f5061b7c060f4b89c0732ad43571",
         "559b434ef115c223d2dfc115dd553a46ce39b820",
+        "b990cb95a98cbec8140877e07438f9c5f7ab06ef",
         "999180d5b5c1023f441100e7b45a3aa346a2e898",
         "8f6d4eaa31662bbff08fb0a694fb41f74f225b0a",
         "b8a7270567abdbb94a425727eb0b365d0c06f85d",
@@ -106,9 +157,11 @@
         "5935bfa8603b7c22df4ea777a688723a408e6c5d",
         "d81c9c32c5ea4e91de3038b30c4a7a9ab78b7481",
         "7638a6c9811590a384e2126dd004e302f76d3e4a",
+        "f4f7e13388b3a37ae0ea1cb69894fb731c1bd1b7",
         "61872e47aff153d0cdbafbc41b3c180fba9f3397",
         "9adb7c7d130c6d4eb0e80b92d6eebd71fac3384d",
         "f23fda39d3af5915754379f652103505ab038c50",
+        "d1de00a2c8f3605faee9a8b81c78ded2ed89a3fe",
         "edb21e05739b46c98852f4ffbadc040b11efc6db",
         "d8658df94e09a3ed82c66eb5085c89ece1239d0c",
         "f8a039e9b54875a3435ace4b9953cefa591a0753",
@@ -2537,12 +2590,59 @@
             "5afc311783609cdc0d09f191b43372692c86df0d"
         ],
         "dev3": [
+            "7223c5b54a7958fe8f8176bafe5ea415f0c514a6",
+            "08eaeff6402b92d3df4268321ee1ceea8f2bfd5a",
+            "f5b238f111b8d176547339f4ec3e37fbdd1d552e",
+            "e89807514ea6fff2128615e6799b178de76ee7be",
+            "c9c2b1263754e3bfb9025942645352f242670601",
+            "6b1e50ba97e4d60b03098e8eb585a039074c7d35",
+            "67234eafc10d84b25efe706463d9ec6a479940b5",
+            "7cd3467713db090dcf1b839ee47aeee9a578fb97",
+            "9346094fb8eb3823e5a4711ab30dbac0243e07dc",
+            "deda5f799b79809dce4b1f1a6b0fcd907df90520",
+            "99f2ec862c6b87f25b58b9f2adc6131c59147b72",
+            "f3a5c615e28b763da534ac5a2bdbefdac3055aa7",
+            "011ed23ed2889088c04bd4c26000f20898130df2",
+            "bbc1c221f25f249e1bfc53a33bf4a774401c1541",
+            "3b6f2e05251f9b9898b7f00506804f655c759cb1",
+            "8daa633d0ddf13e8115c48c7ddc17997f6f39981",
+            "888299d6f7cf7de03120c64f30d6006b1510d34d",
+            "eac2091345d39990b8d809815c7dda1622a5bb03",
+            "bf8814ed10299fb606ddebb6ee29722cd493dc13",
+            "9cfd6dbab2e12123a8ab59e8d61310f20b51336c",
+            "bc9acde7642ff5f8dcd8627af46fe5d6c3a6f623",
+            "251d5b3669c20c7b18d61767a35b3164c311e3f1",
+            "4f478a55cc40df50b7dd26aef8bf31bc493a79d9",
+            "a5b44c06888e9b3f2f472e3e2d341102b43da887",
+            "40eb988790268552b1a84af3dc47fc8fc857b0cb",
+            "dd2699be19f2c8291b9e80daf0fc574c3fb31aca",
+            "b41403db7145bec395c0e8e43f78b63a79f8b4e9",
+            "84380a94f776c8c1e7786d2eb3fb811789f42639",
+            "8ce4a0cf1554f609b6a12f6bf136440aeb7e34bb",
+            "ea974e18777d60800ac6fe7e4aad6a65b786e693",
+            "2c987833599413ec015e1592619b2db362098855",
+            "d5a5dd52e82c171a3eba449cfdee9eb3be1323d7",
+            "0b43b0124f65418e5e9b82e07ad03dc1168fd0e8",
+            "7b0f2a5f539cafefd89921030ea48dc42c22dd88",
+            "111908c4ed7b5a06bc43ccc8fb1a1e81cc35073e",
+            "3edb671b8a8b16658da7d9ab6dca406004697f4c",
+            "292df42c3f92a1a19bf132457a2336fc0ea98b8a",
+            "cf1ede9129c13c9f3f55a0bd9a750312208c3cc6",
+            "d29b0d90e0d735eee860b977c57cb75423d7a9ba",
+            "f4134fd9b0dc693bbf9c68df50d1bf8a105b3ab9",
+            "c2cfc0d409b5adf892c6daa86d128f6e98633bee",
+            "93be97e6a741ba2fa9dac584219f4f808de237af",
+            "d94ee14123670c630d45b65afef1a0b31d4a2306",
+            "ea229f51488bd70732690fd1691f6a6f22f4ab91",
+            "0e977e087ccf7c1392e56e7ff12dd7bb538ee70a",
+            "becf5b1d2343a8f675300bfbf398140549d641f6",
             "d3352813ea44447bfbf135efdec23acc4d1d3f89",
             "9a63aeda7935a1a65853ecaec6d140725fae4443",
             "843c350ccae0a08db47ce899f5f9f681b2241cd4",
             "5922ac0fb11105da67d28847b60a521406a77cdb",
             "808f4e8cb9be502060317526f887b1d31cbeb40a",
             "f427d2f0d35f27273e856871f8588652632d8ac2",
+            "ba1c5bf4bd4f597f85d73a4bb20ce3b589eec655",
             "f8f2c8c85a91a25560f6742472a3a4afdc400d0f",
             "fb1662b939391cd2af9ce1cc6dba87b364f0ee77",
             "7bcb41914907e17bfd5af934a031f783bb76b969",
@@ -2564,17 +2664,20 @@
             "07655a0e113e456cfd5bda450b07f28ae4b75d74",
             "e096be85c45729affd2ccc6c0ba4db7f2e63a060",
             "acde2a81ffc27680ac08e32f70134dfcd1dd59f0",
+            "085bc9504b7db92d19903f345af1a7f398c22041",
             "70e328385c8c9e11ff2d62906edd5a0706c27b9f",
             "656bc22e283852a55ad1317048649f0991bc7dcd",
             "6718a9e4cfeffd43b1b9493aa0d3cf9537ab395c",
             "17000bf8c3abb2a6f240bf49800ce8e68e7ced70",
             "71e0082ab035bdcd6372c6faf96596ce9eac5a3c",
             "dc4c6cfb9b78bca962121510b01b7a7605bbbd45",
+            "2bf25954b4aaa746b4dd8cf1d5f823ccf646224a",
             "66d55e62f009876b4e71d988a7a1bfb16c8230fa",
             "43038bbfcb53ccaecc8a258e4d07d0f489292361",
             "4c8d69f264459a9b8b72fa7ffe8a972e821af1a1",
             "0a9715d6b55dfa28f46de8ff4097dacb2f2032a6",
             "d06c526fb06714e16207aa1292146bc283b99e31",
+            "4d0c21c131da07c766801d846929872dc8bd2a66",
             "677bd9783a6dbc40b9202381095b85f4f7b3de0c",
             "0a485fc30aae693e942a5984f149c7aa69f397d7",
             "7a2c386e281db72871dda33944502b7a7e7a6df9",
@@ -2634,6 +2737,7 @@
             "f7f51bdd7a5b73143ef126c85f767cb5d5b54e84",
             "a2c2caa2f495f5061b7c060f4b89c0732ad43571",
             "559b434ef115c223d2dfc115dd553a46ce39b820",
+            "b990cb95a98cbec8140877e07438f9c5f7ab06ef",
             "999180d5b5c1023f441100e7b45a3aa346a2e898",
             "8f6d4eaa31662bbff08fb0a694fb41f74f225b0a",
             "b8a7270567abdbb94a425727eb0b365d0c06f85d",
@@ -2642,9 +2746,11 @@
             "5935bfa8603b7c22df4ea777a688723a408e6c5d",
             "d81c9c32c5ea4e91de3038b30c4a7a9ab78b7481",
             "7638a6c9811590a384e2126dd004e302f76d3e4a",
+            "f4f7e13388b3a37ae0ea1cb69894fb731c1bd1b7",
             "61872e47aff153d0cdbafbc41b3c180fba9f3397",
             "9adb7c7d130c6d4eb0e80b92d6eebd71fac3384d",
             "f23fda39d3af5915754379f652103505ab038c50",
+            "d1de00a2c8f3605faee9a8b81c78ded2ed89a3fe",
             "edb21e05739b46c98852f4ffbadc040b11efc6db",
             "d8658df94e09a3ed82c66eb5085c89ece1239d0c",
             "f8a039e9b54875a3435ace4b9953cefa591a0753",
@@ -3203,6 +3309,118 @@
         ]
     },
     "authors": {
+        "MDQ6VXNlcjQ3MDEzMzg=": {
+            "id": "MDQ6VXNlcjQ3MDEzMzg=",
+            "user": "akien-mga",
+            "avatar": "https://avatars.githubusercontent.com/u/4701338?u=4a42fd867f2c449fcc23adf635dd574dae98e6c2&v=4",
+            "url": "https://github.com/akien-mga",
+            "pull_count": 15,
+            "commit_count": 32
+        },
+        "MDQ6VXNlcjYxMTQwMjEz": {
+            "id": "MDQ6VXNlcjYxMTQwMjEz",
+            "user": "divshekhar",
+            "avatar": "https://avatars.githubusercontent.com/u/61140213?u=7717c1b6a048da0198551bf357ae838aa44a62c4&v=4",
+            "url": "https://github.com/divshekhar",
+            "pull_count": 0,
+            "commit_count": 1
+        },
+        "MDQ6VXNlcjc2NDU2ODM=": {
+            "id": "MDQ6VXNlcjc2NDU2ODM=",
+            "user": "bruvzg",
+            "avatar": "https://avatars.githubusercontent.com/u/7645683?u=2867ee7fcd920bc19b7d1cbf4b10264b9bbc9326&v=4",
+            "url": "https://github.com/bruvzg",
+            "pull_count": 51,
+            "commit_count": 53
+        },
+        "MDQ6VXNlcjM5MDMwNTk=": {
+            "id": "MDQ6VXNlcjM5MDMwNTk=",
+            "user": "raulsntos",
+            "avatar": "https://avatars.githubusercontent.com/u/3903059?u=1b0467024f137e562b21748eb6bf12f97dfa5bf6&v=4",
+            "url": "https://github.com/raulsntos",
+            "pull_count": 4,
+            "commit_count": 4
+        },
+        "MDQ6VXNlcjgzMTU5ODY=": {
+            "id": "MDQ6VXNlcjgzMTU5ODY=",
+            "user": "jsjtxietian",
+            "avatar": "https://avatars.githubusercontent.com/u/8315986?u=cf1b60639c3ba2fa205f083f60e43fca5ad26a76&v=4",
+            "url": "https://github.com/jsjtxietian",
+            "pull_count": 34,
+            "commit_count": 34
+        },
+        "MDQ6VXNlcjY2NzI3NzEw": {
+            "id": "MDQ6VXNlcjY2NzI3NzEw",
+            "user": "Mickeon",
+            "avatar": "https://avatars.githubusercontent.com/u/66727710?u=8069d9b7bc6ab503ce83dfcfa53fd021672aeccf&v=4",
+            "url": "https://github.com/Mickeon",
+            "pull_count": 34,
+            "commit_count": 35
+        },
+        "MDQ6VXNlcjExNzk3MTc0": {
+            "id": "MDQ6VXNlcjExNzk3MTc0",
+            "user": "RandomShaper",
+            "avatar": "https://avatars.githubusercontent.com/u/11797174?u=a254c0fcd6cf4668367407a460e175559e12dc6f&v=4",
+            "url": "https://github.com/RandomShaper",
+            "pull_count": 19,
+            "commit_count": 28
+        },
+        "MDQ6VXNlcjMxMDEzNw==": {
+            "id": "MDQ6VXNlcjMxMDEzNw==",
+            "user": "shana",
+            "avatar": "https://avatars.githubusercontent.com/u/310137?u=5ff2db03fe816a0fb548ca7707e11e59884d0dba&v=4",
+            "url": "https://github.com/shana",
+            "pull_count": 2,
+            "commit_count": 2
+        },
+        "MDQ6VXNlcjE4MDAzMg==": {
+            "id": "MDQ6VXNlcjE4MDAzMg==",
+            "user": "Calinou",
+            "avatar": "https://avatars.githubusercontent.com/u/180032?v=4",
+            "url": "https://github.com/Calinou",
+            "pull_count": 32,
+            "commit_count": 33
+        },
+        "MDQ6VXNlcjM3Mzc4NzQ2": {
+            "id": "MDQ6VXNlcjM3Mzc4NzQ2",
+            "user": "Chubercik",
+            "avatar": "https://avatars.githubusercontent.com/u/37378746?v=4",
+            "url": "https://github.com/Chubercik",
+            "pull_count": 5,
+            "commit_count": 5
+        },
+        "MDQ6VXNlcjE3NTA2NTcz": {
+            "id": "MDQ6VXNlcjE3NTA2NTcz",
+            "user": "allenwp",
+            "avatar": "https://avatars.githubusercontent.com/u/17506573?u=6e9313e254649f6dc55e92536596487ac10bf5a2&v=4",
+            "url": "https://github.com/allenwp",
+            "pull_count": 2,
+            "commit_count": 2
+        },
+        "MDQ6VXNlcjEyMDczODU=": {
+            "id": "MDQ6VXNlcjEyMDczODU=",
+            "user": "Scony",
+            "avatar": "https://avatars.githubusercontent.com/u/1207385?u=252cfcf4f210538f02fba0f9dfabf7782269fe1c&v=4",
+            "url": "https://github.com/Scony",
+            "pull_count": 2,
+            "commit_count": 2
+        },
+        "MDQ6VXNlcjYyNzYxMzk=": {
+            "id": "MDQ6VXNlcjYyNzYxMzk=",
+            "user": "alula",
+            "avatar": "https://avatars.githubusercontent.com/u/6276139?u=0296659eb727b5a2e1229016f7c57111d413fe10&v=4",
+            "url": "https://github.com/alula",
+            "pull_count": 2,
+            "commit_count": 2
+        },
+        "MDQ6VXNlcjUzMTUwMjQ0": {
+            "id": "MDQ6VXNlcjUzMTUwMjQ0",
+            "user": "BlueCube3310",
+            "avatar": "https://avatars.githubusercontent.com/u/53150244?u=ecf97ffa17ae1eba1167a03358dd88d2b6934497&v=4",
+            "url": "https://github.com/BlueCube3310",
+            "pull_count": 14,
+            "commit_count": 14
+        },
         "MDQ6VXNlcjI3MDkyOA==": {
             "id": "MDQ6VXNlcjI3MDkyOA==",
             "user": "adamscott",
@@ -3224,16 +3442,16 @@
             "user": "AThousandShips",
             "avatar": "https://avatars.githubusercontent.com/u/96648715?u=fa1bab5b6a8d6efd047643f7afca8b6bbae0a65b&v=4",
             "url": "https://github.com/AThousandShips",
-            "pull_count": 32,
-            "commit_count": 36
+            "pull_count": 33,
+            "commit_count": 37
         },
-        "MDQ6VXNlcjc2NDU2ODM=": {
-            "id": "MDQ6VXNlcjc2NDU2ODM=",
-            "user": "bruvzg",
-            "avatar": "https://avatars.githubusercontent.com/u/7645683?u=2867ee7fcd920bc19b7d1cbf4b10264b9bbc9326&v=4",
-            "url": "https://github.com/bruvzg",
-            "pull_count": 49,
-            "commit_count": 51
+        "MDQ6VXNlcjUyNDY0MjA0": {
+            "id": "MDQ6VXNlcjUyNDY0MjA0",
+            "user": "smix8",
+            "avatar": "https://avatars.githubusercontent.com/u/52464204?u=7f0a771fc01e68f7e841d7a641cad2b28e1875b3&v=4",
+            "url": "https://github.com/smix8",
+            "pull_count": 10,
+            "commit_count": 10
         },
         "U_kgDOBkx80A": {
             "id": "U_kgDOBkx80A",
@@ -3259,6 +3477,14 @@
             "pull_count": 1,
             "commit_count": 1
         },
+        "MDQ6VXNlcjQ3NzAwNDE4": {
+            "id": "MDQ6VXNlcjQ3NzAwNDE4",
+            "user": "dalexeev",
+            "avatar": "https://avatars.githubusercontent.com/u/47700418?u=0565b5d99d54afd5fda6712cd8eb05893572baed&v=4",
+            "url": "https://github.com/dalexeev",
+            "pull_count": 12,
+            "commit_count": 12
+        },
         "MDQ6VXNlcjExMjc3NTg4": {
             "id": "MDQ6VXNlcjExMjc3NTg4",
             "user": "0x0ACB",
@@ -3272,8 +3498,8 @@
             "user": "aaronfranke",
             "avatar": "https://avatars.githubusercontent.com/u/1646875?u=24618295fece29a0bf5c850faf2555985232f5f2&v=4",
             "url": "https://github.com/aaronfranke",
-            "pull_count": 21,
-            "commit_count": 22
+            "pull_count": 22,
+            "commit_count": 23
         },
         "MDQ6VXNlcjMzMTMwMA==": {
             "id": "MDQ6VXNlcjMzMTMwMA==",
@@ -3282,30 +3508,6 @@
             "url": "https://github.com/31",
             "pull_count": 2,
             "commit_count": 2
-        },
-        "MDQ6VXNlcjgzMTU5ODY=": {
-            "id": "MDQ6VXNlcjgzMTU5ODY=",
-            "user": "jsjtxietian",
-            "avatar": "https://avatars.githubusercontent.com/u/8315986?u=cf1b60639c3ba2fa205f083f60e43fca5ad26a76&v=4",
-            "url": "https://github.com/jsjtxietian",
-            "pull_count": 32,
-            "commit_count": 32
-        },
-        "MDQ6VXNlcjUyNDY0MjA0": {
-            "id": "MDQ6VXNlcjUyNDY0MjA0",
-            "user": "smix8",
-            "avatar": "https://avatars.githubusercontent.com/u/52464204?u=7f0a771fc01e68f7e841d7a641cad2b28e1875b3&v=4",
-            "url": "https://github.com/smix8",
-            "pull_count": 8,
-            "commit_count": 8
-        },
-        "MDQ6VXNlcjQ3NzAwNDE4": {
-            "id": "MDQ6VXNlcjQ3NzAwNDE4",
-            "user": "dalexeev",
-            "avatar": "https://avatars.githubusercontent.com/u/47700418?u=0565b5d99d54afd5fda6712cd8eb05893572baed&v=4",
-            "url": "https://github.com/dalexeev",
-            "pull_count": 11,
-            "commit_count": 11
         },
         "MDQ6VXNlcjM1Mzc2OTUw": {
             "id": "MDQ6VXNlcjM1Mzc2OTUw",
@@ -3371,22 +3573,6 @@
             "pull_count": 5,
             "commit_count": 5
         },
-        "MDQ6VXNlcjQ3MDEzMzg=": {
-            "id": "MDQ6VXNlcjQ3MDEzMzg=",
-            "user": "akien-mga",
-            "avatar": "https://avatars.githubusercontent.com/u/4701338?u=4a42fd867f2c449fcc23adf635dd574dae98e6c2&v=4",
-            "url": "https://github.com/akien-mga",
-            "pull_count": 14,
-            "commit_count": 30
-        },
-        "MDQ6VXNlcjE4MDAzMg==": {
-            "id": "MDQ6VXNlcjE4MDAzMg==",
-            "user": "Calinou",
-            "avatar": "https://avatars.githubusercontent.com/u/180032?v=4",
-            "url": "https://github.com/Calinou",
-            "pull_count": 28,
-            "commit_count": 29
-        },
         "MDQ6VXNlcjY5MTY4OTI5": {
             "id": "MDQ6VXNlcjY5MTY4OTI5",
             "user": "nikitalita",
@@ -3427,14 +3613,6 @@
             "pull_count": 2,
             "commit_count": 2
         },
-        "MDQ6VXNlcjExNzk3MTc0": {
-            "id": "MDQ6VXNlcjExNzk3MTc0",
-            "user": "RandomShaper",
-            "avatar": "https://avatars.githubusercontent.com/u/11797174?u=a254c0fcd6cf4668367407a460e175559e12dc6f&v=4",
-            "url": "https://github.com/RandomShaper",
-            "pull_count": 18,
-            "commit_count": 27
-        },
         "MDQ6VXNlcjUzODg3NjYy": {
             "id": "MDQ6VXNlcjUzODg3NjYy",
             "user": "nongvantinh",
@@ -3442,14 +3620,6 @@
             "url": "https://github.com/nongvantinh",
             "pull_count": 3,
             "commit_count": 4
-        },
-        "MDQ6VXNlcjMxMDEzNw==": {
-            "id": "MDQ6VXNlcjMxMDEzNw==",
-            "user": "shana",
-            "avatar": "https://avatars.githubusercontent.com/u/310137?u=5ff2db03fe816a0fb548ca7707e11e59884d0dba&v=4",
-            "url": "https://github.com/shana",
-            "pull_count": 1,
-            "commit_count": 1
         },
         "MDQ6VXNlcjc3OTAxNjc=": {
             "id": "MDQ6VXNlcjc3OTAxNjc=",
@@ -3474,14 +3644,6 @@
             "url": "https://github.com/scgm0",
             "pull_count": 1,
             "commit_count": 1
-        },
-        "MDQ6VXNlcjY2NzI3NzEw": {
-            "id": "MDQ6VXNlcjY2NzI3NzEw",
-            "user": "Mickeon",
-            "avatar": "https://avatars.githubusercontent.com/u/66727710?u=8069d9b7bc6ab503ce83dfcfa53fd021672aeccf&v=4",
-            "url": "https://github.com/Mickeon",
-            "pull_count": 32,
-            "commit_count": 33
         },
         "MDQ6VXNlcjE2NTIxMzM5": {
             "id": "MDQ6VXNlcjE2NTIxMzM5",
@@ -3562,14 +3724,6 @@
             "url": "https://github.com/zaevi",
             "pull_count": 5,
             "commit_count": 5
-        },
-        "MDQ6VXNlcjM5MDMwNTk=": {
-            "id": "MDQ6VXNlcjM5MDMwNTk=",
-            "user": "raulsntos",
-            "avatar": "https://avatars.githubusercontent.com/u/3903059?u=1b0467024f137e562b21748eb6bf12f97dfa5bf6&v=4",
-            "url": "https://github.com/raulsntos",
-            "pull_count": 3,
-            "commit_count": 3
         },
         "MDQ6VXNlcjIyMzA0MTY3": {
             "id": "MDQ6VXNlcjIyMzA0MTY3",
@@ -3851,14 +4005,6 @@
             "pull_count": 2,
             "commit_count": 2
         },
-        "MDQ6VXNlcjUzMTUwMjQ0": {
-            "id": "MDQ6VXNlcjUzMTUwMjQ0",
-            "user": "BlueCube3310",
-            "avatar": "https://avatars.githubusercontent.com/u/53150244?u=ecf97ffa17ae1eba1167a03358dd88d2b6934497&v=4",
-            "url": "https://github.com/BlueCube3310",
-            "pull_count": 13,
-            "commit_count": 13
-        },
         "MDQ6VXNlcjQzNDUzMzA1": {
             "id": "MDQ6VXNlcjQzNDUzMzA1",
             "user": "quirkylemon",
@@ -3866,14 +4012,6 @@
             "url": "https://github.com/quirkylemon",
             "pull_count": 1,
             "commit_count": 1
-        },
-        "MDQ6VXNlcjM3Mzc4NzQ2": {
-            "id": "MDQ6VXNlcjM3Mzc4NzQ2",
-            "user": "Chubercik",
-            "avatar": "https://avatars.githubusercontent.com/u/37378746?v=4",
-            "url": "https://github.com/Chubercik",
-            "pull_count": 3,
-            "commit_count": 3
         },
         "MDQ6VXNlcjI2MTUzMzEx": {
             "id": "MDQ6VXNlcjI2MTUzMzEx",
@@ -4467,13 +4605,21 @@
             "pull_count": 1,
             "commit_count": 4
         },
+        "U_kgDOCX0_CQ": {
+            "id": "U_kgDOCX0_CQ",
+            "user": "ShatteredRealityX",
+            "avatar": "https://avatars.githubusercontent.com/u/159203081?u=5fff5b32b8e49d7d142d7bbd21bf59a4083366a3&v=4",
+            "url": "https://github.com/ShatteredRealityX",
+            "pull_count": 0,
+            "commit_count": 1
+        },
         "": {
             "id": "",
             "user": "ghost",
             "avatar": "https://avatars.githubusercontent.com/u/10137?v=4",
             "url": "https://github.com/ghost",
             "pull_count": 1,
-            "commit_count": 2
+            "commit_count": 1
         },
         "MDQ6VXNlcjM3MjI2NDU4": {
             "id": "MDQ6VXNlcjM3MjI2NDU4",
@@ -4656,14 +4802,6 @@
             "user": "krazy-j",
             "avatar": "https://avatars.githubusercontent.com/u/53985555?u=423a40722dc6d91a0685acd21df824fa4c75b8e4&v=4",
             "url": "https://github.com/krazy-j",
-            "pull_count": 1,
-            "commit_count": 1
-        },
-        "MDQ6VXNlcjEyMDczODU=": {
-            "id": "MDQ6VXNlcjEyMDczODU=",
-            "user": "Scony",
-            "avatar": "https://avatars.githubusercontent.com/u/1207385?u=252cfcf4f210538f02fba0f9dfabf7782269fe1c&v=4",
-            "url": "https://github.com/Scony",
             "pull_count": 1,
             "commit_count": 1
         },
@@ -4866,17 +5004,602 @@
             "url": "https://github.com/mrjustaguy",
             "pull_count": 1,
             "commit_count": 1
-        },
-        "MDQ6VXNlcjYyNzYxMzk=": {
-            "id": "MDQ6VXNlcjYyNzYxMzk=",
-            "user": "alula",
-            "avatar": "https://avatars.githubusercontent.com/u/6276139?u=0296659eb727b5a2e1229016f7c57111d413fe10&v=4",
-            "url": "https://github.com/alula",
-            "pull_count": 1,
-            "commit_count": 1
         }
     },
     "commits": {
+        "7223c5b54a7958fe8f8176bafe5ea415f0c514a6": {
+            "hash": "7223c5b54a7958fe8f8176bafe5ea415f0c514a6",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg=",
+                "MDQ6VXNlcjYxMTQwMjEz"
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Fix various typos with codespell",
+            "body": "Using 2.2.7.dev115+g0eb441d6.\n\nHad to add `cancelled` to the ignore list, as it's a Wayland signal which\nwe're handling in our code, so we don't want codespell to fix that \"typo\".\n\nAlso includes the typo fix from #87927.\n\nCo-authored-by: Divyanshu Shekhar <61140213+divshekhar@users.noreply.github.com>",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "08eaeff6402b92d3df4268321ee1ceea8f2bfd5a": {
+            "hash": "08eaeff6402b92d3df4268321ee1ceea8f2bfd5a",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #88050 from bruvzg/sec_state",
+            "body": "[macOS] Enabled secure restorable state.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "f5b238f111b8d176547339f4ec3e37fbdd1d552e": {
+            "hash": "f5b238f111b8d176547339f4ec3e37fbdd1d552e",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #88048 from raulsntos/dotnet/fix-88022",
+            "body": "C#: Fix crash when reloading scripts",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "e89807514ea6fff2128615e6799b178de76ee7be": {
+            "hash": "e89807514ea6fff2128615e6799b178de76ee7be",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #88043 from jsjtxietian/web-data-race",
+            "body": "Fix data race regarding `server_quit` in `EditorExportPlatformWeb`",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "c9c2b1263754e3bfb9025942645352f242670601": {
+            "hash": "c9c2b1263754e3bfb9025942645352f242670601",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #88028 from Calinou/wayland-silence-scanner-check",
+            "body": "Silence wayland-scanner check in buildsystem",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "6b1e50ba97e4d60b03098e8eb585a039074c7d35": {
+            "hash": "6b1e50ba97e4d60b03098e8eb585a039074c7d35",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #88025 from shana/fix-incremental-builds",
+            "body": "SCons: Fix incremental builds breaking when querying the dependency tree from a SCsub",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "67234eafc10d84b25efe706463d9ec6a479940b5": {
+            "hash": "67234eafc10d84b25efe706463d9ec6a479940b5",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #88024 from Calinou/doc-android-package-unique-name",
+            "body": "Improve documentation on Android package unique name",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "7cd3467713db090dcf1b839ee47aeee9a578fb97": {
+            "hash": "7cd3467713db090dcf1b839ee47aeee9a578fb97",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #88010 from akien-mga/web-closure-ECMASCRIPT_2021",
+            "body": "Web: Bump closure compiler spec to `ECMASCRIPT_2021`",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "9346094fb8eb3823e5a4711ab30dbac0243e07dc": {
+            "hash": "9346094fb8eb3823e5a4711ab30dbac0243e07dc",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #88005 from jsjtxietian/audio-data-race",
+            "body": "Fix data race regarding `prof_time` in `AudioDriver` and `AudioServer`",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "deda5f799b79809dce4b1f1a6b0fcd907df90520": {
+            "hash": "deda5f799b79809dce4b1f1a6b0fcd907df90520",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #87992 from allenwp/87991-typed-array-additions",
+            "body": "Added newer Variant types to `typed_array.h`",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "99f2ec862c6b87f25b58b9f2adc6131c59147b72": {
+            "hash": "99f2ec862c6b87f25b58b9f2adc6131c59147b72",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #87985 from allenwp/docs-8906-color-16-bit",
+            "body": "Fix docs for Color class regarding bits per component.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "f3a5c615e28b763da534ac5a2bdbefdac3055aa7": {
+            "hash": "f3a5c615e28b763da534ac5a2bdbefdac3055aa7",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #87984 from BlueCube3310/etcpak-update",
+            "body": "etcpak: Sync with upstream",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "011ed23ed2889088c04bd4c26000f20898130df2": {
+            "hash": "011ed23ed2889088c04bd4c26000f20898130df2",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #87983 from Calinou/doc-os-execute-android",
+            "body": "Document `OS.execute()` limitations on Android",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "bbc1c221f25f249e1bfc53a33bf4a774401c1541": {
+            "hash": "bbc1c221f25f249e1bfc53a33bf4a774401c1541",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #87982 from Chubercik/wayland-protocols-1.33",
+            "body": "wayland-protocols: Update to 1.33",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "3b6f2e05251f9b9898b7f00506804f655c759cb1": {
+            "hash": "3b6f2e05251f9b9898b7f00506804f655c759cb1",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #87977 from Chubercik/wayland-1.22.0",
+            "body": "wayland: Update to 1.22.0",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "8daa633d0ddf13e8115c48c7ddc17997f6f39981": {
+            "hash": "8daa633d0ddf13e8115c48c7ddc17997f6f39981",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #87961 from smix8/navmesh2d_bordersize",
+            "body": "Add NavigationPolygon `border_size` property for tile baking",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "888299d6f7cf7de03120c64f30d6006b1510d34d": {
+            "hash": "888299d6f7cf7de03120c64f30d6006b1510d34d",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #87939 from dalexeev/gds-add-is-not-operator",
+            "body": "GDScript: Add `is not` operator",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "eac2091345d39990b8d809815c7dda1622a5bb03": {
+            "hash": "eac2091345d39990b8d809815c7dda1622a5bb03",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #87923 from smix8/meshlib_export_recursive",
+            "body": "Make MeshLibrary export do recursive depth-search for MeshInstance3D nodes",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "bf8814ed10299fb606ddebb6ee29722cd493dc13": {
+            "hash": "bf8814ed10299fb606ddebb6ee29722cd493dc13",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #87842 from bruvzg/sigtrap",
+            "body": "[macOS] Add SIGTRAP to the crash handler.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "9cfd6dbab2e12123a8ab59e8d61310f20b51336c": {
+            "hash": "9cfd6dbab2e12123a8ab59e8d61310f20b51336c",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #87783 from AThousandShips/utility_err",
+            "body": "Make `GDScriptUtilityCallable` return call error when method is invalid",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "bc9acde7642ff5f8dcd8627af46fe5d6c3a6f623": {
+            "hash": "bc9acde7642ff5f8dcd8627af46fe5d6c3a6f623",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #87781 from aaronfranke/fix-crash-mesh-root",
+            "body": "Fix crash when previewing a scene with a mesh as the root node",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "251d5b3669c20c7b18d61767a35b3164c311e3f1": {
+            "hash": "251d5b3669c20c7b18d61767a35b3164c311e3f1",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #87715 from Scony/add-is-baking",
+            "body": "Expose `is_baking` method in navigation servers and region nodes.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "4f478a55cc40df50b7dd26aef8bf31bc493a79d9": {
+            "hash": "4f478a55cc40df50b7dd26aef8bf31bc493a79d9",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #86843 from RandomShaper/fix_null_ptr",
+            "body": "Avoid several null-dereferences of ApiContextRD",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "a5b44c06888e9b3f2f472e3e2d341102b43da887": {
+            "hash": "a5b44c06888e9b3f2f472e3e2d341102b43da887",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #81996 from Calinou/editor-shadermaterial-last-option",
+            "body": "Make ShaderMaterial always the last option in inspector resource dropdowns",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "40eb988790268552b1a84af3dc47fc8fc857b0cb": {
+            "hash": "40eb988790268552b1a84af3dc47fc8fc857b0cb",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #80363 from alula/gl3-texture3d",
+            "body": "OpenGL: Implement 3D Texture support",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "dd2699be19f2c8291b9e80daf0fc574c3fb31aca": {
+            "hash": "dd2699be19f2c8291b9e80daf0fc574c3fb31aca",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #67226 from Mickeon/typed-packing",
+            "body": "Use `Packed*Array` over `Vector<T>` in TypedArray",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "b41403db7145bec395c0e8e43f78b63a79f8b4e9": {
+            "hash": "b41403db7145bec395c0e8e43f78b63a79f8b4e9",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #67220 from Mickeon/variant-packing",
+            "body": "Use `Packed*Array` over `Vector<T>` in Variant",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "84380a94f776c8c1e7786d2eb3fb811789f42639": {
+            "hash": "84380a94f776c8c1e7786d2eb3fb811789f42639",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "bruvzg <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "bruvzg <7645683+bruvzg@users.noreply.github.com>",
+            "summary": "[macOS] Enabled secure restorable state.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 88050
+        },
+        "8ce4a0cf1554f609b6a12f6bf136440aeb7e34bb": {
+            "hash": "8ce4a0cf1554f609b6a12f6bf136440aeb7e34bb",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjM5MDMwNTk="
+            ],
+            "author_raw": "Raul Santos <raulsntos@gmail.com>",
+            "committer_raw": "Raul Santos <raulsntos@gmail.com>",
+            "summary": "C#: Fix crash when reloading scripts",
+            "body": "The crash cond was accidentally moved to the `reload_scripts` method when it was only meant to be in the `reload_tool_script` method. Same about restarting the HotReloadAssemblyWatcher timer.\n\nAlso removed the loop that checks if the script array contains a C# script because if we're in CSharpLanguage we can assume that at least one of them is.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 88048
+        },
+        "ea974e18777d60800ac6fe7e4aad6a65b786e693": {
+            "hash": "ea974e18777d60800ac6fe7e4aad6a65b786e693",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjgzMTU5ODY="
+            ],
+            "author_raw": "jsjtxietian <jsjtxietian@outlook.com>",
+            "committer_raw": "jsjtxietian <jsjtxietian@outlook.com>",
+            "summary": "Fix data race regarding `server_quit` in `EditorExportPlatformWeb`",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 88043
+        },
+        "2c987833599413ec015e1592619b2db362098855": {
+            "hash": "2c987833599413ec015e1592619b2db362098855",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjY2NzI3NzEw"
+            ],
+            "author_raw": "Micky <micheledevita2@gmail.com>",
+            "committer_raw": "Micky <micheledevita2@gmail.com>",
+            "summary": "Use `Packed*Array` over `Vector<T>` in TypedArray",
+            "body": "Same as #67220 but for `typed_array.h`",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 67226
+        },
+        "d5a5dd52e82c171a3eba449cfdee9eb3be1323d7": {
+            "hash": "d5a5dd52e82c171a3eba449cfdee9eb3be1323d7",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjExNzk3MTc0"
+            ],
+            "author_raw": "Pedro J. Estébanez <pedrojrulez@gmail.com>",
+            "committer_raw": "Pedro J. Estébanez <pedrojrulez@gmail.com>",
+            "summary": "Avoid several null-dereferences of ApiContextRD",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 86843
+        },
+        "0b43b0124f65418e5e9b82e07ad03dc1168fd0e8": {
+            "hash": "0b43b0124f65418e5e9b82e07ad03dc1168fd0e8",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjMxMDEzNw=="
+            ],
+            "author_raw": "Andreia Gaita <shana@spoiledcat.net>",
+            "committer_raw": "Andreia Gaita <shana@spoiledcat.net>",
+            "summary": "Use an absolute path for SConsignFile so all Sconscript invocations share the same database",
+            "body": "SConscript(\"some SCsub path\") calls create a new context where a relative path\nto the .sconsign file is interpreted as being next to the currently executing\nSCsub, and not the one at the root. This breaks incremental build detection\nbecause scons can't find the build information of dependent files outside of the\nSCsub directory and just rebuilds everything every time.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 88025
+        },
+        "7b0f2a5f539cafefd89921030ea48dc42c22dd88": {
+            "hash": "7b0f2a5f539cafefd89921030ea48dc42c22dd88",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE4MDAzMg=="
+            ],
+            "author_raw": "Hugo Locurcio <hugo.locurcio@hugo.pro>",
+            "committer_raw": "Hugo Locurcio <hugo.locurcio@hugo.pro>",
+            "summary": "Silence wayland-scanner check in buildsystem",
+            "body": "This prevents a wayland-scanner message from appearing every build\nwhen `wayland=yes` is used (the default). The error message when\nwayland-scanner is still printed as it's not printed by\nwayland-scanner itself.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 88028
+        },
+        "111908c4ed7b5a06bc43ccc8fb1a1e81cc35073e": {
+            "hash": "111908c4ed7b5a06bc43ccc8fb1a1e81cc35073e",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE4MDAzMg=="
+            ],
+            "author_raw": "Hugo Locurcio <hugo.locurcio@hugo.pro>",
+            "committer_raw": "Hugo Locurcio <hugo.locurcio@hugo.pro>",
+            "summary": "Improve documentation on Android package unique name",
+            "body": "- Document `$genname` behavior.\n- Update to match actual validation and Google Play guidelines.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 88024
+        },
+        "3edb671b8a8b16658da7d9ab6dca406004697f4c": {
+            "hash": "3edb671b8a8b16658da7d9ab6dca406004697f4c",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjY2NzI3NzEw"
+            ],
+            "author_raw": "Micky <micheledevita2@gmail.com>",
+            "committer_raw": "Micky <micheledevita2@gmail.com>",
+            "summary": "Use Packed*Array over Vector<T> in Variant",
+            "body": "Also shuffles some method definitions and declarations to be more consistent with the way the Variant types are ordered across the codebase.\n\nAnd removes an unnecessary JSON assign (`JSON::stringify` can now be accessed statically)",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 67220
+        },
+        "292df42c3f92a1a19bf132457a2336fc0ea98b8a": {
+            "hash": "292df42c3f92a1a19bf132457a2336fc0ea98b8a",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjM3Mzc4NzQ2"
+            ],
+            "author_raw": "Jakub Marcowski <01158831@pw.edu.pl>",
+            "committer_raw": "Jakub Marcowski <01158831@pw.edu.pl>",
+            "summary": "wayland: Update to 1.22.0",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 87977
+        },
+        "cf1ede9129c13c9f3f55a0bd9a750312208c3cc6": {
+            "hash": "cf1ede9129c13c9f3f55a0bd9a750312208c3cc6",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjgzMTU5ODY="
+            ],
+            "author_raw": "jsjtxietian <jsjtxietian@outlook.com>",
+            "committer_raw": "jsjtxietian <jsjtxietian@outlook.com>",
+            "summary": "Fix data race regarding `prof_time` in `AudioDriver` and `AudioServer`",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 88005
+        },
+        "d29b0d90e0d735eee860b977c57cb75423d7a9ba": {
+            "hash": "d29b0d90e0d735eee860b977c57cb75423d7a9ba",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Web: Bump closure compiler spec to ECMASCRIPT_2021",
+            "body": "Fixes #88008.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 88010
+        },
+        "f4134fd9b0dc693bbf9c68df50d1bf8a105b3ab9": {
+            "hash": "f4134fd9b0dc693bbf9c68df50d1bf8a105b3ab9",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE3NTA2NTcz"
+            ],
+            "author_raw": "Allen Pestaluky <allenpestaluky@gmail.com>",
+            "committer_raw": "Allen Pestaluky <allenpestaluky@gmail.com>",
+            "summary": "Added newer Variant types to typed_array.h",
+            "body": "Fixes #87991",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 87992
+        },
+        "c2cfc0d409b5adf892c6daa86d128f6e98633bee": {
+            "hash": "c2cfc0d409b5adf892c6daa86d128f6e98633bee",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjEyMDczODU="
+            ],
+            "author_raw": "Pawel Lampe <pawel.lampe@gmail.com>",
+            "committer_raw": "Pawel Lampe <pawel.lampe@gmail.com>",
+            "summary": "Expose `is_baking` method in navigation servers and region nodes.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 87715
+        },
+        "93be97e6a741ba2fa9dac584219f4f808de237af": {
+            "hash": "93be97e6a741ba2fa9dac584219f4f808de237af",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE4MDAzMg=="
+            ],
+            "author_raw": "Hugo Locurcio <hugo.locurcio@hugo.pro>",
+            "committer_raw": "Hugo Locurcio <hugo.locurcio@hugo.pro>",
+            "summary": "Make ShaderMaterial always the last option in inspector resource dropdowns",
+            "body": "ShaderMaterial is the \"advanced\" option, while the \"basic\" options\nshould be listed first for easier accessibility (and because they're\ngenerally used more often).\n\nThis makes sky and particle materials consistent with\ncanvas/spatial/fog materials on this aspect.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 81996
+        },
+        "d94ee14123670c630d45b65afef1a0b31d4a2306": {
+            "hash": "d94ee14123670c630d45b65afef1a0b31d4a2306",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE4MDAzMg=="
+            ],
+            "author_raw": "Hugo Locurcio <hugo.locurcio@hugo.pro>",
+            "committer_raw": "Hugo Locurcio <hugo.locurcio@hugo.pro>",
+            "summary": "Document `OS.execute()` limitations on Android",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 87983
+        },
+        "ea229f51488bd70732690fd1691f6a6f22f4ab91": {
+            "hash": "ea229f51488bd70732690fd1691f6a6f22f4ab91",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjYyNzYxMzk="
+            ],
+            "author_raw": "Alula <6276139+alula@users.noreply.github.com>",
+            "committer_raw": "Alula <6276139+alula@users.noreply.github.com>",
+            "summary": "OpenGL: Implement 3D Texture support",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 80363
+        },
+        "0e977e087ccf7c1392e56e7ff12dd7bb538ee70a": {
+            "hash": "0e977e087ccf7c1392e56e7ff12dd7bb538ee70a",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE3NTA2NTcz"
+            ],
+            "author_raw": "Allen Pestaluky <allenpestaluky@gmail.com>",
+            "committer_raw": "Allen Pestaluky <allenpestaluky@gmail.com>",
+            "summary": "Fix docs for Color class regarding bits per component.",
+            "body": "This fixes godot-docs#8906 ( https://github.com/godotengine/godot-docs/issues/8906 )",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 87985
+        },
+        "becf5b1d2343a8f675300bfbf398140549d641f6": {
+            "hash": "becf5b1d2343a8f675300bfbf398140549d641f6",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjUzMTUwMjQ0"
+            ],
+            "author_raw": "BlueCube3310 <53150244+BlueCube3310@users.noreply.github.com>",
+            "committer_raw": "BlueCube3310 <53150244+BlueCube3310@users.noreply.github.com>",
+            "summary": "[etcpak] Sync with upstream",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 87984
+        },
         "d3352813ea44447bfbf135efdec23acc4d1d3f89": {
             "hash": "d3352813ea44447bfbf135efdec23acc4d1d3f89",
             "is_merge": true,
@@ -4952,6 +5675,20 @@
             "is_cherrypick": false,
             "cherrypick_hash": "",
             "pull": ""
+        },
+        "ba1c5bf4bd4f597f85d73a4bb20ce3b589eec655": {
+            "hash": "ba1c5bf4bd4f597f85d73a4bb20ce3b589eec655",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjM3Mzc4NzQ2"
+            ],
+            "author_raw": "Jakub Marcowski <01158831@pw.edu.pl>",
+            "committer_raw": "Jakub Marcowski <01158831@pw.edu.pl>",
+            "summary": "wayland-protocols: Update to 1.33",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 87982
         },
         "f8f2c8c85a91a25560f6742472a3a4afdc400d0f": {
             "hash": "f8f2c8c85a91a25560f6742472a3a4afdc400d0f",
@@ -5209,6 +5946,20 @@
             "cherrypick_hash": "",
             "pull": ""
         },
+        "085bc9504b7db92d19903f345af1a7f398c22041": {
+            "hash": "085bc9504b7db92d19903f345af1a7f398c22041",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjUyNDY0MjA0"
+            ],
+            "author_raw": "smix8 <52464204+smix8@users.noreply.github.com>",
+            "committer_raw": "smix8 <52464204+smix8@users.noreply.github.com>",
+            "summary": "Add NavigationPolygon border_size property for tile baking",
+            "body": "Adds NavigationPolygon border_size property for tile baking. Also adds baking Rect2 bounds.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 87961
+        },
         "70e328385c8c9e11ff2d62906edd5a0706c27b9f": {
             "hash": "70e328385c8c9e11ff2d62906edd5a0706c27b9f",
             "is_merge": false,
@@ -5293,6 +6044,20 @@
             "cherrypick_hash": "",
             "pull": 87938
         },
+        "2bf25954b4aaa746b4dd8cf1d5f823ccf646224a": {
+            "hash": "2bf25954b4aaa746b4dd8cf1d5f823ccf646224a",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3NzAwNDE4"
+            ],
+            "author_raw": "Danil Alexeev <danil@alexeev.xyz>",
+            "committer_raw": "Danil Alexeev <danil@alexeev.xyz>",
+            "summary": "GDScript: Add `is not` operator",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 87939
+        },
         "66d55e62f009876b4e71d988a7a1bfb16c8230fa": {
             "hash": "66d55e62f009876b4e71d988a7a1bfb16c8230fa",
             "is_merge": false,
@@ -5362,6 +6127,20 @@
             "is_cherrypick": false,
             "cherrypick_hash": "",
             "pull": 87771
+        },
+        "4d0c21c131da07c766801d846929872dc8bd2a66": {
+            "hash": "4d0c21c131da07c766801d846929872dc8bd2a66",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjUyNDY0MjA0"
+            ],
+            "author_raw": "smix8 <52464204+smix8@users.noreply.github.com>",
+            "committer_raw": "smix8 <52464204+smix8@users.noreply.github.com>",
+            "summary": "Make MeshLibrary export do recursive depth-search for MeshInstance3D nodes",
+            "body": "Makes MeshLibrary export do recursive depth-search for MeshInstance3D nodes.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 87923
         },
         "677bd9783a6dbc40b9202381095b85f4f7b3de0c": {
             "hash": "677bd9783a6dbc40b9202381095b85f4f7b3de0c",
@@ -6136,6 +6915,20 @@
             "cherrypick_hash": "",
             "pull": 87848
         },
+        "b990cb95a98cbec8140877e07438f9c5f7ab06ef": {
+            "hash": "b990cb95a98cbec8140877e07438f9c5f7ab06ef",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "bruvzg <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "bruvzg <7645683+bruvzg@users.noreply.github.com>",
+            "summary": "[macOS] Add SIGTRAP to the crash handler.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 87842
+        },
         "999180d5b5c1023f441100e7b45a3aa346a2e898": {
             "hash": "999180d5b5c1023f441100e7b45a3aa346a2e898",
             "is_merge": false,
@@ -6248,6 +7041,20 @@
             "cherrypick_hash": "",
             "pull": 84885
         },
+        "f4f7e13388b3a37ae0ea1cb69894fb731c1bd1b7": {
+            "hash": "f4f7e13388b3a37ae0ea1cb69894fb731c1bd1b7",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOBcK-Cw"
+            ],
+            "author_raw": "A Thousand Ships <96648715+AThousandShips@users.noreply.github.com>",
+            "committer_raw": "A Thousand Ships <96648715+AThousandShips@users.noreply.github.com>",
+            "summary": "Make `GDScriptUtilityCallable` return call error when method is invalid",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 87783
+        },
         "61872e47aff153d0cdbafbc41b3c180fba9f3397": {
             "hash": "61872e47aff153d0cdbafbc41b3c180fba9f3397",
             "is_merge": false,
@@ -6285,6 +7092,20 @@
             "is_cherrypick": false,
             "cherrypick_hash": "",
             "pull": ""
+        },
+        "d1de00a2c8f3605faee9a8b81c78ded2ed89a3fe": {
+            "hash": "d1de00a2c8f3605faee9a8b81c78ded2ed89a3fe",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE2NDY4NzU="
+            ],
+            "author_raw": "Aaron Franke <arnfranke@yahoo.com>",
+            "committer_raw": "Aaron Franke <arnfranke@yahoo.com>",
+            "summary": "Fix crash when previewing a scene with a mesh as the root node",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 87781
         },
         "edb21e05739b46c98852f4ffbadc040b11efc6db": {
             "hash": "edb21e05739b46c98852f4ffbadc040b11efc6db",
@@ -20553,7 +21374,7 @@
             "hash": "b7d5f3e9847254145e2647a76e3f96caa36d39a1",
             "is_merge": false,
             "authored_by": [
-                ""
+                "U_kgDOCX0_CQ"
             ],
             "author_raw": "Emily <shatteredrea@gmail.com>",
             "committer_raw": "Emily <shatteredrea@gmail.com>",
@@ -26029,6 +26850,74 @@
                 "c7f68a27ec4b825302998eeb5a400f869cd21cf7"
             ]
         },
+        "67220": {
+            "id": "PR_kwDOAO6SJc5Ahd87",
+            "public_id": 67220,
+            "url": "https://github.com/godotengine/godot/pull/67220",
+            "diff_url": "https://github.com/godotengine/godot/pull/67220.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/67220.patch",
+            "title": "Use `Packed*Array` over `Vector<T>` in Variant",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjY2NzI3NzEw",
+            "created_at": "2022-10-10T21:12:35Z",
+            "updated_at": "2024-02-07T10:25:07Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyMzA0OTQ4MTIx",
+                    "name": "topic:codestyle",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc5NjY=",
+                    "name": "topic:core",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "3edb671b8a8b16658da7d9ab6dca406004697f4c"
+            ]
+        },
+        "67226": {
+            "id": "PR_kwDOAO6SJc5Ahx9Z",
+            "public_id": 67226,
+            "url": "https://github.com/godotengine/godot/pull/67226",
+            "diff_url": "https://github.com/godotengine/godot/pull/67226.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/67226.patch",
+            "title": "Use `Packed*Array` over `Vector<T>` in TypedArray",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjY2NzI3NzEw",
+            "created_at": "2022-10-10T23:27:50Z",
+            "updated_at": "2024-02-07T10:21:53Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyMzA0OTQ4MTIx",
+                    "name": "topic:codestyle",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc5NjY=",
+                    "name": "topic:core",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "2c987833599413ec015e1592619b2db362098855"
+            ]
+        },
         "68560": {
             "id": "PR_kwDOAO6SJc5CwV1F",
             "public_id": 68560,
@@ -26640,7 +27529,7 @@
             "is_draft": false,
             "authored_by": "U_kgDOBcK-Cw",
             "created_at": "2023-05-27T18:39:39Z",
-            "updated_at": "2024-01-16T15:49:28Z",
+            "updated_at": "2024-02-06T16:19:33Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -27310,12 +28199,12 @@
             "url": "https://github.com/godotengine/godot/pull/80231",
             "diff_url": "https://github.com/godotengine/godot/pull/80231.diff",
             "patch_url": "https://github.com/godotengine/godot/pull/80231.patch",
-            "title": "Support detecting and mapping ctrl/alt/shift/meta by their left/right physical location",
+            "title": "Support detecting and mapping Ctrl/Alt/Shift/Meta by their left/right physical location",
             "state": "MERGED",
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjQ0MTE4OA==",
             "created_at": "2023-08-03T22:43:57Z",
-            "updated_at": "2024-01-29T16:20:40Z",
+            "updated_at": "2024-02-06T13:38:42Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -27394,6 +28283,50 @@
             ],
             "commits": [
                 "09270f9624ed3156d194ffee4ae7b673fce58350"
+            ]
+        },
+        "80363": {
+            "id": "PR_kwDOAO6SJc5XT0uQ",
+            "public_id": 80363,
+            "url": "https://github.com/godotengine/godot/pull/80363",
+            "diff_url": "https://github.com/godotengine/godot/pull/80363.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/80363.patch",
+            "title": "OpenGL: Implement 3D Texture support",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjYyNzYxMzk=",
+            "created_at": "2023-08-07T08:42:48Z",
+            "updated_at": "2024-02-07T10:15:43Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAABbYOrww",
+                    "name": "cherrypick:4.2",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "ea229f51488bd70732690fd1691f6a6f22f4ab91"
             ]
         },
         "80390": {
@@ -28039,6 +28972,40 @@
             ],
             "commits": [
                 "1910f91f17d1e0b6339acd172e9f9e7c24b0124b"
+            ]
+        },
+        "81996": {
+            "id": "PR_kwDOAO6SJc5az1AU",
+            "public_id": 81996,
+            "url": "https://github.com/godotengine/godot/pull/81996",
+            "diff_url": "https://github.com/godotengine/godot/pull/81996.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/81996.patch",
+            "title": "Make ShaderMaterial always the last option in inspector resource dropdowns",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE4MDAzMg==",
+            "created_at": "2023-09-20T17:54:54Z",
+            "updated_at": "2024-02-07T10:17:00Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "93be97e6a741ba2fa9dac584219f4f808de237af"
             ]
         },
         "82079": {
@@ -29188,7 +30155,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjM3Mzc4NzQ2",
             "created_at": "2023-10-11T18:43:52Z",
-            "updated_at": "2024-01-03T10:48:39Z",
+            "updated_at": "2024-02-06T14:14:01Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -31835,7 +32802,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjQzNDUzMzA1",
             "created_at": "2023-11-08T14:26:25Z",
-            "updated_at": "2024-01-15T12:40:55Z",
+            "updated_at": "2024-02-06T17:44:19Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -31898,7 +32865,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE2NDY4NzU=",
             "created_at": "2023-11-08T23:48:26Z",
-            "updated_at": "2024-02-06T05:07:43Z",
+            "updated_at": "2024-02-06T09:45:03Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -32747,12 +33714,12 @@
             "url": "https://github.com/godotengine/godot/pull/84885",
             "diff_url": "https://github.com/godotengine/godot/pull/84885.diff",
             "patch_url": "https://github.com/godotengine/godot/pull/84885.patch",
-            "title": "New VS proj generation logic that supports any platform that wants to opt in",
+            "title": "New Visual Studio project generation logic that supports any platform that wants to opt in",
             "state": "MERGED",
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjMxMDEzNw==",
             "created_at": "2023-11-14T13:47:11Z",
-            "updated_at": "2024-02-03T22:27:48Z",
+            "updated_at": "2024-02-06T10:46:02Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -32849,7 +33816,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE2NTIxMzM5",
             "created_at": "2023-11-14T15:30:01Z",
-            "updated_at": "2024-01-24T13:16:29Z",
+            "updated_at": "2024-02-06T23:28:53Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -39226,12 +40193,12 @@
             "url": "https://github.com/godotengine/godot/pull/86180",
             "diff_url": "https://github.com/godotengine/godot/pull/86180.diff",
             "patch_url": "https://github.com/godotengine/godot/pull/86180.patch",
-            "title": "Add Wayland support (squashed review edition)",
+            "title": "Add Wayland support",
             "state": "MERGED",
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjMxMDY1ODA4",
             "created_at": "2023-12-15T01:43:35Z",
-            "updated_at": "2024-01-31T12:46:18Z",
+            "updated_at": "2024-02-06T11:39:17Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -40023,12 +40990,12 @@
             "url": "https://github.com/godotengine/godot/pull/86313",
             "diff_url": "https://github.com/godotengine/godot/pull/86313.diff",
             "patch_url": "https://github.com/godotengine/godot/pull/86313.patch",
-            "title": "Implement `ETC2_R` and `ETC2_RG` compression to `etcpak`",
+            "title": "Implement `ETC2_R` and `ETC2_RG` compression to etcpak",
             "state": "MERGED",
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjUzMTUwMjQ0",
             "created_at": "2023-12-18T20:26:50Z",
-            "updated_at": "2024-02-01T16:26:22Z",
+            "updated_at": "2024-02-06T11:21:27Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -42505,12 +43472,12 @@
             "url": "https://github.com/godotengine/godot/pull/86677",
             "diff_url": "https://github.com/godotengine/godot/pull/86677.diff",
             "patch_url": "https://github.com/godotengine/godot/pull/86677.patch",
-            "title": "Implement overdraw, lighting, and unshaded debug draw modes for opengl",
+            "title": "Implement overdraw, lighting, and unshaded debug draw modes for OpenGL",
             "state": "MERGED",
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjMzNTYzNjAy",
             "created_at": "2024-01-01T05:44:01Z",
-            "updated_at": "2024-01-24T13:15:30Z",
+            "updated_at": "2024-02-06T13:05:44Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -43786,6 +44753,45 @@
                 "0a726d692a13214f7e3ee63dbc38a727ba0e8eb1"
             ]
         },
+        "86843": {
+            "id": "PR_kwDOAO6SJc5jVXwW",
+            "public_id": 86843,
+            "url": "https://github.com/godotengine/godot/pull/86843",
+            "diff_url": "https://github.com/godotengine/godot/pull/86843.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/86843.patch",
+            "title": "Avoid several null-dereferences of ApiContextRD",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjExNzk3MTc0",
+            "created_at": "2024-01-05T17:28:30Z",
+            "updated_at": "2024-02-07T10:17:25Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzI3MzE4Mjcx",
+                    "name": "crash",
+                    "color": "#885544"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyNTU=",
+                    "name": "topic:porting",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "d5a5dd52e82c171a3eba449cfdee9eb3be1323d7"
+            ]
+        },
         "86845": {
             "id": "PR_kwDOAO6SJc5jVvKh",
             "public_id": 86845,
@@ -44360,12 +45366,12 @@
             "url": "https://github.com/godotengine/godot/pull/86916",
             "diff_url": "https://github.com/godotengine/godot/pull/86916.diff",
             "patch_url": "https://github.com/godotengine/godot/pull/86916.patch",
-            "title": "Fix `BasisUniversal` ETC RA as RG transcoding",
+            "title": "Fix BasisUniversal ETC RA as RG transcoding",
             "state": "MERGED",
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjUzMTUwMjQ0",
             "created_at": "2024-01-07T12:03:24Z",
-            "updated_at": "2024-01-24T17:08:59Z",
+            "updated_at": "2024-02-06T11:21:38Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -46280,7 +47286,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE2ODc5MTg=",
             "created_at": "2024-01-14T20:06:22Z",
-            "updated_at": "2024-02-03T22:25:41Z",
+            "updated_at": "2024-02-06T10:37:05Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -48439,12 +49445,12 @@
             "url": "https://github.com/godotengine/godot/pull/87460",
             "diff_url": "https://github.com/godotengine/godot/pull/87460.diff",
             "patch_url": "https://github.com/godotengine/godot/pull/87460.patch",
-            "title": "Add ivec variants to multiview_uv for stereo rendering",
+            "title": "Add `ivec` variants to `multiview_uv` for stereo rendering",
             "state": "MERGED",
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE5NDU0NDk=",
             "created_at": "2024-01-22T02:54:55Z",
-            "updated_at": "2024-01-25T15:33:55Z",
+            "updated_at": "2024-02-06T13:05:19Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -49075,12 +50081,12 @@
             "url": "https://github.com/godotengine/godot/pull/87541",
             "diff_url": "https://github.com/godotengine/godot/pull/87541.diff",
             "patch_url": "https://github.com/godotengine/godot/pull/87541.patch",
-            "title": "Avoid saving the texture_rd_rid property of TextureRD resources",
+            "title": "Avoid saving the `texture_rd_rid` property of TextureRD resources",
             "state": "MERGED",
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE2NTIxMzM5",
             "created_at": "2024-01-24T18:17:30Z",
-            "updated_at": "2024-01-25T15:33:46Z",
+            "updated_at": "2024-02-06T13:05:30Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -49566,7 +50572,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjgzMTU5ODY=",
             "created_at": "2024-01-26T04:49:13Z",
-            "updated_at": "2024-01-30T02:07:45Z",
+            "updated_at": "2024-02-06T10:49:33Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -49580,8 +50586,8 @@
                     "color": "#885544"
                 },
                 {
-                    "id": "MDU6TGFiZWwyNzkwOTc5NjY=",
-                    "name": "topic:core",
+                    "id": "MDU6TGFiZWwxNjA5NDQyMDYy",
+                    "name": "topic:shaders",
                     "color": "#ffee88"
                 }
             ],
@@ -50352,6 +51358,35 @@
                 "745f8e112fcf5d61e0fc377bdbc2539dd6b16ef9"
             ]
         },
+        "87715": {
+            "id": "PR_kwDOAO6SJc5lYQaO",
+            "public_id": 87715,
+            "url": "https://github.com/godotengine/godot/pull/87715",
+            "diff_url": "https://github.com/godotengine/godot/pull/87715.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/87715.patch",
+            "title": "Expose `is_baking` method in navigation servers and region nodes.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjEyMDczODU=",
+            "created_at": "2024-01-29T21:38:54Z",
+            "updated_at": "2024-02-07T10:17:07Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwxNzUyMDQwNjk0",
+                    "name": "topic:navigation",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "c2cfc0d409b5adf892c6daa86d128f6e98633bee"
+            ]
+        },
         "87720": {
             "id": "PR_kwDOAO6SJc5lYhRr",
             "public_id": 87720,
@@ -50830,12 +51865,12 @@
             "url": "https://github.com/godotengine/godot/pull/87775",
             "diff_url": "https://github.com/godotengine/godot/pull/87775.diff",
             "patch_url": "https://github.com/godotengine/godot/pull/87775.patch",
-            "title": "Remove workaround in GLTF exporter that double converts ra textures to rg",
+            "title": "Remove workaround in GLTF exporter that double converts `ra` textures to `rg`",
             "state": "MERGED",
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE2NTIxMzM5",
             "created_at": "2024-01-31T07:27:13Z",
-            "updated_at": "2024-01-31T17:34:45Z",
+            "updated_at": "2024-02-06T11:13:38Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -50900,6 +51935,74 @@
             ],
             "commits": [
                 "edb21e05739b46c98852f4ffbadc040b11efc6db"
+            ]
+        },
+        "87781": {
+            "id": "PR_kwDOAO6SJc5lkMTf",
+            "public_id": 87781,
+            "url": "https://github.com/godotengine/godot/pull/87781",
+            "diff_url": "https://github.com/godotengine/godot/pull/87781.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/87781.patch",
+            "title": "Fix crash when previewing a scene with a mesh as the root node",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE2NDY4NzU=",
+            "created_at": "2024-01-31T12:34:26Z",
+            "updated_at": "2024-02-07T10:14:20Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzI3MzE4Mjcx",
+                    "name": "crash",
+                    "color": "#885544"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWw4OTAzMTA1MDI=",
+                    "name": "topic:import",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "d1de00a2c8f3605faee9a8b81c78ded2ed89a3fe"
+            ]
+        },
+        "87783": {
+            "id": "PR_kwDOAO6SJc5lkbLn",
+            "public_id": 87783,
+            "url": "https://github.com/godotengine/godot/pull/87783",
+            "diff_url": "https://github.com/godotengine/godot/pull/87783.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/87783.patch",
+            "title": "Make `GDScriptUtilityCallable` return call error when method is invalid",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "U_kgDOBcK-Cw",
+            "created_at": "2024-01-31T13:12:42Z",
+            "updated_at": "2024-02-07T10:12:18Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwODI=",
+                    "name": "topic:gdscript",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "f4f7e13388b3a37ae0ea1cb69894fb731c1bd1b7"
             ]
         },
         "87790": {
@@ -51104,6 +52207,40 @@
             ],
             "commits": [
                 "999180d5b5c1023f441100e7b45a3aa346a2e898"
+            ]
+        },
+        "87842": {
+            "id": "PR_kwDOAO6SJc5lwkGi",
+            "public_id": 87842,
+            "url": "https://github.com/godotengine/godot/pull/87842",
+            "diff_url": "https://github.com/godotengine/godot/pull/87842.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/87842.patch",
+            "title": "[macOS] Add SIGTRAP to the crash handler.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
+            "created_at": "2024-02-01T22:02:57Z",
+            "updated_at": "2024-02-07T10:13:11Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc3ODA=",
+                    "name": "platform:macos",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyNTU=",
+                    "name": "topic:porting",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "b990cb95a98cbec8140877e07438f9c5f7ab06ef"
             ]
         },
         "87848": {
@@ -51763,6 +52900,40 @@
                 "677bd9783a6dbc40b9202381095b85f4f7b3de0c"
             ]
         },
+        "87923": {
+            "id": "PR_kwDOAO6SJc5l7zPx",
+            "public_id": 87923,
+            "url": "https://github.com/godotengine/godot/pull/87923",
+            "diff_url": "https://github.com/godotengine/godot/pull/87923.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/87923.patch",
+            "title": "Make MeshLibrary export do recursive depth-search for MeshInstance3D nodes",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjUyNDY0MjA0",
+            "created_at": "2024-02-04T03:22:35Z",
+            "updated_at": "2024-02-07T10:14:28Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWw4OTAzMTA1MDI=",
+                    "name": "topic:import",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "4d0c21c131da07c766801d846929872dc8bd2a66"
+            ]
+        },
         "87928": {
             "id": "PR_kwDOAO6SJc5l76d1",
             "public_id": 87928,
@@ -51878,6 +53049,40 @@
             ],
             "commits": [
                 "dc4c6cfb9b78bca962121510b01b7a7605bbbd45"
+            ]
+        },
+        "87939": {
+            "id": "PR_kwDOAO6SJc5l8kQS",
+            "public_id": 87939,
+            "url": "https://github.com/godotengine/godot/pull/87939",
+            "diff_url": "https://github.com/godotengine/godot/pull/87939.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/87939.patch",
+            "title": "GDScript: Add `is not` operator",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjQ3NzAwNDE4",
+            "created_at": "2024-02-04T12:47:52Z",
+            "updated_at": "2024-02-07T10:18:09Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwODI=",
+                    "name": "topic:gdscript",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyODM1MTg3MzM=",
+                    "name": "usability",
+                    "color": "#447744"
+                }
+            ],
+            "commits": [
+                "2bf25954b4aaa746b4dd8cf1d5f823ccf646224a"
             ]
         },
         "87941": {
@@ -52124,6 +53329,40 @@
                 "70e328385c8c9e11ff2d62906edd5a0706c27b9f"
             ]
         },
+        "87961": {
+            "id": "PR_kwDOAO6SJc5l9foa",
+            "public_id": 87961,
+            "url": "https://github.com/godotengine/godot/pull/87961",
+            "diff_url": "https://github.com/godotengine/godot/pull/87961.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/87961.patch",
+            "title": "Add NavigationPolygon `border_size` property for tile baking",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjUyNDY0MjA0",
+            "created_at": "2024-02-04T23:35:41Z",
+            "updated_at": "2024-02-07T10:12:01Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4MDU5",
+                    "name": "topic:2d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwxNzUyMDQwNjk0",
+                    "name": "topic:navigation",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "085bc9504b7db92d19903f345af1a7f398c22041"
+            ]
+        },
         "87976": {
             "id": "PR_kwDOAO6SJc5mClsM",
             "public_id": 87976,
@@ -52156,6 +53395,45 @@
             ],
             "commits": [
                 "fb1662b939391cd2af9ce1cc6dba87b364f0ee77"
+            ]
+        },
+        "87977": {
+            "id": "PR_kwDOAO6SJc5mCp_q",
+            "public_id": 87977,
+            "url": "https://github.com/godotengine/godot/pull/87977",
+            "diff_url": "https://github.com/godotengine/godot/pull/87977.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/87977.patch",
+            "title": "wayland: Update to 1.22.0",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjM3Mzc4NzQ2",
+            "created_at": "2024-02-05T15:53:30Z",
+            "updated_at": "2024-02-07T10:14:14Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTczMjY=",
+                    "name": "platform:linuxbsd",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyNTU=",
+                    "name": "topic:porting",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwzNzA0NzE3OTU=",
+                    "name": "topic:thirdparty",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "292df42c3f92a1a19bf132457a2336fc0ea98b8a"
             ]
         },
         "87980": {
@@ -52239,6 +53517,473 @@
             ],
             "commits": [
                 "5922ac0fb11105da67d28847b60a521406a77cdb"
+            ]
+        },
+        "87982": {
+            "id": "PR_kwDOAO6SJc5mDRsk",
+            "public_id": 87982,
+            "url": "https://github.com/godotengine/godot/pull/87982",
+            "diff_url": "https://github.com/godotengine/godot/pull/87982.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/87982.patch",
+            "title": "wayland-protocols: Update to 1.33",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjM3Mzc4NzQ2",
+            "created_at": "2024-02-05T17:16:43Z",
+            "updated_at": "2024-02-07T10:13:52Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwzNzA0NzE3OTU=",
+                    "name": "topic:thirdparty",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "ba1c5bf4bd4f597f85d73a4bb20ce3b589eec655"
+            ]
+        },
+        "87983": {
+            "id": "PR_kwDOAO6SJc5mDkc9",
+            "public_id": 87983,
+            "url": "https://github.com/godotengine/godot/pull/87983",
+            "diff_url": "https://github.com/godotengine/godot/pull/87983.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/87983.patch",
+            "title": "Document `OS.execute()` limitations on Android",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE4MDAzMg==",
+            "created_at": "2024-02-05T17:59:10Z",
+            "updated_at": "2024-02-07T10:13:58Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "LA_kwDOAO6SJc8AAAABbYOrww",
+                    "name": "cherrypick:4.2",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwyODM1MTg4Mzk=",
+                    "name": "documentation",
+                    "color": "#ffddff"
+                },
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                }
+            ],
+            "commits": [
+                "d94ee14123670c630d45b65afef1a0b31d4a2306"
+            ]
+        },
+        "87984": {
+            "id": "PR_kwDOAO6SJc5mDl-V",
+            "public_id": 87984,
+            "url": "https://github.com/godotengine/godot/pull/87984",
+            "diff_url": "https://github.com/godotengine/godot/pull/87984.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/87984.patch",
+            "title": "etcpak: Sync with upstream",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjUzMTUwMjQ0",
+            "created_at": "2024-02-05T18:02:39Z",
+            "updated_at": "2024-02-07T10:15:29Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwzNzA0NzE3OTU=",
+                    "name": "topic:thirdparty",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "becf5b1d2343a8f675300bfbf398140549d641f6"
+            ]
+        },
+        "87985": {
+            "id": "PR_kwDOAO6SJc5mDnQM",
+            "public_id": 87985,
+            "url": "https://github.com/godotengine/godot/pull/87985",
+            "diff_url": "https://github.com/godotengine/godot/pull/87985.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/87985.patch",
+            "title": "Fix docs for Color class regarding bits per component.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE3NTA2NTcz",
+            "created_at": "2024-02-05T18:05:28Z",
+            "updated_at": "2024-02-07T10:15:34Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAABTZnv2Q",
+                    "name": "cherrypick:4.1",
+                    "color": "#446699"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAABbYOrww",
+                    "name": "cherrypick:4.2",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwyODM1MTg4Mzk=",
+                    "name": "documentation",
+                    "color": "#ffddff"
+                }
+            ],
+            "commits": [
+                "0e977e087ccf7c1392e56e7ff12dd7bb538ee70a"
+            ]
+        },
+        "87992": {
+            "id": "PR_kwDOAO6SJc5mEg1n",
+            "public_id": 87992,
+            "url": "https://github.com/godotengine/godot/pull/87992",
+            "diff_url": "https://github.com/godotengine/godot/pull/87992.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/87992.patch",
+            "title": "Added newer Variant types to `typed_array.h`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE3NTA2NTcz",
+            "created_at": "2024-02-05T20:39:57Z",
+            "updated_at": "2024-02-07T10:13:24Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc5NjY=",
+                    "name": "topic:core",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "f4134fd9b0dc693bbf9c68df50d1bf8a105b3ab9"
+            ]
+        },
+        "88005": {
+            "id": "PR_kwDOAO6SJc5mGFwO",
+            "public_id": 88005,
+            "url": "https://github.com/godotengine/godot/pull/88005",
+            "diff_url": "https://github.com/godotengine/godot/pull/88005.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/88005.patch",
+            "title": "Fix data race regarding `prof_time` in `AudioDriver` and `AudioServer`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjgzMTU5ODY=",
+            "created_at": "2024-02-06T03:31:06Z",
+            "updated_at": "2024-02-07T10:15:19Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWw1NzI3ODE5OTc=",
+                    "name": "topic:audio",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "cf1ede9129c13c9f3f55a0bd9a750312208c3cc6"
+            ]
+        },
+        "88010": {
+            "id": "PR_kwDOAO6SJc5mHN1I",
+            "public_id": 88010,
+            "url": "https://github.com/godotengine/godot/pull/88010",
+            "diff_url": "https://github.com/godotengine/godot/pull/88010.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/88010.patch",
+            "title": "Web: Bump closure compiler spec to `ECMASCRIPT_2021`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjQ3MDEzMzg=",
+            "created_at": "2024-02-06T08:19:55Z",
+            "updated_at": "2024-02-07T10:15:09Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc77GWog",
+                    "name": "cherrypick:3.5",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwxNjQ3MDUzMjAw",
+                    "name": "cherrypick:3.x",
+                    "color": "#446699"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAABTZnv2Q",
+                    "name": "cherrypick:4.1",
+                    "color": "#446699"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAABbYOrww",
+                    "name": "cherrypick:4.2",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc0NTU=",
+                    "name": "platform:web",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "d29b0d90e0d735eee860b977c57cb75423d7a9ba"
+            ]
+        },
+        "88024": {
+            "id": "PR_kwDOAO6SJc5mLCUc",
+            "public_id": 88024,
+            "url": "https://github.com/godotengine/godot/pull/88024",
+            "diff_url": "https://github.com/godotengine/godot/pull/88024.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/88024.patch",
+            "title": "Improve documentation on Android package unique name",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE4MDAzMg==",
+            "created_at": "2024-02-06T17:20:53Z",
+            "updated_at": "2024-02-07T10:11:39Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "LA_kwDOAO6SJc8AAAABbYOrww",
+                    "name": "cherrypick:4.2",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwyODM1MTg4Mzk=",
+                    "name": "documentation",
+                    "color": "#ffddff"
+                },
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                }
+            ],
+            "commits": [
+                "111908c4ed7b5a06bc43ccc8fb1a1e81cc35073e"
+            ]
+        },
+        "88025": {
+            "id": "PR_kwDOAO6SJc5mLbMu",
+            "public_id": 88025,
+            "url": "https://github.com/godotengine/godot/pull/88025",
+            "diff_url": "https://github.com/godotengine/godot/pull/88025.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/88025.patch",
+            "title": "SCons: Fix incremental builds breaking when querying the dependency tree from a SCsub",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjMxMDEzNw==",
+            "created_at": "2024-02-06T18:33:57Z",
+            "updated_at": "2024-02-07T10:13:05Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAABbYOrww",
+                    "name": "cherrypick:4.2",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "0b43b0124f65418e5e9b82e07ad03dc1168fd0e8"
+            ]
+        },
+        "88028": {
+            "id": "PR_kwDOAO6SJc5mLhKD",
+            "public_id": 88028,
+            "url": "https://github.com/godotengine/godot/pull/88028",
+            "diff_url": "https://github.com/godotengine/godot/pull/88028.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/88028.patch",
+            "title": "Silence wayland-scanner check in buildsystem",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE4MDAzMg==",
+            "created_at": "2024-02-06T18:50:13Z",
+            "updated_at": "2024-02-07T10:11:58Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTczMjY=",
+                    "name": "platform:linuxbsd",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "7b0f2a5f539cafefd89921030ea48dc42c22dd88"
+            ]
+        },
+        "88043": {
+            "id": "PR_kwDOAO6SJc5mNq-s",
+            "public_id": 88043,
+            "url": "https://github.com/godotengine/godot/pull/88043",
+            "diff_url": "https://github.com/godotengine/godot/pull/88043.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/88043.patch",
+            "title": "Fix data race regarding `server_quit` in `EditorExportPlatformWeb`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjgzMTU5ODY=",
+            "created_at": "2024-02-07T03:28:06Z",
+            "updated_at": "2024-02-07T10:12:46Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc0NTU=",
+                    "name": "platform:web",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyOTA5OTAwODUw",
+                    "name": "topic:export",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "ea974e18777d60800ac6fe7e4aad6a65b786e693"
+            ]
+        },
+        "88048": {
+            "id": "PR_kwDOAO6SJc5mOFrA",
+            "public_id": 88048,
+            "url": "https://github.com/godotengine/godot/pull/88048",
+            "diff_url": "https://github.com/godotengine/godot/pull/88048.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/88048.patch",
+            "title": "C#: Fix crash when reloading scripts",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjM5MDMwNTk=",
+            "created_at": "2024-02-07T05:45:34Z",
+            "updated_at": "2024-02-07T10:12:55Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWw3MDkyNjk3NzU=",
+                    "name": "topic:dotnet",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "8ce4a0cf1554f609b6a12f6bf136440aeb7e34bb"
+            ]
+        },
+        "88050": {
+            "id": "PR_kwDOAO6SJc5mPBf5",
+            "public_id": 88050,
+            "url": "https://github.com/godotengine/godot/pull/88050",
+            "diff_url": "https://github.com/godotengine/godot/pull/88050.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/88050.patch",
+            "title": "[macOS] Enabled secure restorable state.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
+            "created_at": "2024-02-07T09:02:35Z",
+            "updated_at": "2024-02-07T10:11:51Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc77GWog",
+                    "name": "cherrypick:3.5",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwxNjQ3MDUzMjAw",
+                    "name": "cherrypick:3.x",
+                    "color": "#446699"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAABTZnv2Q",
+                    "name": "cherrypick:4.1",
+                    "color": "#446699"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAABbYOrww",
+                    "name": "cherrypick:4.2",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc3ODA=",
+                    "name": "platform:macos",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyNTU=",
+                    "name": "topic:porting",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "84380a94f776c8c1e7786d2eb3fb811789f42639"
             ]
         }
     }
