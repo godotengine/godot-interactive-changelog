@@ -1,6 +1,8 @@
 {
-    "generated_at": 1712664569793,
+    "generated_at": 1713341230912,
     "log": [
+        "fe0e8e55752b0c2e64997025717b491703e0f8ad",
+        "943b394946dfc0766db33c28c89efc10c0911028",
         "bb5ea0d249431dd2c60717bb5dc18b9029838e69",
         "e03ea704e277c9bc53254f329798d663cfddbee5",
         "71a0be2b351a591499d2a4f7bb38985a8b638c24",
@@ -476,6 +478,10 @@
             "afc47f93d19cfbd90aae5f5708938ba4cd5642e5",
             "527e1d12b0cce592af77c553ae576e0a298c8729",
             "44211441f3b3e3afa42c79c5e5635e52984d7516"
+        ],
+        "stable": [
+            "fe0e8e55752b0c2e64997025717b491703e0f8ad",
+            "943b394946dfc0766db33c28c89efc10c0911028"
         ]
     },
     "authors": {
@@ -485,7 +491,15 @@
             "avatar": "https://avatars.githubusercontent.com/u/4701338?u=4a42fd867f2c449fcc23adf635dd574dae98e6c2&v=4",
             "url": "https://github.com/akien-mga",
             "pull_count": 22,
-            "commit_count": 40
+            "commit_count": 41
+        },
+        "MDQ6VXNlcjc3MTI4NDE=": {
+            "id": "MDQ6VXNlcjc3MTI4NDE=",
+            "user": "yorickdewid",
+            "avatar": "https://avatars.githubusercontent.com/u/7712841?u=a37d11f1662d9acfb642f9bd74f57819f35c5754&v=4",
+            "url": "https://github.com/yorickdewid",
+            "pull_count": 1,
+            "commit_count": 2
         },
         "MDQ6VXNlcjE0MzE2MTI4": {
             "id": "MDQ6VXNlcjE0MzE2MTI4",
@@ -834,7 +848,7 @@
         "MDQ6VXNlcjExNzgyODMz": {
             "id": "MDQ6VXNlcjExNzgyODMz",
             "user": "YuriSizov",
-            "avatar": "https://avatars.githubusercontent.com/u/11782833?u=fccc436e4c80f272ba6d90e311e32bf8fb3abf0b&v=4",
+            "avatar": "https://avatars.githubusercontent.com/u/11782833?u=9b611535dcce173382235e4a3e89bfed77129487&v=4",
             "url": "https://github.com/YuriSizov",
             "pull_count": 3,
             "commit_count": 6
@@ -1241,6 +1255,48 @@
         }
     },
     "commits": {
+        "fe0e8e55752b0c2e64997025717b491703e0f8ad": {
+            "hash": "fe0e8e55752b0c2e64997025717b491703e0f8ad",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Bump version to 4.1.4-stable",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "943b394946dfc0766db33c28c89efc10c0911028": {
+            "hash": "943b394946dfc0766db33c28c89efc10c0911028",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc3MTI4NDE="
+            ],
+            "author_raw": "Yorick de Wid <yorickdewid@users.noreply.github.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "FIX: Return if TCP is in STATUS_CONNECTED",
+            "body": "If the `StreamPeerTCP` is polled and the TCP connection is `STATUS_CONNECTED` it should return after polling netsocket. Without `return` poll keeps calling `_sock->connect_to_host` and `connect()`.\n\n(cherry picked from commit 61a2f5c53414eb471103a452a07228962a2d876a)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "61a2f5c53414eb471103a452a07228962a2d876a",
+            "pull": ""
+        },
+        "61a2f5c53414eb471103a452a07228962a2d876a": {
+            "hash": "61a2f5c53414eb471103a452a07228962a2d876a",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc3MTI4NDE="
+            ],
+            "author_raw": "Yorick de Wid <yorickdewid@users.noreply.github.com>",
+            "committer_raw": "Yorick de Wid <yorickdewid@users.noreply.github.com>",
+            "summary": "FIX: Return if TCP is in STATUS_CONNECTED",
+            "body": "If the `StreamPeerTCP` is polled and the TCP connection is `STATUS_CONNECTED` it should return after polling netsocket. Without `return` poll keeps calling `_sock->connect_to_host` and `connect()`.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 90741
+        },
         "bb5ea0d249431dd2c60717bb5dc18b9029838e69": {
             "hash": "bb5ea0d249431dd2c60717bb5dc18b9029838e69",
             "is_merge": true,
@@ -13966,12 +14022,12 @@
             "url": "https://github.com/godotengine/godot/pull/89246",
             "diff_url": "https://github.com/godotengine/godot/pull/89246.diff",
             "patch_url": "https://github.com/godotengine/godot/pull/89246.patch",
-            "title": "[Docs][C#] Use `PropertyName` constants in more places",
+            "title": "[Docs] [C#] Use `PropertyName` constants in more places",
             "state": "MERGED",
             "is_draft": false,
             "authored_by": "U_kgDOBcK-Cw",
             "created_at": "2024-03-07T12:06:32Z",
-            "updated_at": "2024-03-11T14:23:35Z",
+            "updated_at": "2024-04-16T11:46:22Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -14365,7 +14421,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjM3MjQ3Ng==",
             "created_at": "2024-03-15T08:56:50Z",
-            "updated_at": "2024-04-08T13:10:18Z",
+            "updated_at": "2024-04-11T10:03:55Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -14377,11 +14433,6 @@
                     "id": "MDU6TGFiZWwyODM1MTg4Mzk=",
                     "name": "documentation",
                     "color": "#ffddff"
-                },
-                {
-                    "id": "MDU6TGFiZWw4OTAzMTA2NjQ=",
-                    "name": "topic:input",
-                    "color": "#ffee88"
                 }
             ],
             "commits": [
@@ -14986,7 +15037,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjEzNDg0ODQ5",
             "created_at": "2024-04-08T08:31:37Z",
-            "updated_at": "2024-04-08T20:16:06Z",
+            "updated_at": "2024-04-12T09:35:30Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -15105,7 +15156,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjkyODMwOTg=",
             "created_at": "2024-04-08T16:49:26Z",
-            "updated_at": "2024-04-08T21:04:21Z",
+            "updated_at": "2024-04-11T09:56:39Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -15117,11 +15168,6 @@
                     "id": "MDU6TGFiZWwyODM1MTg4Mzk=",
                     "name": "documentation",
                     "color": "#ffddff"
-                },
-                {
-                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
-                    "name": "topic:3d",
-                    "color": "#ffee88"
                 }
             ],
             "commits": [
@@ -15165,6 +15211,35 @@
             ],
             "commits": [
                 "6772047e5077b3bfe1f81cd24c128f02b904c20e"
+            ]
+        },
+        "90741": {
+            "id": "PR_kwDOAO6SJc5sxboi",
+            "public_id": 90741,
+            "url": "https://github.com/godotengine/godot/pull/90741",
+            "diff_url": "https://github.com/godotengine/godot/pull/90741.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/90741.patch",
+            "title": "Fix missing return in `StreamPeerTCP::poll` when connection is `STATUS_CONNECTED`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc3MTI4NDE=",
+            "created_at": "2024-04-16T08:35:22Z",
+            "updated_at": "2024-04-16T11:45:03Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWw2NDk4MDA3MDE=",
+                    "name": "topic:network",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "61a2f5c53414eb471103a452a07228962a2d876a"
             ]
         }
     }

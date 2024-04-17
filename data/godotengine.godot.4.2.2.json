@@ -1,6 +1,20 @@
 {
-    "generated_at": 1712664392297,
+    "generated_at": 1713342004656,
     "log": [
+        "15073afe3856abd2aa1622492fe50026c7d63dc1",
+        "7fbfe1dbe73916f95ee5c022e7defb0c25c240fb",
+        "f23a48e66345596ab22f21daba42aab379656ccf",
+        "e5ea748dcf132751480b2b510b2a7b4b56150359",
+        "895f1877fba1cc4176a59f5a0fbeec954dcdd0a6",
+        "e57244edc67eb25edd2d574d45f50261c26c5513",
+        "219517f6b8ade461cad22a35e64842782dec2a51",
+        "0f6403f7197c8c806f718da47c65e63705dd009f",
+        "a7099ce88013c0dbf12c49e82b4cb070a12d5f21",
+        "a7c4d3bc08cb57ebe5654d942904be7bd95382bf",
+        "7eb90a35d472f76bdeead1bfcb41256d50b6aff2",
+        "79b7dc7f943c6a5dad4d24bafc2a203daf5831fa",
+        "c1547d1337096c89c28fb93eaa4f2bb9293ae044",
+        "4cffca7fbcd580002474f2b0989971780e85500c",
         "16a8334b8d97ad91bf414ba8150e265e6dc1e6e7",
         "a4b2915f024af6358f36263bbbb5bde7d9db4b45",
         "f9eabb81cbdb28bf83715cf383c1bbd913c5e8ca",
@@ -854,6 +868,22 @@
             "c6ae98ab6033ac5c57d01cf3cefa3489b6fe7f77",
             "c57002e0b48f3c21b8608d0ea6fe2b248e8dbd1e",
             "987a7c681d1b3bcfffc9b7c801bb19c18ed55e48"
+        ],
+        "stable": [
+            "15073afe3856abd2aa1622492fe50026c7d63dc1",
+            "7fbfe1dbe73916f95ee5c022e7defb0c25c240fb",
+            "f23a48e66345596ab22f21daba42aab379656ccf",
+            "e5ea748dcf132751480b2b510b2a7b4b56150359",
+            "895f1877fba1cc4176a59f5a0fbeec954dcdd0a6",
+            "e57244edc67eb25edd2d574d45f50261c26c5513",
+            "219517f6b8ade461cad22a35e64842782dec2a51",
+            "0f6403f7197c8c806f718da47c65e63705dd009f",
+            "a7099ce88013c0dbf12c49e82b4cb070a12d5f21",
+            "a7c4d3bc08cb57ebe5654d942904be7bd95382bf",
+            "7eb90a35d472f76bdeead1bfcb41256d50b6aff2",
+            "79b7dc7f943c6a5dad4d24bafc2a203daf5831fa",
+            "c1547d1337096c89c28fb93eaa4f2bb9293ae044",
+            "4cffca7fbcd580002474f2b0989971780e85500c"
         ]
     },
     "authors": {
@@ -862,8 +892,56 @@
             "user": "akien-mga",
             "avatar": "https://avatars.githubusercontent.com/u/4701338?u=4a42fd867f2c449fcc23adf635dd574dae98e6c2&v=4",
             "url": "https://github.com/akien-mga",
-            "pull_count": 23,
-            "commit_count": 46
+            "pull_count": 24,
+            "commit_count": 52
+        },
+        "MDQ6VXNlcjc3MTI4NDE=": {
+            "id": "MDQ6VXNlcjc3MTI4NDE=",
+            "user": "yorickdewid",
+            "avatar": "https://avatars.githubusercontent.com/u/7712841?u=a37d11f1662d9acfb642f9bd74f57819f35c5754&v=4",
+            "url": "https://github.com/yorickdewid",
+            "pull_count": 1,
+            "commit_count": 2
+        },
+        "MDQ6VXNlcjQ4ODQyNDY=": {
+            "id": "MDQ6VXNlcjQ4ODQyNDY=",
+            "user": "mihe",
+            "avatar": "https://avatars.githubusercontent.com/u/4884246?u=6bab84ad2a0262e5dec39c0c5e7a5b24d1c80c6b&v=4",
+            "url": "https://github.com/mihe",
+            "pull_count": 5,
+            "commit_count": 10
+        },
+        "U_kgDOBcK-Cw": {
+            "id": "U_kgDOBcK-Cw",
+            "user": "AThousandShips",
+            "avatar": "https://avatars.githubusercontent.com/u/96648715?u=af70f5d107e9c1447f296643d5a566dab53d25e8&v=4",
+            "url": "https://github.com/AThousandShips",
+            "pull_count": 38,
+            "commit_count": 74
+        },
+        "MDQ6VXNlcjE2NTIxMzM5": {
+            "id": "MDQ6VXNlcjE2NTIxMzM5",
+            "user": "clayjohn",
+            "avatar": "https://avatars.githubusercontent.com/u/16521339?u=e44a465cbebabb9ea2be80b59e6dc07966bef5b7&v=4",
+            "url": "https://github.com/clayjohn",
+            "pull_count": 13,
+            "commit_count": 26
+        },
+        "MDQ6VXNlcjgzMTU5ODY=": {
+            "id": "MDQ6VXNlcjgzMTU5ODY=",
+            "user": "jsjtxietian",
+            "avatar": "https://avatars.githubusercontent.com/u/8315986?u=cf1b60639c3ba2fa205f083f60e43fca5ad26a76&v=4",
+            "url": "https://github.com/jsjtxietian",
+            "pull_count": 19,
+            "commit_count": 39
+        },
+        "MDQ6VXNlcjM3Mzc4NzQ2": {
+            "id": "MDQ6VXNlcjM3Mzc4NzQ2",
+            "user": "Chubercik",
+            "avatar": "https://avatars.githubusercontent.com/u/37378746?v=4",
+            "url": "https://github.com/Chubercik",
+            "pull_count": 5,
+            "commit_count": 10
         },
         "MDQ6VXNlcjU1NjU1MzU5": {
             "id": "MDQ6VXNlcjU1NjU1MzU5",
@@ -921,14 +999,6 @@
             "pull_count": 1,
             "commit_count": 2
         },
-        "MDQ6VXNlcjM3Mzc4NzQ2": {
-            "id": "MDQ6VXNlcjM3Mzc4NzQ2",
-            "user": "Chubercik",
-            "avatar": "https://avatars.githubusercontent.com/u/37378746?v=4",
-            "url": "https://github.com/Chubercik",
-            "pull_count": 4,
-            "commit_count": 8
-        },
         "MDQ6VXNlcjc2NDU2ODM=": {
             "id": "MDQ6VXNlcjc2NDU2ODM=",
             "user": "bruvzg",
@@ -976,14 +1046,6 @@
             "url": "https://github.com/Mickeon",
             "pull_count": 24,
             "commit_count": 49
-        },
-        "U_kgDOBcK-Cw": {
-            "id": "U_kgDOBcK-Cw",
-            "user": "AThousandShips",
-            "avatar": "https://avatars.githubusercontent.com/u/96648715?u=af70f5d107e9c1447f296643d5a566dab53d25e8&v=4",
-            "url": "https://github.com/AThousandShips",
-            "pull_count": 36,
-            "commit_count": 70
         },
         "MDQ6VXNlcjQzMjM0Njc0": {
             "id": "MDQ6VXNlcjQzMjM0Njc0",
@@ -1040,14 +1102,6 @@
             "url": "https://github.com/TokageItLab",
             "pull_count": 6,
             "commit_count": 11
-        },
-        "MDQ6VXNlcjgzMTU5ODY=": {
-            "id": "MDQ6VXNlcjgzMTU5ODY=",
-            "user": "jsjtxietian",
-            "avatar": "https://avatars.githubusercontent.com/u/8315986?u=cf1b60639c3ba2fa205f083f60e43fca5ad26a76&v=4",
-            "url": "https://github.com/jsjtxietian",
-            "pull_count": 17,
-            "commit_count": 35
         },
         "MDQ6VXNlcjUyMTc2NjU5": {
             "id": "MDQ6VXNlcjUyMTc2NjU5",
@@ -1201,14 +1255,6 @@
             "pull_count": 1,
             "commit_count": 2
         },
-        "MDQ6VXNlcjQ4ODQyNDY=": {
-            "id": "MDQ6VXNlcjQ4ODQyNDY=",
-            "user": "mihe",
-            "avatar": "https://avatars.githubusercontent.com/u/4884246?u=6bab84ad2a0262e5dec39c0c5e7a5b24d1c80c6b&v=4",
-            "url": "https://github.com/mihe",
-            "pull_count": 4,
-            "commit_count": 8
-        },
         "MDQ6VXNlcjUzOTQ3Nzg0": {
             "id": "MDQ6VXNlcjUzOTQ3Nzg0",
             "user": "CookieBadger",
@@ -1216,14 +1262,6 @@
             "url": "https://github.com/CookieBadger",
             "pull_count": 1,
             "commit_count": 1
-        },
-        "MDQ6VXNlcjE2NTIxMzM5": {
-            "id": "MDQ6VXNlcjE2NTIxMzM5",
-            "user": "clayjohn",
-            "avatar": "https://avatars.githubusercontent.com/u/16521339?u=e44a465cbebabb9ea2be80b59e6dc07966bef5b7&v=4",
-            "url": "https://github.com/clayjohn",
-            "pull_count": 11,
-            "commit_count": 22
         },
         "MDQ6VXNlcjkxNDk2OA==": {
             "id": "MDQ6VXNlcjkxNDk2OA==",
@@ -1724,7 +1762,7 @@
         "MDQ6VXNlcjExNzgyODMz": {
             "id": "MDQ6VXNlcjExNzgyODMz",
             "user": "YuriSizov",
-            "avatar": "https://avatars.githubusercontent.com/u/11782833?u=fccc436e4c80f272ba6d90e311e32bf8fb3abf0b&v=4",
+            "avatar": "https://avatars.githubusercontent.com/u/11782833?u=9b611535dcce173382235e4a3e89bfed77129487&v=4",
             "url": "https://github.com/YuriSizov",
             "pull_count": 7,
             "commit_count": 12
@@ -2067,6 +2105,354 @@
         }
     },
     "commits": {
+        "15073afe3856abd2aa1622492fe50026c7d63dc1": {
+            "hash": "15073afe3856abd2aa1622492fe50026c7d63dc1",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Bump version to 4.2.2-stable",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "7fbfe1dbe73916f95ee5c022e7defb0c25c240fb": {
+            "hash": "7fbfe1dbe73916f95ee5c022e7defb0c25c240fb",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Update AUTHORS and DONORS list",
+            "body": "(cherry picked from commit 020bd219edf0dd825a8a6f836043935493972b18)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "020bd219edf0dd825a8a6f836043935493972b18",
+            "pull": ""
+        },
+        "020bd219edf0dd825a8a6f836043935493972b18": {
+            "hash": "020bd219edf0dd825a8a6f836043935493972b18",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Update AUTHORS and DONORS list",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "f23a48e66345596ab22f21daba42aab379656ccf": {
+            "hash": "f23a48e66345596ab22f21daba42aab379656ccf",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Update AUTHORS and DONORS list",
+            "body": "(cherry picked from commit 9272f7b53db1f7f142df43981adec5cebdfbd179)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "9272f7b53db1f7f142df43981adec5cebdfbd179",
+            "pull": ""
+        },
+        "9272f7b53db1f7f142df43981adec5cebdfbd179": {
+            "hash": "9272f7b53db1f7f142df43981adec5cebdfbd179",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Update AUTHORS and DONORS list",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "e5ea748dcf132751480b2b510b2a7b4b56150359": {
+            "hash": "e5ea748dcf132751480b2b510b2a7b4b56150359",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc3MTI4NDE="
+            ],
+            "author_raw": "Yorick de Wid <yorickdewid@users.noreply.github.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "FIX: Return if TCP is in STATUS_CONNECTED",
+            "body": "If the `StreamPeerTCP` is polled and the TCP connection is `STATUS_CONNECTED` it should return after polling netsocket. Without `return` poll keeps calling `_sock->connect_to_host` and `connect()`.\n\n(cherry picked from commit 61a2f5c53414eb471103a452a07228962a2d876a)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "61a2f5c53414eb471103a452a07228962a2d876a",
+            "pull": ""
+        },
+        "61a2f5c53414eb471103a452a07228962a2d876a": {
+            "hash": "61a2f5c53414eb471103a452a07228962a2d876a",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc3MTI4NDE="
+            ],
+            "author_raw": "Yorick de Wid <yorickdewid@users.noreply.github.com>",
+            "committer_raw": "Yorick de Wid <yorickdewid@users.noreply.github.com>",
+            "summary": "FIX: Return if TCP is in STATUS_CONNECTED",
+            "body": "If the `StreamPeerTCP` is polled and the TCP connection is `STATUS_CONNECTED` it should return after polling netsocket. Without `return` poll keeps calling `_sock->connect_to_host` and `connect()`.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 90741
+        },
+        "895f1877fba1cc4176a59f5a0fbeec954dcdd0a6": {
+            "hash": "895f1877fba1cc4176a59f5a0fbeec954dcdd0a6",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #90738 from akien-mga/4.2-cherrypicks",
+            "body": "Cherry-picks for the 4.2 branch (future 4.2.2) - 5th batch",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "e57244edc67eb25edd2d574d45f50261c26c5513": {
+            "hash": "e57244edc67eb25edd2d574d45f50261c26c5513",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Update changelog for 4.2.2",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 90738
+        },
+        "219517f6b8ade461cad22a35e64842782dec2a51": {
+            "hash": "219517f6b8ade461cad22a35e64842782dec2a51",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ4ODQyNDY="
+            ],
+            "author_raw": "Mikael Hermansson <mikael@hermansson.io>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Add `--import` command-line flag",
+            "body": "(cherry picked from commit 9d01793dfff8d6d6db6ec953cb704f45e582c2c9)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "9d01793dfff8d6d6db6ec953cb704f45e582c2c9",
+            "pull": 90738
+        },
+        "9d01793dfff8d6d6db6ec953cb704f45e582c2c9": {
+            "hash": "9d01793dfff8d6d6db6ec953cb704f45e582c2c9",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ4ODQyNDY="
+            ],
+            "author_raw": "Mikael Hermansson <mikael@hermansson.io>",
+            "committer_raw": "Mikael Hermansson <mikael@hermansson.io>",
+            "summary": "Add `--import` command-line flag",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 90431
+        },
+        "0f6403f7197c8c806f718da47c65e63705dd009f": {
+            "hash": "0f6403f7197c8c806f718da47c65e63705dd009f",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOBcK-Cw"
+            ],
+            "author_raw": "A Thousand Ships <96648715+AThousandShips@users.noreply.github.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Fix missing instance type in dummy renderer",
+            "body": "(cherry picked from commit 406d7e6d3720d0e5c7b0afe29fda806358e1ba55)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "406d7e6d3720d0e5c7b0afe29fda806358e1ba55",
+            "pull": 90738
+        },
+        "406d7e6d3720d0e5c7b0afe29fda806358e1ba55": {
+            "hash": "406d7e6d3720d0e5c7b0afe29fda806358e1ba55",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOBcK-Cw"
+            ],
+            "author_raw": "A Thousand Ships <96648715+AThousandShips@users.noreply.github.com>",
+            "committer_raw": "A Thousand Ships <96648715+AThousandShips@users.noreply.github.com>",
+            "summary": "Fix missing instance type in dummy renderer",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 88097
+        },
+        "a7099ce88013c0dbf12c49e82b4cb070a12d5f21": {
+            "hash": "a7099ce88013c0dbf12c49e82b4cb070a12d5f21",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOBcK-Cw"
+            ],
+            "author_raw": "A Thousand Ships <96648715+AThousandShips@users.noreply.github.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Free dummy renderer objects",
+            "body": "These leaked during tests etc.\n\n(cherry picked from commit 666daf47c31307c50a9f0eb08fc5146d0a3e5f32)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "666daf47c31307c50a9f0eb08fc5146d0a3e5f32",
+            "pull": 90738
+        },
+        "666daf47c31307c50a9f0eb08fc5146d0a3e5f32": {
+            "hash": "666daf47c31307c50a9f0eb08fc5146d0a3e5f32",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOBcK-Cw"
+            ],
+            "author_raw": "A Thousand Ships <96648715+AThousandShips@users.noreply.github.com>",
+            "committer_raw": "A Thousand Ships <96648715+AThousandShips@users.noreply.github.com>",
+            "summary": "Free dummy renderer objects",
+            "body": "These leaked during tests etc.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 87710
+        },
+        "a7c4d3bc08cb57ebe5654d942904be7bd95382bf": {
+            "hash": "a7c4d3bc08cb57ebe5654d942904be7bd95382bf",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE2NTIxMzM5"
+            ],
+            "author_raw": "Clay John <claynjohn@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Add basic multimesh data needed for headless export to the Dummy rendering server",
+            "body": "(cherry picked from commit ed2b3d358d3883b98f741cbfc1ca3d7aa4fcbb7b)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "ed2b3d358d3883b98f741cbfc1ca3d7aa4fcbb7b",
+            "pull": 90738
+        },
+        "ed2b3d358d3883b98f741cbfc1ca3d7aa4fcbb7b": {
+            "hash": "ed2b3d358d3883b98f741cbfc1ca3d7aa4fcbb7b",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE2NTIxMzM5"
+            ],
+            "author_raw": "Clay John <claynjohn@gmail.com>",
+            "committer_raw": "Clay John <claynjohn@gmail.com>",
+            "summary": "Add basic multimesh data needed for headless export to the Dummy rendering server",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 87390
+        },
+        "7eb90a35d472f76bdeead1bfcb41256d50b6aff2": {
+            "hash": "7eb90a35d472f76bdeead1bfcb41256d50b6aff2",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjgzMTU5ODY="
+            ],
+            "author_raw": "jsjtxietian <jsjtxietian@outlook.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Fail early if shader mode is invalid in dummy renderer",
+            "body": "(cherry picked from commit a382e9539b328f02a1f553a36a4c74457a7aa591)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "a382e9539b328f02a1f553a36a4c74457a7aa591",
+            "pull": 90738
+        },
+        "a382e9539b328f02a1f553a36a4c74457a7aa591": {
+            "hash": "a382e9539b328f02a1f553a36a4c74457a7aa591",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjgzMTU5ODY="
+            ],
+            "author_raw": "jsjtxietian <jsjtxietian@outlook.com>",
+            "committer_raw": "jsjtxietian <jsjtxietian@outlook.com>",
+            "summary": "Fail early if shader mode is invalid in dummy renderer",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 88581
+        },
+        "79b7dc7f943c6a5dad4d24bafc2a203daf5831fa": {
+            "hash": "79b7dc7f943c6a5dad4d24bafc2a203daf5831fa",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjgzMTU5ODY="
+            ],
+            "author_raw": "jsjtxietian <jsjtxietian@outlook.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Change shader compiler default setting to avoid doctool error",
+            "body": "(cherry picked from commit 0ed341cd1e5c9cd3feb4a812946f8a2f06f92a0f)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "0ed341cd1e5c9cd3feb4a812946f8a2f06f92a0f",
+            "pull": 90738
+        },
+        "0ed341cd1e5c9cd3feb4a812946f8a2f06f92a0f": {
+            "hash": "0ed341cd1e5c9cd3feb4a812946f8a2f06f92a0f",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjgzMTU5ODY="
+            ],
+            "author_raw": "jsjtxietian <jsjtxietian@outlook.com>",
+            "committer_raw": "jsjtxietian <jsjtxietian@outlook.com>",
+            "summary": "Change shader compiler default setting to avoid doctool error",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 88996
+        },
+        "c1547d1337096c89c28fb93eaa4f2bb9293ae044": {
+            "hash": "c1547d1337096c89c28fb93eaa4f2bb9293ae044",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjM3Mzc4NzQ2"
+            ],
+            "author_raw": "Jakub Marcowski <chubercikbattle@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Fully initialize all members of structs `IdentifierActions`, `GeneratedCode` and `DefaultIdentifierActions`",
+            "body": "(cherry picked from commit b38ac30fe09eec4de40ffd19d7c8a64363b6c181)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "b38ac30fe09eec4de40ffd19d7c8a64363b6c181",
+            "pull": 90738
+        },
+        "b38ac30fe09eec4de40ffd19d7c8a64363b6c181": {
+            "hash": "b38ac30fe09eec4de40ffd19d7c8a64363b6c181",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjM3Mzc4NzQ2"
+            ],
+            "author_raw": "Jakub Marcowski <chubercikbattle@gmail.com>",
+            "committer_raw": "Jakub Marcowski <chubercikbattle@gmail.com>",
+            "summary": "Fully initialize all members of structs `IdentifierActions`, `GeneratedCode` and `DefaultIdentifierActions`",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 88021
+        },
+        "4cffca7fbcd580002474f2b0989971780e85500c": {
+            "hash": "4cffca7fbcd580002474f2b0989971780e85500c",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE2NTIxMzM5"
+            ],
+            "author_raw": "Clay John <claynjohn@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Clear RIDs of weight buffers when freeing to avoid double free",
+            "body": "(cherry picked from commit bafbde9f4ba00f3d4b7cee2fd5456191294ba174)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "bafbde9f4ba00f3d4b7cee2fd5456191294ba174",
+            "pull": ""
+        },
+        "bafbde9f4ba00f3d4b7cee2fd5456191294ba174": {
+            "hash": "bafbde9f4ba00f3d4b7cee2fd5456191294ba174",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE2NTIxMzM5"
+            ],
+            "author_raw": "Clay John <claynjohn@gmail.com>",
+            "committer_raw": "Clay John <claynjohn@gmail.com>",
+            "summary": "Clear RIDs of weight buffers when freeing to avoid double free",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 90458
+        },
         "16a8334b8d97ad91bf414ba8150e265e6dc1e6e7": {
             "hash": "16a8334b8d97ad91bf414ba8150e265e6dc1e6e7",
             "is_merge": false,
@@ -8612,7 +8998,7 @@
             "authored_by": [
                 "MDQ6VXNlcjM3Mzc4NzQ2"
             ],
-            "author_raw": "Jakub Mateusz Marcowski <01158831@pw.edu.pl>",
+            "author_raw": "Jakub Marcowski <chubercikbattle@gmail.com>",
             "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
             "summary": "tinyexr: Update to 1.0.8",
             "body": "(cherry picked from commit ab14dec952f0210448b6a2575cc0f73e7a074440)",
@@ -8626,8 +9012,8 @@
             "authored_by": [
                 "MDQ6VXNlcjM3Mzc4NzQ2"
             ],
-            "author_raw": "Jakub Mateusz Marcowski <01158831@pw.edu.pl>",
-            "committer_raw": "Jakub Mateusz Marcowski <01158831@pw.edu.pl>",
+            "author_raw": "Jakub Marcowski <chubercikbattle@gmail.com>",
+            "committer_raw": "Jakub Marcowski <chubercikbattle@gmail.com>",
             "summary": "tinyexr: Update to 1.0.8",
             "body": "",
             "is_cherrypick": false,
@@ -8696,7 +9082,7 @@
             "authored_by": [
                 "MDQ6VXNlcjM3Mzc4NzQ2"
             ],
-            "author_raw": "Jakub Marcowski <01158831@pw.edu.pl>",
+            "author_raw": "Jakub Marcowski <chubercikbattle@gmail.com>",
             "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
             "summary": "miniupnpc: Update to version 2.2.6",
             "body": "(cherry picked from commit 72b80b3cdfb90dbaad3ebe445eb7a3002f97471a)",
@@ -8710,8 +9096,8 @@
             "authored_by": [
                 "MDQ6VXNlcjM3Mzc4NzQ2"
             ],
-            "author_raw": "Jakub Marcowski <01158831@pw.edu.pl>",
-            "committer_raw": "Jakub Marcowski <01158831@pw.edu.pl>",
+            "author_raw": "Jakub Marcowski <chubercikbattle@gmail.com>",
+            "committer_raw": "Jakub Marcowski <chubercikbattle@gmail.com>",
             "summary": "miniupnpc: Update to version 2.2.6",
             "body": "",
             "is_cherrypick": false,
@@ -19992,7 +20378,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE2ODc5MTg=",
             "created_at": "2024-01-14T20:34:40Z",
-            "updated_at": "2024-01-25T17:16:00Z",
+            "updated_at": "2024-04-17T05:43:47Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -20396,6 +20782,40 @@
             ],
             "commits": [
                 "2dae53c316493899736e42e3a38fb8190006adc8"
+            ]
+        },
+        "87390": {
+            "id": "PR_kwDOAO6SJc5knL1t",
+            "public_id": 87390,
+            "url": "https://github.com/godotengine/godot/pull/87390",
+            "diff_url": "https://github.com/godotengine/godot/pull/87390.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/87390.patch",
+            "title": "Add basic multimesh data needed for headless export to the Dummy rendering server",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE2NTIxMzM5",
+            "created_at": "2024-01-20T01:24:07Z",
+            "updated_at": "2024-04-16T07:08:20Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyOTA5OTAwODUw",
+                    "name": "topic:export",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "ed2b3d358d3883b98f741cbfc1ca3d7aa4fcbb7b"
             ]
         },
         "87392": {
@@ -21298,6 +21718,35 @@
             ],
             "commits": [
                 "1e14503715d20bc1fc10f0343e7eecf6d6707feb"
+            ]
+        },
+        "87710": {
+            "id": "PR_kwDOAO6SJc5lXALw",
+            "public_id": 87710,
+            "url": "https://github.com/godotengine/godot/pull/87710",
+            "diff_url": "https://github.com/godotengine/godot/pull/87710.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/87710.patch",
+            "title": "Free dummy renderer objects",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "U_kgDOBcK-Cw",
+            "created_at": "2024-01-29T18:00:17Z",
+            "updated_at": "2024-04-16T07:08:47Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "666daf47c31307c50a9f0eb08fc5146d0a3e5f32"
             ]
         },
         "87711": {
@@ -22282,7 +22731,7 @@
             "is_draft": false,
             "authored_by": "U_kgDOBkx80A",
             "created_at": "2024-02-05T19:47:53Z",
-            "updated_at": "2024-03-11T15:41:11Z",
+            "updated_at": "2024-04-09T22:56:05Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -22347,6 +22796,35 @@
             ],
             "commits": [
                 "d29b0d90e0d735eee860b977c57cb75423d7a9ba"
+            ]
+        },
+        "88021": {
+            "id": "PR_kwDOAO6SJc5mJTg5",
+            "public_id": 88021,
+            "url": "https://github.com/godotengine/godot/pull/88021",
+            "diff_url": "https://github.com/godotengine/godot/pull/88021.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/88021.patch",
+            "title": "Fully initialize all members of structs `IdentifierActions`, `GeneratedCode` and `DefaultIdentifierActions`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjM3Mzc4NzQ2",
+            "created_at": "2024-02-06T13:44:28Z",
+            "updated_at": "2024-04-16T07:19:20Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxNjA5NDQyMDYy",
+                    "name": "topic:shaders",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "b38ac30fe09eec4de40ffd19d7c8a64363b6c181"
             ]
         },
         "88024": {
@@ -22570,6 +23048,40 @@
             ],
             "commits": [
                 "b5ec79906cf078aa2862d3f44efbf5ef2d13d8ce"
+            ]
+        },
+        "88097": {
+            "id": "PR_kwDOAO6SJc5mXRRC",
+            "public_id": 88097,
+            "url": "https://github.com/godotengine/godot/pull/88097",
+            "diff_url": "https://github.com/godotengine/godot/pull/88097.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/88097.patch",
+            "title": "Fix missing instance type in dummy renderer",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "U_kgDOBcK-Cw",
+            "created_at": "2024-02-08T11:16:19Z",
+            "updated_at": "2024-04-16T07:09:01Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "406d7e6d3720d0e5c7b0afe29fda806358e1ba55"
             ]
         },
         "88126": {
@@ -23538,6 +24050,40 @@
                 "d31d3e503e2a0b5719f6de57b2b350ed7b4160a0"
             ]
         },
+        "88581": {
+            "id": "PR_kwDOAO6SJc5nWSe6",
+            "public_id": 88581,
+            "url": "https://github.com/godotengine/godot/pull/88581",
+            "diff_url": "https://github.com/godotengine/godot/pull/88581.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/88581.patch",
+            "title": "Fail early if shader mode is invalid in dummy renderer",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjgzMTU5ODY=",
+            "created_at": "2024-02-20T04:01:56Z",
+            "updated_at": "2024-04-16T07:03:10Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzI3MzE4Mjcx",
+                    "name": "crash",
+                    "color": "#885544"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "a382e9539b328f02a1f553a36a4c74457a7aa591"
+            ]
+        },
         "88594": {
             "id": "PR_kwDOAO6SJc5nZSES",
             "public_id": 88594,
@@ -24359,6 +24905,45 @@
                 "1cc5b0aa0d2ab0da6c82cad736e9cd50b0771251"
             ]
         },
+        "88996": {
+            "id": "PR_kwDOAO6SJc5oPcI4",
+            "public_id": 88996,
+            "url": "https://github.com/godotengine/godot/pull/88996",
+            "diff_url": "https://github.com/godotengine/godot/pull/88996.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/88996.patch",
+            "title": "Change shader compiler default setting to avoid doctool error",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjgzMTU5ODY=",
+            "created_at": "2024-02-29T03:08:53Z",
+            "updated_at": "2024-04-16T07:02:54Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwxNjA5NDQyMDYy",
+                    "name": "topic:shaders",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "0ed341cd1e5c9cd3feb4a812946f8a2f06f92a0f"
+            ]
+        },
         "89003": {
             "id": "PR_kwDOAO6SJc5oSMJF",
             "public_id": 89003,
@@ -24670,12 +25255,12 @@
             "url": "https://github.com/godotengine/godot/pull/89246",
             "diff_url": "https://github.com/godotengine/godot/pull/89246.diff",
             "patch_url": "https://github.com/godotengine/godot/pull/89246.patch",
-            "title": "[Docs][C#] Use `PropertyName` constants in more places",
+            "title": "[Docs] [C#] Use `PropertyName` constants in more places",
             "state": "MERGED",
             "is_draft": false,
             "authored_by": "U_kgDOBcK-Cw",
             "created_at": "2024-03-07T12:06:32Z",
-            "updated_at": "2024-03-11T14:23:35Z",
+            "updated_at": "2024-04-16T11:46:22Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -25378,7 +25963,7 @@
             "is_draft": false,
             "authored_by": "U_kgDOBcK-Cw",
             "created_at": "2024-03-14T19:38:50Z",
-            "updated_at": "2024-04-08T13:11:50Z",
+            "updated_at": "2024-04-13T13:23:25Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -25412,7 +25997,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjM3MjQ3Ng==",
             "created_at": "2024-03-15T08:56:50Z",
-            "updated_at": "2024-04-08T13:10:18Z",
+            "updated_at": "2024-04-11T10:03:55Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -25424,11 +26009,6 @@
                     "id": "MDU6TGFiZWwyODM1MTg4Mzk=",
                     "name": "documentation",
                     "color": "#ffddff"
-                },
-                {
-                    "id": "MDU6TGFiZWw4OTAzMTA2NjQ=",
-                    "name": "topic:input",
-                    "color": "#ffee88"
                 }
             ],
             "commits": [
@@ -26601,7 +27181,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE0NzM3Mzk=",
             "created_at": "2024-04-05T00:32:54Z",
-            "updated_at": "2024-04-08T13:36:40Z",
+            "updated_at": "2024-04-11T09:59:33Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -26610,8 +27190,8 @@
                     "color": "#ff6055"
                 },
                 {
-                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
-                    "name": "topic:3d",
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
                     "color": "#ffee88"
                 }
             ],
@@ -26853,7 +27433,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjEzNDg0ODQ5",
             "created_at": "2024-04-08T08:31:37Z",
-            "updated_at": "2024-04-08T20:16:06Z",
+            "updated_at": "2024-04-12T09:35:30Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -26931,7 +27511,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjQ3MDEzMzg=",
             "created_at": "2024-04-08T13:50:53Z",
-            "updated_at": "2024-04-08T21:51:00Z",
+            "updated_at": "2024-04-11T06:40:15Z",
             "target_branch": "4.2",
             "labels": [
                 {
@@ -27033,7 +27613,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjkyODMwOTg=",
             "created_at": "2024-04-08T16:49:26Z",
-            "updated_at": "2024-04-08T21:04:21Z",
+            "updated_at": "2024-04-11T09:56:39Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -27045,11 +27625,6 @@
                     "id": "MDU6TGFiZWwyODM1MTg4Mzk=",
                     "name": "documentation",
                     "color": "#ffddff"
-                },
-                {
-                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
-                    "name": "topic:3d",
-                    "color": "#ffee88"
                 }
             ],
             "commits": [
@@ -27122,6 +27697,159 @@
             ],
             "commits": [
                 "6772047e5077b3bfe1f81cd24c128f02b904c20e"
+            ]
+        },
+        "90431": {
+            "id": "PR_kwDOAO6SJc5sIR5T",
+            "public_id": 90431,
+            "url": "https://github.com/godotengine/godot/pull/90431",
+            "diff_url": "https://github.com/godotengine/godot/pull/90431.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/90431.patch",
+            "title": "Add `--import` command-line flag",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjQ4ODQyNDY=",
+            "created_at": "2024-04-09T13:11:02Z",
+            "updated_at": "2024-04-16T07:10:51Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2OA==",
+                    "name": "feature proposal",
+                    "color": "#4466ff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWw4OTAzMTA1MDI=",
+                    "name": "topic:import",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "9d01793dfff8d6d6db6ec953cb704f45e582c2c9"
+            ]
+        },
+        "90458": {
+            "id": "PR_kwDOAO6SJc5sMNR4",
+            "public_id": 90458,
+            "url": "https://github.com/godotengine/godot/pull/90458",
+            "diff_url": "https://github.com/godotengine/godot/pull/90458.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/90458.patch",
+            "title": "Clear RIDs of weight buffers when freeing to avoid double free",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE2NTIxMzM5",
+            "created_at": "2024-04-10T00:53:35Z",
+            "updated_at": "2024-04-14T16:05:49Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "bafbde9f4ba00f3d4b7cee2fd5456191294ba174"
+            ]
+        },
+        "90738": {
+            "id": "PR_kwDOAO6SJc5sw64P",
+            "public_id": 90738,
+            "url": "https://github.com/godotengine/godot/pull/90738",
+            "diff_url": "https://github.com/godotengine/godot/pull/90738.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/90738.patch",
+            "title": "Cherry-picks for the 4.2 branch (future 4.2.2) - 5th batch",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjQ3MDEzMzg=",
+            "created_at": "2024-04-16T07:27:11Z",
+            "updated_at": "2024-04-16T08:17:56Z",
+            "target_branch": "4.2",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc5NjY=",
+                    "name": "topic:core",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "e57244edc67eb25edd2d574d45f50261c26c5513",
+                "219517f6b8ade461cad22a35e64842782dec2a51",
+                "0f6403f7197c8c806f718da47c65e63705dd009f",
+                "a7099ce88013c0dbf12c49e82b4cb070a12d5f21",
+                "a7c4d3bc08cb57ebe5654d942904be7bd95382bf",
+                "7eb90a35d472f76bdeead1bfcb41256d50b6aff2",
+                "79b7dc7f943c6a5dad4d24bafc2a203daf5831fa",
+                "c1547d1337096c89c28fb93eaa4f2bb9293ae044"
+            ]
+        },
+        "90741": {
+            "id": "PR_kwDOAO6SJc5sxboi",
+            "public_id": 90741,
+            "url": "https://github.com/godotengine/godot/pull/90741",
+            "diff_url": "https://github.com/godotengine/godot/pull/90741.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/90741.patch",
+            "title": "Fix missing return in `StreamPeerTCP::poll` when connection is `STATUS_CONNECTED`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc3MTI4NDE=",
+            "created_at": "2024-04-16T08:35:22Z",
+            "updated_at": "2024-04-16T11:45:03Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWw2NDk4MDA3MDE=",
+                    "name": "topic:network",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "61a2f5c53414eb471103a452a07228962a2d876a"
             ]
         }
     }
