@@ -1,7 +1,65 @@
 {
-    "generated_at": 1715245409438,
+    "generated_at": 1720511900553,
     "log": [
+        "cfc4a0eff029c3bda6df061465f9a6b6c66b9f01",
+        "47a27839cb0e8eaece439ef5b632261d108150ec",
+        "d5000466848cfad13ddf16dec5eb546caf1edb42",
+        "c2a43cb8bd25010d2e2e6d807284608b42c7d339",
+        "66d1ab04592088babd94f013bf2bbac1028e9911",
+        "250a7d8788057c5009013986fbf8025daa6634e4",
+        "a8980fbd78cd7e479b8b3d63054602edd03b568b",
+        "98e24835eec9d09aa0c60a11b8c33ad793188e48",
+        "f137eb3929b50d6057599b9993c8860588b4ce6a",
+        "40961d62e2ffd966a3a9e7f1c707cbc5f31228ac",
+        "e2c7073b4e7b5eebfb3ee58c39c632f0aabf770b",
+        "e962aaf33d71ef6196bfe430b3fa67e1688106e0",
+        "fc78fa7ec5035e6ce6817ced11fc5768219edd71",
+        "ece8b38dd18ea4d2c7690e4e9c5d60e22c772e24",
+        "49d3161ce0470d950a2c243ba98a6233611d6f5d",
+        "b2be47e6fc158fd0ab79593d09ef3d11bd1281b8",
+        "d80b206643cc6a7b62f17886856ae08c9b553bbc",
+        "12781e4554cf428de0f833da542e25575b8929ea",
+        "30fa2e3c95ca7b79cb7dc210032a8e1c9bfec735",
+        "44f6042e6b9052f398e37cfeb9162811c797174d",
+        "72aac8135cb37f07007abc07cd1e3393e356bc14",
+        "0b30d77384daff79b7e1567007e99aa486fc0ecd",
+        "b203829361dc4dc8e31cec7e11a964ea578d7865",
+        "4ec07e8bebb4e5d3c3ae6300f9066008fc3ff188",
+        "945a49064f862a939fdfbc12f63e36ecfea0c8d4",
+        "ab6395da40d5f08f8e72d4e5eeabc9b5f4ce1ac9",
+        "39b35c6194b56962fab6dd3d6c22b9f4d66d7833",
+        "d655fc8fed8326104013e5d3cc4545c769ecd398",
+        "1bfb788c4f50120d0197c9d84828151e0ac6189a",
+        "ad6bcaf8c7136ecdbc15c18df702c0ec96bb22e5",
+        "7130c1bebcf2c915d9802060909603f8c3792a47",
+        "1f0d9f04d2735c6a04543984f889d6d2331729b2",
+        "83f5407177cb81fbcdd09e76b92da6c005991802",
+        "5f628f2e2040f9f552c1ddd93feeae3c124682ae",
+        "0a0942ea2ef36378bc1c0284d87972a684b51353",
+        "c9258a2a689bdc05059d5d02593718611dbbf1f8",
+        "0dcab10b410f73460de47ba4dea2c7290a0aab1a",
+        "6c2870d73cc1f2970bbd9ad184cedd893593afb3",
+        "ecd0680b1170ff2fda8ee079019f8c47b746a043",
+        "bb342cb55c119d82969f34fea1e5641961c2786a",
+        "0f5cadfb56100a02c45637fc2db436d3c0ffcd74",
+        "f2b059c9be3c678294262c1b0d2e3d486e2a0010",
+        "da3c95f325df410e599627b43a7c62243b53a39c",
+        "0242ca7cbf4566f4dc3746cf5fb14eb78990d698",
+        "a5f9f581faa5912d00550236b8a63e71e192573d",
+        "182a95ada6bd92324a6e9249c97e0f26583d720a",
+        "41dcf218e6c7245c9254db2265cc2787049a21bb",
+        "2eb3139590f901527716941dd35743846954ba06",
+        "20646810aea0d0d8d6d1ee7f8337e2c9e208f9ef",
+        "ffb203890336d16151b707b2b17b175a4645e96f",
+        "5bdad327c0f328a7db5286e7589fac0e8baec180",
+        "df0e3c5e425ba84ac373cd8e2dbda13321433bc6",
+        "90aa6564a91cc084fa528e32e56da1e8507d8354",
+        "a5c8106f92aec1eb0f07067181a37e15dd500087",
+        "30b025d3d07b5a9abedfbe76c480503ee12e7ea4",
+        "b09bc22b749a60c149c894216da9f5e0da9441ad",
+        "bbe8a66a2dc6c9df906a1aeed7fd98a819546506",
         "2a347ab8671e51ee02299d333a9d37f7784c3e28",
+        "cafc71a9fba104d4582baefeb59e3a55863e009d",
         "e66b52989d61d76b4509efc0d442960d56cd7d49",
         "63cecb78755d43126b9113153b8d8c1201a0280c",
         "cd9f18dbf046c140795db4d1fd74e075b8bbb06e",
@@ -3028,6 +3086,66 @@
             "2a319ab6fc739214e3358104c04bc88f0e3e864f",
             "2b3d52a7d07a6993d7b1ba87eb753d1ea412223d",
             "ec368b40d839bea5e59132e4607f236581e7351a"
+        ],
+        "rc1": [
+            "cfc4a0eff029c3bda6df061465f9a6b6c66b9f01",
+            "47a27839cb0e8eaece439ef5b632261d108150ec",
+            "d5000466848cfad13ddf16dec5eb546caf1edb42",
+            "c2a43cb8bd25010d2e2e6d807284608b42c7d339",
+            "66d1ab04592088babd94f013bf2bbac1028e9911",
+            "250a7d8788057c5009013986fbf8025daa6634e4",
+            "a8980fbd78cd7e479b8b3d63054602edd03b568b",
+            "98e24835eec9d09aa0c60a11b8c33ad793188e48",
+            "f137eb3929b50d6057599b9993c8860588b4ce6a",
+            "40961d62e2ffd966a3a9e7f1c707cbc5f31228ac",
+            "e2c7073b4e7b5eebfb3ee58c39c632f0aabf770b",
+            "e962aaf33d71ef6196bfe430b3fa67e1688106e0",
+            "fc78fa7ec5035e6ce6817ced11fc5768219edd71",
+            "ece8b38dd18ea4d2c7690e4e9c5d60e22c772e24",
+            "49d3161ce0470d950a2c243ba98a6233611d6f5d",
+            "b2be47e6fc158fd0ab79593d09ef3d11bd1281b8",
+            "d80b206643cc6a7b62f17886856ae08c9b553bbc",
+            "12781e4554cf428de0f833da542e25575b8929ea",
+            "30fa2e3c95ca7b79cb7dc210032a8e1c9bfec735",
+            "44f6042e6b9052f398e37cfeb9162811c797174d",
+            "72aac8135cb37f07007abc07cd1e3393e356bc14",
+            "0b30d77384daff79b7e1567007e99aa486fc0ecd",
+            "b203829361dc4dc8e31cec7e11a964ea578d7865",
+            "4ec07e8bebb4e5d3c3ae6300f9066008fc3ff188",
+            "945a49064f862a939fdfbc12f63e36ecfea0c8d4",
+            "ab6395da40d5f08f8e72d4e5eeabc9b5f4ce1ac9",
+            "39b35c6194b56962fab6dd3d6c22b9f4d66d7833",
+            "d655fc8fed8326104013e5d3cc4545c769ecd398",
+            "1bfb788c4f50120d0197c9d84828151e0ac6189a",
+            "ad6bcaf8c7136ecdbc15c18df702c0ec96bb22e5",
+            "7130c1bebcf2c915d9802060909603f8c3792a47",
+            "1f0d9f04d2735c6a04543984f889d6d2331729b2",
+            "83f5407177cb81fbcdd09e76b92da6c005991802",
+            "5f628f2e2040f9f552c1ddd93feeae3c124682ae",
+            "0a0942ea2ef36378bc1c0284d87972a684b51353",
+            "c9258a2a689bdc05059d5d02593718611dbbf1f8",
+            "0dcab10b410f73460de47ba4dea2c7290a0aab1a",
+            "6c2870d73cc1f2970bbd9ad184cedd893593afb3",
+            "ecd0680b1170ff2fda8ee079019f8c47b746a043",
+            "bb342cb55c119d82969f34fea1e5641961c2786a",
+            "0f5cadfb56100a02c45637fc2db436d3c0ffcd74",
+            "f2b059c9be3c678294262c1b0d2e3d486e2a0010",
+            "da3c95f325df410e599627b43a7c62243b53a39c",
+            "0242ca7cbf4566f4dc3746cf5fb14eb78990d698",
+            "a5f9f581faa5912d00550236b8a63e71e192573d",
+            "182a95ada6bd92324a6e9249c97e0f26583d720a",
+            "41dcf218e6c7245c9254db2265cc2787049a21bb",
+            "2eb3139590f901527716941dd35743846954ba06",
+            "20646810aea0d0d8d6d1ee7f8337e2c9e208f9ef",
+            "ffb203890336d16151b707b2b17b175a4645e96f",
+            "5bdad327c0f328a7db5286e7589fac0e8baec180",
+            "df0e3c5e425ba84ac373cd8e2dbda13321433bc6",
+            "90aa6564a91cc084fa528e32e56da1e8507d8354",
+            "a5c8106f92aec1eb0f07067181a37e15dd500087",
+            "30b025d3d07b5a9abedfbe76c480503ee12e7ea4",
+            "b09bc22b749a60c149c894216da9f5e0da9441ad",
+            "bbe8a66a2dc6c9df906a1aeed7fd98a819546506",
+            "cafc71a9fba104d4582baefeb59e3a55863e009d"
         ]
     },
     "authors": {
@@ -3036,8 +3154,80 @@
             "user": "akien-mga",
             "avatar": "https://avatars.githubusercontent.com/u/4701338?u=4a42fd867f2c449fcc23adf635dd574dae98e6c2&v=4",
             "url": "https://github.com/akien-mga",
-            "pull_count": 124,
-            "commit_count": 226
+            "pull_count": 125,
+            "commit_count": 229
+        },
+        "MDQ6VXNlcjkyODMwOTg=": {
+            "id": "MDQ6VXNlcjkyODMwOTg=",
+            "user": "kleonc",
+            "avatar": "https://avatars.githubusercontent.com/u/9283098?u=a04daf8c4d579b733ac46d2e4d17324cca7870c0&v=4",
+            "url": "https://github.com/kleonc",
+            "pull_count": 19,
+            "commit_count": 26
+        },
+        "MDQ6VXNlcjIxOTk5Mzc5": {
+            "id": "MDQ6VXNlcjIxOTk5Mzc5",
+            "user": "lawnjelly",
+            "avatar": "https://avatars.githubusercontent.com/u/21999379?u=2b8b17ce969861380874563b333a546e0bbaab56&v=4",
+            "url": "https://github.com/lawnjelly",
+            "pull_count": 91,
+            "commit_count": 93
+        },
+        "MDQ6VXNlcjM5MDMwNTk=": {
+            "id": "MDQ6VXNlcjM5MDMwNTk=",
+            "user": "raulsntos",
+            "avatar": "https://avatars.githubusercontent.com/u/3903059?u=1b0467024f137e562b21748eb6bf12f97dfa5bf6&v=4",
+            "url": "https://github.com/raulsntos",
+            "pull_count": 10,
+            "commit_count": 13
+        },
+        "MDQ6VXNlcjE2NDY4NzU=": {
+            "id": "MDQ6VXNlcjE2NDY4NzU=",
+            "user": "aaronfranke",
+            "avatar": "https://avatars.githubusercontent.com/u/1646875?u=24618295fece29a0bf5c850faf2555985232f5f2&v=4",
+            "url": "https://github.com/aaronfranke",
+            "pull_count": 18,
+            "commit_count": 22
+        },
+        "MDQ6VXNlcjM3MjQ3Ng==": {
+            "id": "MDQ6VXNlcjM3MjQ3Ng==",
+            "user": "timothyqiu",
+            "avatar": "https://avatars.githubusercontent.com/u/372476?v=4",
+            "url": "https://github.com/timothyqiu",
+            "pull_count": 72,
+            "commit_count": 76
+        },
+        "MDQ6VXNlcjc2NDU2ODM=": {
+            "id": "MDQ6VXNlcjc2NDU2ODM=",
+            "user": "bruvzg",
+            "avatar": "https://avatars.githubusercontent.com/u/7645683?u=2867ee7fcd920bc19b7d1cbf4b10264b9bbc9326&v=4",
+            "url": "https://github.com/bruvzg",
+            "pull_count": 35,
+            "commit_count": 49
+        },
+        "MDQ6VXNlcjUyNDY0MjA0": {
+            "id": "MDQ6VXNlcjUyNDY0MjA0",
+            "user": "smix8",
+            "avatar": "https://avatars.githubusercontent.com/u/52464204?u=7f0a771fc01e68f7e841d7a641cad2b28e1875b3&v=4",
+            "url": "https://github.com/smix8",
+            "pull_count": 16,
+            "commit_count": 20
+        },
+        "MDQ6VXNlcjI0NTE0ODE5": {
+            "id": "MDQ6VXNlcjI0NTE0ODE5",
+            "user": "FrederickKDP",
+            "avatar": "https://avatars.githubusercontent.com/u/24514819?v=4",
+            "url": "https://github.com/FrederickKDP",
+            "pull_count": 1,
+            "commit_count": 1
+        },
+        "U_kgDOB-qMgw": {
+            "id": "U_kgDOB-qMgw",
+            "user": "programneer",
+            "avatar": "https://avatars.githubusercontent.com/u/132811907?u=528dc5b5a09b0ec6b1d2bd40dc3b2960500e0a4b&v=4",
+            "url": "https://github.com/programneer",
+            "pull_count": 1,
+            "commit_count": 1
         },
         "MDQ6VXNlcjE2ODc5MTg=": {
             "id": "MDQ6VXNlcjE2ODc5MTg=",
@@ -3062,22 +3252,6 @@
             "url": "https://github.com/AThousandShips",
             "pull_count": 20,
             "commit_count": 24
-        },
-        "MDQ6VXNlcjkyODMwOTg=": {
-            "id": "MDQ6VXNlcjkyODMwOTg=",
-            "user": "kleonc",
-            "avatar": "https://avatars.githubusercontent.com/u/9283098?u=a04daf8c4d579b733ac46d2e4d17324cca7870c0&v=4",
-            "url": "https://github.com/kleonc",
-            "pull_count": 18,
-            "commit_count": 25
-        },
-        "MDQ6VXNlcjc2NDU2ODM=": {
-            "id": "MDQ6VXNlcjc2NDU2ODM=",
-            "user": "bruvzg",
-            "avatar": "https://avatars.githubusercontent.com/u/7645683?u=2867ee7fcd920bc19b7d1cbf4b10264b9bbc9326&v=4",
-            "url": "https://github.com/bruvzg",
-            "pull_count": 32,
-            "commit_count": 45
         },
         "MDQ6VXNlcjI3MDkyOA==": {
             "id": "MDQ6VXNlcjI3MDkyOA==",
@@ -3135,22 +3309,6 @@
             "pull_count": 1,
             "commit_count": 0
         },
-        "MDQ6VXNlcjIxOTk5Mzc5": {
-            "id": "MDQ6VXNlcjIxOTk5Mzc5",
-            "user": "lawnjelly",
-            "avatar": "https://avatars.githubusercontent.com/u/21999379?u=2b8b17ce969861380874563b333a546e0bbaab56&v=4",
-            "url": "https://github.com/lawnjelly",
-            "pull_count": 76,
-            "commit_count": 78
-        },
-        "MDQ6VXNlcjM3MjQ3Ng==": {
-            "id": "MDQ6VXNlcjM3MjQ3Ng==",
-            "user": "timothyqiu",
-            "avatar": "https://avatars.githubusercontent.com/u/372476?v=4",
-            "url": "https://github.com/timothyqiu",
-            "pull_count": 68,
-            "commit_count": 72
-        },
         "MDQ6VXNlcjI2NDczMDQ=": {
             "id": "MDQ6VXNlcjI2NDczMDQ=",
             "user": "totlmstr",
@@ -3159,14 +3317,6 @@
             "pull_count": 0,
             "commit_count": 1
         },
-        "MDQ6VXNlcjE2NDY4NzU=": {
-            "id": "MDQ6VXNlcjE2NDY4NzU=",
-            "user": "aaronfranke",
-            "avatar": "https://avatars.githubusercontent.com/u/1646875?u=24618295fece29a0bf5c850faf2555985232f5f2&v=4",
-            "url": "https://github.com/aaronfranke",
-            "pull_count": 17,
-            "commit_count": 21
-        },
         "U_kgDOB534aA": {
             "id": "U_kgDOB534aA",
             "user": "J-N-Witch",
@@ -3174,14 +3324,6 @@
             "url": "https://github.com/J-N-Witch",
             "pull_count": 0,
             "commit_count": 1
-        },
-        "MDQ6VXNlcjM5MDMwNTk=": {
-            "id": "MDQ6VXNlcjM5MDMwNTk=",
-            "user": "raulsntos",
-            "avatar": "https://avatars.githubusercontent.com/u/3903059?u=1b0467024f137e562b21748eb6bf12f97dfa5bf6&v=4",
-            "url": "https://github.com/raulsntos",
-            "pull_count": 9,
-            "commit_count": 12
         },
         "MDQ6VXNlcjExODc2NzQ3": {
             "id": "MDQ6VXNlcjExODc2NzQ3",
@@ -3205,12 +3347,12 @@
             "avatar": "https://avatars.githubusercontent.com/u/10137?v=4",
             "url": "https://github.com/ghost",
             "pull_count": 0,
-            "commit_count": 9
+            "commit_count": 11
         },
         "MDQ6VXNlcjEwMjg3NTY=": {
             "id": "MDQ6VXNlcjEwMjg3NTY=",
             "user": "0xafbf",
-            "avatar": "https://avatars.githubusercontent.com/u/1028756?u=ce7f888c54d34ea264f29dac086405f77c104390&v=4",
+            "avatar": "https://avatars.githubusercontent.com/u/1028756?u=e16ede0f3cef1207de8cb12ef2c02122f4e7ea74&v=4",
             "url": "https://github.com/0xafbf",
             "pull_count": 1,
             "commit_count": 0
@@ -3895,14 +4037,6 @@
             "pull_count": 1,
             "commit_count": 3
         },
-        "MDQ6VXNlcjUyNDY0MjA0": {
-            "id": "MDQ6VXNlcjUyNDY0MjA0",
-            "user": "smix8",
-            "avatar": "https://avatars.githubusercontent.com/u/52464204?u=7f0a771fc01e68f7e841d7a641cad2b28e1875b3&v=4",
-            "url": "https://github.com/smix8",
-            "pull_count": 15,
-            "commit_count": 19
-        },
         "MDQ6VXNlcjI1OTUxMzg2": {
             "id": "MDQ6VXNlcjI1OTUxMzg2",
             "user": "webair",
@@ -3962,10 +4096,10 @@
         "MDQ6VXNlcjI0OTYyMzE=": {
             "id": "MDQ6VXNlcjI0OTYyMzE=",
             "user": "rcorre",
-            "avatar": "https://avatars.githubusercontent.com/u/2496231?u=4a4e901ce3205e5ca3fab53f31a4f140eafee5b2&v=4",
+            "avatar": "https://avatars.githubusercontent.com/u/2496231?u=2a46dcfdbcdc02f29ac395d8de5efd222fa174bc&v=4",
             "url": "https://github.com/rcorre",
             "pull_count": 2,
-            "commit_count": 2
+            "commit_count": 0
         },
         "MDQ6VXNlcjEzOTAzMg==": {
             "id": "MDQ6VXNlcjEzOTAzMg==",
@@ -4888,6 +5022,763 @@
         }
     },
     "commits": {
+        "cfc4a0eff029c3bda6df061465f9a6b6c66b9f01": {
+            "hash": "cfc4a0eff029c3bda6df061465f9a6b6c66b9f01",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Bump version to 3.6-rc",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "47a27839cb0e8eaece439ef5b632261d108150ec": {
+            "hash": "47a27839cb0e8eaece439ef5b632261d108150ec",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #93842 from raulsntos/3.x-gltf-document-extension-2",
+            "body": "[3.x] Fix type hints in GLTFDocumentExtension virtual methods",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "d5000466848cfad13ddf16dec5eb546caf1edb42": {
+            "hash": "d5000466848cfad13ddf16dec5eb546caf1edb42",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #93857 from kleonc/atlas-texture-fix-draw-rect-flipping-3x",
+            "body": "[3.x] Fix `AtlasTexture::draw_rect` flipping for non-zero margin",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "c2a43cb8bd25010d2e2e6d807284608b42c7d339": {
+            "hash": "c2a43cb8bd25010d2e2e6d807284608b42c7d339",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #93851 from lawnjelly/fti_fix_interpolate_with_2D",
+            "body": "[3.x] Physics Interpolation - Fix `Transform2D::interpolate_with()`",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "66d1ab04592088babd94f013bf2bbac1028e9911": {
+            "hash": "66d1ab04592088babd94f013bf2bbac1028e9911",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjkyODMwOTg="
+            ],
+            "author_raw": "kleonc <9283098+kleonc@users.noreply.github.com>",
+            "committer_raw": "kleonc <9283098+kleonc@users.noreply.github.com>",
+            "summary": "[3.x] Fix AtlasTexture::draw_rect flipping for non-zero margin",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 93857
+        },
+        "250a7d8788057c5009013986fbf8025daa6634e4": {
+            "hash": "250a7d8788057c5009013986fbf8025daa6634e4",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Physics Interpolation - Fix `Transform2D::interpolate_with()`",
+            "body": "Ports the `interpolate_with()` routine from 4.x which works correctly with skew.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 93851
+        },
+        "a8980fbd78cd7e479b8b3d63054602edd03b568b": {
+            "hash": "a8980fbd78cd7e479b8b3d63054602edd03b568b",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjM5MDMwNTk="
+            ],
+            "author_raw": "Raul Santos <raulsntos@gmail.com>",
+            "committer_raw": "Raul Santos <raulsntos@gmail.com>",
+            "summary": "Fix type hints in GLTFDocumentExtension virtual methods",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 93842
+        },
+        "98e24835eec9d09aa0c60a11b8c33ad793188e48": {
+            "hash": "98e24835eec9d09aa0c60a11b8c33ad793188e48",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #92941 from lawnjelly/fix_physics_tickcounter",
+            "body": "[3.x] Fix physics tick counter",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "f137eb3929b50d6057599b9993c8860588b4ce6a": {
+            "hash": "f137eb3929b50d6057599b9993c8860588b4ce6a",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #92105 from lawnjelly/merging_storage_refactor",
+            "body": "[3.x] Mesh merging - refactor to be backward compatible for CPU / GPU storage",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "40961d62e2ffd966a3a9e7f1c707cbc5f31228ac": {
+            "hash": "40961d62e2ffd966a3a9e7f1c707cbc5f31228ac",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Fix physics tick counter",
+            "body": "The counter is now incremented at the start of a physics tick rather than the end.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 92941
+        },
+        "e2c7073b4e7b5eebfb3ee58c39c632f0aabf770b": {
+            "hash": "e2c7073b4e7b5eebfb3ee58c39c632f0aabf770b",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #92719 from lawnjelly/doc_mipmap_warning",
+            "body": "[3.x] `ImageTexture` - document workaround for mipmap generation",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "e962aaf33d71ef6196bfe430b3fa67e1688106e0": {
+            "hash": "e962aaf33d71ef6196bfe430b3fa67e1688106e0",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #93382 from lawnjelly/fti_fix_pause",
+            "body": "[3.x] Physics Interpolation - Fix behaviour on pause",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "fc78fa7ec5035e6ce6817ced11fc5768219edd71": {
+            "hash": "fc78fa7ec5035e6ce6817ced11fc5768219edd71",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "ImageTexture - document workaround for mipmap generation",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 92719
+        },
+        "ece8b38dd18ea4d2c7690e4e9c5d60e22c772e24": {
+            "hash": "ece8b38dd18ea4d2c7690e4e9c5d60e22c772e24",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #91610 from bruvzg/web_ime_3",
+            "body": "[Web, 3.x] Add IME input support.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "49d3161ce0470d950a2c243ba98a6233611d6f5d": {
+            "hash": "49d3161ce0470d950a2c243ba98a6233611d6f5d",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Physics Interpolation - Fix behaviour on pause",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 93382
+        },
+        "b2be47e6fc158fd0ab79593d09ef3d11bd1281b8": {
+            "hash": "b2be47e6fc158fd0ab79593d09ef3d11bd1281b8",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #93339 from lawnjelly/fti_move_client_pump",
+            "body": "[3.x] Physics Interpolation - refactor client interpolation pump",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "d80b206643cc6a7b62f17886856ae08c9b553bbc": {
+            "hash": "d80b206643cc6a7b62f17886856ae08c9b553bbc",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Physics Interpolation - refactor client interpolation pump",
+            "body": "* Move client interpolation pump to earlier in the iteration before 3D physics synced\n* Allow `get_global_transform_interpolated()` to prime the client interpolation inside a physics tick",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 93339
+        },
+        "12781e4554cf428de0f833da542e25575b8929ea": {
+            "hash": "12781e4554cf428de0f833da542e25575b8929ea",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #93309 from lawnjelly/fti_skinning",
+            "body": "[3.x] Physics Interpolation - Fix 2D skinning",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "30fa2e3c95ca7b79cb7dc210032a8e1c9bfec735": {
+            "hash": "30fa2e3c95ca7b79cb7dc210032a8e1c9bfec735",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #92784 from lawnjelly/fti_camera_to_scene",
+            "body": "[3.x] Physics Interpolation - refactor `Camera` and fix `get_camera_transform()`",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "44f6042e6b9052f398e37cfeb9162811c797174d": {
+            "hash": "44f6042e6b9052f398e37cfeb9162811c797174d",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Physics Interpolation - Fix 2D skinning",
+            "body": "2D skinning required the interpolated skeleton base transform to be updated when using interpolation.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 93309
+        },
+        "72aac8135cb37f07007abc07cd1e3393e356bc14": {
+            "hash": "72aac8135cb37f07007abc07cd1e3393e356bc14",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #92725 from lawnjelly/faster_editor_grid",
+            "body": "[3.x] Faster editor grid",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "0b30d77384daff79b7e1567007e99aa486fc0ecd": {
+            "hash": "0b30d77384daff79b7e1567007e99aa486fc0ecd",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Physics Interpolation - refactor `Camera` and fix `get_camera_transform()`",
+            "body": "* Moves 3D Camera interpolation scene side.\n* Automatically switches `get_camera_transform()` to report interpolated transform during `_process()`.\n* Fixes `ClippedCamera` to work with physics interpolation.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 92784
+        },
+        "b203829361dc4dc8e31cec7e11a964ea578d7865": {
+            "hash": "b203829361dc4dc8e31cec7e11a964ea578d7865",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #92721 from aaronfranke/3.x-rv-warn-sysv-abi",
+            "body": "[3.x] GDNative: Fix Linux riscv warning about ignored `sysv_abi`",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "4ec07e8bebb4e5d3c3ae6300f9066008fc3ff188": {
+            "hash": "4ec07e8bebb4e5d3c3ae6300f9066008fc3ff188",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Optimize Editor `_init_grid()`",
+            "body": "Use static `LocalVectors` instead of `PoolVectors` for temporaries.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 92725
+        },
+        "945a49064f862a939fdfbc12f63e36ecfea0c8d4": {
+            "hash": "945a49064f862a939fdfbc12f63e36ecfea0c8d4",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE2NDY4NzU="
+            ],
+            "author_raw": "Aaron Franke <arnfranke@yahoo.com>",
+            "committer_raw": "Aaron Franke <arnfranke@yahoo.com>",
+            "summary": "[3.x] GDNative: Fix Linux riscv warning about ignored `sysv_abi`",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 92721
+        },
+        "ab6395da40d5f08f8e72d4e5eeabc9b5f4ce1ac9": {
+            "hash": "ab6395da40d5f08f8e72d4e5eeabc9b5f4ce1ac9",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #92501 from timothyqiu/stretch-shrink-range-3.x",
+            "body": "[3.x] Add range hint for `ViewportContainer.stretch_shrink`",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "39b35c6194b56962fab6dd3d6c22b9f4d66d7833": {
+            "hash": "39b35c6194b56962fab6dd3d6c22b9f4d66d7833",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #91656 from akien-mga/3.x-scons-windows-mingw-TypeError",
+            "body": "[3.x] SCons: Fix Windows/MinGW TypeError with recent SCons",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "d655fc8fed8326104013e5d3cc4545c769ecd398": {
+            "hash": "d655fc8fed8326104013e5d3cc4545c769ecd398",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjM3MjQ3Ng=="
+            ],
+            "author_raw": "Haoyu Qiu <timothyqiu32@gmail.com>",
+            "committer_raw": "Haoyu Qiu <timothyqiu32@gmail.com>",
+            "summary": "Add range hint for ViewportContainer.stretch_shrink",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 92501
+        },
+        "1bfb788c4f50120d0197c9d84828151e0ac6189a": {
+            "hash": "1bfb788c4f50120d0197c9d84828151e0ac6189a",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #92438 from lawnjelly/fti_fix_visual_instance_identity",
+            "body": "[3.x] Physics Interpolation - Fix `VisualInstance::set_instance_use_identit…",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "ad6bcaf8c7136ecdbc15c18df702c0ec96bb22e5": {
+            "hash": "ad6bcaf8c7136ecdbc15c18df702c0ec96bb22e5",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #92346 from timothyqiu/theme-item-completion-3.x",
+            "body": "[3.x] Fix theme item parameter completion",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "7130c1bebcf2c915d9802060909603f8c3792a47": {
+            "hash": "7130c1bebcf2c915d9802060909603f8c3792a47",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Physics Interpolation - Fix `VisualInstance::set_instance_use_identity_transform()`",
+            "body": "The logic for updating the `VisualServer` with the transform was the wrong way around.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 92438
+        },
+        "1f0d9f04d2735c6a04543984f889d6d2331729b2": {
+            "hash": "1f0d9f04d2735c6a04543984f889d6d2331729b2",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjM3MjQ3Ng=="
+            ],
+            "author_raw": "Haoyu Qiu <timothyqiu32@gmail.com>",
+            "committer_raw": "Haoyu Qiu <timothyqiu32@gmail.com>",
+            "summary": "Fix theme item parameter completion",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 92346
+        },
+        "83f5407177cb81fbcdd09e76b92da6c005991802": {
+            "hash": "83f5407177cb81fbcdd09e76b92da6c005991802",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #92261 from bruvzg/js_tts_init3",
+            "body": "[3.x, Web] Fix TTS configuration loaded too early.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "5f628f2e2040f9f552c1ddd93feeae3c124682ae": {
+            "hash": "5f628f2e2040f9f552c1ddd93feeae3c124682ae",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "bruvzg <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "bruvzg <7645683+bruvzg@users.noreply.github.com>",
+            "summary": "[3.x, Web] Fix TTS configuration loaded too early.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 92261
+        },
+        "0a0942ea2ef36378bc1c0284d87972a684b51353": {
+            "hash": "0a0942ea2ef36378bc1c0284d87972a684b51353",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #92230 from smix8/navserver_dummy_3.x",
+            "body": "[3.x] Backport NavigationServerDummy",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "c9258a2a689bdc05059d5d02593718611dbbf1f8": {
+            "hash": "c9258a2a689bdc05059d5d02593718611dbbf1f8",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjUyNDY0MjA0"
+            ],
+            "author_raw": "smix8 <52464204+smix8@users.noreply.github.com>",
+            "committer_raw": "smix8 <52464204+smix8@users.noreply.github.com>",
+            "summary": "Backport NavigationServerDummy",
+            "body": "Backports the NavigationServer3DDummy from Godot 4 to compile Godot without NavigationServer module.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 92230
+        },
+        "0dcab10b410f73460de47ba4dea2c7290a0aab1a": {
+            "hash": "0dcab10b410f73460de47ba4dea2c7290a0aab1a",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #92079 from lawnjelly/increase_tight_cull_epsilon3",
+            "body": "[3.x] Tight shadow culling - increase epsilon to prevent flickering",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "6c2870d73cc1f2970bbd9ad184cedd893593afb3": {
+            "hash": "6c2870d73cc1f2970bbd9ad184cedd893593afb3",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #92070 from lawnjelly/fix_fragcolor_write",
+            "body": "[3.x] Fix fragcolor write locations in scene shaders",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "ecd0680b1170ff2fda8ee079019f8c47b746a043": {
+            "hash": "ecd0680b1170ff2fda8ee079019f8c47b746a043",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Fix fragcolor write locations in scene shaders",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 92070
+        },
+        "bb342cb55c119d82969f34fea1e5641961c2786a": {
+            "hash": "bb342cb55c119d82969f34fea1e5641961c2786a",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #92152 from lawnjelly/fix_viewport_interpolation_mode",
+            "body": "[3.x] Fix Viewport interpolation mode",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "0f5cadfb56100a02c45637fc2db436d3c0ffcd74": {
+            "hash": "0f5cadfb56100a02c45637fc2db436d3c0ffcd74",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Fix Viewport interpolation mode",
+            "body": "Viewport interpolation mode is a special case, which should be set to ON instead of INHERIT.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 92152
+        },
+        "f2b059c9be3c678294262c1b0d2e3d486e2a0010": {
+            "hash": "f2b059c9be3c678294262c1b0d2e3d486e2a0010",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #92103 from timothyqiu/category-3.x",
+            "body": "[3.x] Fix long category name display in Inspector",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "da3c95f325df410e599627b43a7c62243b53a39c": {
+            "hash": "da3c95f325df410e599627b43a7c62243b53a39c",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Mesh merging - refactor to be backward compatible for CPU / GPU storage",
+            "body": "Allows the old `merge_meshes()` function to work from the editor.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 92105
+        },
+        "0242ca7cbf4566f4dc3746cf5fb14eb78990d698": {
+            "hash": "0242ca7cbf4566f4dc3746cf5fb14eb78990d698",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjM3MjQ3Ng=="
+            ],
+            "author_raw": "Haoyu Qiu <timothyqiu32@gmail.com>",
+            "committer_raw": "Haoyu Qiu <timothyqiu32@gmail.com>",
+            "summary": "Fix long category name display in Inspector",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 92103
+        },
+        "a5f9f581faa5912d00550236b8a63e71e192573d": {
+            "hash": "a5f9f581faa5912d00550236b8a63e71e192573d",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Tight shadow culling - increase epsilon to prevent flickering",
+            "body": "Near colinear triangles were still causing inaccuracy in culling planes, so the threshold for colinearity is bumped up.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 92079
+        },
+        "182a95ada6bd92324a6e9249c97e0f26583d720a": {
+            "hash": "182a95ada6bd92324a6e9249c97e0f26583d720a",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #91993 from FrederickKDP/patch-2",
+            "body": "[3.x] Fix typo in `@GlobalScope`",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "41dcf218e6c7245c9254db2265cc2787049a21bb": {
+            "hash": "41dcf218e6c7245c9254db2265cc2787049a21bb",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #91906 from programneer/3.x-dont-splash-my-editor",
+            "body": "[3.x] Don't define `NO_EDITOR_SPLASH` in export templates",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "2eb3139590f901527716941dd35743846954ba06": {
+            "hash": "2eb3139590f901527716941dd35743846954ba06",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "bruvzg <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "[Linux] Add support for PCK embedding section with non GNU-ld linkers.",
+            "body": "(cherry picked from commit 625c4bdacef4173f94200632362e25e537ad5d21)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "625c4bdacef4173f94200632362e25e537ad5d21",
+            "pull": ""
+        },
+        "625c4bdacef4173f94200632362e25e537ad5d21": {
+            "hash": "625c4bdacef4173f94200632362e25e537ad5d21",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "bruvzg <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "bruvzg <7645683+bruvzg@users.noreply.github.com>",
+            "summary": "[Linux] Add support for PCK embedding section with non GNU-ld linkers.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 87464
+        },
+        "20646810aea0d0d8d6d1ee7f8337e2c9e208f9ef": {
+            "hash": "20646810aea0d0d8d6d1ee7f8337e2c9e208f9ef",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjI0NTE0ODE5"
+            ],
+            "author_raw": "Frederick Kramer Dal Pra <24514819+FrederickKDP@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Fix typo in @GlobalScope.xml",
+            "body": "\"inteters\" instead of \"integers\"",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 91993
+        },
+        "ffb203890336d16151b707b2b17b175a4645e96f": {
+            "hash": "ffb203890336d16151b707b2b17b175a4645e96f",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOB-qMgw"
+            ],
+            "author_raw": "Programneer <kacperbogangibas@gmail.com>",
+            "committer_raw": "Programneer <kacperbogangibas@gmail.com>",
+            "summary": "[3.x] Don't define NO_EDITOR_SPLASH in export templates",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 91906
+        },
+        "5bdad327c0f328a7db5286e7589fac0e8baec180": {
+            "hash": "5bdad327c0f328a7db5286e7589fac0e8baec180",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #91877 from lawnjelly/fti_zero_multimesh_data",
+            "body": "[3.x] Physics interpolation - Zero server side multimesh data",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "df0e3c5e425ba84ac373cd8e2dbda13321433bc6": {
+            "hash": "df0e3c5e425ba84ac373cd8e2dbda13321433bc6",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Physics interpolation - Zero server side multimesh data",
+            "body": "To prevent possibility of use of uninitialized data.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 91877
+        },
+        "90aa6564a91cc084fa528e32e56da1e8507d8354": {
+            "hash": "90aa6564a91cc084fa528e32e56da1e8507d8354",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #91823 from timothyqiu/template-id-cdtor-3.x",
+            "body": "[3.x] Fix GCC 14 `-Wtemplate-id-cdtor` warnings",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "a5c8106f92aec1eb0f07067181a37e15dd500087": {
+            "hash": "a5c8106f92aec1eb0f07067181a37e15dd500087",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjM3MjQ3Ng==",
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Haoyu Qiu <timothyqiu32@gmail.com>",
+            "committer_raw": "Haoyu Qiu <timothyqiu32@gmail.com>",
+            "summary": "Fix GCC 14 -Wtemplate-id-cdtor warnings",
+            "body": "Co-Authored-By: Rémi Verschelde <rverschelde@gmail.com>",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 91823
+        },
+        "30b025d3d07b5a9abedfbe76c480503ee12e7ea4": {
+            "hash": "30b025d3d07b5a9abedfbe76c480503ee12e7ea4",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #91789 from lawnjelly/fix_tight_light_cull_directional_colinear",
+            "body": "[3.x] Tighter light culling - fix directional lights colinear case",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "b09bc22b749a60c149c894216da9f5e0da9441ad": {
+            "hash": "b09bc22b749a60c149c894216da9f5e0da9441ad",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Tighter light culling - fix directional lights colinear case",
+            "body": "Exactly the same fix as done already for non-directional lights.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 91789
+        },
+        "bbe8a66a2dc6c9df906a1aeed7fd98a819546506": {
+            "hash": "bbe8a66a2dc6c9df906a1aeed7fd98a819546506",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "bruvzg <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "bruvzg <7645683+bruvzg@users.noreply.github.com>",
+            "summary": "[Web, 3.x] Add IME input support.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 91610
+        },
         "2a347ab8671e51ee02299d333a9d37f7784c3e28": {
             "hash": "2a347ab8671e51ee02299d333a9d37f7784c3e28",
             "is_merge": false,
@@ -4915,6 +5806,20 @@
             "is_cherrypick": false,
             "cherrypick_hash": "",
             "pull": 91636
+        },
+        "cafc71a9fba104d4582baefeb59e3a55863e009d": {
+            "hash": "cafc71a9fba104d4582baefeb59e3a55863e009d",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "SCons: Fix Windows/MinGW TypeError with recent SCons",
+            "body": "Fixes #86484.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 91656
         },
         "e66b52989d61d76b4509efc0d442960d56cd7d49": {
             "hash": "e66b52989d61d76b4509efc0d442960d56cd7d49",
@@ -15204,7 +16109,7 @@
             "hash": "c3d9cc70685a9b615be63d768f276aaf546dae0c",
             "is_merge": false,
             "authored_by": [
-                "MDQ6VXNlcjI0OTYyMzE="
+                ""
             ],
             "author_raw": "Ryan Roden-Corrent <ryan@rcorre.net>",
             "committer_raw": "Ryan Roden-Corrent <ryan@rcorre.net>",
@@ -28997,7 +29902,7 @@
             "hash": "26223fe8553c1c623be8b5aaad2ccf31ee5948d3",
             "is_merge": false,
             "authored_by": [
-                "MDQ6VXNlcjI0OTYyMzE="
+                ""
             ],
             "author_raw": "Ryan Roden-Corrent <ryan@rcorre.net>",
             "committer_raw": "Ryan Roden-Corrent <ryan@rcorre.net>",
@@ -42575,7 +43480,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
             "created_at": "2022-11-16T16:10:55Z",
-            "updated_at": "2024-04-08T14:32:50Z",
+            "updated_at": "2024-07-05T10:42:48Z",
             "target_branch": "3.x",
             "labels": [
                 {
@@ -56851,6 +57756,40 @@
                 "e6fb19275e32e95d12c806954f83cf945417bb08"
             ]
         },
+        "87464": {
+            "id": "PR_kwDOAO6SJc5ksX8Z",
+            "public_id": 87464,
+            "url": "https://github.com/godotengine/godot/pull/87464",
+            "diff_url": "https://github.com/godotengine/godot/pull/87464.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/87464.patch",
+            "title": "[Linux] Add support for PCK embedding section with non GNU-ld linkers.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
+            "created_at": "2024-01-22T08:49:29Z",
+            "updated_at": "2024-05-11T14:06:35Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTczMjY=",
+                    "name": "platform:linuxbsd",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "625c4bdacef4173f94200632362e25e537ad5d21"
+            ]
+        },
         "87527": {
             "id": "PR_kwDOAO6SJc5k76Sj",
             "public_id": 87527,
@@ -57420,7 +58359,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjI3MDkyOA==",
             "created_at": "2024-02-05T16:50:48Z",
-            "updated_at": "2024-04-25T12:00:47Z",
+            "updated_at": "2024-06-22T21:01:59Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -58071,7 +59010,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
             "created_at": "2024-02-26T15:43:12Z",
-            "updated_at": "2024-04-25T12:03:32Z",
+            "updated_at": "2024-05-15T08:11:20Z",
             "target_branch": "3.x",
             "labels": [
                 {
@@ -59313,6 +60252,45 @@
                 "2274ec84cb717bcb211bd9cc8409d50e837f3e5d"
             ]
         },
+        "91610": {
+            "id": "PR_kwDOAO6SJc5unGdZ",
+            "public_id": 91610,
+            "url": "https://github.com/godotengine/godot/pull/91610",
+            "diff_url": "https://github.com/godotengine/godot/pull/91610.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/91610.patch",
+            "title": "[Web, 3.x] Add IME input support.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
+            "created_at": "2024-05-06T08:58:30Z",
+            "updated_at": "2024-06-25T06:59:48Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc0NTU=",
+                    "name": "platform:web",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWw4OTAzMTA2NjQ=",
+                    "name": "topic:input",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyNTU=",
+                    "name": "topic:porting",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "bbe8a66a2dc6c9df906a1aeed7fd98a819546506"
+            ]
+        },
         "91636": {
             "id": "PR_kwDOAO6SJc5ur9Eh",
             "public_id": 91636,
@@ -59360,6 +60338,929 @@
             ],
             "commits": [
                 "f695de7c68e373088175f8f3b1650f11a27be7aa"
+            ]
+        },
+        "91656": {
+            "id": "PR_kwDOAO6SJc5uv3Nk",
+            "public_id": 91656,
+            "url": "https://github.com/godotengine/godot/pull/91656",
+            "diff_url": "https://github.com/godotengine/godot/pull/91656.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/91656.patch",
+            "title": "[3.x] SCons: Fix Windows/MinGW TypeError with recent SCons",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjQ3MDEzMzg=",
+            "created_at": "2024-05-07T11:04:45Z",
+            "updated_at": "2024-05-30T14:07:46Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc77GWog",
+                    "name": "cherrypick:3.5",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwyMDU0MTc0MTM=",
+                    "name": "platform:windows",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "cafc71a9fba104d4582baefeb59e3a55863e009d"
+            ]
+        },
+        "91789": {
+            "id": "PR_kwDOAO6SJc5vEjQL",
+            "public_id": 91789,
+            "url": "https://github.com/godotengine/godot/pull/91789",
+            "diff_url": "https://github.com/godotengine/godot/pull/91789.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/91789.patch",
+            "title": "[3.x] Tighter light culling - fix directional lights colinear case",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-05-10T08:09:17Z",
+            "updated_at": "2024-05-12T14:21:52Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "b09bc22b749a60c149c894216da9f5e0da9441ad"
+            ]
+        },
+        "91823": {
+            "id": "PR_kwDOAO6SJc5vJtLf",
+            "public_id": 91823,
+            "url": "https://github.com/godotengine/godot/pull/91823",
+            "diff_url": "https://github.com/godotengine/godot/pull/91823.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/91823.patch",
+            "title": "[3.x] Fix GCC 14 `-Wtemplate-id-cdtor` warnings",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjM3MjQ3Ng==",
+            "created_at": "2024-05-11T07:10:53Z",
+            "updated_at": "2024-05-11T09:36:02Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc5NjY=",
+                    "name": "topic:core",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "a5c8106f92aec1eb0f07067181a37e15dd500087"
+            ]
+        },
+        "91877": {
+            "id": "PR_kwDOAO6SJc5vLmyP",
+            "public_id": 91877,
+            "url": "https://github.com/godotengine/godot/pull/91877",
+            "diff_url": "https://github.com/godotengine/godot/pull/91877.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/91877.patch",
+            "title": "[3.x] Physics interpolation - Zero server side multimesh data",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-05-12T14:09:23Z",
+            "updated_at": "2024-05-12T22:30:46Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "df0e3c5e425ba84ac373cd8e2dbda13321433bc6"
+            ]
+        },
+        "91906": {
+            "id": "PR_kwDOAO6SJc5vQZ4Z",
+            "public_id": 91906,
+            "url": "https://github.com/godotengine/godot/pull/91906",
+            "diff_url": "https://github.com/godotengine/godot/pull/91906.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/91906.patch",
+            "title": "[3.x] Don't define `NO_EDITOR_SPLASH` in export templates",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "U_kgDOB-qMgw",
+            "created_at": "2024-05-13T13:07:41Z",
+            "updated_at": "2024-05-16T13:37:26Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "ffb203890336d16151b707b2b17b175a4645e96f"
+            ]
+        },
+        "91993": {
+            "id": "PR_kwDOAO6SJc5vkgUg",
+            "public_id": 91993,
+            "url": "https://github.com/godotengine/godot/pull/91993",
+            "diff_url": "https://github.com/godotengine/godot/pull/91993.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/91993.patch",
+            "title": "[3.x] Fix typo in `@GlobalScope`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjI0NTE0ODE5",
+            "created_at": "2024-05-15T18:51:07Z",
+            "updated_at": "2024-05-16T07:26:20Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc77GWog",
+                    "name": "cherrypick:3.5",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwyODM1MTg4Mzk=",
+                    "name": "documentation",
+                    "color": "#ffddff"
+                }
+            ],
+            "commits": [
+                "20646810aea0d0d8d6d1ee7f8337e2c9e208f9ef"
+            ]
+        },
+        "92070": {
+            "id": "PR_kwDOAO6SJc5v2mnp",
+            "public_id": 92070,
+            "url": "https://github.com/godotengine/godot/pull/92070",
+            "diff_url": "https://github.com/godotengine/godot/pull/92070.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/92070.patch",
+            "title": "[3.x] Fix fragcolor write locations in scene shaders",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-05-18T07:02:52Z",
+            "updated_at": "2024-05-20T19:46:24Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "ecd0680b1170ff2fda8ee079019f8c47b746a043"
+            ]
+        },
+        "92079": {
+            "id": "PR_kwDOAO6SJc5v3Oqv",
+            "public_id": 92079,
+            "url": "https://github.com/godotengine/godot/pull/92079",
+            "diff_url": "https://github.com/godotengine/godot/pull/92079.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/92079.patch",
+            "title": "[3.x] Tight shadow culling - increase epsilon to prevent flickering",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-05-18T13:31:18Z",
+            "updated_at": "2024-05-20T19:47:17Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "a5f9f581faa5912d00550236b8a63e71e192573d"
+            ]
+        },
+        "92103": {
+            "id": "PR_kwDOAO6SJc5v4UFd",
+            "public_id": 92103,
+            "url": "https://github.com/godotengine/godot/pull/92103",
+            "diff_url": "https://github.com/godotengine/godot/pull/92103.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/92103.patch",
+            "title": "[3.x] Fix long category name display in Inspector",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjM3MjQ3Ng==",
+            "created_at": "2024-05-19T05:59:52Z",
+            "updated_at": "2024-05-19T11:25:13Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "0242ca7cbf4566f4dc3746cf5fb14eb78990d698"
+            ]
+        },
+        "92105": {
+            "id": "PR_kwDOAO6SJc5v4XSv",
+            "public_id": 92105,
+            "url": "https://github.com/godotengine/godot/pull/92105",
+            "diff_url": "https://github.com/godotengine/godot/pull/92105.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/92105.patch",
+            "title": "[3.x] Mesh merging - refactor to be backward compatible for CPU / GPU storage",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-05-19T06:58:47Z",
+            "updated_at": "2024-07-01T11:45:04Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "da3c95f325df410e599627b43a7c62243b53a39c"
+            ]
+        },
+        "92152": {
+            "id": "PR_kwDOAO6SJc5v7VKs",
+            "public_id": 92152,
+            "url": "https://github.com/godotengine/godot/pull/92152",
+            "diff_url": "https://github.com/godotengine/godot/pull/92152.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/92152.patch",
+            "title": "[3.x] Fix Viewport interpolation mode",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-05-20T08:05:34Z",
+            "updated_at": "2024-05-21T12:15:16Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "0f5cadfb56100a02c45637fc2db436d3c0ffcd74"
+            ]
+        },
+        "92230": {
+            "id": "PR_kwDOAO6SJc5wIqIO",
+            "public_id": 92230,
+            "url": "https://github.com/godotengine/godot/pull/92230",
+            "diff_url": "https://github.com/godotengine/godot/pull/92230.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/92230.patch",
+            "title": "[3.x] Backport NavigationServerDummy",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjUyNDY0MjA0",
+            "created_at": "2024-05-21T23:04:12Z",
+            "updated_at": "2024-05-22T07:14:48Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwxNzUyMDQwNjk0",
+                    "name": "topic:navigation",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "c9258a2a689bdc05059d5d02593718611dbbf1f8"
+            ]
+        },
+        "92261": {
+            "id": "PR_kwDOAO6SJc5wOvCz",
+            "public_id": 92261,
+            "url": "https://github.com/godotengine/godot/pull/92261",
+            "diff_url": "https://github.com/godotengine/godot/pull/92261.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/92261.patch",
+            "title": "[3.x, Web] Fix TTS configuration loaded too early.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
+            "created_at": "2024-05-22T16:48:31Z",
+            "updated_at": "2024-05-22T18:51:55Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc0NTU=",
+                    "name": "platform:web",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyNTU=",
+                    "name": "topic:porting",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "5f628f2e2040f9f552c1ddd93feeae3c124682ae"
+            ]
+        },
+        "92346": {
+            "id": "PR_kwDOAO6SJc5wh78F",
+            "public_id": 92346,
+            "url": "https://github.com/godotengine/godot/pull/92346",
+            "diff_url": "https://github.com/godotengine/godot/pull/92346.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/92346.patch",
+            "title": "[3.x] Fix theme item parameter completion",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjM3MjQ3Ng==",
+            "created_at": "2024-05-25T02:31:12Z",
+            "updated_at": "2024-05-27T23:52:59Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "1f0d9f04d2735c6a04543984f889d6d2331729b2"
+            ]
+        },
+        "92438": {
+            "id": "PR_kwDOAO6SJc5wr7c1",
+            "public_id": 92438,
+            "url": "https://github.com/godotengine/godot/pull/92438",
+            "diff_url": "https://github.com/godotengine/godot/pull/92438.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/92438.patch",
+            "title": "[3.x] Physics Interpolation - Fix `VisualInstance::set_instance_use_identit…",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-05-27T17:42:53Z",
+            "updated_at": "2024-05-28T10:16:35Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "7130c1bebcf2c915d9802060909603f8c3792a47"
+            ]
+        },
+        "92501": {
+            "id": "PR_kwDOAO6SJc5w0wCT",
+            "public_id": 92501,
+            "url": "https://github.com/godotengine/godot/pull/92501",
+            "diff_url": "https://github.com/godotengine/godot/pull/92501.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/92501.patch",
+            "title": "[3.x] Add range hint for `ViewportContainer.stretch_shrink`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjM3MjQ3Ng==",
+            "created_at": "2024-05-29T01:36:41Z",
+            "updated_at": "2024-06-03T07:41:22Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "d655fc8fed8326104013e5d3cc4545c769ecd398"
+            ]
+        },
+        "92719": {
+            "id": "PR_kwDOAO6SJc5xR4VM",
+            "public_id": 92719,
+            "url": "https://github.com/godotengine/godot/pull/92719",
+            "diff_url": "https://github.com/godotengine/godot/pull/92719.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/92719.patch",
+            "title": "[3.x] `ImageTexture` - document workaround for mipmap generation",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-06-03T10:24:52Z",
+            "updated_at": "2024-06-30T11:17:00Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyODM1MTg4Mzk=",
+                    "name": "documentation",
+                    "color": "#ffddff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "fc78fa7ec5035e6ce6817ced11fc5768219edd71"
+            ]
+        },
+        "92721": {
+            "id": "PR_kwDOAO6SJc5xSUVC",
+            "public_id": 92721,
+            "url": "https://github.com/godotengine/godot/pull/92721",
+            "diff_url": "https://github.com/godotengine/godot/pull/92721.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/92721.patch",
+            "title": "[3.x] GDNative: Fix Linux riscv warning about ignored `sysv_abi`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE2NDY4NzU=",
+            "created_at": "2024-06-03T11:25:59Z",
+            "updated_at": "2024-06-03T20:48:33Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTczMjY=",
+                    "name": "platform:linuxbsd",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWw1ODA1MzcwMDM=",
+                    "name": "topic:gdextension",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "945a49064f862a939fdfbc12f63e36ecfea0c8d4"
+            ]
+        },
+        "92725": {
+            "id": "PR_kwDOAO6SJc5xTLTV",
+            "public_id": 92725,
+            "url": "https://github.com/godotengine/godot/pull/92725",
+            "diff_url": "https://github.com/godotengine/godot/pull/92725.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/92725.patch",
+            "title": "[3.x] Faster editor grid",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-06-03T13:18:32Z",
+            "updated_at": "2024-06-13T09:05:17Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwzMjQwOTUwMDYw",
+                    "name": "performance",
+                    "color": "#447777"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "4ec07e8bebb4e5d3c3ae6300f9066008fc3ff188"
+            ]
+        },
+        "92784": {
+            "id": "PR_kwDOAO6SJc5xh1KW",
+            "public_id": 92784,
+            "url": "https://github.com/godotengine/godot/pull/92784",
+            "diff_url": "https://github.com/godotengine/godot/pull/92784.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/92784.patch",
+            "title": "[3.x] Physics Interpolation - refactor `Camera` and fix `get_camera_transform()`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-06-05T09:50:55Z",
+            "updated_at": "2024-06-19T05:52:58Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "0b30d77384daff79b7e1567007e99aa486fc0ecd"
+            ]
+        },
+        "92941": {
+            "id": "PR_kwDOAO6SJc5x5NNl",
+            "public_id": 92941,
+            "url": "https://github.com/godotengine/godot/pull/92941",
+            "diff_url": "https://github.com/godotengine/godot/pull/92941.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/92941.patch",
+            "title": "[3.x] Fix physics tick counter",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-06-09T14:42:40Z",
+            "updated_at": "2024-07-08T16:12:09Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc5NjY=",
+                    "name": "topic:core",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwzNzA0NzE4ODA=",
+                    "name": "topic:physics",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "40961d62e2ffd966a3a9e7f1c707cbc5f31228ac"
+            ]
+        },
+        "93309": {
+            "id": "PR_kwDOAO6SJc5y1Pio",
+            "public_id": 93309,
+            "url": "https://github.com/godotengine/godot/pull/93309",
+            "diff_url": "https://github.com/godotengine/godot/pull/93309.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/93309.patch",
+            "title": "[3.x] Physics Interpolation - Fix 2D skinning",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-06-18T13:53:29Z",
+            "updated_at": "2024-06-19T05:50:55Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4MDU5",
+                    "name": "topic:2d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "44f6042e6b9052f398e37cfeb9162811c797174d"
+            ]
+        },
+        "93339": {
+            "id": "PR_kwDOAO6SJc5y65lb",
+            "public_id": 93339,
+            "url": "https://github.com/godotengine/godot/pull/93339",
+            "diff_url": "https://github.com/godotengine/godot/pull/93339.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/93339.patch",
+            "title": "[3.x] Physics Interpolation - refactor client interpolation pump",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-06-19T07:33:14Z",
+            "updated_at": "2024-06-19T17:45:08Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc5NjY=",
+                    "name": "topic:core",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "d80b206643cc6a7b62f17886856ae08c9b553bbc"
+            ]
+        },
+        "93382": {
+            "id": "PR_kwDOAO6SJc5zDPj7",
+            "public_id": 93382,
+            "url": "https://github.com/godotengine/godot/pull/93382",
+            "diff_url": "https://github.com/godotengine/godot/pull/93382.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/93382.patch",
+            "title": "[3.x] Physics Interpolation - Fix behaviour on pause",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-06-20T09:47:03Z",
+            "updated_at": "2024-06-30T11:12:42Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "49d3161ce0470d950a2c243ba98a6233611d6f5d"
+            ]
+        },
+        "93842": {
+            "id": "PR_kwDOAO6SJc50Inyt",
+            "public_id": 93842,
+            "url": "https://github.com/godotengine/godot/pull/93842",
+            "diff_url": "https://github.com/godotengine/godot/pull/93842.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/93842.patch",
+            "title": "[3.x] Fix type hints in GLTFDocumentExtension virtual methods",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjM5MDMwNTk=",
+            "created_at": "2024-07-02T02:02:53Z",
+            "updated_at": "2024-07-03T03:18:55Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWw4OTAzMTA1MDI=",
+                    "name": "topic:import",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "a8980fbd78cd7e479b8b3d63054602edd03b568b"
+            ]
+        },
+        "93851": {
+            "id": "PR_kwDOAO6SJc50JyqT",
+            "public_id": 93851,
+            "url": "https://github.com/godotengine/godot/pull/93851",
+            "diff_url": "https://github.com/godotengine/godot/pull/93851.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/93851.patch",
+            "title": "[3.x] Physics Interpolation - Fix `Transform2D::interpolate_with()`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-07-02T06:48:06Z",
+            "updated_at": "2024-07-02T10:58:10Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMTYxNzI2NDA1",
+                    "name": "high priority",
+                    "color": "#7956a5"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4MDU5",
+                    "name": "topic:2d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "250a7d8788057c5009013986fbf8025daa6634e4"
+            ]
+        },
+        "93857": {
+            "id": "PR_kwDOAO6SJc50LAAe",
+            "public_id": 93857,
+            "url": "https://github.com/godotengine/godot/pull/93857",
+            "diff_url": "https://github.com/godotengine/godot/pull/93857.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/93857.patch",
+            "title": "[3.x] Fix `AtlasTexture::draw_rect` flipping for non-zero margin",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjkyODMwOTg=",
+            "created_at": "2024-07-02T09:27:30Z",
+            "updated_at": "2024-07-02T12:03:21Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4MDU5",
+                    "name": "topic:2d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwxNzMyNzIwNzc5",
+                    "name": "topic:gui",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "66d1ab04592088babd94f013bf2bbac1028e9911"
             ]
         }
     }
