@@ -1,7 +1,7 @@
 {
     "name": "3.6",
     "git_tag": "3.x",
-    "ref": "cfc4a0eff029c3bda6df061465f9a6b6c66b9f01",
+    "ref": "3.6-stable",
     "from_ref": "3.5-stable",
     "article": "",
 
@@ -41,6 +41,12 @@
             "ref": "cfc4a0eff029c3bda6df061465f9a6b6c66b9f01",
             "from_ref": "2a347ab8671e51ee02299d333a9d37f7784c3e28",
             "article": "https://godotengine.org/article/release-candidate-godot-3-6-rc-1/"
+        },
+        {
+            "name": "stable",
+            "ref": "3.6-stable",
+            "from_ref": "cfc4a0eff029c3bda6df061465f9a6b6c66b9f01",
+            "article": "https://godotengine.org/article/godot-3-6-finally-released/"
         }
     ]
 }

@@ -1,6 +1,28 @@
 {
-    "generated_at": 1720511900553,
+    "generated_at": 1725871020142,
     "log": [
+        "de2f0f147c5b7eff2d0f6dbc35042a4173fd59be",
+        "f4b57927c360ec778835759f46840a258c4c85c7",
+        "e13584c9311c39e573160d921ce458799e4e4add",
+        "1b0526226fee84be9a8e5c65b8e163711ea36a08",
+        "c84cf04e95b2b2e3a7bfea52c5f8d4cbaf38bc20",
+        "67d4b7346f90a9dc4c92a766e6b256168906e573",
+        "31940c784a6c33de1c9e59004a8982b348ee3c36",
+        "01c78d87fea331c978d7ba8a2d5edb379564bdde",
+        "3771078c02bb478554cd4a6e93272ca4a4edf0e4",
+        "b58d16f0b83c049e4a5d185c30486da1beb3e437",
+        "601a9eb4f58ffc95ec9cc34fc5384fce2f5d3f91",
+        "2cc5ca43ef68382c94d963bd9336ad8efea6adae",
+        "1cf50364c116acab4f86b70c2fd559475d60e198",
+        "9a6b424c9450761426f4afd58a9d201a0f874072",
+        "863ab17e9c6bd3d02a9c53d2910ed2a05808c610",
+        "9bbed7bb3c0fe9e6955cf0324cf592e269c2aa9e",
+        "49339fd9ec533350b6a045b1a70650741731ed1c",
+        "9221e6a46660c6e59a4efcdccb60f0b7a85f0df3",
+        "02fa77eb3018958086e0470ca6a7cd01afef3200",
+        "ff77fe81d1e6d3b21b86c0d05708f3f9abde1724",
+        "078210bce16b9d7e4109db938560ad17c28a10c7",
+        "5543f56ce20a2910f50ec6d7df33a1d735025ee5",
         "cfc4a0eff029c3bda6df061465f9a6b6c66b9f01",
         "47a27839cb0e8eaece439ef5b632261d108150ec",
         "d5000466848cfad13ddf16dec5eb546caf1edb42",
@@ -15,6 +37,7 @@
         "e962aaf33d71ef6196bfe430b3fa67e1688106e0",
         "fc78fa7ec5035e6ce6817ced11fc5768219edd71",
         "ece8b38dd18ea4d2c7690e4e9c5d60e22c772e24",
+        "e482dcbc685bdde99916a6c097ff8c0c226492c0",
         "49d3161ce0470d950a2c243ba98a6233611d6f5d",
         "b2be47e6fc158fd0ab79593d09ef3d11bd1281b8",
         "d80b206643cc6a7b62f17886856ae08c9b553bbc",
@@ -3146,6 +3169,31 @@
             "b09bc22b749a60c149c894216da9f5e0da9441ad",
             "bbe8a66a2dc6c9df906a1aeed7fd98a819546506",
             "cafc71a9fba104d4582baefeb59e3a55863e009d"
+        ],
+        "stable": [
+            "de2f0f147c5b7eff2d0f6dbc35042a4173fd59be",
+            "f4b57927c360ec778835759f46840a258c4c85c7",
+            "e13584c9311c39e573160d921ce458799e4e4add",
+            "1b0526226fee84be9a8e5c65b8e163711ea36a08",
+            "c84cf04e95b2b2e3a7bfea52c5f8d4cbaf38bc20",
+            "67d4b7346f90a9dc4c92a766e6b256168906e573",
+            "31940c784a6c33de1c9e59004a8982b348ee3c36",
+            "01c78d87fea331c978d7ba8a2d5edb379564bdde",
+            "3771078c02bb478554cd4a6e93272ca4a4edf0e4",
+            "b58d16f0b83c049e4a5d185c30486da1beb3e437",
+            "601a9eb4f58ffc95ec9cc34fc5384fce2f5d3f91",
+            "2cc5ca43ef68382c94d963bd9336ad8efea6adae",
+            "1cf50364c116acab4f86b70c2fd559475d60e198",
+            "9a6b424c9450761426f4afd58a9d201a0f874072",
+            "863ab17e9c6bd3d02a9c53d2910ed2a05808c610",
+            "9bbed7bb3c0fe9e6955cf0324cf592e269c2aa9e",
+            "49339fd9ec533350b6a045b1a70650741731ed1c",
+            "9221e6a46660c6e59a4efcdccb60f0b7a85f0df3",
+            "02fa77eb3018958086e0470ca6a7cd01afef3200",
+            "ff77fe81d1e6d3b21b86c0d05708f3f9abde1724",
+            "078210bce16b9d7e4109db938560ad17c28a10c7",
+            "5543f56ce20a2910f50ec6d7df33a1d735025ee5",
+            "e482dcbc685bdde99916a6c097ff8c0c226492c0"
         ]
     },
     "authors": {
@@ -3154,8 +3202,56 @@
             "user": "akien-mga",
             "avatar": "https://avatars.githubusercontent.com/u/4701338?u=4a42fd867f2c449fcc23adf635dd574dae98e6c2&v=4",
             "url": "https://github.com/akien-mga",
-            "pull_count": 125,
-            "commit_count": 229
+            "pull_count": 126,
+            "commit_count": 231
+        },
+        "MDQ6VXNlcjIxOTk5Mzc5": {
+            "id": "MDQ6VXNlcjIxOTk5Mzc5",
+            "user": "lawnjelly",
+            "avatar": "https://avatars.githubusercontent.com/u/21999379?u=2b8b17ce969861380874563b333a546e0bbaab56&v=4",
+            "url": "https://github.com/lawnjelly",
+            "pull_count": 96,
+            "commit_count": 98
+        },
+        "MDQ6VXNlcjM3MjQ3Ng==": {
+            "id": "MDQ6VXNlcjM3MjQ3Ng==",
+            "user": "timothyqiu",
+            "avatar": "https://avatars.githubusercontent.com/u/372476?v=4",
+            "url": "https://github.com/timothyqiu",
+            "pull_count": 72,
+            "commit_count": 77
+        },
+        "MDQ6VXNlcjIwNDg1MzI=": {
+            "id": "MDQ6VXNlcjIwNDg1MzI=",
+            "user": "pablitar",
+            "avatar": "https://avatars.githubusercontent.com/u/2048532?v=4",
+            "url": "https://github.com/pablitar",
+            "pull_count": 1,
+            "commit_count": 1
+        },
+        "MDQ6VXNlcjY1MDE5NzU=": {
+            "id": "MDQ6VXNlcjY1MDE5NzU=",
+            "user": "rsubtil",
+            "avatar": "https://avatars.githubusercontent.com/u/6501975?u=8b300dce8a185e07294946c926c37e6a67fbf2fb&v=4",
+            "url": "https://github.com/rsubtil",
+            "pull_count": 7,
+            "commit_count": 8
+        },
+        "U_kgDOBcK-Cw": {
+            "id": "U_kgDOBcK-Cw",
+            "user": "AThousandShips",
+            "avatar": "https://avatars.githubusercontent.com/u/96648715?u=af70f5d107e9c1447f296643d5a566dab53d25e8&v=4",
+            "url": "https://github.com/AThousandShips",
+            "pull_count": 21,
+            "commit_count": 25
+        },
+        "MDQ6VXNlcjI3MjY1NjI=": {
+            "id": "MDQ6VXNlcjI3MjY1NjI=",
+            "user": "mertkasar",
+            "avatar": "https://avatars.githubusercontent.com/u/2726562?u=f979ad92ed601eb9e2881b2ddaa16f253f145019&v=4",
+            "url": "https://github.com/mertkasar",
+            "pull_count": 1,
+            "commit_count": 1
         },
         "MDQ6VXNlcjkyODMwOTg=": {
             "id": "MDQ6VXNlcjkyODMwOTg=",
@@ -3165,14 +3261,6 @@
             "pull_count": 19,
             "commit_count": 26
         },
-        "MDQ6VXNlcjIxOTk5Mzc5": {
-            "id": "MDQ6VXNlcjIxOTk5Mzc5",
-            "user": "lawnjelly",
-            "avatar": "https://avatars.githubusercontent.com/u/21999379?u=2b8b17ce969861380874563b333a546e0bbaab56&v=4",
-            "url": "https://github.com/lawnjelly",
-            "pull_count": 91,
-            "commit_count": 93
-        },
         "MDQ6VXNlcjM5MDMwNTk=": {
             "id": "MDQ6VXNlcjM5MDMwNTk=",
             "user": "raulsntos",
@@ -3181,6 +3269,14 @@
             "pull_count": 10,
             "commit_count": 13
         },
+        "MDQ6VXNlcjQxOTIxMzk1": {
+            "id": "MDQ6VXNlcjQxOTIxMzk1",
+            "user": "Alex2782",
+            "avatar": "https://avatars.githubusercontent.com/u/41921395?u=74caa4e396a8e2995ac648a80f7488601d679e63&v=4",
+            "url": "https://github.com/Alex2782",
+            "pull_count": 1,
+            "commit_count": 1
+        },
         "MDQ6VXNlcjE2NDY4NzU=": {
             "id": "MDQ6VXNlcjE2NDY4NzU=",
             "user": "aaronfranke",
@@ -3188,14 +3284,6 @@
             "url": "https://github.com/aaronfranke",
             "pull_count": 18,
             "commit_count": 22
-        },
-        "MDQ6VXNlcjM3MjQ3Ng==": {
-            "id": "MDQ6VXNlcjM3MjQ3Ng==",
-            "user": "timothyqiu",
-            "avatar": "https://avatars.githubusercontent.com/u/372476?v=4",
-            "url": "https://github.com/timothyqiu",
-            "pull_count": 72,
-            "commit_count": 76
         },
         "MDQ6VXNlcjc2NDU2ODM=": {
             "id": "MDQ6VXNlcjc2NDU2ODM=",
@@ -3244,14 +3332,6 @@
             "url": "https://github.com/melquiadess",
             "pull_count": 1,
             "commit_count": 2
-        },
-        "U_kgDOBcK-Cw": {
-            "id": "U_kgDOBcK-Cw",
-            "user": "AThousandShips",
-            "avatar": "https://avatars.githubusercontent.com/u/96648715?u=af70f5d107e9c1447f296643d5a566dab53d25e8&v=4",
-            "url": "https://github.com/AThousandShips",
-            "pull_count": 20,
-            "commit_count": 24
         },
         "MDQ6VXNlcjI3MDkyOA==": {
             "id": "MDQ6VXNlcjI3MDkyOA==",
@@ -3592,7 +3672,7 @@
         "MDQ6VXNlcjU0NDE1NTI1": {
             "id": "MDQ6VXNlcjU0NDE1NTI1",
             "user": "angad-k",
-            "avatar": "https://avatars.githubusercontent.com/u/54415525?u=0ca7e9fd9921e48bfad3d758fc2f580a6dc834a1&v=4",
+            "avatar": "https://avatars.githubusercontent.com/u/54415525?u=55f8f4709a56b552889949b09cf5210e9d878353&v=4",
             "url": "https://github.com/angad-k",
             "pull_count": 1,
             "commit_count": 2
@@ -3656,7 +3736,7 @@
         "MDQ6VXNlcjU2MjcyNjQz": {
             "id": "MDQ6VXNlcjU2MjcyNjQz",
             "user": "ryanabx",
-            "avatar": "https://avatars.githubusercontent.com/u/56272643?v=4",
+            "avatar": "https://avatars.githubusercontent.com/u/56272643?u=735d874b2eb282909f3e0accdb6d419f633a0af7&v=4",
             "url": "https://github.com/ryanabx",
             "pull_count": 1,
             "commit_count": 1
@@ -3732,14 +3812,6 @@
             "url": "https://github.com/Chaosus",
             "pull_count": 1,
             "commit_count": 2
-        },
-        "MDQ6VXNlcjY1MDE5NzU=": {
-            "id": "MDQ6VXNlcjY1MDE5NzU=",
-            "user": "rsubtil",
-            "avatar": "https://avatars.githubusercontent.com/u/6501975?u=8b300dce8a185e07294946c926c37e6a67fbf2fb&v=4",
-            "url": "https://github.com/rsubtil",
-            "pull_count": 6,
-            "commit_count": 7
         },
         "MDQ6VXNlcjU4ODQwNTk1": {
             "id": "MDQ6VXNlcjU4ODQwNTk1",
@@ -4104,7 +4176,7 @@
         "MDQ6VXNlcjEzOTAzMg==": {
             "id": "MDQ6VXNlcjEzOTAzMg==",
             "user": "marcinn",
-            "avatar": "https://avatars.githubusercontent.com/u/139032?v=4",
+            "avatar": "https://avatars.githubusercontent.com/u/139032?u=1da7c487006c5ff50cca1f3f0e45e9c39071a4d8&v=4",
             "url": "https://github.com/marcinn",
             "pull_count": 2,
             "commit_count": 2
@@ -4335,7 +4407,7 @@
         "MDQ6VXNlcjU2MzgxMjU1": {
             "id": "MDQ6VXNlcjU2MzgxMjU1",
             "user": "ray90514",
-            "avatar": "https://avatars.githubusercontent.com/u/56381255?u=be5398f13a4a60067ebecd009c91aea056430e1a&v=4",
+            "avatar": "https://avatars.githubusercontent.com/u/56381255?u=1cb9ba8acc122c45b244dcdc43bc093119ec8df5&v=4",
             "url": "https://github.com/ray90514",
             "pull_count": 1,
             "commit_count": 1
@@ -4351,7 +4423,7 @@
         "MDQ6VXNlcjkxMzk1Nw==": {
             "id": "MDQ6VXNlcjkxMzk1Nw==",
             "user": "nyanpasu64",
-            "avatar": "https://avatars.githubusercontent.com/u/913957?u=c21cb4a8d05140dcaad7d6e6751c861544e602a1&v=4",
+            "avatar": "https://avatars.githubusercontent.com/u/913957?u=426313aff15f83b57e0c5dc1767134f46edff03b&v=4",
             "url": "https://github.com/nyanpasu64",
             "pull_count": 1,
             "commit_count": 2
@@ -4846,9 +4918,9 @@
         },
         "MDQ6VXNlcjI4OTE3MTk3": {
             "id": "MDQ6VXNlcjI4OTE3MTk3",
-            "user": "Haskaris",
+            "user": "TheWathis",
             "avatar": "https://avatars.githubusercontent.com/u/28917197?u=94a1f4bbcacc936eade2589acd165e9c7e53080c&v=4",
-            "url": "https://github.com/Haskaris",
+            "url": "https://github.com/TheWathis",
             "pull_count": 1,
             "commit_count": 1
         },
@@ -4895,7 +4967,7 @@
         "MDQ6VXNlcjg5NjcxMjI=": {
             "id": "MDQ6VXNlcjg5NjcxMjI=",
             "user": "olibombardier",
-            "avatar": "https://avatars.githubusercontent.com/u/8967122?u=3546e97017ce73998d7790e46028a84c30ce6898&v=4",
+            "avatar": "https://avatars.githubusercontent.com/u/8967122?u=67c1fb47cb50b53a628b70bd641d1eb49f8d4479&v=4",
             "url": "https://github.com/olibombardier",
             "pull_count": 1,
             "commit_count": 1
@@ -5022,6 +5094,293 @@
         }
     },
     "commits": {
+        "de2f0f147c5b7eff2d0f6dbc35042a4173fd59be": {
+            "hash": "de2f0f147c5b7eff2d0f6dbc35042a4173fd59be",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Bump version to 3.6-stable \\o/",
+            "body": "At long last, after 2 years of development, Godot 3.6 is finally out!\n\nDeveloping it in parallel to the 4.x branch proved to be a challenge,\nas eventually I (Rémi) hardly had any time to focus on it.\n\nThankfully lawnjelly picked up the torch, both on the feature dev side\n(most new rendering features are his work) but now also as release\nmanager for 3.x.\n\nFor anyone still using Godot 3.5 for their released or soon-to-be\npublished titles, upgrading to 3.6 should bring a lot of bug fixes, as\nwell as a number of useful features and quality of life improvements.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "f4b57927c360ec778835759f46840a258c4c85c7": {
+            "hash": "f4b57927c360ec778835759f46840a258c4c85c7",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #96594 from lawnjelly/changelog_36",
+            "body": "[3.x] Update changelog for 3.6 stable",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "e13584c9311c39e573160d921ce458799e4e4add": {
+            "hash": "e13584c9311c39e573160d921ce458799e4e4add",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Update changelog for 3.6 stable",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 96594
+        },
+        "1b0526226fee84be9a8e5c65b8e163711ea36a08": {
+            "hash": "1b0526226fee84be9a8e5c65b8e163711ea36a08",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #96557 from akien-mga/3.x-PopupMenu-update-margins-on-visibility-change",
+            "body": "[3.x] PopupMenu: Update margins on visibility change",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "c84cf04e95b2b2e3a7bfea52c5f8d4cbaf38bc20": {
+            "hash": "c84cf04e95b2b2e3a7bfea52c5f8d4cbaf38bc20",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg=",
+                "MDQ6VXNlcjM3MjQ3Ng=="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "PopupMenu: Update margins on visibility change",
+            "body": "Fixes #96149.\n\nCo-authored-by: Haoyu Qiu <timothyqiu32@gmail.com>",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 96557
+        },
+        "67d4b7346f90a9dc4c92a766e6b256168906e573": {
+            "hash": "67d4b7346f90a9dc4c92a766e6b256168906e573",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #96032 from lawnjelly/safe_unproject",
+            "body": "[3.x] Safe `Camera::unproject_position()`",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "31940c784a6c33de1c9e59004a8982b348ee3c36": {
+            "hash": "31940c784a6c33de1c9e59004a8982b348ee3c36",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Safe `Camera::unproject_position()`",
+            "body": "`unproject_position()` can fail in some circumstances, and this needs to be conveyed to calling code.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 96032
+        },
+        "01c78d87fea331c978d7ba8a2d5edb379564bdde": {
+            "hash": "01c78d87fea331c978d7ba8a2d5edb379564bdde",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #94972 from lawnjelly/verify_gltf_inds",
+            "body": "[3.x] Verify GLTF indices to prevent crash with corrupt files",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "3771078c02bb478554cd4a6e93272ca4a4edf0e4": {
+            "hash": "3771078c02bb478554cd4a6e93272ca4a4edf0e4",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Verify GLTF indices to prevent crash with corrupt files",
+            "body": "Also verify prior to vertex optimization.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 94972
+        },
+        "b58d16f0b83c049e4a5d185c30486da1beb3e437": {
+            "hash": "b58d16f0b83c049e4a5d185c30486da1beb3e437",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #94482 from pablitar/3.x",
+            "body": "[3.x] Fix external images getting embedded on import",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "601a9eb4f58ffc95ec9cc34fc5384fce2f5d3f91": {
+            "hash": "601a9eb4f58ffc95ec9cc34fc5384fce2f5d3f91",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIwNDg1MzI="
+            ],
+            "author_raw": "pablitar <pablitar@gmail.com>",
+            "committer_raw": "pablitar <pablitar@gmail.com>",
+            "summary": "GLTF: Fixed external images getting embedded on import",
+            "body": "Added a map to keep track of external images during import, and used\nthat map to instance the textures using the resource loader instead of\ncreating a new texture from scratch",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 94482
+        },
+        "2cc5ca43ef68382c94d963bd9336ad8efea6adae": {
+            "hash": "2cc5ca43ef68382c94d963bd9336ad8efea6adae",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #94559 from rsubtil/bugfix-popup_menu_size_calculations",
+            "body": "[3.x] Fix `PopupMenu` size calculations not taking into account control/canvas scale",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "1cf50364c116acab4f86b70c2fd559475d60e198": {
+            "hash": "1cf50364c116acab4f86b70c2fd559475d60e198",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjY1MDE5NzU="
+            ],
+            "author_raw": "Ricardo Subtil <ricasubtil@gmail.com>",
+            "committer_raw": "Ricardo Subtil <ricasubtil@gmail.com>",
+            "summary": "Fix `PopupMenu` size calculations not taking into account control/canvas scale",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 94559
+        },
+        "9a6b424c9450761426f4afd58a9d201a0f874072": {
+            "hash": "9a6b424c9450761426f4afd58a9d201a0f874072",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #93571 from Alex2782/g3.x_fix_GLSurfaceView",
+            "body": "[3.x] Fix lost old callback when continuous call `requestRenderAndNotify`",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "863ab17e9c6bd3d02a9c53d2910ed2a05808c610": {
+            "hash": "863ab17e9c6bd3d02a9c53d2910ed2a05808c610",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #94470 from AThousandShips/cache_improve_3_x",
+            "body": "[3.x] [CI] Upload build cache before running tests",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "9bbed7bb3c0fe9e6955cf0324cf592e269c2aa9e": {
+            "hash": "9bbed7bb3c0fe9e6955cf0324cf592e269c2aa9e",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #94386 from lawnjelly/revert_inner_parse",
+            "body": "[3.x] Revert \"Fix parsing inner class declaration\"",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "49339fd9ec533350b6a045b1a70650741731ed1c": {
+            "hash": "49339fd9ec533350b6a045b1a70650741731ed1c",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #94421 from lawnjelly/fix_action_press_tick",
+            "body": "[3.x] Fix physics tick count in `Input.action_press` and `Input.action_rele…",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "9221e6a46660c6e59a4efcdccb60f0b7a85f0df3": {
+            "hash": "9221e6a46660c6e59a4efcdccb60f0b7a85f0df3",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Fix physics tick count in `Input.action_press` and `Input.action_release`",
+            "body": "The physics tick count was not yet updated there.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 94421
+        },
+        "02fa77eb3018958086e0470ca6a7cd01afef3200": {
+            "hash": "02fa77eb3018958086e0470ca6a7cd01afef3200",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Revert \"Fix parsing inner class declaration when \"pass\" keyword is on the same line\"",
+            "body": "This reverts commit 5bcc3d476cd06c9e9edd00e63a221d77d9ff7c0b.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 94386
+        },
+        "ff77fe81d1e6d3b21b86c0d05708f3f9abde1724": {
+            "hash": "ff77fe81d1e6d3b21b86c0d05708f3f9abde1724",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #94281 from mertkasar/3.x-ssr-orthogonal-warp-fix",
+            "body": "[3.x] Fix SSR warp when using orthogonal camera",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "078210bce16b9d7e4109db938560ad17c28a10c7": {
+            "hash": "078210bce16b9d7e4109db938560ad17c28a10c7",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOBcK-Cw"
+            ],
+            "author_raw": "A Thousand Ships <96648715+AThousandShips@users.noreply.github.com>",
+            "committer_raw": "A Thousand Ships <96648715+AThousandShips@users.noreply.github.com>",
+            "summary": "[CI] Upload build cache before running tests",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 94470
+        },
+        "5543f56ce20a2910f50ec6d7df33a1d735025ee5": {
+            "hash": "5543f56ce20a2910f50ec6d7df33a1d735025ee5",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjI3MjY1NjI="
+            ],
+            "author_raw": "Mert Kasar <mertkasar93@gmail.com>",
+            "committer_raw": "Mert Kasar <mertkasar93@gmail.com>",
+            "summary": "Fix SSR warp when using orthogonal camera",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 94281
+        },
         "cfc4a0eff029c3bda6df061465f9a6b6c66b9f01": {
             "hash": "cfc4a0eff029c3bda6df061465f9a6b6c66b9f01",
             "is_merge": false,
@@ -5201,6 +5560,20 @@
             "is_cherrypick": false,
             "cherrypick_hash": "",
             "pull": ""
+        },
+        "e482dcbc685bdde99916a6c097ff8c0c226492c0": {
+            "hash": "e482dcbc685bdde99916a6c097ff8c0c226492c0",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQxOTIxMzk1"
+            ],
+            "author_raw": "Alexander Hartmann <alex.hart.278@gmail.com>",
+            "committer_raw": "Alexander Hartmann <alex.hart.278@gmail.com>",
+            "summary": "fix lost old callback when continuous call requestRenderAndNotify",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 93571
         },
         "49d3161ce0470d950a2c243ba98a6233611d6f5d": {
             "hash": "49d3161ce0470d950a2c243ba98a6233611d6f5d",
@@ -32221,12 +32594,12 @@
             "url": "https://github.com/godotengine/godot/pull/61993",
             "diff_url": "https://github.com/godotengine/godot/pull/61993.diff",
             "patch_url": "https://github.com/godotengine/godot/pull/61993.patch",
-            "title": "Fix inner class parsing when statement after colon is on the same line",
+            "title": "[3.x] Fix inner class parsing when statement after colon is on the same line (reverted)",
             "state": "MERGED",
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjEyMjIwNjc3",
             "created_at": "2022-06-13T12:50:20Z",
-            "updated_at": "2022-08-30T09:35:04Z",
+            "updated_at": "2024-07-17T10:30:12Z",
             "target_branch": "3.x",
             "labels": [
                 {
@@ -33197,7 +33570,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE5MTU2MQ==",
             "created_at": "2022-07-29T14:34:02Z",
-            "updated_at": "2022-08-29T15:05:37Z",
+            "updated_at": "2024-07-22T15:23:28Z",
             "target_branch": "3.x",
             "labels": [
                 {
@@ -35513,7 +35886,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE5MTU2MQ==",
             "created_at": "2022-08-18T19:25:31Z",
-            "updated_at": "2023-06-02T16:13:51Z",
+            "updated_at": "2024-07-22T15:24:33Z",
             "target_branch": "3.x",
             "labels": [
                 {
@@ -43480,7 +43853,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
             "created_at": "2022-11-16T16:10:55Z",
-            "updated_at": "2024-07-05T10:42:48Z",
+            "updated_at": "2024-07-10T14:52:33Z",
             "target_branch": "3.x",
             "labels": [
                 {
@@ -47814,7 +48187,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE5MTU2MQ==",
             "created_at": "2023-01-22T20:48:22Z",
-            "updated_at": "2023-01-26T12:22:12Z",
+            "updated_at": "2024-07-22T15:25:58Z",
             "target_branch": "3.x",
             "labels": [
                 {
@@ -50570,7 +50943,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE5MTU2MQ==",
             "created_at": "2023-04-14T22:45:11Z",
-            "updated_at": "2023-04-17T17:17:22Z",
+            "updated_at": "2024-07-22T15:26:31Z",
             "target_branch": "3.x",
             "labels": [
                 {
@@ -56861,7 +57234,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE5MTU2MQ==",
             "created_at": "2023-11-29T20:59:09Z",
-            "updated_at": "2024-01-30T13:20:49Z",
+            "updated_at": "2024-07-22T15:30:23Z",
             "target_branch": "3.x",
             "labels": [
                 {
@@ -60302,7 +60675,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjQ3MDEzMzg=",
             "created_at": "2024-05-06T21:31:39Z",
-            "updated_at": "2024-05-07T11:22:23Z",
+            "updated_at": "2024-07-11T04:45:04Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -60458,7 +60831,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
             "created_at": "2024-05-12T14:09:23Z",
-            "updated_at": "2024-05-12T22:30:46Z",
+            "updated_at": "2024-08-18T16:39:34Z",
             "target_branch": "3.x",
             "labels": [
                 {
@@ -60686,7 +61059,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
             "created_at": "2024-05-20T08:05:34Z",
-            "updated_at": "2024-05-21T12:15:16Z",
+            "updated_at": "2024-08-13T06:06:43Z",
             "target_branch": "3.x",
             "labels": [
                 {
@@ -61026,7 +61399,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
             "created_at": "2024-06-09T14:42:40Z",
-            "updated_at": "2024-07-08T16:12:09Z",
+            "updated_at": "2024-07-10T12:47:41Z",
             "target_branch": "3.x",
             "labels": [
                 {
@@ -61151,6 +61524,40 @@
                 "49d3161ce0470d950a2c243ba98a6233611d6f5d"
             ]
         },
+        "93571": {
+            "id": "PR_kwDOAO6SJc5zaGAX",
+            "public_id": 93571,
+            "url": "https://github.com/godotengine/godot/pull/93571",
+            "diff_url": "https://github.com/godotengine/godot/pull/93571.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/93571.patch",
+            "title": "[3.x] Fix lost old callback when continuous call `requestRenderAndNotify`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjQxOTIxMzk1",
+            "created_at": "2024-06-24T19:57:53Z",
+            "updated_at": "2024-07-18T13:35:20Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc1NjI=",
+                    "name": "platform:android",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyNTU=",
+                    "name": "topic:porting",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "e482dcbc685bdde99916a6c097ff8c0c226492c0"
+            ]
+        },
         "93842": {
             "id": "PR_kwDOAO6SJc50Inyt",
             "public_id": 93842,
@@ -61261,6 +61668,366 @@
             ],
             "commits": [
                 "66d1ab04592088babd94f013bf2bbac1028e9911"
+            ]
+        },
+        "94281": {
+            "id": "PR_kwDOAO6SJc51QVof",
+            "public_id": 94281,
+            "url": "https://github.com/godotengine/godot/pull/94281",
+            "diff_url": "https://github.com/godotengine/godot/pull/94281.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/94281.patch",
+            "title": "[3.x] Fix SSR warp when using orthogonal camera",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjI3MjY1NjI=",
+            "created_at": "2024-07-12T19:36:12Z",
+            "updated_at": "2024-07-14T16:59:55Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc77GWog",
+                    "name": "cherrypick:3.5",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "5543f56ce20a2910f50ec6d7df33a1d735025ee5"
+            ]
+        },
+        "94386": {
+            "id": "PR_kwDOAO6SJc51XTc-",
+            "public_id": 94386,
+            "url": "https://github.com/godotengine/godot/pull/94386",
+            "diff_url": "https://github.com/godotengine/godot/pull/94386.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/94386.patch",
+            "title": "[3.x] Revert \"Fix parsing inner class declaration\"",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-07-15T09:48:43Z",
+            "updated_at": "2024-07-17T11:33:16Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwODI=",
+                    "name": "topic:gdscript",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "02fa77eb3018958086e0470ca6a7cd01afef3200"
+            ]
+        },
+        "94421": {
+            "id": "PR_kwDOAO6SJc51eClg",
+            "public_id": 94421,
+            "url": "https://github.com/godotengine/godot/pull/94421",
+            "diff_url": "https://github.com/godotengine/godot/pull/94421.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/94421.patch",
+            "title": "[3.x] Fix physics tick count in `Input.action_press` and `Input.action_release`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-07-16T06:15:37Z",
+            "updated_at": "2024-07-17T08:56:42Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWw4OTAzMTA2NjQ=",
+                    "name": "topic:input",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwzNzA0NzE4ODA=",
+                    "name": "topic:physics",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "9221e6a46660c6e59a4efcdccb60f0b7a85f0df3"
+            ]
+        },
+        "94470": {
+            "id": "PR_kwDOAO6SJc51nt33",
+            "public_id": 94470,
+            "url": "https://github.com/godotengine/godot/pull/94470",
+            "diff_url": "https://github.com/godotengine/godot/pull/94470.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/94470.patch",
+            "title": "[3.x] [CI] Upload build cache before running tests",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "U_kgDOBcK-Cw",
+            "created_at": "2024-07-17T10:11:51Z",
+            "updated_at": "2024-07-17T13:23:57Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "LA_kwDOAO6SJc77GWog",
+                    "name": "cherrypick:3.5",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "078210bce16b9d7e4109db938560ad17c28a10c7"
+            ]
+        },
+        "94482": {
+            "id": "PR_kwDOAO6SJc51r0v4",
+            "public_id": 94482,
+            "url": "https://github.com/godotengine/godot/pull/94482",
+            "diff_url": "https://github.com/godotengine/godot/pull/94482.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/94482.patch",
+            "title": "[3.x] Fix external images getting embedded on import",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIwNDg1MzI=",
+            "created_at": "2024-07-17T19:37:22Z",
+            "updated_at": "2024-07-24T07:39:27Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWw4OTAzMTA1MDI=",
+                    "name": "topic:import",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "601a9eb4f58ffc95ec9cc34fc5384fce2f5d3f91"
+            ]
+        },
+        "94559": {
+            "id": "PR_kwDOAO6SJc51_H2k",
+            "public_id": 94559,
+            "url": "https://github.com/godotengine/godot/pull/94559",
+            "diff_url": "https://github.com/godotengine/godot/pull/94559.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/94559.patch",
+            "title": "[3.x] Fix `PopupMenu` size calculations not taking into account control/canvas scale",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjY1MDE5NzU=",
+            "created_at": "2024-07-20T11:50:33Z",
+            "updated_at": "2024-07-20T16:07:44Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4MDU5",
+                    "name": "topic:2d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwxNzMyNzIwNzc5",
+                    "name": "topic:gui",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "1cf50364c116acab4f86b70c2fd559475d60e198"
+            ]
+        },
+        "94972": {
+            "id": "PR_kwDOAO6SJc52-OI9",
+            "public_id": 94972,
+            "url": "https://github.com/godotengine/godot/pull/94972",
+            "diff_url": "https://github.com/godotengine/godot/pull/94972.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/94972.patch",
+            "title": "[3.x] Verify GLTF indices to prevent crash with corrupt files",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-07-31T09:51:53Z",
+            "updated_at": "2024-08-19T16:42:31Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzI3MzE4Mjcx",
+                    "name": "crash",
+                    "color": "#885544"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWw4OTAzMTA1MDI=",
+                    "name": "topic:import",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "3771078c02bb478554cd4a6e93272ca4a4edf0e4"
+            ]
+        },
+        "96032": {
+            "id": "PR_kwDOAO6SJc55Us9q",
+            "public_id": 96032,
+            "url": "https://github.com/godotengine/godot/pull/96032",
+            "diff_url": "https://github.com/godotengine/godot/pull/96032.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/96032.patch",
+            "title": "[3.x] Safe `Camera::unproject_position()`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-08-24T13:35:21Z",
+            "updated_at": "2024-09-03T15:39:34Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "31940c784a6c33de1c9e59004a8982b348ee3c36"
+            ]
+        },
+        "96557": {
+            "id": "PR_kwDOAO6SJc56Xen5",
+            "public_id": 96557,
+            "url": "https://github.com/godotengine/godot/pull/96557",
+            "diff_url": "https://github.com/godotengine/godot/pull/96557.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/96557.patch",
+            "title": "[3.x] PopupMenu: Update margins on visibility change",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjQ3MDEzMzg=",
+            "created_at": "2024-09-04T09:36:34Z",
+            "updated_at": "2024-09-04T11:57:11Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwxNzMyNzIwNzc5",
+                    "name": "topic:gui",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "c84cf04e95b2b2e3a7bfea52c5f8d4cbaf38bc20"
+            ]
+        },
+        "96594": {
+            "id": "PR_kwDOAO6SJc56fiOy",
+            "public_id": 96594,
+            "url": "https://github.com/godotengine/godot/pull/96594",
+            "diff_url": "https://github.com/godotengine/godot/pull/96594.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/96594.patch",
+            "title": "[3.x] Update changelog for 3.6 stable",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2024-09-05T08:46:21Z",
+            "updated_at": "2024-09-08T20:33:18Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWwyODM1MTg4Mzk=",
+                    "name": "documentation",
+                    "color": "#ffddff"
+                },
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                }
+            ],
+            "commits": [
+                "e13584c9311c39e573160d921ce458799e4e4add"
             ]
         }
     }
