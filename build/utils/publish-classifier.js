@@ -5,7 +5,7 @@ const GENERAL_TOPICS = [
 
 const VERSION_PREFIX_REGEX = /^[\(\[][34]\.[0-9x][\)\]]/;
 const VERSION_SUFFIX_REGEX = /[\(\[][34]\.[0-9x][\)\]]$/;
-const AREA_PREFIX_REGEX = /^[\[`']([a-zA-Z0-9]+)[\]`']/;
+const AREA_PREFIX_REGEX = /^[\[`']([a-zA-Z0-9\.#]+)[\]`']/;
 
 class PullClassifier {
     determineGroup(pull) {
@@ -123,6 +123,9 @@ class PullClassifier {
         // be slightly different than the group name.
         if (cleanMessage.startsWith("MP:")) {
             cleanMessage = cleanMessage.substring(3).trim();
+        }
+        if (cleanMessage.startsWith(".NET:")) {
+            cleanMessage = cleanMessage.substring(5).trim();
         }
         if (cleanMessage.startsWith("doc:")) {
             cleanMessage = cleanMessage.substring(4).trim();
