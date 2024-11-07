@@ -1,7 +1,22 @@
 {
-    "generated_at": 1731002961892,
+    "generated_at": 1731010566072,
     "log": [
+        "36e6207bb48fafd43b98a458d0c461ad982b4e68",
+        "3a7efc9edfbabe39d7182bccf09459d9794111dd",
+        "9b23b202ae3f922d5633a38a03dfe26f8c4a6d6b",
+        "fa65b7049458781114ce6ce9cefe59bfe9cfb782",
+        "8d03a463b3ef1ab839f9c641171861843b77d4d5",
+        "551ce65fce579d65490ea4cc0750c06d664dedcf",
+        "ca81cd3f99eb7a7d6b2d1d1c1a46ff6a3a7f8047",
+        "f74b7e2009cb6b07e31e05072ef433f9c4d8cb25",
+        "671d6e32309becca007cea02ca592f3bfc7f32c1",
         "77d6283d22731398e23c3f1e1b4eeedd22a93152",
+        "4cbf15608ce24a2e803ba5e943ba699c0b73651a",
+        "44b2c4e00d229bcbd9917e736cf3d68621546975",
+        "413490c270ddf400ab8da39ca97e097fc42ea409",
+        "32e2b45430a74e62dd9425105576046d902a14f0",
+        "fdde7713a87aa84f0516b73a6b4820054b510227",
+        "924732772b7a168324523af13ae8daa52c16bb1f",
         "87318a2fb7fffeb72adca934e31915be077c3d1f",
         "de48d9f794856e43ef928709070ab7968d835ef7",
         "3d2f77df251a4b423c700e296ffcefa55b352520",
@@ -301,6 +316,7 @@
         "83ac274e254566f72879fb83a654ee44dc9b3c34",
         "a92e1d4a20d5c3a971cd70fe8757944ac998eb55",
         "8baaa2dd5a988599363a295e68a9949b429ca8bf",
+        "b5141b81710c07f75c33532218eb9e1c0b182264",
         "4dad9c6c05921cf98c9ee59a5f28358496912433",
         "44fa552343722bb048e2d7c6d3661174a95a8a3c",
         "567db2ecb2aa6fb4cacf1cc1e8a29676a45e7a12",
@@ -370,6 +386,7 @@
         "d29e7b69532044e18a53d4ebeca94072361da2a0",
         "920fd47fa3d0f0c4f67f96d7d0085a676adbe22b",
         "fb58ea6c89ff3f9e970e436982c76e96adccdefc",
+        "bbb8c1703bd1c2769b02372588153d5388d584e8",
         "de128812f3ed5b7ccedff619e59ca804ce8b5430",
         "e4b8cd2948cb287907756204db6930ea9144c46f",
         "8d3e9aa7aefaae40b437194c64427f7efe1b5252",
@@ -398,6 +415,7 @@
         "0818408db543be5634f3b5fc87cdec104d69863a",
         "200ed0971a04b3a83b30a782416f8ac95aee5a1f",
         "9ab84887aa83030ea36d54b3b0102cf40f6c879b",
+        "d4dddd00cb51b49e068db0257a883d375ce9c197",
         "9ea357af20c7e55413f459c70d913b7b42a56228",
         "0bc59c78de9ebc162bde4538f9c68e35b4509403",
         "92e51fca7247c932f95a1662aefc28aca96e8de6",
@@ -4320,7 +4338,22 @@
             "beef0f687c053624f057f79a14878926b77e7e8f"
         ],
         "dev4": [
+            "36e6207bb48fafd43b98a458d0c461ad982b4e68",
+            "3a7efc9edfbabe39d7182bccf09459d9794111dd",
+            "9b23b202ae3f922d5633a38a03dfe26f8c4a6d6b",
+            "fa65b7049458781114ce6ce9cefe59bfe9cfb782",
+            "8d03a463b3ef1ab839f9c641171861843b77d4d5",
+            "551ce65fce579d65490ea4cc0750c06d664dedcf",
+            "ca81cd3f99eb7a7d6b2d1d1c1a46ff6a3a7f8047",
+            "f74b7e2009cb6b07e31e05072ef433f9c4d8cb25",
+            "671d6e32309becca007cea02ca592f3bfc7f32c1",
             "77d6283d22731398e23c3f1e1b4eeedd22a93152",
+            "4cbf15608ce24a2e803ba5e943ba699c0b73651a",
+            "44b2c4e00d229bcbd9917e736cf3d68621546975",
+            "413490c270ddf400ab8da39ca97e097fc42ea409",
+            "32e2b45430a74e62dd9425105576046d902a14f0",
+            "fdde7713a87aa84f0516b73a6b4820054b510227",
+            "924732772b7a168324523af13ae8daa52c16bb1f",
             "87318a2fb7fffeb72adca934e31915be077c3d1f",
             "de48d9f794856e43ef928709070ab7968d835ef7",
             "3d2f77df251a4b423c700e296ffcefa55b352520",
@@ -4620,6 +4653,7 @@
             "83ac274e254566f72879fb83a654ee44dc9b3c34",
             "a92e1d4a20d5c3a971cd70fe8757944ac998eb55",
             "8baaa2dd5a988599363a295e68a9949b429ca8bf",
+            "b5141b81710c07f75c33532218eb9e1c0b182264",
             "4dad9c6c05921cf98c9ee59a5f28358496912433",
             "44fa552343722bb048e2d7c6d3661174a95a8a3c",
             "567db2ecb2aa6fb4cacf1cc1e8a29676a45e7a12",
@@ -4689,6 +4723,7 @@
             "d29e7b69532044e18a53d4ebeca94072361da2a0",
             "920fd47fa3d0f0c4f67f96d7d0085a676adbe22b",
             "fb58ea6c89ff3f9e970e436982c76e96adccdefc",
+            "bbb8c1703bd1c2769b02372588153d5388d584e8",
             "de128812f3ed5b7ccedff619e59ca804ce8b5430",
             "e4b8cd2948cb287907756204db6930ea9144c46f",
             "8d3e9aa7aefaae40b437194c64427f7efe1b5252",
@@ -4717,6 +4752,7 @@
             "0818408db543be5634f3b5fc87cdec104d69863a",
             "200ed0971a04b3a83b30a782416f8ac95aee5a1f",
             "9ab84887aa83030ea36d54b3b0102cf40f6c879b",
+            "d4dddd00cb51b49e068db0257a883d375ce9c197",
             "9ea357af20c7e55413f459c70d913b7b42a56228",
             "0bc59c78de9ebc162bde4538f9c68e35b4509403",
             "92e51fca7247c932f95a1662aefc28aca96e8de6",
@@ -4965,6 +5001,54 @@
         ]
     },
     "authors": {
+        "MDQ6VXNlcjIyMjMxNzI=": {
+            "id": "MDQ6VXNlcjIyMjMxNzI=",
+            "user": "KoBeWi",
+            "avatar": "https://avatars.githubusercontent.com/u/2223172?u=fc85633b469acb6e7baef4dba5171f19a2a4ff85&v=4",
+            "url": "https://github.com/KoBeWi",
+            "pull_count": 65,
+            "commit_count": 67
+        },
+        "MDQ6VXNlcjE4MDAzMg==": {
+            "id": "MDQ6VXNlcjE4MDAzMg==",
+            "user": "Calinou",
+            "avatar": "https://avatars.githubusercontent.com/u/180032?v=4",
+            "url": "https://github.com/Calinou",
+            "pull_count": 34,
+            "commit_count": 42
+        },
+        "U_kgDOBzj0Ow": {
+            "id": "U_kgDOBzj0Ow",
+            "user": "girdenis-p",
+            "avatar": "https://avatars.githubusercontent.com/u/121173051?v=4",
+            "url": "https://github.com/girdenis-p",
+            "pull_count": 1,
+            "commit_count": 1
+        },
+        "U_kgDOBc0k3w": {
+            "id": "U_kgDOBc0k3w",
+            "user": "dustdfg",
+            "avatar": "https://avatars.githubusercontent.com/u/97330399?u=2ed4acefeb2fae6f7b07d9ea63f49240049b78e6&v=4",
+            "url": "https://github.com/dustdfg",
+            "pull_count": 14,
+            "commit_count": 14
+        },
+        "MDQ6VXNlcjc2NDU2ODM=": {
+            "id": "MDQ6VXNlcjc2NDU2ODM=",
+            "user": "bruvzg",
+            "avatar": "https://avatars.githubusercontent.com/u/7645683?u=2867ee7fcd920bc19b7d1cbf4b10264b9bbc9326&v=4",
+            "url": "https://github.com/bruvzg",
+            "pull_count": 71,
+            "commit_count": 72
+        },
+        "MDQ6VXNlcjE2NDY4NzU=": {
+            "id": "MDQ6VXNlcjE2NDY4NzU=",
+            "user": "aaronfranke",
+            "avatar": "https://avatars.githubusercontent.com/u/1646875?u=24618295fece29a0bf5c850faf2555985232f5f2&v=4",
+            "url": "https://github.com/aaronfranke",
+            "pull_count": 19,
+            "commit_count": 28
+        },
         "MDQ6VXNlcjM0ODAwMDcy": {
             "id": "MDQ6VXNlcjM0ODAwMDcy",
             "user": "KeyboardDanni",
@@ -5013,14 +5097,6 @@
             "pull_count": 21,
             "commit_count": 21
         },
-        "MDQ6VXNlcjE4MDAzMg==": {
-            "id": "MDQ6VXNlcjE4MDAzMg==",
-            "user": "Calinou",
-            "avatar": "https://avatars.githubusercontent.com/u/180032?v=4",
-            "url": "https://github.com/Calinou",
-            "pull_count": 33,
-            "commit_count": 41
-        },
         "MDQ6VXNlcjYwNTc5MDE0": {
             "id": "MDQ6VXNlcjYwNTc5MDE0",
             "user": "passivestar",
@@ -5029,29 +5105,13 @@
             "pull_count": 11,
             "commit_count": 11
         },
-        "MDQ6VXNlcjc2NDU2ODM=": {
-            "id": "MDQ6VXNlcjc2NDU2ODM=",
-            "user": "bruvzg",
-            "avatar": "https://avatars.githubusercontent.com/u/7645683?u=2867ee7fcd920bc19b7d1cbf4b10264b9bbc9326&v=4",
-            "url": "https://github.com/bruvzg",
-            "pull_count": 70,
-            "commit_count": 71
-        },
         "MDQ6VXNlcjE3NDg5Mjky": {
             "id": "MDQ6VXNlcjE3NDg5Mjky",
             "user": "Repiteo",
             "avatar": "https://avatars.githubusercontent.com/u/17489292?u=34072b401722100a7c0c0d61e37b376cf22b4545&v=4",
             "url": "https://github.com/Repiteo",
-            "pull_count": 25,
-            "commit_count": 29
-        },
-        "MDQ6VXNlcjE2NDY4NzU=": {
-            "id": "MDQ6VXNlcjE2NDY4NzU=",
-            "user": "aaronfranke",
-            "avatar": "https://avatars.githubusercontent.com/u/1646875?u=24618295fece29a0bf5c850faf2555985232f5f2&v=4",
-            "url": "https://github.com/aaronfranke",
-            "pull_count": 18,
-            "commit_count": 27
+            "pull_count": 26,
+            "commit_count": 30
         },
         "U_kgDOCKz2dg": {
             "id": "U_kgDOCKz2dg",
@@ -5092,14 +5152,6 @@
             "url": "https://github.com/EnlightenedOne",
             "pull_count": 2,
             "commit_count": 0
-        },
-        "U_kgDOBc0k3w": {
-            "id": "U_kgDOBc0k3w",
-            "user": "dustdfg",
-            "avatar": "https://avatars.githubusercontent.com/u/97330399?u=2ed4acefeb2fae6f7b07d9ea63f49240049b78e6&v=4",
-            "url": "https://github.com/dustdfg",
-            "pull_count": 13,
-            "commit_count": 13
         },
         "MDQ6VXNlcjUyODUy": {
             "id": "MDQ6VXNlcjUyODUy",
@@ -5156,14 +5208,6 @@
             "url": "https://github.com/clayjohn",
             "pull_count": 26,
             "commit_count": 28
-        },
-        "MDQ6VXNlcjIyMjMxNzI=": {
-            "id": "MDQ6VXNlcjIyMjMxNzI=",
-            "user": "KoBeWi",
-            "avatar": "https://avatars.githubusercontent.com/u/2223172?u=fc85633b469acb6e7baef4dba5171f19a2a4ff85&v=4",
-            "url": "https://github.com/KoBeWi",
-            "pull_count": 64,
-            "commit_count": 66
         },
         "MDQ6VXNlcjgyMDgxNjU=": {
             "id": "MDQ6VXNlcjgyMDgxNjU=",
@@ -5267,7 +5311,7 @@
             "avatar": "https://avatars.githubusercontent.com/u/372476?v=4",
             "url": "https://github.com/timothyqiu",
             "pull_count": 56,
-            "commit_count": 58
+            "commit_count": 59
         },
         "MDQ6VXNlcjI3MDkyOA==": {
             "id": "MDQ6VXNlcjI3MDkyOA==",
@@ -5453,6 +5497,14 @@
             "pull_count": 1,
             "commit_count": 1
         },
+        "MDQ6VXNlcjY3NjkzODMw": {
+            "id": "MDQ6VXNlcjY3NjkzODMw",
+            "user": "YYF233333",
+            "avatar": "https://avatars.githubusercontent.com/u/67693830?u=5127cb92ac85d3db01550c026a62da13254bd17e&v=4",
+            "url": "https://github.com/YYF233333",
+            "pull_count": 1,
+            "commit_count": 1
+        },
         "MDQ6VXNlcjExMzExMjU=": {
             "id": "MDQ6VXNlcjExMzExMjU=",
             "user": "beru",
@@ -5564,6 +5616,14 @@
             "url": "https://github.com/CrayolaEater",
             "pull_count": 2,
             "commit_count": 2
+        },
+        "MDQ6VXNlcjM2NDUwMQ==": {
+            "id": "MDQ6VXNlcjM2NDUwMQ==",
+            "user": "hunterloftis",
+            "avatar": "https://avatars.githubusercontent.com/u/364501?u=7e662dc6f1856198f9a599cca935470912bc8316&v=4",
+            "url": "https://github.com/hunterloftis",
+            "pull_count": 1,
+            "commit_count": 1
         },
         "MDQ6VXNlcjkyODMwOTg=": {
             "id": "MDQ6VXNlcjkyODMwOTg=",
@@ -7511,6 +7571,114 @@
         }
     },
     "commits": {
+        "36e6207bb48fafd43b98a458d0c461ad982b4e68": {
+            "hash": "36e6207bb48fafd43b98a458d0c461ad982b4e68",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #98911 from KoBeWi/😵‍💫",
+            "body": "Fix wrong checked menu item in 3D editor",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "3a7efc9edfbabe39d7182bccf09459d9794111dd": {
+            "hash": "3a7efc9edfbabe39d7182bccf09459d9794111dd",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #98874 from aaronfranke/gltf-preserve-visibility",
+            "body": "GLTF: Preserve node visibility on import",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "9b23b202ae3f922d5633a38a03dfe26f8c4a6d6b": {
+            "hash": "9b23b202ae3f922d5633a38a03dfe26f8c4a6d6b",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #98873 from girdenis-p/shadowed-variable-warning",
+            "body": "Fix analyzer pushing `SHADOWED_VARIABLE` warning for members shadowed in subclass",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "fa65b7049458781114ce6ce9cefe59bfe9cfb782": {
+            "hash": "fa65b7049458781114ce6ce9cefe59bfe9cfb782",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #98105 from Repiteo/scons/mingw-shenanigans",
+            "body": "SCons: Extend `MinGW` support & checks",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "8d03a463b3ef1ab839f9c641171861843b77d4d5": {
+            "hash": "8d03a463b3ef1ab839f9c641171861843b77d4d5",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #98899 from Calinou/doc-resourceloader-load-threaded-get-status",
+            "body": "Clarify `ResourceLoader.load_threaded_get_status()` completion ratio description",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "551ce65fce579d65490ea4cc0750c06d664dedcf": {
+            "hash": "551ce65fce579d65490ea4cc0750c06d664dedcf",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #98317 from YYF233333/vformat",
+            "body": "Optimize `TileSetAtlasSource::_get_property_list`",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "ca81cd3f99eb7a7d6b2d1d1c1a46ff6a3a7f8047": {
+            "hash": "ca81cd3f99eb7a7d6b2d1d1c1a46ff6a3a7f8047",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #98888 from dustdfg/scu_rely_on_scons",
+            "body": "SCons: Replace `_find_scu_section_name` function with SCons builtins",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "f74b7e2009cb6b07e31e05072ef433f9c4d8cb25": {
+            "hash": "f74b7e2009cb6b07e31e05072ef433f9c4d8cb25",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #98887 from bruvzg/ime_altgr",
+            "body": "Fix IME deactivation events not send on focus loss. Do not unset AltGr modifiers in non-IME input.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "671d6e32309becca007cea02ca592f3bfc7f32c1": {
+            "hash": "671d6e32309becca007cea02ca592f3bfc7f32c1",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #98150 from hunterloftis/fix-default-import-threaded",
+            "body": "Fix freeze on non-thread-safe custom importers",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
         "77d6283d22731398e23c3f1e1b4eeedd22a93152": {
             "hash": "77d6283d22731398e23c3f1e1b4eeedd22a93152",
             "is_merge": true,
@@ -7522,6 +7690,90 @@
             "is_cherrypick": false,
             "cherrypick_hash": "",
             "pull": ""
+        },
+        "4cbf15608ce24a2e803ba5e943ba699c0b73651a": {
+            "hash": "4cbf15608ce24a2e803ba5e943ba699c0b73651a",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIyMjMxNzI="
+            ],
+            "author_raw": "Tomasz Chabora <kobewi4e@gmail.com>",
+            "committer_raw": "Tomasz Chabora <kobewi4e@gmail.com>",
+            "summary": "Fix wrong checked menu item in 3D editor",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 98911
+        },
+        "44b2c4e00d229bcbd9917e736cf3d68621546975": {
+            "hash": "44b2c4e00d229bcbd9917e736cf3d68621546975",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE4MDAzMg=="
+            ],
+            "author_raw": "Hugo Locurcio <hugo.locurcio@hugo.pro>",
+            "committer_raw": "Hugo Locurcio <hugo.locurcio@hugo.pro>",
+            "summary": "Clarify `ResourceLoader.load_threaded_get_status()` completion ratio description",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 98899
+        },
+        "413490c270ddf400ab8da39ca97e097fc42ea409": {
+            "hash": "413490c270ddf400ab8da39ca97e097fc42ea409",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOBzj0Ow"
+            ],
+            "author_raw": "girdenis-p <girdenis.p@gmail.com>",
+            "committer_raw": "girdenis-p <girdenis.p@gmail.com>",
+            "summary": "Fix analyzer pushing SHADOWED_VARIABLE warning for members shadowed in subclasses",
+            "body": "This fixes a bug in the analyzer where it did not push the SHADOWED_VARIABLE_BASE_CLASS\nwarning for members shadowed by variable in subclass. It does this by comparing the class\nwhich contains the shadowed member with the class containing the variable, and pushing\nSHADOWED_VARIABLE only if the classes are the same. Additionally, SHADOWED_VARIABLE_BASE_CLASS\ncan take an extra symbol which helps to specify the line for non native base class.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 98873
+        },
+        "32e2b45430a74e62dd9425105576046d902a14f0": {
+            "hash": "32e2b45430a74e62dd9425105576046d902a14f0",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOBc0k3w"
+            ],
+            "author_raw": "Yevhen Babiichuk (DustDFG) <dfgdust@gmail.com>",
+            "committer_raw": "Yevhen Babiichuk (DustDFG) <dfgdust@gmail.com>",
+            "summary": "Replace _find_scu_section_name function with SCons builtins",
+            "body": "Signed-off-by: Yevhen Babiichuk (DustDFG) <dfgdust@gmail.com>",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 98888
+        },
+        "fdde7713a87aa84f0516b73a6b4820054b510227": {
+            "hash": "fdde7713a87aa84f0516b73a6b4820054b510227",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "bruvzg <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "bruvzg <7645683+bruvzg@users.noreply.github.com>",
+            "summary": "Fix IME deactivation events not send on focus loss. Do not unset AltGr modifiers in non-IME input.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 98887
+        },
+        "924732772b7a168324523af13ae8daa52c16bb1f": {
+            "hash": "924732772b7a168324523af13ae8daa52c16bb1f",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE2NDY4NzU="
+            ],
+            "author_raw": "Aaron Franke <arnfranke@yahoo.com>",
+            "committer_raw": "Aaron Franke <arnfranke@yahoo.com>",
+            "summary": "GLTF: Preserve node visibility on import",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 98874
         },
         "87318a2fb7fffeb72adca934e31915be077c3d1f": {
             "hash": "87318a2fb7fffeb72adca934e31915be077c3d1f",
@@ -11365,6 +11617,21 @@
             "cherrypick_hash": "",
             "pull": 98332
         },
+        "b5141b81710c07f75c33532218eb9e1c0b182264": {
+            "hash": "b5141b81710c07f75c33532218eb9e1c0b182264",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjY3NjkzODMw",
+                "MDQ6VXNlcjM3MjQ3Ng=="
+            ],
+            "author_raw": "Yufeng Ying <nbyyf2002@mail.ustc.edu.cn>",
+            "committer_raw": "Yufeng Ying <nbyyf2002@mail.ustc.edu.cn>",
+            "summary": "Optimize TileSetAtlasSource::_get_property_list",
+            "body": "Co-authored-by: Haoyu Qiu <timothyqiu@users.noreply.github.com>",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 98317
+        },
         "4dad9c6c05921cf98c9ee59a5f28358496912433": {
             "hash": "4dad9c6c05921cf98c9ee59a5f28358496912433",
             "is_merge": false,
@@ -12282,6 +12549,20 @@
             "cherrypick_hash": "",
             "pull": 88427
         },
+        "bbb8c1703bd1c2769b02372588153d5388d584e8": {
+            "hash": "bbb8c1703bd1c2769b02372588153d5388d584e8",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjM2NDUwMQ=="
+            ],
+            "author_raw": "Hunter Loftis <hunter@hunterloftis.com>",
+            "committer_raw": "Hunter Loftis <hunter@hunterloftis.com>",
+            "summary": "Fix freeze on non-thread-safe custom importers",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 98150
+        },
         "de128812f3ed5b7ccedff619e59ca804ce8b5430": {
             "hash": "de128812f3ed5b7ccedff619e59ca804ce8b5430",
             "is_merge": false,
@@ -12639,6 +12920,20 @@
             "is_cherrypick": false,
             "cherrypick_hash": "",
             "pull": 97538
+        },
+        "d4dddd00cb51b49e068db0257a883d375ce9c197": {
+            "hash": "d4dddd00cb51b49e068db0257a883d375ce9c197",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE3NDg5Mjky"
+            ],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "SCons: Extend `MinGW` support & checks",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 98105
         },
         "9ea357af20c7e55413f459c70d913b7b42a56228": {
             "hash": "9ea357af20c7e55413f459c70d913b7b42a56228",
@@ -38855,7 +39150,7 @@
             "body": "",
             "is_cherrypick": false,
             "cherrypick_hash": "",
-            "pull": 94995
+            "pull": 93985
         },
         "4091abd727c6b0728e93a28ca41053711be545f7": {
             "hash": "4091abd727c6b0728e93a28ca41053711be545f7",
@@ -47268,6 +47563,7 @@
                 }
             ],
             "commits": [
+                "88581a7705e2f23005f0831be071956943dc5ecb",
                 "4091abd727c6b0728e93a28ca41053711be545f7"
             ]
         },
@@ -50088,7 +50384,6 @@
                 "01637056405df47b072bf9b3aee5a34d9dff35e8",
                 "1cc485ba1ffe93e64f30aff27dc61606b7b40491",
                 "998f5c682ee5f88b0403778fa2babaa85b13287f",
-                "88581a7705e2f23005f0831be071956943dc5ecb",
                 "0b513b9f653ac54aa9d345a391d916eefa0f36ed",
                 "ab13513403f085ead06fa1a0ddb2b1e60fe3fe02",
                 "9d343ced58131dce9c18cc7d6e94f9283bce35a6",
@@ -77183,6 +77478,40 @@
                 "38f9769bc6d560373df961880f99aaaafaae00d9"
             ]
         },
+        "98105": {
+            "id": "PR_kwDOAO6SJc5-Yg5q",
+            "public_id": 98105,
+            "url": "https://github.com/godotengine/godot/pull/98105",
+            "diff_url": "https://github.com/godotengine/godot/pull/98105.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/98105.patch",
+            "title": "SCons: Extend `MinGW` support & checks",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE3NDg5Mjky",
+            "created_at": "2024-10-11T21:39:43Z",
+            "updated_at": "2024-11-07T18:38:29Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyMDU0MTc0MTM=",
+                    "name": "platform:windows",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "d4dddd00cb51b49e068db0257a883d375ce9c197"
+            ]
+        },
         "98126": {
             "id": "PR_kwDOAO6SJc5-bm5w",
             "public_id": 98126,
@@ -77322,6 +77651,45 @@
             ],
             "commits": [
                 "140c6a612e9d9b04966d03fa2b36fbe29d473a38"
+            ]
+        },
+        "98150": {
+            "id": "PR_kwDOAO6SJc5-dJTc",
+            "public_id": 98150,
+            "url": "https://github.com/godotengine/godot/pull/98150",
+            "diff_url": "https://github.com/godotengine/godot/pull/98150.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/98150.patch",
+            "title": "Fix freeze on non-thread-safe custom importers",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjM2NDUwMQ==",
+            "created_at": "2024-10-13T18:51:53Z",
+            "updated_at": "2024-11-07T18:38:27Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTcxNjI=",
+                    "name": "discussion",
+                    "color": "#ccaaff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc5NjY=",
+                    "name": "topic:core",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWw4OTAzMTA1MDI=",
+                    "name": "topic:import",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "bbb8c1703bd1c2769b02372588153d5388d584e8"
             ]
         },
         "98156": {
@@ -78619,6 +78987,40 @@
             ],
             "commits": [
                 "b4fd9d1f38fae745081df36d7d793b97253fc8c8"
+            ]
+        },
+        "98317": {
+            "id": "PR_kwDOAO6SJc5_JHZX",
+            "public_id": 98317,
+            "url": "https://github.com/godotengine/godot/pull/98317",
+            "diff_url": "https://github.com/godotengine/godot/pull/98317.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/98317.patch",
+            "title": "Optimize `TileSetAtlasSource::_get_property_list`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjY3NjkzODMw",
+            "created_at": "2024-10-18T20:20:41Z",
+            "updated_at": "2024-11-07T18:38:13Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwzMjQwOTUwMDYw",
+                    "name": "performance",
+                    "color": "#447777"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "b5141b81710c07f75c33532218eb9e1c0b182264"
             ]
         },
         "98318": {
@@ -81125,6 +81527,200 @@
             ],
             "commits": [
                 "eb41ff0feeeee9f72127534e10810c3334724702"
+            ]
+        },
+        "98873": {
+            "id": "PR_kwDOAO6SJc6A_pQz",
+            "public_id": 98873,
+            "url": "https://github.com/godotengine/godot/pull/98873",
+            "diff_url": "https://github.com/godotengine/godot/pull/98873.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/98873.patch",
+            "title": "Fix analyzer pushing `SHADOWED_VARIABLE` warning for members shadowed in subclass",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "U_kgDOBzj0Ow",
+            "created_at": "2024-11-06T00:56:18Z",
+            "updated_at": "2024-11-07T18:37:54Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwODI=",
+                    "name": "topic:gdscript",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "413490c270ddf400ab8da39ca97e097fc42ea409"
+            ]
+        },
+        "98874": {
+            "id": "PR_kwDOAO6SJc6A_9G7",
+            "public_id": 98874,
+            "url": "https://github.com/godotengine/godot/pull/98874",
+            "diff_url": "https://github.com/godotengine/godot/pull/98874.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/98874.patch",
+            "title": "GLTF: Preserve node visibility on import",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE2NDY4NzU=",
+            "created_at": "2024-11-06T02:40:31Z",
+            "updated_at": "2024-11-07T18:37:48Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWw4OTAzMTA1MDI=",
+                    "name": "topic:import",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "924732772b7a168324523af13ae8daa52c16bb1f"
+            ]
+        },
+        "98887": {
+            "id": "PR_kwDOAO6SJc6BBJ5K",
+            "public_id": 98887,
+            "url": "https://github.com/godotengine/godot/pull/98887",
+            "diff_url": "https://github.com/godotengine/godot/pull/98887.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/98887.patch",
+            "title": "Fix IME deactivation events not send on focus loss. Do not unset AltGr modifiers in non-IME input.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
+            "created_at": "2024-11-06T07:52:01Z",
+            "updated_at": "2024-11-07T18:38:08Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyMDU0MTc0MTM=",
+                    "name": "platform:windows",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWw4OTAzMTA2NjQ=",
+                    "name": "topic:input",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "fdde7713a87aa84f0516b73a6b4820054b510227"
+            ]
+        },
+        "98888": {
+            "id": "PR_kwDOAO6SJc6BBbor",
+            "public_id": 98888,
+            "url": "https://github.com/godotengine/godot/pull/98888",
+            "diff_url": "https://github.com/godotengine/godot/pull/98888.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/98888.patch",
+            "title": "SCons: Replace `_find_scu_section_name` function with SCons builtins",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "U_kgDOBc0k3w",
+            "created_at": "2024-11-06T08:38:38Z",
+            "updated_at": "2024-11-07T18:43:31Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "32e2b45430a74e62dd9425105576046d902a14f0"
+            ]
+        },
+        "98899": {
+            "id": "PR_kwDOAO6SJc6BE3YA",
+            "public_id": 98899,
+            "url": "https://github.com/godotengine/godot/pull/98899",
+            "diff_url": "https://github.com/godotengine/godot/pull/98899.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/98899.patch",
+            "title": "Clarify `ResourceLoader.load_threaded_get_status()` completion ratio description",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE4MDAzMg==",
+            "created_at": "2024-11-06T15:53:53Z",
+            "updated_at": "2024-11-07T18:37:57Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "LA_kwDOAO6SJc8AAAABocF7RA",
+                    "name": "cherrypick:4.3",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwyODM1MTg4Mzk=",
+                    "name": "documentation",
+                    "color": "#ffddff"
+                },
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                }
+            ],
+            "commits": [
+                "44b2c4e00d229bcbd9917e736cf3d68621546975"
+            ]
+        },
+        "98911": {
+            "id": "PR_kwDOAO6SJc6BHj2I",
+            "public_id": 98911,
+            "url": "https://github.com/godotengine/godot/pull/98911",
+            "diff_url": "https://github.com/godotengine/godot/pull/98911.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/98911.patch",
+            "title": "Fix wrong checked menu item in 3D editor",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIyMjMxNzI=",
+            "created_at": "2024-11-06T23:17:20Z",
+            "updated_at": "2024-11-07T18:41:34Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "4cbf15608ce24a2e803ba5e943ba699c0b73651a"
             ]
         }
     }
