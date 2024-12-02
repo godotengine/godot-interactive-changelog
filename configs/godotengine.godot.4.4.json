@@ -1,7 +1,7 @@
 {
     "name": "4.4",
     "git_tag": "master",
-    "ref": "9e6098432aac35bae42c9089a29ba2a80320d823",
+    "ref": "0f20e67d8de83c30b5dd79cb68d12d4cf613065d",
     "from_ref": "4.3-stable",
     "article": "https://godotengine.org/article/dev-snapshot-godot-4-4-dev-5/",
 
@@ -35,6 +35,12 @@
             "ref": "9e6098432aac35bae42c9089a29ba2a80320d823",
             "from_ref": "36e6207bb48fafd43b98a458d0c461ad982b4e68",
             "article": "https://godotengine.org/article/dev-snapshot-godot-4-4-dev-5/"
+        },
+        {
+            "name": "dev6",
+            "ref": "0f20e67d8de83c30b5dd79cb68d12d4cf613065d",
+            "from_ref": "9e6098432aac35bae42c9089a29ba2a80320d823",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-4-dev-6/"
         }
     ]
 }
