@@ -11,7 +11,7 @@ const LogFormat = {
 };
 
 const API_DELAY_MSEC = 2500;
-const API_MAX_RETRIES = 5;
+const API_MAX_RETRIES = 10;
 const API_RATE_LIMIT = `
   rateLimit {
     limit
