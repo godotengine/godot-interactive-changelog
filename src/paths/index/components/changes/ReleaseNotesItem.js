@@ -1,4 +1,5 @@
 import { LitElement, html, css, customElement, property } from 'lit-element';
+import marked from 'marked';
 
 @customElement('gr-release-notes')
 export default class ReleaseNotesItem extends LitElement {
@@ -252,6 +253,11 @@ export default class ReleaseNotesItem extends LitElement {
         super.update(changedProperties);
     }
 
+    _parseMarkdown(text) {
+        // Parse markdown but only return the inner content without wrapping <p> tags
+        return marked(text).replace(/<\/?p>/g, '');
+    }
+
     _renderUnifiedItem(viewMode, item) {
         return (viewMode === "pretty" ? html`
             <li>
@@ -259,7 +265,7 @@ export default class ReleaseNotesItem extends LitElement {
                     ${item.group}:
                 </span>
                 <span>
-                    ${item.title}
+                    ${html([this._parseMarkdown(item.title)])}
                 </span>
                 <code>
                     (<a
@@ -279,7 +285,7 @@ export default class ReleaseNotesItem extends LitElement {
         return (viewMode === "pretty" ? html`
             <li>
                 <span>
-                    ${item.title}
+                    ${html([this._parseMarkdown(item.title)])}
                 </span>
                 <code>
                     (<a
