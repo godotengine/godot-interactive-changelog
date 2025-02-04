@@ -140,11 +140,6 @@ export default class ReleaseNotesItem extends LitElement {
     constructor() {
         super();
 
-        // Configure marked renderer to treat backticks as bold
-        const renderer = new marked.Renderer();
-        renderer.codespan = (text) => `<strong>${text}</strong>`;
-        marked.setOptions({ renderer });
-
         this._viewMode = "pretty";
         this._groupMode = "grouped";
 
