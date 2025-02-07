@@ -1,5 +1,5 @@
 const fs = require('fs').promises;
-const fetch = require('node-fetch');
+const { graphql } = require('@octokit/graphql');
 const nodeUtil = require('util');
 const exec = nodeUtil.promisify(require('child_process').exec);
 
@@ -23,6 +23,14 @@ const API_RATE_LIMIT = `
 `;
 
 const EXEC_MAX_BUFFER = 1024 * 1024 * 32;
+
+const graphqlWithAuth = graphql.defaults({
+    headers: {
+        authorization: process.env.GRAPHQL_TOKEN
+            ? `token ${process.env.GRAPHQL_TOKEN}`
+            : `token ${process.env.GITHUB_TOKEN}`,
+    },
+});
 
 class DataFetcher {
     constructor(data_owner, data_repo) {
@@ -153,46 +161,7 @@ class DataFetcher {
     }
 
     async fetchGithub(query, retries = 0) {
-        const init = {};
-        init.method = "POST";
-        init.headers = {};
-        init.headers["Content-Type"] = "application/json";
-        if (process.env.GRAPHQL_TOKEN) {
-            init.headers["Authorization"] = `token ${process.env.GRAPHQL_TOKEN}`;
-        } else if (process.env.GITHUB_TOKEN) {
-            init.headers["Authorization"] = `token ${process.env.GITHUB_TOKEN}`;
-        }
-
-        init.body = JSON.stringify({
-            query,
-        });
-
-        let res = await fetch("https://api.github.com/graphql", init);
-        let attempt = 0;
-        while (res.status !== 200 && attempt < retries) {
-            attempt += 1;
-            console.log(`    Failed with status ${res.status}, retrying (${attempt}/${retries})...`);
-
-            // GitHub API is flaky, so we add an extra delay to let it calm down a bit.
-            await this.delay(API_DELAY_MSEC);
-            res = await fetch("https://api.github.com/graphql", init);
-        }
-
-        return res;
-    }
-
-    async fetchGithubRest(query) {
-        const init = {};
-        init.method = "GET";
-        init.headers = {};
-        init.headers["Content-Type"] = "application/json";
-        if (process.env.GRAPHQL_TOKEN) {
-            init.headers["Authorization"] = `token ${process.env.GRAPHQL_TOKEN}`;
-        } else if (process.env.GITHUB_TOKEN) {
-            init.headers["Authorization"] = `token ${process.env.GITHUB_TOKEN}`;
-        }
-
-        return await fetch(`${this.api_rest_path}${query}`, init);
+        return await graphqlWithAuth(query);
     }
 
     async checkRates() {
@@ -203,18 +172,11 @@ class DataFetcher {
             }
             `;
 
-            const res = await this.fetchGithub(query);
-            if (res.status !== 200) {
-                this._handleResponseErrors(this.api_repository_id, res);
-                process.exitCode = buildCommon.ExitCodes.RequestFailure;
-                return;
-            }
-
-            const data = await res.json();
+            const data = await this.fetchGithub(query);
             await this._logResponse(data, "_rate_limit");
             this._handleDataErrors(data);
 
-            const rate_limit = data.data["rateLimit"];
+            const rate_limit = data["rateLimit"];
             console.log(`    [$${rate_limit.cost}][${rate_limit.nodeCount}] Available API calls: ${rate_limit.remaining}/${rate_limit.limit}; resets at ${rate_limit.resetAt}`);
         } catch (err) {
             console.error("    Error checking the API rate limits: " + err);
@@ -309,26 +271,19 @@ class DataFetcher {
 
             console.log(`    Requesting batch ${page}/${totalPages} of commit and pull request data.`);
 
-            const res = await this.fetchGithub(query, API_MAX_RETRIES);
-            if (res.status !== 200) {
-                this._handleResponseErrors(this.api_repository_id, res);
-                process.exitCode = buildCommon.ExitCodes.RequestFailure;
-                return [];
-            }
-
-            const data = await res.json();
+            const data = await this.fetchGithub(query);
             await this._logResponse(data, `data_commits`);
             this._handleDataErrors(data);
 
             let commit_data = {};
-            for (let dataKey in data.data) {
+            for (let dataKey in data) {
                 if (!dataKey.startsWith("commit_")) {
                     continue;
                 }
-                commit_data[dataKey.substring(7)] = data.data[dataKey].object;
+                commit_data[dataKey.substring(7)] = data[dataKey].object;
             }
 
-            const rate_limit = data.data["rateLimit"];
+            const rate_limit = data["rateLimit"];
             console.log(`    [$${rate_limit.cost}][${rate_limit.nodeCount}] Retrieved ${Object.keys(commit_data).length} commits.`);
             console.log(`    --`);
             return commit_data;
