@@ -169,16 +169,30 @@ class DataFetcher {
 
         let res = await fetch("https://api.github.com/graphql", init);
         let attempt = 0;
-        while (res.status !== 200 && attempt < retries) {
-            attempt += 1;
-            console.log(`    Failed with status ${res.status}, retrying (${attempt}/${retries})...`);
+
+        while (true) {
+            if (attempt > retries) {
+                return [res, null];
+            }
+
+            if (res.status === 200) {
+                try {
+                    const json = await res.json()
+                    return [res, json];
+                }
+                catch (err) {
+                    console.log(`    Failed due to invalid response body, retrying (${attempt}/${retries})...`);
+                }
+            }
+            else {
+                console.log(`    Failed with status ${res.status}, retrying (${attempt}/${retries})...`);
+            }
 
             // GitHub API is flaky, so we add an extra delay to let it calm down a bit.
             await this.delay(API_DELAY_MSEC);
+            attempt += 1;
             res = await fetch("https://api.github.com/graphql", init);
         }
-
-        return res;
     }
 
     async fetchGithubRest(query) {
@@ -203,14 +217,13 @@ class DataFetcher {
             }
             `;
 
-            const res = await this.fetchGithub(query);
-            if (res.status !== 200) {
+            const [res, data] = await this.fetchGithub(query);
+            if (res.status !== 200 || data === null) {
                 this._handleResponseErrors(this.api_repository_id, res);
                 process.exitCode = buildCommon.ExitCodes.RequestFailure;
                 return;
             }
 
-            const data = await res.json();
             await this._logResponse(data, "_rate_limit");
             this._handleDataErrors(data);
 
@@ -309,14 +322,13 @@ class DataFetcher {
 
             console.log(`    Requesting batch ${page}/${totalPages} of commit and pull request data.`);
 
-            const res = await this.fetchGithub(query, API_MAX_RETRIES);
-            if (res.status !== 200) {
+            const [res, data] = await this.fetchGithub(query, API_MAX_RETRIES);
+            if (res.status !== 200 || data === null) {
                 this._handleResponseErrors(this.api_repository_id, res);
                 process.exitCode = buildCommon.ExitCodes.RequestFailure;
                 return [];
             }
 
-            const data = await res.json();
             await this._logResponse(data, `data_commits`);
             this._handleDataErrors(data);
 
