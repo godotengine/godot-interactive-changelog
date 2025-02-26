@@ -148,6 +148,7 @@ export default class ReleaseNotesItem extends LitElement {
         this._copiableUnifiedText = "";
         this._copiableGroupedText = "";
         this._copyStatus = "idle";
+        this._hideBugs = false;
     }
 
     _onViewModeClicked(type) {
@@ -187,14 +188,26 @@ export default class ReleaseNotesItem extends LitElement {
           });
     }
 
+    _onBugChange(e) {
+        this._hideBugs = e.target.checked;
+        this._updateNotes();
+        this.requestUpdate();
+    }
+
     _updateNotes() {
         this._sortedNotes = [];
         this._groupedNotes = [];
         this._copiableUnifiedText = "";
         this._copiableGroupedText = "";
 
+        // Filter pulls based on bug label and hide bugs checkbox
+        const filteredPulls = this.pulls.filter((pull) => {
+            const hasBugLabel = pull.labels && pull.labels.some(label => label.name === 'bug');
+            return this._hideBugs ? !hasBugLabel : true;
+        });
+
         let groupedNotes = {};
-        this.pulls.forEach((pull) => {
+        filteredPulls.forEach((pull) => {
             // Store under the determined group.
             if (typeof groupedNotes[pull.group_name] === "undefined") {
                 groupedNotes[pull.group_name] = [];
@@ -306,6 +319,22 @@ export default class ReleaseNotesItem extends LitElement {
             <div class="item-container">
                 <div class="item-changes">
                     <div class="item-changes-types">
+                        <span
+                            class="item-changes-type"
+                            @click="${() => {
+                                this._hideBugs = !this._hideBugs;
+                                this._updateNotes();
+                                this.requestUpdate();
+                            }}"
+                        >
+                            <input
+                                type="checkbox"
+                                .checked="${this._hideBugs}"
+                                @change="${this._onBugChange}"
+                            >
+                            Hide Bugs
+                        </span>
+                        |
                         <span
                             class="item-changes-type ${(this._viewMode === "pretty" ? "item-changes--active" : "")}"
                             @click="${this._onViewModeClicked.bind(this, "pretty")}"
