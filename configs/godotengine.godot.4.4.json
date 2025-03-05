@@ -1,9 +1,9 @@
 {
     "name": "4.4",
     "git_tag": "master",
-    "ref": "15ff450680a40391aabbffde0a57ead2cd84db56",
+    "ref": "4.4-stable",
     "from_ref": "4.3-stable",
-    "article": "https://godotengine.org/article/release-candidate-godot-4-4-rc-3/",
+    "article": "https://godotengine.org/releases/4.4/",
 
     "releases": [
         {
@@ -89,6 +89,12 @@
             "ref": "15ff450680a40391aabbffde0a57ead2cd84db56",
             "from_ref": "01545c995b0612c68f9dfce8f6cc67576c298381",
             "article": "https://godotengine.org/article/release-candidate-godot-4-4-rc-3/"
+        },
+        {
+            "name": "stable",
+            "ref": "4.4-stable",
+            "from_ref": "15ff450680a40391aabbffde0a57ead2cd84db56",
+            "article": "https://godotengine.org/releases/4.4/"
         }
     ]
 }
