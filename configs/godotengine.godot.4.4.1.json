@@ -1,0 +1,15 @@
+{
+    "name": "4.4.1",
+    "ref": "4.4",
+    "from_ref": "4.4-stable",
+    "article": "https://godotengine.org/article/release-candidate-godot-4-4-1-rc-1/",
+
+    "releases": [
+        {
+            "name": "rc1",
+            "ref": "daa4b058ee9272dd4ee9033bb093afb21ad558b7",
+            "from_ref": "4.4-stable",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-4-1-rc-1/"
+        }
+    ]
+}
