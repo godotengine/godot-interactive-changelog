@@ -1,6 +1,5 @@
 {
     "name": "4.4",
-    "git_tag": "master",
     "ref": "4.4-stable",
     "from_ref": "4.3-stable",
     "article": "https://godotengine.org/releases/4.4/",

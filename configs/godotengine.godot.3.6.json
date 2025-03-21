@@ -1,9 +1,8 @@
 {
     "name": "3.6",
-    "git_tag": "3.x",
     "ref": "3.6-stable",
     "from_ref": "3.5-stable",
-    "article": "",
+    "article": "https://godotengine.org/article/godot-3-6-finally-released/",
 
     "releases": [
         {
