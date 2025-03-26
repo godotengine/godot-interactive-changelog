@@ -1,6 +1,16 @@
 {
-    "generated_at": 1742560531964,
+    "generated_at": 1742996271572,
     "log": [
+        "49a5bc7b616bd04689a2c89e89bda41f50241464",
+        "21455d8351ada19ef5cb44b7370224fd8a8e39b6",
+        "f63272561197b1f9c4a5045afa7acff675a88995",
+        "994983a93b0b0f4a03cef759b525e53138f83d55",
+        "3ef69f0a79861c54ed283d9febca0c7729d7ec5a",
+        "00baf18d6eec97b819d62c7fd20eb725eeaa640d",
+        "46f16271e24f20a47400232ac86f3f6ee5664007",
+        "98ebd4e61a0b152e5d98a2fbaee1ee7d238837b8",
+        "f26392d45b9ae1057dcb5c30575da719224e0732",
+        "1e37886e197fe64022ffe8645b8841d1be3930cc",
         "abef5e0d23a7f031ae7df90ccf49d650444b9685",
         "c477d248c62468e15e0fd70cb52cefe16af82b48",
         "a6c6104ae7fb6b9a129e6f6bcf54dfaa57776c24",
@@ -246,14 +256,42 @@
             "9f30ad69e39c0b34e2e0485feb2e48d33386c1bb",
             "4ab1c03ab500e702e040bbf06c7684801833d11a",
             "1cdfc69b819da5984bfcf0a177dc02778eb848ac"
+        ],
+        "stable": [
+            "49a5bc7b616bd04689a2c89e89bda41f50241464",
+            "21455d8351ada19ef5cb44b7370224fd8a8e39b6",
+            "f63272561197b1f9c4a5045afa7acff675a88995",
+            "994983a93b0b0f4a03cef759b525e53138f83d55",
+            "3ef69f0a79861c54ed283d9febca0c7729d7ec5a",
+            "00baf18d6eec97b819d62c7fd20eb725eeaa640d",
+            "46f16271e24f20a47400232ac86f3f6ee5664007",
+            "98ebd4e61a0b152e5d98a2fbaee1ee7d238837b8",
+            "f26392d45b9ae1057dcb5c30575da719224e0732",
+            "1e37886e197fe64022ffe8645b8841d1be3930cc"
         ]
     },
     "authors": {
-        "MDQ6VXNlcjgxMTA5MTY1": {
-            "id": "MDQ6VXNlcjgxMTA5MTY1",
-            "user": "Hilderin",
-            "avatar": "https://avatars.githubusercontent.com/u/81109165?u=fce765c3b4c5f5a9c65a4bb0ca663b27ccf96d96&v=4",
-            "url": "https://github.com/Hilderin",
+        "MDQ6VXNlcjQ3MDEzMzg=": {
+            "id": "MDQ6VXNlcjQ3MDEzMzg=",
+            "user": "akien-mga",
+            "avatar": "https://avatars.githubusercontent.com/u/4701338?u=4a42fd867f2c449fcc23adf635dd574dae98e6c2&v=4",
+            "url": "https://github.com/akien-mga",
+            "pull_count": 6,
+            "commit_count": 15
+        },
+        "MDQ6VXNlcjMwMzg2MDY3": {
+            "id": "MDQ6VXNlcjMwMzg2MDY3",
+            "user": "Rindbee",
+            "avatar": "https://avatars.githubusercontent.com/u/30386067?u=aba5a323c950ddd46e8027fb0ced27b96d4856a1&v=4",
+            "url": "https://github.com/Rindbee",
+            "pull_count": 3,
+            "commit_count": 10
+        },
+        "MDQ6VXNlcjQ4ODQyNDY=": {
+            "id": "MDQ6VXNlcjQ4ODQyNDY=",
+            "user": "mihe",
+            "avatar": "https://avatars.githubusercontent.com/u/4884246?u=6bab84ad2a0262e5dec39c0c5e7a5b24d1c80c6b&v=4",
+            "url": "https://github.com/mihe",
             "pull_count": 4,
             "commit_count": 8
         },
@@ -262,8 +300,24 @@
             "user": "bruvzg",
             "avatar": "https://avatars.githubusercontent.com/u/7645683?u=2867ee7fcd920bc19b7d1cbf4b10264b9bbc9326&v=4",
             "url": "https://github.com/bruvzg",
-            "pull_count": 17,
-            "commit_count": 34
+            "pull_count": 18,
+            "commit_count": 36
+        },
+        "MDQ6VXNlcjE2ODc5MTg=": {
+            "id": "MDQ6VXNlcjE2ODc5MTg=",
+            "user": "Faless",
+            "avatar": "https://avatars.githubusercontent.com/u/1687918?v=4",
+            "url": "https://github.com/Faless",
+            "pull_count": 1,
+            "commit_count": 2
+        },
+        "MDQ6VXNlcjgxMTA5MTY1": {
+            "id": "MDQ6VXNlcjgxMTA5MTY1",
+            "user": "Hilderin",
+            "avatar": "https://avatars.githubusercontent.com/u/81109165?u=fce765c3b4c5f5a9c65a4bb0ca663b27ccf96d96&v=4",
+            "url": "https://github.com/Hilderin",
+            "pull_count": 4,
+            "commit_count": 8
         },
         "U_kgDOCouzNQ": {
             "id": "U_kgDOCouzNQ",
@@ -280,14 +334,6 @@
             "url": "https://github.com/jamie-pate",
             "pull_count": 2,
             "commit_count": 4
-        },
-        "MDQ6VXNlcjQ3MDEzMzg=": {
-            "id": "MDQ6VXNlcjQ3MDEzMzg=",
-            "user": "akien-mga",
-            "avatar": "https://avatars.githubusercontent.com/u/4701338?u=4a42fd867f2c449fcc23adf635dd574dae98e6c2&v=4",
-            "url": "https://github.com/akien-mga",
-            "pull_count": 5,
-            "commit_count": 8
         },
         "MDQ6VXNlcjI5MTIxOTI1": {
             "id": "MDQ6VXNlcjI5MTIxOTI1",
@@ -312,14 +358,6 @@
             "url": "https://github.com/aaronfranke",
             "pull_count": 2,
             "commit_count": 4
-        },
-        "MDQ6VXNlcjQ4ODQyNDY=": {
-            "id": "MDQ6VXNlcjQ4ODQyNDY=",
-            "user": "mihe",
-            "avatar": "https://avatars.githubusercontent.com/u/4884246?u=6bab84ad2a0262e5dec39c0c5e7a5b24d1c80c6b&v=4",
-            "url": "https://github.com/mihe",
-            "pull_count": 3,
-            "commit_count": 6
         },
         "MDQ6VXNlcjQwMzYxNjA5": {
             "id": "MDQ6VXNlcjQwMzYxNjA5",
@@ -352,14 +390,6 @@
             "url": "https://github.com/mikest",
             "pull_count": 1,
             "commit_count": 2
-        },
-        "MDQ6VXNlcjMwMzg2MDY3": {
-            "id": "MDQ6VXNlcjMwMzg2MDY3",
-            "user": "Rindbee",
-            "avatar": "https://avatars.githubusercontent.com/u/30386067?u=aba5a323c950ddd46e8027fb0ced27b96d4856a1&v=4",
-            "url": "https://github.com/Rindbee",
-            "pull_count": 2,
-            "commit_count": 8
         },
         "MDQ6VXNlcjYxOTM4MjYz": {
             "id": "MDQ6VXNlcjYxOTM4MjYz",
@@ -707,6 +737,216 @@
         }
     },
     "commits": {
+        "49a5bc7b616bd04689a2c89e89bda41f50241464": {
+            "hash": "49a5bc7b616bd04689a2c89e89bda41f50241464",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Bump version to 4.4.1-stable",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "21455d8351ada19ef5cb44b7370224fd8a8e39b6": {
+            "hash": "21455d8351ada19ef5cb44b7370224fd8a8e39b6",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Add changelog for 4.4.1",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "f63272561197b1f9c4a5045afa7acff675a88995": {
+            "hash": "f63272561197b1f9c4a5045afa7acff675a88995",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "i18n: Sync translations with Weblate (classref)",
+            "body": "Somehow missed in the previous commit.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "994983a93b0b0f4a03cef759b525e53138f83d55": {
+            "hash": "994983a93b0b0f4a03cef759b525e53138f83d55",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "i18n: Sync translations with Weblate",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "3ef69f0a79861c54ed283d9febca0c7729d7ec5a": {
+            "hash": "3ef69f0a79861c54ed283d9febca0c7729d7ec5a",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjMwMzg2MDY3"
+            ],
+            "author_raw": "Rindbee <idleman@yeah.net>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Fix editor crash when inspecting 2 objects handled by the same plugin",
+            "body": "Already activated plugins do not need to be added again to `editor_plugins_over`.\n\n`fold_resource()` changes `active_plugins` and is unsafe to call while iterating\nover `active_plugins`.\n\n(cherry picked from commit 411f4763198b14d38db1afd296853996b2a5599a)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "411f4763198b14d38db1afd296853996b2a5599a",
+            "pull": ""
+        },
+        "411f4763198b14d38db1afd296853996b2a5599a": {
+            "hash": "411f4763198b14d38db1afd296853996b2a5599a",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjMwMzg2MDY3"
+            ],
+            "author_raw": "Rindbee <idleman@yeah.net>",
+            "committer_raw": "Rindbee <idleman@yeah.net>",
+            "summary": "Fix editor crash when inspecting 2 objects handled by the same plugin",
+            "body": "Already activated plugins do not need to be added again to `editor_plugins_over`.\n\n`fold_resource()` changes `active_plugins` and is unsafe to call while iterating\nover `active_plugins`.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 104296
+        },
+        "00baf18d6eec97b819d62c7fd20eb725eeaa640d": {
+            "hash": "00baf18d6eec97b819d62c7fd20eb725eeaa640d",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ4ODQyNDY="
+            ],
+            "author_raw": "Mikael Hermansson <mikael@hermansson.io>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Fix `shape` always being zero with `get_rest_info` when using Jolt Physics",
+            "body": "(cherry picked from commit 4b5661758f9c4db3bc336029f92789c9d2597472)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "4b5661758f9c4db3bc336029f92789c9d2597472",
+            "pull": ""
+        },
+        "4b5661758f9c4db3bc336029f92789c9d2597472": {
+            "hash": "4b5661758f9c4db3bc336029f92789c9d2597472",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ4ODQyNDY="
+            ],
+            "author_raw": "Mikael Hermansson <mikael@hermansson.io>",
+            "committer_raw": "Mikael Hermansson <mikael@hermansson.io>",
+            "summary": "Fix `shape` always being zero with `get_rest_info` when using Jolt Physics",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 104599
+        },
+        "46f16271e24f20a47400232ac86f3f6ee5664007": {
+            "hash": "46f16271e24f20a47400232ac86f3f6ee5664007",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Disable broken Vulkan layers before running RenderingDevice tests.",
+            "body": "(cherry picked from commit 3358128dc213eb5823f04084be152e4b732d4599)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "3358128dc213eb5823f04084be152e4b732d4599",
+            "pull": ""
+        },
+        "3358128dc213eb5823f04084be152e4b732d4599": {
+            "hash": "3358128dc213eb5823f04084be152e4b732d4599",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "summary": "Disable broken Vulkan layers before running RenderingDevice tests.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 104572
+        },
+        "98ebd4e61a0b152e5d98a2fbaee1ee7d238837b8": {
+            "hash": "98ebd4e61a0b152e5d98a2fbaee1ee7d238837b8",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Vulkan: Re-enable Mesa device select layer",
+            "body": "We got this from RenderDoc which had an issue with it 5 years ago, but it's\nnot a given that Godot is also affected.\n\nThis layer is actually quite convenient to be able to change what default Vulkan\ncapable GPU should be used for applications via environment variables:\nhttps://docs.mesa3d.org/envvars.html#vulkan-mesa-device-select-layer-environment-variables\n\n(cherry picked from commit c9f0ab67015f1a88d87de634c1c62119b79ecc00)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "c9f0ab67015f1a88d87de634c1c62119b79ecc00",
+            "pull": ""
+        },
+        "c9f0ab67015f1a88d87de634c1c62119b79ecc00": {
+            "hash": "c9f0ab67015f1a88d87de634c1c62119b79ecc00",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Vulkan: Re-enable Mesa device select layer",
+            "body": "We got this from RenderDoc which had an issue with it 5 years ago, but it's\nnot a given that Godot is also affected.\n\nThis layer is actually quite convenient to be able to change what default Vulkan\ncapable GPU should be used for applications via environment variables:\nhttps://docs.mesa3d.org/envvars.html#vulkan-mesa-device-select-layer-environment-variables",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 104592
+        },
+        "f26392d45b9ae1057dcb5c30575da719224e0732": {
+            "hash": "f26392d45b9ae1057dcb5c30575da719224e0732",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "i18n: Sync translations with Weblate",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "1e37886e197fe64022ffe8645b8841d1be3930cc": {
+            "hash": "1e37886e197fe64022ffe8645b8841d1be3930cc",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE2ODc5MTg="
+            ],
+            "author_raw": "Fabio Alessandrelli <fabio.alessandrelli@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "mbedTLS: Update to version 3.6.3",
+            "body": "(cherry picked from commit 0b0655aee4c60e9ddf98ec80a20782554f798c57)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "0b0655aee4c60e9ddf98ec80a20782554f798c57",
+            "pull": ""
+        },
+        "0b0655aee4c60e9ddf98ec80a20782554f798c57": {
+            "hash": "0b0655aee4c60e9ddf98ec80a20782554f798c57",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE2ODc5MTg="
+            ],
+            "author_raw": "Fabio Alessandrelli <fabio.alessandrelli@gmail.com>",
+            "committer_raw": "Fabio Alessandrelli <fabio.alessandrelli@gmail.com>",
+            "summary": "mbedTLS: Update to version 3.6.3",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 104562
+        },
         "abef5e0d23a7f031ae7df90ccf49d650444b9685": {
             "hash": "abef5e0d23a7f031ae7df90ccf49d650444b9685",
             "is_merge": false,
@@ -7135,7 +7375,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjQwMzYxNjA5",
             "created_at": "2025-03-14T21:37:47Z",
-            "updated_at": "2025-03-18T13:16:58Z",
+            "updated_at": "2025-03-25T10:10:04Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -7368,12 +7608,12 @@
             "url": "https://github.com/godotengine/godot/pull/104249",
             "diff_url": "https://github.com/godotengine/godot/pull/104249.diff",
             "patch_url": "https://github.com/godotengine/godot/pull/104249.patch",
-            "title": "Correct occlusion culling viewport location calculation when projection uses asymmetric fov",
+            "title": "Correct occlusion culling viewport location calculation when projection uses asymmetric FOV",
             "state": "MERGED",
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjY4MjY1OA==",
             "created_at": "2025-03-16T18:27:51Z",
-            "updated_at": "2025-03-20T15:38:54Z",
+            "updated_at": "2025-03-21T18:01:06Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -7407,7 +7647,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
             "created_at": "2025-03-16T22:01:32Z",
-            "updated_at": "2025-03-19T11:56:23Z",
+            "updated_at": "2025-03-21T17:36:39Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -7423,11 +7663,6 @@
                 {
                     "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
                     "name": "topic:editor",
-                    "color": "#ffee88"
-                },
-                {
-                    "id": "MDU6TGFiZWwxNzMyNzIwNzc5",
-                    "name": "topic:gui",
                     "color": "#ffee88"
                 }
             ],
@@ -7506,6 +7741,40 @@
             ],
             "commits": [
                 "db5e843e468b7a69aeaebdf1e4159d2741b660fd"
+            ]
+        },
+        "104296": {
+            "id": "PR_kwDOAO6SJc6PBjjU",
+            "public_id": 104296,
+            "url": "https://github.com/godotengine/godot/pull/104296",
+            "diff_url": "https://github.com/godotengine/godot/pull/104296.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/104296.patch",
+            "title": "Fix editor crash when inspecting 2 objects handled by the same plugin",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjMwMzg2MDY3",
+            "created_at": "2025-03-18T02:52:36Z",
+            "updated_at": "2025-03-25T23:44:40Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzI3MzE4Mjcx",
+                    "name": "crash",
+                    "color": "#885544"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "411f4763198b14d38db1afd296853996b2a5599a"
             ]
         },
         "104301": {
@@ -7665,12 +7934,12 @@
             "url": "https://github.com/godotengine/godot/pull/104328",
             "diff_url": "https://github.com/godotengine/godot/pull/104328.diff",
             "patch_url": "https://github.com/godotengine/godot/pull/104328.patch",
-            "title": "Update mouse-entered state when subwindow closes (macOS display server)",
+            "title": "macOS: Update mouse-entered state when subwindow closes",
             "state": "MERGED",
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjI5MTIxOTI1",
             "created_at": "2025-03-18T19:30:14Z",
-            "updated_at": "2025-03-19T18:09:58Z",
+            "updated_at": "2025-03-21T17:36:13Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -7682,11 +7951,6 @@
                     "id": "MDU6TGFiZWwyNzkwOTc3ODA=",
                     "name": "platform:macos",
                     "color": "#e4e4e4"
-                },
-                {
-                    "id": "MDU6TGFiZWwxNzMyNzIwNzc5",
-                    "name": "topic:gui",
-                    "color": "#ffee88"
                 },
                 {
                     "id": "MDU6TGFiZWwyNzkwOTgyNTU=",
@@ -7960,6 +8224,152 @@
             ],
             "commits": [
                 "abe413ff8c8962be2063fa6659d3a0e53dd0e9ec"
+            ]
+        },
+        "104562": {
+            "id": "PR_kwDOAO6SJc6P6ldk",
+            "public_id": 104562,
+            "url": "https://github.com/godotengine/godot/pull/104562",
+            "diff_url": "https://github.com/godotengine/godot/pull/104562.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/104562.patch",
+            "title": "mbedTLS: Update to version 3.6.3",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE2ODc5MTg=",
+            "created_at": "2025-03-24T18:18:22Z",
+            "updated_at": "2025-03-25T15:46:50Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAABocF7RA",
+                    "name": "cherrypick:4.3",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwzNzA0NzE3OTU=",
+                    "name": "topic:thirdparty",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "0b0655aee4c60e9ddf98ec80a20782554f798c57"
+            ]
+        },
+        "104572": {
+            "id": "PR_kwDOAO6SJc6P7xuQ",
+            "public_id": 104572,
+            "url": "https://github.com/godotengine/godot/pull/104572",
+            "diff_url": "https://github.com/godotengine/godot/pull/104572.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/104572.patch",
+            "title": "Disable broken Vulkan layers before running RenderingDevice tests.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
+            "created_at": "2025-03-24T21:02:41Z",
+            "updated_at": "2025-03-25T22:14:41Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyMDU0MTc0MTM=",
+                    "name": "platform:windows",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "3358128dc213eb5823f04084be152e4b732d4599"
+            ]
+        },
+        "104592": {
+            "id": "PR_kwDOAO6SJc6QAb53",
+            "public_id": 104592,
+            "url": "https://github.com/godotengine/godot/pull/104592",
+            "diff_url": "https://github.com/godotengine/godot/pull/104592.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/104592.patch",
+            "title": "Vulkan: Re-enable Mesa device select layer",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjQ3MDEzMzg=",
+            "created_at": "2025-03-25T09:11:17Z",
+            "updated_at": "2025-03-25T22:14:14Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTczMjY=",
+                    "name": "platform:linuxbsd",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "c9f0ab67015f1a88d87de634c1c62119b79ecc00"
+            ]
+        },
+        "104599": {
+            "id": "PR_kwDOAO6SJc6QBzoZ",
+            "public_id": 104599,
+            "url": "https://github.com/godotengine/godot/pull/104599",
+            "diff_url": "https://github.com/godotengine/godot/pull/104599.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/104599.patch",
+            "title": "Fix `shape` always being zero with `get_rest_info` when using Jolt Physics",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjQ4ODQyNDY=",
+            "created_at": "2025-03-25T11:38:49Z",
+            "updated_at": "2025-03-26T09:46:05Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwzNzA0NzE4ODA=",
+                    "name": "topic:physics",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "4b5661758f9c4db3bc336029f92789c9d2597472"
             ]
         }
     }
