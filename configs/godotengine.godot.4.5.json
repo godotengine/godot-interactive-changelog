@@ -1,7 +1,7 @@
 {
     "name": "4.5",
     "git_tag": "master",
-    "ref": "28089c40c13597bf908802c61352c6fffe0a4465",
+    "ref": "19bb18716ef08b811fec330cba4d35fbdb027bcc",
     "from_ref": "4.4-stable",
     "article": "https://godotengine.org/article/dev-snapshot-godot-4-5-dev-4/",
 
