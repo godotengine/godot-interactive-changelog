@@ -1,6 +1,15 @@
 {
-    "generated_at": 1748505124579,
+    "generated_at": 1748856228958,
     "log": [
+        "64b09905c7b2877f8aef99d8b63e73e5d31acfb9",
+        "4bbef7dd0a85ed227dfcc59f6c9a5b01116475f8",
+        "626a75abb1f3393944bdc58e2e6b3fd48ee35519",
+        "2df41d8144685f0c951476a85d48479fa91eb558",
+        "bc2bf7de74f2ded1502b0e9fdbca50e3d986c09b",
+        "eb72ce2db4b67acbc77548e5a5a7f61af657660b",
+        "be1f9a878b733a9655b18767b8825baf67b4c8d8",
+        "a7d18f51a2806734858f238a0d101b8f8ac1db1b",
+        "798a644dd56257cea2803d03fb49aa7118e7df41",
         "b89c47bb8511433440e5e547afe4459ca3383090",
         "7cc0e6308dfc8989643b6712277626465da9fb1b",
         "a872e1bd3e9ba8ed2d1b111487067e8494e8aefb",
@@ -11,6 +20,7 @@
         "1a02eef39d10e7321b62e0d93d09cf90a1997b2f",
         "f8a478115db54cf5295e72cb3ec59f3d31eb1d86",
         "a6e296e361a81f24ca1b6eb1c1586231b23773e6",
+        "df70765af0b32299f9df155e485a503b9c410168",
         "e5ed038ad26e6905e8e32be6a63d678192557327",
         "cc7f2e516073d971d747bc57ab3ba4092cc57b51",
         "19226d77ed5ac06904e728b29f0a718ee599219b",
@@ -5150,6 +5160,15 @@
             "3b2d4ac156088d38aa86108c79a0850c880a617d"
         ],
         "dev5": [
+            "64b09905c7b2877f8aef99d8b63e73e5d31acfb9",
+            "4bbef7dd0a85ed227dfcc59f6c9a5b01116475f8",
+            "626a75abb1f3393944bdc58e2e6b3fd48ee35519",
+            "2df41d8144685f0c951476a85d48479fa91eb558",
+            "bc2bf7de74f2ded1502b0e9fdbca50e3d986c09b",
+            "eb72ce2db4b67acbc77548e5a5a7f61af657660b",
+            "be1f9a878b733a9655b18767b8825baf67b4c8d8",
+            "a7d18f51a2806734858f238a0d101b8f8ac1db1b",
+            "798a644dd56257cea2803d03fb49aa7118e7df41",
             "b89c47bb8511433440e5e547afe4459ca3383090",
             "7cc0e6308dfc8989643b6712277626465da9fb1b",
             "a872e1bd3e9ba8ed2d1b111487067e8494e8aefb",
@@ -5160,6 +5179,7 @@
             "1a02eef39d10e7321b62e0d93d09cf90a1997b2f",
             "f8a478115db54cf5295e72cb3ec59f3d31eb1d86",
             "a6e296e361a81f24ca1b6eb1c1586231b23773e6",
+            "df70765af0b32299f9df155e485a503b9c410168",
             "e5ed038ad26e6905e8e32be6a63d678192557327",
             "cc7f2e516073d971d747bc57ab3ba4092cc57b51",
             "19226d77ed5ac06904e728b29f0a718ee599219b",
@@ -5659,6 +5679,38 @@
         ]
     },
     "authors": {
+        "MDQ6VXNlcjMyMzIx": {
+            "id": "MDQ6VXNlcjMyMzIx",
+            "user": "fire",
+            "avatar": "https://avatars.githubusercontent.com/u/32321?u=c2e06a3d2b49a467aa907e54aa259516440267cc&v=4",
+            "url": "https://github.com/fire",
+            "pull_count": 2,
+            "commit_count": 4
+        },
+        "MDQ6VXNlcjE4MDAzMg==": {
+            "id": "MDQ6VXNlcjE4MDAzMg==",
+            "user": "Calinou",
+            "avatar": "https://avatars.githubusercontent.com/u/180032?v=4",
+            "url": "https://github.com/Calinou",
+            "pull_count": 34,
+            "commit_count": 35
+        },
+        "MDQ6VXNlcjgzNjQyNDI=": {
+            "id": "MDQ6VXNlcjgzNjQyNDI=",
+            "user": "marcosc90",
+            "avatar": "https://avatars.githubusercontent.com/u/8364242?u=23a35e2a4119145fb241f996706742710b3449f1&v=4",
+            "url": "https://github.com/marcosc90",
+            "pull_count": 5,
+            "commit_count": 5
+        },
+        "MDQ6VXNlcjc2NDU2ODM=": {
+            "id": "MDQ6VXNlcjc2NDU2ODM=",
+            "user": "bruvzg",
+            "avatar": "https://avatars.githubusercontent.com/u/7645683?u=2867ee7fcd920bc19b7d1cbf4b10264b9bbc9326&v=4",
+            "url": "https://github.com/bruvzg",
+            "pull_count": 143,
+            "commit_count": 148
+        },
         "MDQ6VXNlcjE2NTIxMzM5": {
             "id": "MDQ6VXNlcjE2NTIxMzM5",
             "user": "clayjohn",
@@ -5688,8 +5740,8 @@
             "user": "KoBeWi",
             "avatar": "https://avatars.githubusercontent.com/u/2223172?u=fc85633b469acb6e7baef4dba5171f19a2a4ff85&v=4",
             "url": "https://github.com/KoBeWi",
-            "pull_count": 88,
-            "commit_count": 93
+            "pull_count": 89,
+            "commit_count": 94
         },
         "MDQ6VXNlcjE5MTU2MQ==": {
             "id": "MDQ6VXNlcjE5MTU2MQ==",
@@ -5771,14 +5823,6 @@
             "pull_count": 0,
             "commit_count": 1
         },
-        "MDQ6VXNlcjc2NDU2ODM=": {
-            "id": "MDQ6VXNlcjc2NDU2ODM=",
-            "user": "bruvzg",
-            "avatar": "https://avatars.githubusercontent.com/u/7645683?u=2867ee7fcd920bc19b7d1cbf4b10264b9bbc9326&v=4",
-            "url": "https://github.com/bruvzg",
-            "pull_count": 142,
-            "commit_count": 147
-        },
         "MDQ6VXNlcjMwMzg2MDY3": {
             "id": "MDQ6VXNlcjMwMzg2MDY3",
             "user": "Rindbee",
@@ -5810,14 +5854,6 @@
             "url": "https://github.com/OzelotVanilla",
             "pull_count": 1,
             "commit_count": 1
-        },
-        "MDQ6VXNlcjE4MDAzMg==": {
-            "id": "MDQ6VXNlcjE4MDAzMg==",
-            "user": "Calinou",
-            "avatar": "https://avatars.githubusercontent.com/u/180032?v=4",
-            "url": "https://github.com/Calinou",
-            "pull_count": 33,
-            "commit_count": 34
         },
         "MDQ6VXNlcjE2ODc5MTg=": {
             "id": "MDQ6VXNlcjE2ODc5MTg=",
@@ -6089,14 +6125,6 @@
             "avatar": "https://avatars.githubusercontent.com/u/56677134?u=5509776c13b4c52381b02d1f1d47e5a8d10a1c1c&v=4",
             "url": "https://github.com/chocola-mint",
             "pull_count": 3,
-            "commit_count": 3
-        },
-        "MDQ6VXNlcjMyMzIx": {
-            "id": "MDQ6VXNlcjMyMzIx",
-            "user": "fire",
-            "avatar": "https://avatars.githubusercontent.com/u/32321?u=c2e06a3d2b49a467aa907e54aa259516440267cc&v=4",
-            "url": "https://github.com/fire",
-            "pull_count": 1,
             "commit_count": 3
         },
         "MDQ6VXNlcjQzNTQzOTA5": {
@@ -6690,14 +6718,6 @@
             "url": "https://github.com/koolaidxk1d",
             "pull_count": 1,
             "commit_count": 1
-        },
-        "MDQ6VXNlcjgzNjQyNDI=": {
-            "id": "MDQ6VXNlcjgzNjQyNDI=",
-            "user": "marcosc90",
-            "avatar": "https://avatars.githubusercontent.com/u/8364242?u=23a35e2a4119145fb241f996706742710b3449f1&v=4",
-            "url": "https://github.com/marcosc90",
-            "pull_count": 4,
-            "commit_count": 4
         },
         "MDQ6VXNlcjYwOTMxMTk=": {
             "id": "MDQ6VXNlcjYwOTMxMTk=",
@@ -8061,6 +8081,122 @@
         }
     },
     "commits": {
+        "64b09905c7b2877f8aef99d8b63e73e5d31acfb9": {
+            "hash": "64b09905c7b2877f8aef99d8b63e73e5d31acfb9",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #106999 from fire/vsk-does-not-declare-anything-4.5",
+            "body": "Avoid `-Wmissing-declarations` warning in RenderingShaderContainer",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "4bbef7dd0a85ed227dfcc59f6c9a5b01116475f8": {
+            "hash": "4bbef7dd0a85ed227dfcc59f6c9a5b01116475f8",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #106942 from bruvzg/macos_borderless_maximize",
+            "body": "[macOS] Fix borderless window maximization.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "626a75abb1f3393944bdc58e2e6b3fd48ee35519": {
+            "hash": "626a75abb1f3393944bdc58e2e6b3fd48ee35519",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #106915 from KoBeWi/invalid_reservation",
+            "body": "Fix `SCROLL_MODE_RESERVE` with RTL layout",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "2df41d8144685f0c951476a85d48479fa91eb558": {
+            "hash": "2df41d8144685f0c951476a85d48479fa91eb558",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #104458 from marcosc90/fix-thread-collision-shape-3d",
+            "body": "[Web] Use actual `PThread` pool size for `get_default_thread_pool_size()`",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "bc2bf7de74f2ded1502b0e9fdbca50e3d986c09b": {
+            "hash": "bc2bf7de74f2ded1502b0e9fdbca50e3d986c09b",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjMyMzIx"
+            ],
+            "author_raw": "K. S. Ernest (iFire) Lee <ernest.lee@chibifire.com>",
+            "committer_raw": "K. S. Ernest (iFire) Lee <ernest.lee@chibifire.com>",
+            "summary": "Avoid -Wmissing-declarations warning in RenderingShaderContainer",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 106999
+        },
+        "eb72ce2db4b67acbc77548e5a5a7f61af657660b": {
+            "hash": "eb72ce2db4b67acbc77548e5a5a7f61af657660b",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #59595 from Calinou/scons-use-sse4.2",
+            "body": "Use SSE 4.2 as a baseline when compiling Godot",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "be1f9a878b733a9655b18767b8825baf67b4c8d8": {
+            "hash": "be1f9a878b733a9655b18767b8825baf67b4c8d8",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE4MDAzMg=="
+            ],
+            "author_raw": "Hugo Locurcio <hugo.locurcio@hugo.pro>",
+            "committer_raw": "Hugo Locurcio <hugo.locurcio@hugo.pro>",
+            "summary": "Use SSE 4.2 as a baseline when compiling Godot",
+            "body": "This lets the compiler do more optimizations, leading to increased\nperformance for demanding CPU tasks.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 59595
+        },
+        "a7d18f51a2806734858f238a0d101b8f8ac1db1b": {
+            "hash": "a7d18f51a2806734858f238a0d101b8f8ac1db1b",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjgzNjQyNDI="
+            ],
+            "author_raw": "Marcos Casagrande <marcoscvp90@gmail.com>",
+            "committer_raw": "Marcos Casagrande <marcoscvp90@gmail.com>",
+            "summary": "Web: Add godot_pool_size/emscripten_pool_size config",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 104458
+        },
+        "798a644dd56257cea2803d03fb49aa7118e7df41": {
+            "hash": "798a644dd56257cea2803d03fb49aa7118e7df41",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "summary": "[macOS] Fix borderless window maximization.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 106942
+        },
         "b89c47bb8511433440e5e547afe4459ca3383090": {
             "hash": "b89c47bb8511433440e5e547afe4459ca3383090",
             "is_merge": true,
@@ -8186,6 +8322,20 @@
             "is_cherrypick": false,
             "cherrypick_hash": "",
             "pull": ""
+        },
+        "df70765af0b32299f9df155e485a503b9c410168": {
+            "hash": "df70765af0b32299f9df155e485a503b9c410168",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIyMjMxNzI="
+            ],
+            "author_raw": "Tomasz Chabora <kobewi4e@gmail.com>",
+            "committer_raw": "Tomasz Chabora <kobewi4e@gmail.com>",
+            "summary": "Fix SCROLL_MODE_RESERVE with RTL layout",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 106915
         },
         "e5ed038ad26e6905e8e32be6a63d678192557327": {
             "hash": "e5ed038ad26e6905e8e32be6a63d678192557327",
@@ -44872,6 +45022,55 @@
         }
     },
     "pulls": {
+        "59595": {
+            "id": "PR_kwDOAO6SJc41HTKf",
+            "public_id": 59595,
+            "url": "https://github.com/godotengine/godot/pull/59595",
+            "diff_url": "https://github.com/godotengine/godot/pull/59595.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/59595.patch",
+            "title": "Use SSE 4.2 as a baseline when compiling Godot",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE4MDAzMg==",
+            "created_at": "2022-03-27T18:25:45Z",
+            "updated_at": "2025-05-31T00:08:39Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwzMjQwOTUwMDYw",
+                    "name": "performance",
+                    "color": "#447777"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTczMjY=",
+                    "name": "platform:linuxbsd",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc3ODA=",
+                    "name": "platform:macos",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyMDU0MTc0MTM=",
+                    "name": "platform:windows",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "be1f9a878b733a9655b18767b8825baf67b4c8d8"
+            ]
+        },
         "60143": {
             "id": "PR_kwDOAO6SJc42Aizv",
             "public_id": 60143,
@@ -49348,7 +49547,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjIyMjMxNzI=",
             "created_at": "2024-11-22T14:54:32Z",
-            "updated_at": "2025-04-11T15:01:26Z",
+            "updated_at": "2025-05-30T21:30:11Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -54221,7 +54420,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjUzODUwNA==",
             "created_at": "2025-02-07T18:37:29Z",
-            "updated_at": "2025-05-29T06:26:34Z",
+            "updated_at": "2025-05-31T19:00:54Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -58759,7 +58958,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjc1OTQxODQy",
             "created_at": "2025-03-04T17:45:32Z",
-            "updated_at": "2025-05-27T14:51:19Z",
+            "updated_at": "2025-05-29T10:50:24Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -60673,9 +60872,24 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE2NTIxMzM5",
             "created_at": "2025-03-08T06:53:31Z",
-            "updated_at": "2025-03-10T05:51:10Z",
+            "updated_at": "2025-06-02T05:44:31Z",
             "target_branch": "master",
             "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAAB4iS2Xw",
+                    "name": "cherrypick:4.4",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzI3MzE4Mjcx",
+                    "name": "crash",
+                    "color": "#885544"
+                },
                 {
                     "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
                     "name": "enhancement",
@@ -68054,6 +68268,55 @@
             ],
             "commits": [
                 "09e7bef0e002a533f46a40238e6ac9d27dc62912"
+            ]
+        },
+        "104458": {
+            "id": "PR_kwDOAO6SJc6PqwuU",
+            "public_id": 104458,
+            "url": "https://github.com/godotengine/godot/pull/104458",
+            "diff_url": "https://github.com/godotengine/godot/pull/104458.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/104458.patch",
+            "title": "[Web] Use actual `PThread` pool size for `get_default_thread_pool_size()`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjgzNjQyNDI=",
+            "created_at": "2025-03-21T19:30:08Z",
+            "updated_at": "2025-05-31T22:33:34Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMTYxNzI2NDA1",
+                    "name": "high priority",
+                    "color": "#7956a5"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc0NTU=",
+                    "name": "platform:web",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyOTA5OTAwODUw",
+                    "name": "topic:export",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwzNzA0NzE4ODA=",
+                    "name": "topic:physics",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "a7d18f51a2806734858f238a0d101b8f8ac1db1b"
             ]
         },
         "104461": {
@@ -80885,7 +81148,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjYxOTM4MjYz",
             "created_at": "2025-04-24T10:20:26Z",
-            "updated_at": "2025-05-19T13:04:44Z",
+            "updated_at": "2025-06-01T06:46:26Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -80897,6 +81160,11 @@
                     "id": "MDU6TGFiZWw3MzMzMDA2NA==",
                     "name": "bug",
                     "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAAB4iS2Xw",
+                    "name": "cherrypick:4.4",
+                    "color": "#446699"
                 },
                 {
                     "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
@@ -81789,13 +82057,18 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjI3Mjk3Mzkx",
             "created_at": "2025-04-26T09:00:44Z",
-            "updated_at": "2025-04-28T00:27:19Z",
+            "updated_at": "2025-06-01T06:44:42Z",
             "target_branch": "master",
             "labels": [
                 {
                     "id": "MDU6TGFiZWw3MzMzMDA2NA==",
                     "name": "bug",
                     "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAAB4iS2Xw",
+                    "name": "cherrypick:4.4",
+                    "color": "#446699"
                 },
                 {
                     "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
@@ -85247,7 +85520,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjM2NDA3OQ==",
             "created_at": "2025-05-06T15:33:57Z",
-            "updated_at": "2025-05-07T17:54:49Z",
+            "updated_at": "2025-05-29T08:01:58Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -90584,7 +90857,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjQ4ODQyNDY=",
             "created_at": "2025-05-21T20:25:20Z",
-            "updated_at": "2025-05-28T18:06:28Z",
+            "updated_at": "2025-05-29T14:32:22Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -90623,7 +90896,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjUyODUy",
             "created_at": "2025-05-21T21:28:26Z",
-            "updated_at": "2025-05-22T17:22:45Z",
+            "updated_at": "2025-05-29T19:30:55Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -91572,7 +91845,7 @@
             "is_draft": false,
             "authored_by": "U_kgDOCouzNQ",
             "created_at": "2025-05-26T00:49:45Z",
-            "updated_at": "2025-05-28T00:52:24Z",
+            "updated_at": "2025-05-30T10:32:00Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -91830,7 +92103,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjQ4OTI2NDY0",
             "created_at": "2025-05-26T20:25:58Z",
-            "updated_at": "2025-05-28T14:48:54Z",
+            "updated_at": "2025-05-29T16:55:27Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -92201,7 +92474,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjM3MjQ3Ng==",
             "created_at": "2025-05-28T02:21:25Z",
-            "updated_at": "2025-05-29T00:39:30Z",
+            "updated_at": "2025-05-29T09:49:03Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -92326,6 +92599,35 @@
                 "cc7f2e516073d971d747bc57ab3ba4092cc57b51"
             ]
         },
+        "106915": {
+            "id": "PR_kwDOAO6SJc6YB8rL",
+            "public_id": 106915,
+            "url": "https://github.com/godotengine/godot/pull/106915",
+            "diff_url": "https://github.com/godotengine/godot/pull/106915.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/106915.patch",
+            "title": "Fix `SCROLL_MODE_RESERVE` with RTL layout",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIyMjMxNzI=",
+            "created_at": "2025-05-28T21:25:10Z",
+            "updated_at": "2025-05-31T22:37:46Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxNzMyNzIwNzc5",
+                    "name": "topic:gui",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "df70765af0b32299f9df155e485a503b9c410168"
+            ]
+        },
         "106920": {
             "id": "PR_kwDOAO6SJc6YCnYL",
             "public_id": 106920,
@@ -92371,7 +92673,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE2NTIxMzM5",
             "created_at": "2025-05-29T05:14:20Z",
-            "updated_at": "2025-05-29T07:46:11Z",
+            "updated_at": "2025-05-29T08:06:56Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -92405,7 +92707,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjUyODUy",
             "created_at": "2025-05-29T06:03:19Z",
-            "updated_at": "2025-05-29T07:46:13Z",
+            "updated_at": "2025-05-29T19:25:40Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -92426,6 +92728,79 @@
             ],
             "commits": [
                 "06ebcc911dc78eab4b7608ef4e8c7dfcbe9f7047"
+            ]
+        },
+        "106942": {
+            "id": "PR_kwDOAO6SJc6YL3kX",
+            "public_id": 106942,
+            "url": "https://github.com/godotengine/godot/pull/106942",
+            "diff_url": "https://github.com/godotengine/godot/pull/106942.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/106942.patch",
+            "title": "[macOS] Fix borderless window maximization.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
+            "created_at": "2025-05-29T21:14:59Z",
+            "updated_at": "2025-05-31T22:33:02Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc3ODA=",
+                    "name": "platform:macos",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwxNzMyNzIwNzc5",
+                    "name": "topic:gui",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyNTU=",
+                    "name": "topic:porting",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "798a644dd56257cea2803d03fb49aa7118e7df41"
+            ]
+        },
+        "106999": {
+            "id": "PR_kwDOAO6SJc6YaiTL",
+            "public_id": 106999,
+            "url": "https://github.com/godotengine/godot/pull/106999",
+            "diff_url": "https://github.com/godotengine/godot/pull/106999.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/106999.patch",
+            "title": "Avoid `-Wmissing-declarations` warning in RenderingShaderContainer",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjMyMzIx",
+            "created_at": "2025-05-31T19:05:03Z",
+            "updated_at": "2025-06-01T00:53:04Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "bc2bf7de74f2ded1502b0e9fdbca50e3d986c09b"
             ]
         }
     }
