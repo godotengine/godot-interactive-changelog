@@ -1,9 +1,8 @@
 {
     "name": "4.4",
-    "git_tag": "master",
-    "ref": "06acfccf89ad6b900ae694a4d58ceade1967a85f",
+    "ref": "4.4-stable",
     "from_ref": "4.3-stable",
-    "article": "https://godotengine.org/article/dev-snapshot-godot-4-4-beta-3/",
+    "article": "https://godotengine.org/releases/4.4/",
 
     "releases": [
         {
@@ -65,6 +64,36 @@
             "ref": "06acfccf89ad6b900ae694a4d58ceade1967a85f",
             "from_ref": "a013481b0911e59cc3f3dea7ebb732450c3e1460",
             "article": "https://godotengine.org/article/dev-snapshot-godot-4-4-beta-3/"
+        },
+        {
+            "name": "beta4",
+            "ref": "93d270693079ea7802c9e1334a2e0ecd8529eeed",
+            "from_ref": "06acfccf89ad6b900ae694a4d58ceade1967a85f",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-4-beta-4/"
+        },
+        {
+            "name": "rc1",
+            "ref": "8ed125b42908d0d46d3b8967e3a3bc03f809b3af",
+            "from_ref": "93d270693079ea7802c9e1334a2e0ecd8529eeed",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-4-rc-1/"
+        },
+        {
+            "name": "rc2",
+            "ref": "01545c995b0612c68f9dfce8f6cc67576c298381",
+            "from_ref": "8ed125b42908d0d46d3b8967e3a3bc03f809b3af",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-4-rc-2/"
+        },
+        {
+            "name": "rc3",
+            "ref": "15ff450680a40391aabbffde0a57ead2cd84db56",
+            "from_ref": "01545c995b0612c68f9dfce8f6cc67576c298381",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-4-rc-3/"
+        },
+        {
+            "name": "stable",
+            "ref": "4.4-stable",
+            "from_ref": "15ff450680a40391aabbffde0a57ead2cd84db56",
+            "article": "https://godotengine.org/releases/4.4/"
         }
     ]
 }

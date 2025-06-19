@@ -1,0 +1,46 @@
+{
+    "name": "4.5",
+    "git_tag": "master",
+    "ref": "46c495ca21f40f57a7fb9c7cde6143738f1652d4",
+    "from_ref": "4.4-stable",
+    "article": "https://godotengine.org/article/dev-snapshot-godot-4-5-beta-1/",
+
+    "releases": [
+        {
+            "name": "dev1",
+            "ref": "97241ffea6df579347653a8ce0c75db44e28f0c8",
+            "from_ref": "4.4-stable",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-5-dev-1/"
+        },
+        {
+            "name": "dev2",
+            "ref": "af2c713971499953373380b9ae8673f64423bd59",
+            "from_ref": "97241ffea6df579347653a8ce0c75db44e28f0c8",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-5-dev-2/"
+        },
+        {
+            "name": "dev3",
+            "ref": "28089c40c13597bf908802c61352c6fffe0a4465",
+            "from_ref": "af2c713971499953373380b9ae8673f64423bd59",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-5-dev-3/"
+        },
+        {
+            "name": "dev4",
+            "ref": "209a446e3657e6fd736b9b7589b94cbdaad2d854",
+            "from_ref": "28089c40c13597bf908802c61352c6fffe0a4465",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-5-dev-4/"
+        },
+        {
+            "name": "dev5",
+            "ref": "64b09905c7b2877f8aef99d8b63e73e5d31acfb9",
+            "from_ref": "209a446e3657e6fd736b9b7589b94cbdaad2d854",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-5-dev-5/"
+        },
+        {
+            "name": "beta1",
+            "ref": "46c495ca21f40f57a7fb9c7cde6143738f1652d4",
+            "from_ref": "64b09905c7b2877f8aef99d8b63e73e5d31acfb9",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-5-beta-1/"
+        }
+    ]
+}
