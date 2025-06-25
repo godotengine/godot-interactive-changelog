@@ -1,5 +1,5 @@
 {
-    "name": "3.6",
+    "name": "3.6.1",
     "ref": "3.6.1-stable",
     "from_ref": "3.6-stable",
     "article": "https://godotengine.org/article/maintenance-release-godot-3-6-1/",
