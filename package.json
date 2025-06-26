@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "build": "rollup -c",
-    "compose-db": "node ./compose-db.js",
+    "compose-db": "node --env-file-if-exists=./.env ./compose-db.js",
     "publish-db": "node ./publish-db.js"
   },
   "author": "Yuri Sizov <yuris@humnom.net>",
