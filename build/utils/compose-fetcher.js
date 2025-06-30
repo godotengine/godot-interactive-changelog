@@ -161,6 +161,10 @@ class DataFetcher {
             init.headers["Authorization"] = `token ${process.env.GRAPHQL_TOKEN}`;
         } else if (process.env.GITHUB_TOKEN) {
             init.headers["Authorization"] = `token ${process.env.GITHUB_TOKEN}`;
+        } else {
+            console.error("    Unable to find environment variable: `GRAPHQL_TOKEN`. Did you forget to set it in your local environment or a root `.env` file?");
+            process.exitCode = buildCommon.ExitCodes.ParseFailure;
+            return [null, null];
         }
 
         init.body = JSON.stringify({
@@ -204,6 +208,10 @@ class DataFetcher {
             init.headers["Authorization"] = `token ${process.env.GRAPHQL_TOKEN}`;
         } else if (process.env.GITHUB_TOKEN) {
             init.headers["Authorization"] = `token ${process.env.GITHUB_TOKEN}`;
+        } else {
+            console.error("    Unable to find environment variable: `GRAPHQL_TOKEN`. Did you forget to set it in your local environment or a root `.env` file?");
+            process.exitCode = buildCommon.ExitCodes.ParseFailure;
+            return null;
         }
 
         return await fetch(`${this.api_rest_path}${query}`, init);
@@ -218,7 +226,9 @@ class DataFetcher {
             `;
 
             const [res, data] = await this.fetchGithub(query);
-            if (res.status !== 200 || data === null) {
+            if (res === null) {
+                return;
+            } else if (res.status !== 200 || data === null) {
                 this._handleResponseErrors(this.api_repository_id, res);
                 process.exitCode = buildCommon.ExitCodes.RequestFailure;
                 return;
@@ -323,7 +333,9 @@ class DataFetcher {
             console.log(`    Requesting batch ${page}/${totalPages} of commit and pull request data.`);
 
             const [res, data] = await this.fetchGithub(query, API_MAX_RETRIES);
-            if (res.status !== 200 || data === null) {
+            if (res === null) {
+                return;
+            } else if (res.status !== 200 || data === null) {
                 this._handleResponseErrors(this.api_repository_id, res);
                 process.exitCode = buildCommon.ExitCodes.RequestFailure;
                 return [];
