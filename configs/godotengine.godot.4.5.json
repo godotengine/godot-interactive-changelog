@@ -1,9 +1,9 @@
 {
     "name": "4.5",
     "git_tag": "master",
-    "ref": "2dd26a027a99633231184616d4dd287bbdd1c0a3",
+    "ref": "4.5-stable",
     "from_ref": "4.4-stable",
-    "article": "https://godotengine.org/article/release-candidate-godot-4-5-rc-2/",
+    "article": "https://godotengine.org/releases/4.5/",
 
     "releases": [
         {
@@ -89,6 +89,12 @@
             "ref": "2dd26a027a99633231184616d4dd287bbdd1c0a3",
             "from_ref": "6c9aa4c7d3b9b91cd50714c40eeb234874df7075",
             "article": "https://godotengine.org/article/release-candidate-godot-4-5-rc-2/"
+        },
+        {
+            "name": "stable",
+            "ref": "4.5-stable",
+            "from_ref": "2dd26a027a99633231184616d4dd287bbdd1c0a3",
+            "article": "https://godotengine.org/releases/4.5/"
         }
     ]
 }
