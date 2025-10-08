@@ -2,7 +2,7 @@
     "name": "4.5.1",
     "ref": "4.5",
     "from_ref": "4.5-stable",
-    "article": "https://godotengine.org/article/release-candidate-godot-4-5-1-rc-1/",
+    "article": "https://godotengine.org/article/release-candidate-godot-4-5-1-rc-2/",
 
     "releases": [
         {
@@ -10,6 +10,12 @@
             "ref": "c834443ef1fa3516e30124d8afaf448353d31010",
             "from_ref": "4.5-stable",
             "article": "https://godotengine.org/article/release-candidate-godot-4-5-1-rc-1/"
+        },
+        {
+            "name": "rc2",
+            "ref": "69796bf7d67599b21308fb54723ed53a84e2e335",
+            "from_ref": "c834443ef1fa3516e30124d8afaf448353d31010",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-5-1-rc-2/"
         }
     ]
 }
