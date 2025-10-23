@@ -1,0 +1,1141 @@
+{
+    "generated_at": 1761208465575,
+    "log": [
+        "3cd3caab6779a7f3ec3bbeb9f200db50c735cfc8",
+        "93e575bea306203b605260c2702f995f0dcf5f99",
+        "5b30aa5e1ab380249a3a8c7771984ffba94eb4b2",
+        "6b8948b3c6f2c4a8176817bfc78a79c69d4e914d",
+        "ed879eb87b1d4cd8c100815f7061bf93511b6611",
+        "537cc776542dc09026224ca66ef6b37ad1173518",
+        "6bc378e13c769f74e43c17cf270d889e4e9da499",
+        "9ca84aa90030d4a39f9f922b0d78d91d50b2f390",
+        "639d133ff6e23c06819210fe913bdcd99d1ee65d",
+        "b18d22f276cf14178bc854cb1312a5f91531d05a",
+        "862d8707f53ec2e2306895ffd2dcf26081b0e148",
+        "6f2f053234f6b20b5bb369e3ef109970e13104d2",
+        "08abae73519df250322728a4405fcca55d8c36f2",
+        "dbc2ce8eb0c8050350a68c38ad8edc5c32a7c631",
+        "da3795b199e69108fabef691a780aadba91b304a",
+        "0d1f294c58ac5747cbb99c4dce355080d12265b6",
+        "21230fda3e07712bc9859fdada52a2bf7492a1f0",
+        "ec635fdfd78a9b7554a4cd76aa9690b2d83cbd2a",
+        "137691b9006aead270fa17f5eaeddba0b7c2dc42",
+        "7f6ca57b72a944052c1627be0c72a61c0b31d07b"
+    ],
+    "release_logs": {
+        "stable": [
+            "3cd3caab6779a7f3ec3bbeb9f200db50c735cfc8",
+            "93e575bea306203b605260c2702f995f0dcf5f99",
+            "5b30aa5e1ab380249a3a8c7771984ffba94eb4b2",
+            "6b8948b3c6f2c4a8176817bfc78a79c69d4e914d",
+            "ed879eb87b1d4cd8c100815f7061bf93511b6611",
+            "537cc776542dc09026224ca66ef6b37ad1173518",
+            "6bc378e13c769f74e43c17cf270d889e4e9da499",
+            "9ca84aa90030d4a39f9f922b0d78d91d50b2f390",
+            "639d133ff6e23c06819210fe913bdcd99d1ee65d",
+            "b18d22f276cf14178bc854cb1312a5f91531d05a",
+            "862d8707f53ec2e2306895ffd2dcf26081b0e148",
+            "6f2f053234f6b20b5bb369e3ef109970e13104d2",
+            "08abae73519df250322728a4405fcca55d8c36f2",
+            "dbc2ce8eb0c8050350a68c38ad8edc5c32a7c631",
+            "da3795b199e69108fabef691a780aadba91b304a",
+            "0d1f294c58ac5747cbb99c4dce355080d12265b6",
+            "21230fda3e07712bc9859fdada52a2bf7492a1f0",
+            "ec635fdfd78a9b7554a4cd76aa9690b2d83cbd2a",
+            "137691b9006aead270fa17f5eaeddba0b7c2dc42",
+            "7f6ca57b72a944052c1627be0c72a61c0b31d07b"
+        ]
+    },
+    "authors": {
+        "MDQ6VXNlcjQ3MDEzMzg=": {
+            "id": "MDQ6VXNlcjQ3MDEzMzg=",
+            "user": "akien-mga",
+            "avatar": "https://avatars.githubusercontent.com/u/4701338?u=4a42fd867f2c449fcc23adf635dd574dae98e6c2&v=4",
+            "url": "https://github.com/akien-mga",
+            "pull_count": 1,
+            "commit_count": 8
+        },
+        "MDQ6VXNlcjIxOTk5Mzc5": {
+            "id": "MDQ6VXNlcjIxOTk5Mzc5",
+            "user": "lawnjelly",
+            "avatar": "https://avatars.githubusercontent.com/u/21999379?u=2b8b17ce969861380874563b333a546e0bbaab56&v=4",
+            "url": "https://github.com/lawnjelly",
+            "pull_count": 3,
+            "commit_count": 5
+        },
+        "MDQ6VXNlcjc2NDU2ODM=": {
+            "id": "MDQ6VXNlcjc2NDU2ODM=",
+            "user": "bruvzg",
+            "avatar": "https://avatars.githubusercontent.com/u/7645683?u=2867ee7fcd920bc19b7d1cbf4b10264b9bbc9326&v=4",
+            "url": "https://github.com/bruvzg",
+            "pull_count": 1,
+            "commit_count": 2
+        },
+        "MDQ6VXNlcjM3MjQ3Ng==": {
+            "id": "MDQ6VXNlcjM3MjQ3Ng==",
+            "user": "timothyqiu",
+            "avatar": "https://avatars.githubusercontent.com/u/372476?v=4",
+            "url": "https://github.com/timothyqiu",
+            "pull_count": 1,
+            "commit_count": 2
+        },
+        "MDQ6VXNlcjYzMDA5NzM=": {
+            "id": "MDQ6VXNlcjYzMDA5NzM=",
+            "user": "twrightsman",
+            "avatar": "https://avatars.githubusercontent.com/u/6300973?v=4",
+            "url": "https://github.com/twrightsman",
+            "pull_count": 1,
+            "commit_count": 2
+        },
+        "MDQ6VXNlcjE1MTAwODgx": {
+            "id": "MDQ6VXNlcjE1MTAwODgx",
+            "user": "InfoDevkota",
+            "avatar": "https://avatars.githubusercontent.com/u/15100881?u=d59729535ebfadf7af75a54663fc5b70ec06d218&v=4",
+            "url": "https://github.com/InfoDevkota",
+            "pull_count": 1,
+            "commit_count": 2
+        },
+        "MDQ6VXNlcjE4MDAzMg==": {
+            "id": "MDQ6VXNlcjE4MDAzMg==",
+            "user": "Calinou",
+            "avatar": "https://avatars.githubusercontent.com/u/180032?v=4",
+            "url": "https://github.com/Calinou",
+            "pull_count": 1,
+            "commit_count": 2
+        },
+        "U_kgDOCouzNQ": {
+            "id": "U_kgDOCouzNQ",
+            "user": "syntaxerror247",
+            "avatar": "https://avatars.githubusercontent.com/u/176927541?u=25817fe797fcc7a812ba9d7f58f593f5a003abbb&v=4",
+            "url": "https://github.com/syntaxerror247",
+            "pull_count": 1,
+            "commit_count": 2
+        },
+        "MDQ6VXNlcjY2MDA0Mjgw": {
+            "id": "MDQ6VXNlcjY2MDA0Mjgw",
+            "user": "Maran23",
+            "avatar": "https://avatars.githubusercontent.com/u/66004280?u=8ee6748fb50032314335b968b0a18966c1326db6&v=4",
+            "url": "https://github.com/Maran23",
+            "pull_count": 1,
+            "commit_count": 2
+        },
+        "MDQ6VXNlcjE0ODYxMg==": {
+            "id": "MDQ6VXNlcjE0ODYxMg==",
+            "user": "WolfgangSenff",
+            "avatar": "https://avatars.githubusercontent.com/u/148612?u=30bd88ceee288169e9db370dccf5f26b73fa3fb6&v=4",
+            "url": "https://github.com/WolfgangSenff",
+            "pull_count": 1,
+            "commit_count": 4
+        },
+        "MDQ6VXNlcjU4NDY4NTE5": {
+            "id": "MDQ6VXNlcjU4NDY4NTE5",
+            "user": "kilian-diener",
+            "avatar": "https://avatars.githubusercontent.com/u/58468519?v=4",
+            "url": "https://github.com/kilian-diener",
+            "pull_count": 1,
+            "commit_count": 2
+        },
+        "MDQ6VXNlcjMwNTQxMTgz": {
+            "id": "MDQ6VXNlcjMwNTQxMTgz",
+            "user": "brno32",
+            "avatar": "https://avatars.githubusercontent.com/u/30541183?u=424fe722e836a2bf9f14cb72d6fc83a3b69d3759&v=4",
+            "url": "https://github.com/brno32",
+            "pull_count": 0,
+            "commit_count": 1
+        },
+        "MDQ6VXNlcjE2ODc5MTg=": {
+            "id": "MDQ6VXNlcjE2ODc5MTg=",
+            "user": "Faless",
+            "avatar": "https://avatars.githubusercontent.com/u/1687918?v=4",
+            "url": "https://github.com/Faless",
+            "pull_count": 1,
+            "commit_count": 2
+        },
+        "MDQ6VXNlcjExMzM4OTI=": {
+            "id": "MDQ6VXNlcjExMzM4OTI=",
+            "user": "anvilfolk",
+            "avatar": "https://avatars.githubusercontent.com/u/1133892?u=f7b9e7e46e23ecc739f717e262e406f139e7a3c1&v=4",
+            "url": "https://github.com/anvilfolk",
+            "pull_count": 0,
+            "commit_count": 2
+        }
+    },
+    "commits": {
+        "3cd3caab6779a7f3ec3bbeb9f200db50c735cfc8": {
+            "hash": "3cd3caab6779a7f3ec3bbeb9f200db50c735cfc8",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Bump version to 3.6.2-stable \\o/",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "93e575bea306203b605260c2702f995f0dcf5f99": {
+            "hash": "93e575bea306203b605260c2702f995f0dcf5f99",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Update changelog for 3.6.2",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "5b30aa5e1ab380249a3a8c7771984ffba94eb4b2": {
+            "hash": "5b30aa5e1ab380249a3a8c7771984ffba94eb4b2",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Sync AUTHORS and DONORS with master branch",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "6b8948b3c6f2c4a8176817bfc78a79c69d4e914d": {
+            "hash": "6b8948b3c6f2c4a8176817bfc78a79c69d4e914d",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "mbedTLS: Update to version 3.6.5",
+            "body": "(cherry picked from commit 9de2837cd521f92ad3f18bbe1f1e7d33f10d893e)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "9de2837cd521f92ad3f18bbe1f1e7d33f10d893e",
+            "pull": ""
+        },
+        "9de2837cd521f92ad3f18bbe1f1e7d33f10d893e": {
+            "hash": "9de2837cd521f92ad3f18bbe1f1e7d33f10d893e",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "mbedTLS: Update to version 3.6.5",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 111845
+        },
+        "ed879eb87b1d4cd8c100815f7061bf93511b6611": {
+            "hash": "ed879eb87b1d4cd8c100815f7061bf93511b6611",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "lawnjelly <lawnjelly@users.noreply.github.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #111078 from lawnjelly/3.6.2_cherrypicks_sept_25",
+            "body": "[3.6] Cherry-picks for the 3.6 branch (future 3.6.2) - 1st batch",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "537cc776542dc09026224ca66ef6b37ad1173518": {
+            "hash": "537cc776542dc09026224ca66ef6b37ad1173518",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Default tlsv1.3 to false in Project / EditorSettings",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 111078
+        },
+        "6bc378e13c769f74e43c17cf270d889e4e9da499": {
+            "hash": "6bc378e13c769f74e43c17cf270d889e4e9da499",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "[iOS, 3.x] Switch window creation to UIScene.",
+            "body": "(cherry picked from commit ec5920e00428a842519fa2a5eec9d8b622a736be)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "ec5920e00428a842519fa2a5eec9d8b622a736be",
+            "pull": 111078
+        },
+        "ec5920e00428a842519fa2a5eec9d8b622a736be": {
+            "hash": "ec5920e00428a842519fa2a5eec9d8b622a736be",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "summary": "[iOS, 3.x] Switch window creation to UIScene.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 111103
+        },
+        "9ca84aa90030d4a39f9f922b0d78d91d50b2f390": {
+            "hash": "9ca84aa90030d4a39f9f922b0d78d91d50b2f390",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjM3MjQ3Ng=="
+            ],
+            "author_raw": "Haoyu Qiu <timothyqiu32@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Fix Open Editor Data/Settings Folder menu in self-contained mode",
+            "body": "(cherry picked from commit d164a70aa0eb81c43b75c1240590cc79e9f1826e)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "d164a70aa0eb81c43b75c1240590cc79e9f1826e",
+            "pull": 111078
+        },
+        "d164a70aa0eb81c43b75c1240590cc79e9f1826e": {
+            "hash": "d164a70aa0eb81c43b75c1240590cc79e9f1826e",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjM3MjQ3Ng=="
+            ],
+            "author_raw": "Haoyu Qiu <timothyqiu32@gmail.com>",
+            "committer_raw": "Haoyu Qiu <timothyqiu32@gmail.com>",
+            "summary": "Fix Open Editor Data/Settings Folder menu in self-contained mode",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 110414
+        },
+        "639d133ff6e23c06819210fe913bdcd99d1ee65d": {
+            "hash": "639d133ff6e23c06819210fe913bdcd99d1ee65d",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "`Batching` - Fix `MultiRect` casting to wrong type",
+            "body": "(cherry picked from commit 9b104b3bb8f35c2e779b540d674457c7974b7d68)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "9b104b3bb8f35c2e779b540d674457c7974b7d68",
+            "pull": 111078
+        },
+        "9b104b3bb8f35c2e779b540d674457c7974b7d68": {
+            "hash": "9b104b3bb8f35c2e779b540d674457c7974b7d68",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5"
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "`Batching` - Fix `MultiRect` casting to wrong type",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 109111
+        },
+        "b18d22f276cf14178bc854cb1312a5f91531d05a": {
+            "hash": "b18d22f276cf14178bc854cb1312a5f91531d05a",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjYzMDA5NzM=",
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Travis Wrightsman <travis@wrightsman.org>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Enable builds with miniupnpc API 18",
+            "body": "Backports https://github.com/godotengine/godot/pull/97139 without\nbumping the embedded miniupnpc library.\n\nCo-authored-by: Rémi Verschelde <rverschelde@gmail.com>\n(cherry picked from commit a2a46009f5a8c94696e13ab12678812032610380)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "a2a46009f5a8c94696e13ab12678812032610380",
+            "pull": 111078
+        },
+        "a2a46009f5a8c94696e13ab12678812032610380": {
+            "hash": "a2a46009f5a8c94696e13ab12678812032610380",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjYzMDA5NzM=",
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Travis Wrightsman <travis@wrightsman.org>",
+            "committer_raw": "Travis Wrightsman <travis@wrightsman.org>",
+            "summary": "Enable builds with miniupnpc API 18",
+            "body": "Backports https://github.com/godotengine/godot/pull/97139 without\nbumping the embedded miniupnpc library.\n\nCo-authored-by: Rémi Verschelde <rverschelde@gmail.com>",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 100389
+        },
+        "862d8707f53ec2e2306895ffd2dcf26081b0e148": {
+            "hash": "862d8707f53ec2e2306895ffd2dcf26081b0e148",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE1MTAwODgx"
+            ],
+            "author_raw": "Sagar Devkota <info@devkotasagar.com.np>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "set minsdk to 21. Sorted the fseeko error.",
+            "body": "(cherry picked from commit e9525aed1c61555b124f5f9f0d5a7db4f5a9605a)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "e9525aed1c61555b124f5f9f0d5a7db4f5a9605a",
+            "pull": 111078
+        },
+        "e9525aed1c61555b124f5f9f0d5a7db4f5a9605a": {
+            "hash": "e9525aed1c61555b124f5f9f0d5a7db4f5a9605a",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE1MTAwODgx"
+            ],
+            "author_raw": "Sagar Devkota <info@devkotasagar.com.np>",
+            "committer_raw": "Sagar Devkota <info@devkotasagar.com.np>",
+            "summary": "set minsdk to 21. Sorted the fseeko error.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 111061
+        },
+        "6f2f053234f6b20b5bb369e3ef109970e13104d2": {
+            "hash": "6f2f053234f6b20b5bb369e3ef109970e13104d2",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE4MDAzMg=="
+            ],
+            "author_raw": "Hugo Locurcio <hugo.locurcio@hugo.pro>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Fix build on macOS 26 by removing AGL framework link",
+            "body": "Previously, a link error occurred as we'd be trying to link\nagainst a nonexistent framework. AGL was removed in macOS Tahoe\nsince the first beta.\n\n(cherry picked from commit b86295c8b96f6b2e260718fee04f4ef0d598e3c8)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "b86295c8b96f6b2e260718fee04f4ef0d598e3c8",
+            "pull": 111078
+        },
+        "b86295c8b96f6b2e260718fee04f4ef0d598e3c8": {
+            "hash": "b86295c8b96f6b2e260718fee04f4ef0d598e3c8",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE4MDAzMg=="
+            ],
+            "author_raw": "Hugo Locurcio <hugo.locurcio@hugo.pro>",
+            "committer_raw": "Hugo Locurcio <hugo.locurcio@hugo.pro>",
+            "summary": "Fix build on macOS 26 by removing AGL framework link",
+            "body": "Previously, a link error occurred as we'd be trying to link\nagainst a nonexistent framework. AGL was removed in macOS Tahoe\nsince the first beta.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 110898
+        },
+        "08abae73519df250322728a4405fcca55d8c36f2": {
+            "hash": "08abae73519df250322728a4405fcca55d8c36f2",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOCouzNQ"
+            ],
+            "author_raw": "Anish Mishra <mishragames@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "[3.x] Address API 35 UI changes",
+            "body": "(cherry picked from commit 936c86b19097a1c971e08281668f220c62e4d3af)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "936c86b19097a1c971e08281668f220c62e4d3af",
+            "pull": 111078
+        },
+        "936c86b19097a1c971e08281668f220c62e4d3af": {
+            "hash": "936c86b19097a1c971e08281668f220c62e4d3af",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOCouzNQ"
+            ],
+            "author_raw": "Anish Mishra <mishragames@gmail.com>",
+            "committer_raw": "Anish Mishra <mishragames@gmail.com>",
+            "summary": "[3.x] Address API 35 UI changes",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 110255
+        },
+        "dbc2ce8eb0c8050350a68c38ad8edc5c32a7c631": {
+            "hash": "dbc2ce8eb0c8050350a68c38ad8edc5c32a7c631",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjY2MDA0Mjgw"
+            ],
+            "author_raw": "Marius Hanl <mariushanl@web.de>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Fix Line breaking may not work correctly when using color tags with specific font",
+            "body": "(cherry picked from commit c7bace19558e16998447acff5ef36174d056a07c)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "c7bace19558e16998447acff5ef36174d056a07c",
+            "pull": 111078
+        },
+        "c7bace19558e16998447acff5ef36174d056a07c": {
+            "hash": "c7bace19558e16998447acff5ef36174d056a07c",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjY2MDA0Mjgw"
+            ],
+            "author_raw": "Marius Hanl <mariushanl@web.de>",
+            "committer_raw": "Marius Hanl <mariushanl@web.de>",
+            "summary": "Fix Line breaking may not work correctly when using color tags with specific font",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 109695
+        },
+        "da3795b199e69108fabef691a780aadba91b304a": {
+            "hash": "da3795b199e69108fabef691a780aadba91b304a",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE0ODYxMg=="
+            ],
+            "author_raw": "Kyle Szklenski <kyle.szklenski@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Update NDK and Maven config",
+            "body": "(cherry picked from commit 3c645995ca8335d925e2e5deac5044af7f5af657)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "3c645995ca8335d925e2e5deac5044af7f5af657",
+            "pull": 111078
+        },
+        "3c645995ca8335d925e2e5deac5044af7f5af657": {
+            "hash": "3c645995ca8335d925e2e5deac5044af7f5af657",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE0ODYxMg=="
+            ],
+            "author_raw": "Kyle Szklenski <kyle.szklenski@gmail.com>",
+            "committer_raw": "Kyle Szklenski <kyle.szklenski@gmail.com>",
+            "summary": "Update NDK and Maven config",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 108433
+        },
+        "0d1f294c58ac5747cbb99c4dce355080d12265b6": {
+            "hash": "0d1f294c58ac5747cbb99c4dce355080d12265b6",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjU4NDY4NTE5"
+            ],
+            "author_raw": "kilian-diener <kilian.diener@blobfishgames.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Fix order of operations for macOS template check",
+            "body": "Backport for 3.x from PR: #84990\nCo-authored-by: brno32 <drozdster@gmail.com>\n\n(cherry picked from commit 983b12b1fad1d1a91c7d6f45c7a2d90aadbb946e)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "983b12b1fad1d1a91c7d6f45c7a2d90aadbb946e",
+            "pull": 111078
+        },
+        "983b12b1fad1d1a91c7d6f45c7a2d90aadbb946e": {
+            "hash": "983b12b1fad1d1a91c7d6f45c7a2d90aadbb946e",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjU4NDY4NTE5",
+                "MDQ6VXNlcjMwNTQxMTgz"
+            ],
+            "author_raw": "kilian-diener <kilian.diener@blobfishgames.com>",
+            "committer_raw": "kilian-diener <kilian.diener@blobfishgames.com>",
+            "summary": "Fix order of operations for macOS template check",
+            "body": "Backport for 3.x from PR: #84990\nCo-authored-by: brno32 <drozdster@gmail.com>",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 108930
+        },
+        "21230fda3e07712bc9859fdada52a2bf7492a1f0": {
+            "hash": "21230fda3e07712bc9859fdada52a2bf7492a1f0",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE0ODYxMg=="
+            ],
+            "author_raw": "Kyle Szklenski <kyle.szklenski@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Update required version numbers for Android",
+            "body": "(cherry picked from commit 21d73401623085e361f439872246b38725c7d284)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "21d73401623085e361f439872246b38725c7d284",
+            "pull": 111078
+        },
+        "21d73401623085e361f439872246b38725c7d284": {
+            "hash": "21d73401623085e361f439872246b38725c7d284",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE0ODYxMg=="
+            ],
+            "author_raw": "Kyle Szklenski <kyle.szklenski@gmail.com>",
+            "committer_raw": "Kyle Szklenski <kyle.szklenski@gmail.com>",
+            "summary": "Update required version numbers for Android",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 108433
+        },
+        "ec635fdfd78a9b7554a4cd76aa9690b2d83cbd2a": {
+            "hash": "ec635fdfd78a9b7554a4cd76aa9690b2d83cbd2a",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE2ODc5MTg="
+            ],
+            "author_raw": "Fabio Alessandrelli <fabio.alessandrelli@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "mbedTLS: Update to mbedTLS 3.6.4",
+            "body": "mbedTLS 2.28 is now EOL, and will no longer receive security updates.\n\nThis commit backports from Godot 4 the changes needed to update to\nmbedTLS 3.6 (new LTS), including TLSv1.3 support.\n\n(cherry picked from commit 0770c9a4a3c2b60c79820df0af89a83f06a231aa)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "0770c9a4a3c2b60c79820df0af89a83f06a231aa",
+            "pull": 111078
+        },
+        "0770c9a4a3c2b60c79820df0af89a83f06a231aa": {
+            "hash": "0770c9a4a3c2b60c79820df0af89a83f06a231aa",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE2ODc5MTg="
+            ],
+            "author_raw": "Fabio Alessandrelli <fabio.alessandrelli@gmail.com>",
+            "committer_raw": "Fabio Alessandrelli <fabio.alessandrelli@gmail.com>",
+            "summary": "mbedTLS: Update to mbedTLS 3.6.4",
+            "body": "mbedTLS 2.28 is now EOL, and will no longer receive security updates.\n\nThis commit backports from Godot 4 the changes needed to update to\nmbedTLS 3.6 (new LTS), including TLSv1.3 support.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 108382
+        },
+        "137691b9006aead270fa17f5eaeddba0b7c2dc42": {
+            "hash": "137691b9006aead270fa17f5eaeddba0b7c2dc42",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5",
+                "MDQ6VXNlcjExMzM4OTI="
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Fix inability to assign script after clearing",
+            "body": "Co-authored-by: ocean (they/them) <anvilfolk@gmail.com>\n(cherry picked from commit 287cf32ce2120502dea6d9336dfb77ca4043db2c)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "287cf32ce2120502dea6d9336dfb77ca4043db2c",
+            "pull": 111078
+        },
+        "287cf32ce2120502dea6d9336dfb77ca4043db2c": {
+            "hash": "287cf32ce2120502dea6d9336dfb77ca4043db2c",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIxOTk5Mzc5",
+                "MDQ6VXNlcjExMzM4OTI="
+            ],
+            "author_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "committer_raw": "lawnjelly <lawnjelly@gmail.com>",
+            "summary": "Fix inability to assign script after clearing",
+            "body": "Co-authored-by: ocean (they/them) <anvilfolk@gmail.com>",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 108171
+        },
+        "7f6ca57b72a944052c1627be0c72a61c0b31d07b": {
+            "hash": "7f6ca57b72a944052c1627be0c72a61c0b31d07b",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Bump version to 3.6.2-rc",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        }
+    },
+    "pulls": {
+        "100389": {
+            "id": "PR_kwDOAO6SJc6FNVWo",
+            "public_id": 100389,
+            "url": "https://github.com/godotengine/godot/pull/100389",
+            "diff_url": "https://github.com/godotengine/godot/pull/100389.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/100389.patch",
+            "title": "[3.x] Enable builds with miniupnpc API 18",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjYzMDA5NzM=",
+            "created_at": "2024-12-14T04:56:32Z",
+            "updated_at": "2025-10-20T12:17:35Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwzNzA0NzE3OTU=",
+                    "name": "topic:thirdparty",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "a2a46009f5a8c94696e13ab12678812032610380"
+            ]
+        },
+        "108171": {
+            "id": "PR_kwDOAO6SJc6c9rtG",
+            "public_id": 108171,
+            "url": "https://github.com/godotengine/godot/pull/108171",
+            "diff_url": "https://github.com/godotengine/godot/pull/108171.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/108171.patch",
+            "title": "[3.x] Fix inability to assign script after clearing",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2025-07-01T19:13:34Z",
+            "updated_at": "2025-10-22T20:43:32Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "287cf32ce2120502dea6d9336dfb77ca4043db2c"
+            ]
+        },
+        "108382": {
+            "id": "PR_kwDOAO6SJc6dxrKh",
+            "public_id": 108382,
+            "url": "https://github.com/godotengine/godot/pull/108382",
+            "diff_url": "https://github.com/godotengine/godot/pull/108382.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/108382.patch",
+            "title": "[3.x] mbedTLS: Update to mbedTLS 3.6.4",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE2ODc5MTg=",
+            "created_at": "2025-07-07T14:43:23Z",
+            "updated_at": "2025-10-20T12:02:47Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWw2NDk4MDA3MDE=",
+                    "name": "topic:network",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwzNzA0NzE3OTU=",
+                    "name": "topic:thirdparty",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "0770c9a4a3c2b60c79820df0af89a83f06a231aa"
+            ]
+        },
+        "108433": {
+            "id": "PR_kwDOAO6SJc6eHqvo",
+            "public_id": 108433,
+            "url": "https://github.com/godotengine/godot/pull/108433",
+            "diff_url": "https://github.com/godotengine/godot/pull/108433.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/108433.patch",
+            "title": "[3.x] Android: Update to target API 35, NDK r28, 16kb page size",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE0ODYxMg==",
+            "created_at": "2025-07-09T12:45:30Z",
+            "updated_at": "2025-10-22T21:52:57Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc1NjI=",
+                    "name": "platform:android",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyNTU=",
+                    "name": "topic:porting",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "3c645995ca8335d925e2e5deac5044af7f5af657",
+                "21d73401623085e361f439872246b38725c7d284"
+            ]
+        },
+        "108930": {
+            "id": "PR_kwDOAO6SJc6gcK8l",
+            "public_id": 108930,
+            "url": "https://github.com/godotengine/godot/pull/108930",
+            "diff_url": "https://github.com/godotengine/godot/pull/108930.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/108930.patch",
+            "title": "Fix order of operations for macOS template check",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjU4NDY4NTE5",
+            "created_at": "2025-07-24T11:47:27Z",
+            "updated_at": "2025-10-20T12:04:17Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyOTA5OTAwODUw",
+                    "name": "topic:export",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "983b12b1fad1d1a91c7d6f45c7a2d90aadbb946e"
+            ]
+        },
+        "109111": {
+            "id": "PR_kwDOAO6SJc6hSu2F",
+            "public_id": 109111,
+            "url": "https://github.com/godotengine/godot/pull/109111",
+            "diff_url": "https://github.com/godotengine/godot/pull/109111.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/109111.patch",
+            "title": "[3.x] `Batching` - Fix `MultiRect` casting to wrong type",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2025-07-30T06:24:36Z",
+            "updated_at": "2025-10-20T12:17:21Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4MDU5",
+                    "name": "topic:2d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "9b104b3bb8f35c2e779b540d674457c7974b7d68"
+            ]
+        },
+        "109695": {
+            "id": "PR_kwDOAO6SJc6j_ZhV",
+            "public_id": 109695,
+            "url": "https://github.com/godotengine/godot/pull/109695",
+            "diff_url": "https://github.com/godotengine/godot/pull/109695.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/109695.patch",
+            "title": "[3.x] Fix Line breaking may not work correctly when using color tags with specific font",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjY2MDA0Mjgw",
+            "created_at": "2025-08-17T14:33:41Z",
+            "updated_at": "2025-10-20T12:10:13Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxNzMyNzIwNzc5",
+                    "name": "topic:gui",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "c7bace19558e16998447acff5ef36174d056a07c"
+            ]
+        },
+        "110255": {
+            "id": "PR_kwDOAO6SJc6m4RaO",
+            "public_id": 110255,
+            "url": "https://github.com/godotengine/godot/pull/110255",
+            "diff_url": "https://github.com/godotengine/godot/pull/110255.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/110255.patch",
+            "title": "[3.x] Address API 35 UI changes",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "U_kgDOCouzNQ",
+            "created_at": "2025-09-04T14:48:38Z",
+            "updated_at": "2025-10-20T12:10:30Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc1NjI=",
+                    "name": "platform:android",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyNTU=",
+                    "name": "topic:porting",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "936c86b19097a1c971e08281668f220c62e4d3af"
+            ]
+        },
+        "110414": {
+            "id": "PR_kwDOAO6SJc6oBZ6x",
+            "public_id": 110414,
+            "url": "https://github.com/godotengine/godot/pull/110414",
+            "diff_url": "https://github.com/godotengine/godot/pull/110414.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/110414.patch",
+            "title": "[3.x] Fix Open Editor Data/Settings Folder menu in self-contained mode",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjM3MjQ3Ng==",
+            "created_at": "2025-09-11T12:11:06Z",
+            "updated_at": "2025-10-20T12:11:18Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "d164a70aa0eb81c43b75c1240590cc79e9f1826e"
+            ]
+        },
+        "110898": {
+            "id": "PR_kwDOAO6SJc6qh9px",
+            "public_id": 110898,
+            "url": "https://github.com/godotengine/godot/pull/110898",
+            "diff_url": "https://github.com/godotengine/godot/pull/110898.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/110898.patch",
+            "title": "[3.x] Fix build on macOS 26 by removing AGL framework link",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE4MDAzMg==",
+            "created_at": "2025-09-25T15:00:13Z",
+            "updated_at": "2025-10-20T12:18:02Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc77GWog",
+                    "name": "cherrypick:3.5",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "b86295c8b96f6b2e260718fee04f4ef0d598e3c8"
+            ]
+        },
+        "111061": {
+            "id": "PR_kwDOAO6SJc6rQmQH",
+            "public_id": 111061,
+            "url": "https://github.com/godotengine/godot/pull/111061",
+            "diff_url": "https://github.com/godotengine/godot/pull/111061.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/111061.patch",
+            "title": "[3.x] Android: Set minsdk to 21, workaround `fseeko` error in Opus.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE1MTAwODgx",
+            "created_at": "2025-09-30T07:30:15Z",
+            "updated_at": "2025-10-20T12:17:53Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc1NjI=",
+                    "name": "platform:android",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyNTU=",
+                    "name": "topic:porting",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "e9525aed1c61555b124f5f9f0d5a7db4f5a9605a"
+            ]
+        },
+        "111078": {
+            "id": "PR_kwDOAO6SJc6rYQLm",
+            "public_id": 111078,
+            "url": "https://github.com/godotengine/godot/pull/111078",
+            "diff_url": "https://github.com/godotengine/godot/pull/111078.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/111078.patch",
+            "title": "[3.6] Cherry-picks for the 3.6 branch (future 3.6.2) - 1st batch",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIxOTk5Mzc5",
+            "created_at": "2025-09-30T16:36:51Z",
+            "updated_at": "2025-10-06T09:39:14Z",
+            "target_branch": "3.6",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                }
+            ],
+            "commits": [
+                "537cc776542dc09026224ca66ef6b37ad1173518",
+                "6bc378e13c769f74e43c17cf270d889e4e9da499",
+                "9ca84aa90030d4a39f9f922b0d78d91d50b2f390",
+                "639d133ff6e23c06819210fe913bdcd99d1ee65d",
+                "b18d22f276cf14178bc854cb1312a5f91531d05a",
+                "862d8707f53ec2e2306895ffd2dcf26081b0e148",
+                "6f2f053234f6b20b5bb369e3ef109970e13104d2",
+                "08abae73519df250322728a4405fcca55d8c36f2",
+                "dbc2ce8eb0c8050350a68c38ad8edc5c32a7c631",
+                "da3795b199e69108fabef691a780aadba91b304a",
+                "0d1f294c58ac5747cbb99c4dce355080d12265b6",
+                "21230fda3e07712bc9859fdada52a2bf7492a1f0",
+                "ec635fdfd78a9b7554a4cd76aa9690b2d83cbd2a",
+                "137691b9006aead270fa17f5eaeddba0b7c2dc42"
+            ]
+        },
+        "111103": {
+            "id": "PR_kwDOAO6SJc6reyGd",
+            "public_id": 111103,
+            "url": "https://github.com/godotengine/godot/pull/111103",
+            "diff_url": "https://github.com/godotengine/godot/pull/111103.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/111103.patch",
+            "title": "[iOS, 3.x] Switch window creation to UIScene.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
+            "created_at": "2025-10-01T05:59:31Z",
+            "updated_at": "2025-10-20T12:17:06Z",
+            "target_branch": "3.x",
+            "labels": [
+                {
+                    "id": "LA_kwDOAO6SJc77GWog",
+                    "name": "cherrypick:3.5",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc1MTk=",
+                    "name": "platform:ios",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyNTU=",
+                    "name": "topic:porting",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "ec5920e00428a842519fa2a5eec9d8b622a736be"
+            ]
+        },
+        "111845": {
+            "id": "PR_kwDOAO6SJc6unrjT",
+            "public_id": 111845,
+            "url": "https://github.com/godotengine/godot/pull/111845",
+            "diff_url": "https://github.com/godotengine/godot/pull/111845.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/111845.patch",
+            "title": "mbedTLS: Update to version 3.6.5",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjQ3MDEzMzg=",
+            "created_at": "2025-10-20T12:15:46Z",
+            "updated_at": "2025-10-22T21:41:52Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAABocF7RA",
+                    "name": "cherrypick:4.3",
+                    "color": "#446699"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAAB4iS2Xw",
+                    "name": "cherrypick:4.4",
+                    "color": "#446699"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAACF5d_aw",
+                    "name": "cherrypick:4.5",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWw2NDk4MDA3MDE=",
+                    "name": "topic:network",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwzNzA0NzE3OTU=",
+                    "name": "topic:thirdparty",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "9de2837cd521f92ad3f18bbe1f1e7d33f10d893e"
+            ]
+        }
+    }
+}
