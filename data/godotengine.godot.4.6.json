@@ -1,6 +1,42 @@
 {
-    "generated_at": 1762112327140,
+    "generated_at": 1762545470712,
     "log": [
+        "9d84f3d135d4a53ee8c42f32d4df7cc66b2e3684",
+        "44358a586b8b44d4ba7b626c0be010c01f971346",
+        "630938a4d6a4f54f2f5cf447f16c2d7cd6e0158c",
+        "f9eb98d02fbf001d9419627b4fc57ed85c196e6b",
+        "f2f543758fe45a5a7cc74d84d259552d1de7ae6f",
+        "d6d7e3cbc9bfd7848b7feae65ae4a08e99a27206",
+        "d23cd1b24d2a4466092d712c08cc6a9cec410fe7",
+        "5d6ea08a67d9e856597398c7a8a2c71ff0f69edc",
+        "90659c1a72b29b3fc2dea11ff399362569c86b86",
+        "1adfcb262d14f72ccb4cb2da678e0262fe01ac49",
+        "76b44ebd2eba5010abe2f7a3a1e46843464bb336",
+        "85082bbe1a53ca45b28c1c8d7059fc3551f931bf",
+        "486043f63843c9ee3fa45765ec866b9369079b7f",
+        "8a6d044fa1464cacb836de44bc23042397006e50",
+        "21e3ef9af74b02f8466955523cfe09682357cf23",
+        "e32b9274a3fff2bb8f4ff6ecb9aa2a5ce14c081d",
+        "fb5a299a609c5b4bb4ba2101ee6047d3aabb99df",
+        "06faefc9f4d7169ebb580abf8f7dcfc2809f90f6",
+        "2132ba89ab60f86dfe9b23b7f2d559be73829c32",
+        "6604a253d7431cf780fbab4c5a60de695045dc47",
+        "7cf218e0b4b69f7cc46fc0fb18423aa8af47bc96",
+        "c95a2e352658c395fb6ce6b9956e73afc3b5a60d",
+        "417ce3123da21754e067e39b0a1d1a61967879f5",
+        "7cd4ee59230b0e66ee0a0ae3b5cb73133f58b652",
+        "83c6da4a458d0708570080049f77292a99600bf6",
+        "990889fe1a3302d43c46a2060cfd461d0f819ea1",
+        "8895dfa56c4a87db3d4b7ebf3f5d6d60ed7f7a18",
+        "aed8f32e72d68b683fc5030f8f27c4c841e4864a",
+        "ff6e103d019986ef86c21fb711be76d5d4c939b1",
+        "e0cb03a3710e97d4f8b9201ceb1a36c7adac8eeb",
+        "8e94bfef53fa3ec501db7c4a78ef74bb885ae27c",
+        "0cbb788a72c5d1ad3a9fd5e824f37d34313526d5",
+        "a54b8b48a0861c891851c0eb048803902c2be996",
+        "3b16d96d821e1652e8ffc6f9cbd1f3092e4037a0",
+        "4e22eddb3c582cbaf4665dbb52d6b642ff0b9066",
+        "aee211bcfa2096364eb2f015a4b0d4dcf73b7ab4",
         "0fdbf050e0c7fc7e0a9d42c2a41ee3bfdffbd8f1",
         "66d2d9ad61c66005c5c509239836f14479fde0e4",
         "60043b51ff743e403a41624a7aa5eb617156abaa",
@@ -58,6 +94,7 @@
         "fd672dbcfc30baaaac33c0328a7e28ad6f5f062a",
         "bb5c32abbe33d85ab5625c270c27e7db7fff333c",
         "6c516a24e2001f16e916ddd146987352b4ece4b7",
+        "865a2b0ec58618413ed3c1f7ec37505fb5bea36d",
         "5b1d82c9acbe12e698b80d48b45fadb6ac5fa605",
         "a73722e0e9d5a921729cf5831e46a28521ac6a7d",
         "a99fdbd21014dd57a4f8f7448f6ab8f19b6af737",
@@ -282,6 +319,7 @@
         "4483871cd32c636e9f9ca8e5ce801c740a0ff71a",
         "9de2837cd521f92ad3f18bbe1f1e7d33f10d893e",
         "afec8a1892ec4c9b1fb97707152a9ebe4c42be30",
+        "6cfaee037a610031e0d572c36e75bd17ff120845",
         "4266a4e4eb3db576f8728abcc6fe14abba89cce6",
         "1a8306bbc12f531d9ec894413f24316510694a19",
         "b63ec3d0f02775c2625b99f79331857ff69d3cf4",
@@ -2692,6 +2730,42 @@
             "c0e36dc4934c4523ab858a19286d6ba41af7cc61"
         ],
         "dev3": [
+            "9d84f3d135d4a53ee8c42f32d4df7cc66b2e3684",
+            "44358a586b8b44d4ba7b626c0be010c01f971346",
+            "630938a4d6a4f54f2f5cf447f16c2d7cd6e0158c",
+            "f9eb98d02fbf001d9419627b4fc57ed85c196e6b",
+            "f2f543758fe45a5a7cc74d84d259552d1de7ae6f",
+            "d6d7e3cbc9bfd7848b7feae65ae4a08e99a27206",
+            "d23cd1b24d2a4466092d712c08cc6a9cec410fe7",
+            "5d6ea08a67d9e856597398c7a8a2c71ff0f69edc",
+            "90659c1a72b29b3fc2dea11ff399362569c86b86",
+            "1adfcb262d14f72ccb4cb2da678e0262fe01ac49",
+            "76b44ebd2eba5010abe2f7a3a1e46843464bb336",
+            "85082bbe1a53ca45b28c1c8d7059fc3551f931bf",
+            "486043f63843c9ee3fa45765ec866b9369079b7f",
+            "8a6d044fa1464cacb836de44bc23042397006e50",
+            "21e3ef9af74b02f8466955523cfe09682357cf23",
+            "e32b9274a3fff2bb8f4ff6ecb9aa2a5ce14c081d",
+            "fb5a299a609c5b4bb4ba2101ee6047d3aabb99df",
+            "06faefc9f4d7169ebb580abf8f7dcfc2809f90f6",
+            "2132ba89ab60f86dfe9b23b7f2d559be73829c32",
+            "6604a253d7431cf780fbab4c5a60de695045dc47",
+            "7cf218e0b4b69f7cc46fc0fb18423aa8af47bc96",
+            "c95a2e352658c395fb6ce6b9956e73afc3b5a60d",
+            "417ce3123da21754e067e39b0a1d1a61967879f5",
+            "7cd4ee59230b0e66ee0a0ae3b5cb73133f58b652",
+            "83c6da4a458d0708570080049f77292a99600bf6",
+            "990889fe1a3302d43c46a2060cfd461d0f819ea1",
+            "8895dfa56c4a87db3d4b7ebf3f5d6d60ed7f7a18",
+            "aed8f32e72d68b683fc5030f8f27c4c841e4864a",
+            "ff6e103d019986ef86c21fb711be76d5d4c939b1",
+            "e0cb03a3710e97d4f8b9201ceb1a36c7adac8eeb",
+            "8e94bfef53fa3ec501db7c4a78ef74bb885ae27c",
+            "0cbb788a72c5d1ad3a9fd5e824f37d34313526d5",
+            "a54b8b48a0861c891851c0eb048803902c2be996",
+            "3b16d96d821e1652e8ffc6f9cbd1f3092e4037a0",
+            "4e22eddb3c582cbaf4665dbb52d6b642ff0b9066",
+            "aee211bcfa2096364eb2f015a4b0d4dcf73b7ab4",
             "0fdbf050e0c7fc7e0a9d42c2a41ee3bfdffbd8f1",
             "66d2d9ad61c66005c5c509239836f14479fde0e4",
             "60043b51ff743e403a41624a7aa5eb617156abaa",
@@ -2749,6 +2823,7 @@
             "fd672dbcfc30baaaac33c0328a7e28ad6f5f062a",
             "bb5c32abbe33d85ab5625c270c27e7db7fff333c",
             "6c516a24e2001f16e916ddd146987352b4ece4b7",
+            "865a2b0ec58618413ed3c1f7ec37505fb5bea36d",
             "5b1d82c9acbe12e698b80d48b45fadb6ac5fa605",
             "a73722e0e9d5a921729cf5831e46a28521ac6a7d",
             "a99fdbd21014dd57a4f8f7448f6ab8f19b6af737",
@@ -2973,6 +3048,7 @@
             "4483871cd32c636e9f9ca8e5ce801c740a0ff71a",
             "9de2837cd521f92ad3f18bbe1f1e7d33f10d893e",
             "afec8a1892ec4c9b1fb97707152a9ebe4c42be30",
+            "6cfaee037a610031e0d572c36e75bd17ff120845",
             "4266a4e4eb3db576f8728abcc6fe14abba89cce6",
             "1a8306bbc12f531d9ec894413f24316510694a19",
             "b63ec3d0f02775c2625b99f79331857ff69d3cf4",
@@ -3175,11 +3251,107 @@
         ]
     },
     "authors": {
+        "MDQ6VXNlcjIyMjMxNzI=": {
+            "id": "MDQ6VXNlcjIyMjMxNzI=",
+            "user": "KoBeWi",
+            "avatar": "https://avatars.githubusercontent.com/u/2223172?u=fc85633b469acb6e7baef4dba5171f19a2a4ff85&v=4",
+            "url": "https://github.com/KoBeWi",
+            "pull_count": 63,
+            "commit_count": 65
+        },
+        "MDQ6VXNlcjQ3MDEzMzg=": {
+            "id": "MDQ6VXNlcjQ3MDEzMzg=",
+            "user": "akien-mga",
+            "avatar": "https://avatars.githubusercontent.com/u/4701338?u=4a42fd867f2c449fcc23adf635dd574dae98e6c2&v=4",
+            "url": "https://github.com/akien-mga",
+            "pull_count": 7,
+            "commit_count": 14
+        },
+        "U_kgDOCbrODA": {
+            "id": "U_kgDOCbrODA",
+            "user": "AdvanceControl",
+            "avatar": "https://avatars.githubusercontent.com/u/163237388?v=4",
+            "url": "https://github.com/AdvanceControl",
+            "pull_count": 2,
+            "commit_count": 2
+        },
+        "MDQ6VXNlcjMwNzM5MjM5": {
+            "id": "MDQ6VXNlcjMwNzM5MjM5",
+            "user": "YeldhamDev",
+            "avatar": "https://avatars.githubusercontent.com/u/30739239?u=ccfc0c8ff4c980eb77e097aa72e9ad04749294a9&v=4",
+            "url": "https://github.com/YeldhamDev",
+            "pull_count": 29,
+            "commit_count": 29
+        },
+        "MDQ6VXNlcjkyODMwOTg=": {
+            "id": "MDQ6VXNlcjkyODMwOTg=",
+            "user": "kleonc",
+            "avatar": "https://avatars.githubusercontent.com/u/9283098?u=a04daf8c4d579b733ac46d2e4d17324cca7870c0&v=4",
+            "url": "https://github.com/kleonc",
+            "pull_count": 7,
+            "commit_count": 8
+        },
+        "MDQ6VXNlcjM3MjQ3Ng==": {
+            "id": "MDQ6VXNlcjM3MjQ3Ng==",
+            "user": "timothyqiu",
+            "avatar": "https://avatars.githubusercontent.com/u/372476?v=4",
+            "url": "https://github.com/timothyqiu",
+            "pull_count": 28,
+            "commit_count": 32
+        },
+        "MDQ6VXNlcjE5MjU5ODk3": {
+            "id": "MDQ6VXNlcjE5MjU5ODk3",
+            "user": "blueskythlikesclouds",
+            "avatar": "https://avatars.githubusercontent.com/u/19259897?u=c533a9f99b6669f783d858aefea044f29880028d&v=4",
+            "url": "https://github.com/blueskythlikesclouds",
+            "pull_count": 8,
+            "commit_count": 8
+        },
+        "MDQ6VXNlcjMwMzg2MDY3": {
+            "id": "MDQ6VXNlcjMwMzg2MDY3",
+            "user": "Rindbee",
+            "avatar": "https://avatars.githubusercontent.com/u/30386067?u=aba5a323c950ddd46e8027fb0ced27b96d4856a1&v=4",
+            "url": "https://github.com/Rindbee",
+            "pull_count": 3,
+            "commit_count": 3
+        },
         "U_kgDOCXd9wA": {
             "id": "U_kgDOCXd9wA",
             "user": "Giganzo",
             "avatar": "https://avatars.githubusercontent.com/u/158825920?v=4",
             "url": "https://github.com/Giganzo",
+            "pull_count": 14,
+            "commit_count": 14
+        },
+        "MDQ6VXNlcjYwNTc5MDE0": {
+            "id": "MDQ6VXNlcjYwNTc5MDE0",
+            "user": "passivestar",
+            "avatar": "https://avatars.githubusercontent.com/u/60579014?u=ec87bf81cd2f5f0947670400f48cf0845c25d719&v=4",
+            "url": "https://github.com/passivestar",
+            "pull_count": 6,
+            "commit_count": 7
+        },
+        "MDQ6VXNlcjUzMTUwMjQ0": {
+            "id": "MDQ6VXNlcjUzMTUwMjQ0",
+            "user": "BlueCube3310",
+            "avatar": "https://avatars.githubusercontent.com/u/53150244?u=ecf97ffa17ae1eba1167a03358dd88d2b6934497&v=4",
+            "url": "https://github.com/BlueCube3310",
+            "pull_count": 16,
+            "commit_count": 16
+        },
+        "MDQ6VXNlcjEwMDU0MjI2": {
+            "id": "MDQ6VXNlcjEwMDU0MjI2",
+            "user": "kitbdev",
+            "avatar": "https://avatars.githubusercontent.com/u/10054226?u=f0c85fe8c24debe91dc14d7efa97b51a19250b47&v=4",
+            "url": "https://github.com/kitbdev",
+            "pull_count": 7,
+            "commit_count": 8
+        },
+        "MDQ6VXNlcjYwMDI0Njcx": {
+            "id": "MDQ6VXNlcjYwMDI0Njcx",
+            "user": "DeeJayLSP",
+            "avatar": "https://avatars.githubusercontent.com/u/60024671?u=7e327c81e8a9552ea98ca69adcccac4a50657dd9&v=4",
+            "url": "https://github.com/DeeJayLSP",
             "pull_count": 13,
             "commit_count": 13
         },
@@ -3190,14 +3362,6 @@
             "url": "https://github.com/aaronp64",
             "pull_count": 5,
             "commit_count": 5
-        },
-        "MDQ6VXNlcjYwNTc5MDE0": {
-            "id": "MDQ6VXNlcjYwNTc5MDE0",
-            "user": "passivestar",
-            "avatar": "https://avatars.githubusercontent.com/u/60579014?u=ec87bf81cd2f5f0947670400f48cf0845c25d719&v=4",
-            "url": "https://github.com/passivestar",
-            "pull_count": 5,
-            "commit_count": 6
         },
         "MDQ6VXNlcjc2NDU2ODM=": {
             "id": "MDQ6VXNlcjc2NDU2ODM=",
@@ -3214,38 +3378,6 @@
             "url": "https://github.com/clayjohn",
             "pull_count": 14,
             "commit_count": 14
-        },
-        "MDQ6VXNlcjkyODMwOTg=": {
-            "id": "MDQ6VXNlcjkyODMwOTg=",
-            "user": "kleonc",
-            "avatar": "https://avatars.githubusercontent.com/u/9283098?u=a04daf8c4d579b733ac46d2e4d17324cca7870c0&v=4",
-            "url": "https://github.com/kleonc",
-            "pull_count": 6,
-            "commit_count": 7
-        },
-        "MDQ6VXNlcjIyMjMxNzI=": {
-            "id": "MDQ6VXNlcjIyMjMxNzI=",
-            "user": "KoBeWi",
-            "avatar": "https://avatars.githubusercontent.com/u/2223172?u=fc85633b469acb6e7baef4dba5171f19a2a4ff85&v=4",
-            "url": "https://github.com/KoBeWi",
-            "pull_count": 60,
-            "commit_count": 62
-        },
-        "MDQ6VXNlcjMwNzM5MjM5": {
-            "id": "MDQ6VXNlcjMwNzM5MjM5",
-            "user": "YeldhamDev",
-            "avatar": "https://avatars.githubusercontent.com/u/30739239?u=ccfc0c8ff4c980eb77e097aa72e9ad04749294a9&v=4",
-            "url": "https://github.com/YeldhamDev",
-            "pull_count": 25,
-            "commit_count": 25
-        },
-        "MDQ6VXNlcjYwMDI0Njcx": {
-            "id": "MDQ6VXNlcjYwMDI0Njcx",
-            "user": "DeeJayLSP",
-            "avatar": "https://avatars.githubusercontent.com/u/60024671?u=7e327c81e8a9552ea98ca69adcccac4a50657dd9&v=4",
-            "url": "https://github.com/DeeJayLSP",
-            "pull_count": 12,
-            "commit_count": 12
         },
         "MDQ6VXNlcjE4MDAzMg==": {
             "id": "MDQ6VXNlcjE4MDAzMg==",
@@ -3359,14 +3491,6 @@
             "pull_count": 2,
             "commit_count": 2
         },
-        "MDQ6VXNlcjM3MjQ3Ng==": {
-            "id": "MDQ6VXNlcjM3MjQ3Ng==",
-            "user": "timothyqiu",
-            "avatar": "https://avatars.githubusercontent.com/u/372476?v=4",
-            "url": "https://github.com/timothyqiu",
-            "pull_count": 27,
-            "commit_count": 31
-        },
         "U_kgDOCajacw": {
             "id": "U_kgDOCajacw",
             "user": "BlueberryGecko",
@@ -3414,14 +3538,6 @@
             "url": "https://github.com/xuhuisheng",
             "pull_count": 3,
             "commit_count": 3
-        },
-        "MDQ6VXNlcjE5MjU5ODk3": {
-            "id": "MDQ6VXNlcjE5MjU5ODk3",
-            "user": "blueskythlikesclouds",
-            "avatar": "https://avatars.githubusercontent.com/u/19259897?u=c533a9f99b6669f783d858aefea044f29880028d&v=4",
-            "url": "https://github.com/blueskythlikesclouds",
-            "pull_count": 7,
-            "commit_count": 7
         },
         "MDQ6VXNlcjU2MjU4MDQ=": {
             "id": "MDQ6VXNlcjU2MjU4MDQ=",
@@ -3543,14 +3659,6 @@
             "pull_count": 4,
             "commit_count": 4
         },
-        "MDQ6VXNlcjQ3MDEzMzg=": {
-            "id": "MDQ6VXNlcjQ3MDEzMzg=",
-            "user": "akien-mga",
-            "avatar": "https://avatars.githubusercontent.com/u/4701338?u=4a42fd867f2c449fcc23adf635dd574dae98e6c2&v=4",
-            "url": "https://github.com/akien-mga",
-            "pull_count": 6,
-            "commit_count": 13
-        },
         "MDQ6VXNlcjU2MjIyNDk=": {
             "id": "MDQ6VXNlcjU2MjIyNDk=",
             "user": "2frac",
@@ -3639,22 +3747,6 @@
             "pull_count": 1,
             "commit_count": 1
         },
-        "MDQ6VXNlcjUzMTUwMjQ0": {
-            "id": "MDQ6VXNlcjUzMTUwMjQ0",
-            "user": "BlueCube3310",
-            "avatar": "https://avatars.githubusercontent.com/u/53150244?u=ecf97ffa17ae1eba1167a03358dd88d2b6934497&v=4",
-            "url": "https://github.com/BlueCube3310",
-            "pull_count": 15,
-            "commit_count": 15
-        },
-        "MDQ6VXNlcjEwMDU0MjI2": {
-            "id": "MDQ6VXNlcjEwMDU0MjI2",
-            "user": "kitbdev",
-            "avatar": "https://avatars.githubusercontent.com/u/10054226?u=f0c85fe8c24debe91dc14d7efa97b51a19250b47&v=4",
-            "url": "https://github.com/kitbdev",
-            "pull_count": 6,
-            "commit_count": 7
-        },
         "MDQ6VXNlcjE3NTA2NTcz": {
             "id": "MDQ6VXNlcjE3NTA2NTcz",
             "user": "allenwp",
@@ -3678,6 +3770,14 @@
             "url": "https://github.com/shiena",
             "pull_count": 2,
             "commit_count": 2
+        },
+        "MDQ6VXNlcjEyMjM0OTQ=": {
+            "id": "MDQ6VXNlcjEyMjM0OTQ=",
+            "user": "WhenToBen",
+            "avatar": "https://avatars.githubusercontent.com/u/1223494?u=34a34ea4ccd7bb15210c57778e6a6d7fe9d77595&v=4",
+            "url": "https://github.com/WhenToBen",
+            "pull_count": 1,
+            "commit_count": 1
         },
         "U_kgDOBbErLQ": {
             "id": "U_kgDOBbErLQ",
@@ -4167,14 +4267,6 @@
             "pull_count": 1,
             "commit_count": 1
         },
-        "U_kgDOCbrODA": {
-            "id": "U_kgDOCbrODA",
-            "user": "AdvanceControl",
-            "avatar": "https://avatars.githubusercontent.com/u/163237388?v=4",
-            "url": "https://github.com/AdvanceControl",
-            "pull_count": 1,
-            "commit_count": 1
-        },
         "U_kgDOB1-M8g": {
             "id": "U_kgDOB1-M8g",
             "user": "PhairZ",
@@ -4374,14 +4466,6 @@
             "url": "https://github.com/Brogolem35",
             "pull_count": 1,
             "commit_count": 1
-        },
-        "MDQ6VXNlcjMwMzg2MDY3": {
-            "id": "MDQ6VXNlcjMwMzg2MDY3",
-            "user": "Rindbee",
-            "avatar": "https://avatars.githubusercontent.com/u/30386067?u=aba5a323c950ddd46e8027fb0ced27b96d4856a1&v=4",
-            "url": "https://github.com/Rindbee",
-            "pull_count": 2,
-            "commit_count": 2
         },
         "MDQ6VXNlcjM2ODI1ODg=": {
             "id": "MDQ6VXNlcjM2ODI1ODg=",
@@ -4833,6 +4917,472 @@
         }
     },
     "commits": {
+        "9d84f3d135d4a53ee8c42f32d4df7cc66b2e3684": {
+            "hash": "9d84f3d135d4a53ee8c42f32d4df7cc66b2e3684",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #112382 from KoBeWi/visual_update",
+            "body": "Update VisualShader on theme changes",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "44358a586b8b44d4ba7b626c0be010c01f971346": {
+            "hash": "44358a586b8b44d4ba7b626c0be010c01f971346",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIyMjMxNzI="
+            ],
+            "author_raw": "Tomasz Chabora <kobewi4e@gmail.com>",
+            "committer_raw": "Tomasz Chabora <kobewi4e@gmail.com>",
+            "summary": "Update VisualShader on theme changes",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 112382
+        },
+        "630938a4d6a4f54f2f5cf447f16c2d7cd6e0158c": {
+            "hash": "630938a4d6a4f54f2f5cf447f16c2d7cd6e0158c",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #112378 from akien-mga/revert-112322",
+            "body": "Revert \"Fix visual shader items not applying the correct theme components\"",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "f9eb98d02fbf001d9419627b4fc57ed85c196e6b": {
+            "hash": "f9eb98d02fbf001d9419627b4fc57ed85c196e6b",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #112337 from Rindbee/do-not-assign-a-uid-for-keep-or-skip-importer",
+            "body": "Don't assign a uid when copying resource file whose `importer` name is `keep` or `skip`",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "f2f543758fe45a5a7cc74d84d259552d1de7ae6f": {
+            "hash": "f2f543758fe45a5a7cc74d84d259552d1de7ae6f",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #112046 from BlueCube3310/mat-preview-fix",
+            "body": "Fix the material preview sphere model",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "d6d7e3cbc9bfd7848b7feae65ae4a08e99a27206": {
+            "hash": "d6d7e3cbc9bfd7848b7feae65ae4a08e99a27206",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #111918 from WhenToBen/fix-vsinsiders-bug",
+            "body": "MSVC: Check `catalog_productSemanticVersion` instead of `catalog_productDisplayVersion`",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "d23cd1b24d2a4466092d712c08cc6a9cec410fe7": {
+            "hash": "d23cd1b24d2a4466092d712c08cc6a9cec410fe7",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Merge pull request #111762 from blueskythlikesclouds/fix-spec-constant-bitmasking",
+            "body": "D3D12: Greatly reduce shader conversion time & fix spec constant bitmasking.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "5d6ea08a67d9e856597398c7a8a2c71ff0f69edc": {
+            "hash": "5d6ea08a67d9e856597398c7a8a2c71ff0f69edc",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Revert \"Fix visual shader items not applying the correct theme components\"",
+            "body": "This reverts commit e0cb03a3710e97d4f8b9201ceb1a36c7adac8eeb.\n\nThis causes a crash when opening the editor with the shader editor pre-opened in the layout.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 112378
+        },
+        "90659c1a72b29b3fc2dea11ff399362569c86b86": {
+            "hash": "90659c1a72b29b3fc2dea11ff399362569c86b86",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #112350 from YeldhamDev/modern_contrast_change",
+            "body": "Enhance contrast on Modern theme",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "1adfcb262d14f72ccb4cb2da678e0262fe01ac49": {
+            "hash": "1adfcb262d14f72ccb4cb2da678e0262fe01ac49",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #112349 from kleonc/tile_set_editor_paint_terrain_pick_crash",
+            "body": "Fix TileSet editor crash on terrain pick in paint mode",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "76b44ebd2eba5010abe2f7a3a1e46843464bb336": {
+            "hash": "76b44ebd2eba5010abe2f7a3a1e46843464bb336",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #112339 from AdvanceControl/fix_no_icon_class",
+            "body": "Fix crash for classes without an icon",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "85082bbe1a53ca45b28c1c8d7059fc3551f931bf": {
+            "hash": "85082bbe1a53ca45b28c1c8d7059fc3551f931bf",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #112241 from KoBeWi/bone_breaker",
+            "body": "Fix Polygon2D editor undo crash",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "486043f63843c9ee3fa45765ec866b9369079b7f": {
+            "hash": "486043f63843c9ee3fa45765ec866b9369079b7f",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #111369 from YeldhamDev/focus_setting_fix",
+            "body": "Fix UI focus being shown when it shouldn't",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "8a6d044fa1464cacb836de44bc23042397006e50": {
+            "hash": "8a6d044fa1464cacb836de44bc23042397006e50",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOCbrODA"
+            ],
+            "author_raw": "AdvanceControl <163237388+AdvanceControl@users.noreply.github.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Fix crash for classes without an icon",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 112339
+        },
+        "21e3ef9af74b02f8466955523cfe09682357cf23": {
+            "hash": "21e3ef9af74b02f8466955523cfe09682357cf23",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjMwNzM5MjM5"
+            ],
+            "author_raw": "Michael Alexsander <michaelalexsander@protonmail.com>",
+            "committer_raw": "Michael Alexsander <michaelalexsander@protonmail.com>",
+            "summary": "Enhance contrast on Modern theme",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 112350
+        },
+        "e32b9274a3fff2bb8f4ff6ecb9aa2a5ce14c081d": {
+            "hash": "e32b9274a3fff2bb8f4ff6ecb9aa2a5ce14c081d",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjMwNzM5MjM5"
+            ],
+            "author_raw": "Michael Alexsander <michaelalexsander@protonmail.com>",
+            "committer_raw": "Michael Alexsander <michaelalexsander@protonmail.com>",
+            "summary": "Fix UI focus being shown when it shouldn't",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 111369
+        },
+        "fb5a299a609c5b4bb4ba2101ee6047d3aabb99df": {
+            "hash": "fb5a299a609c5b4bb4ba2101ee6047d3aabb99df",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjkyODMwOTg="
+            ],
+            "author_raw": "kleonc <9283098+kleonc@users.noreply.github.com>",
+            "committer_raw": "kleonc <9283098+kleonc@users.noreply.github.com>",
+            "summary": "Fix TileSet editor crash on terrain pick in paint mode",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 112349
+        },
+        "06faefc9f4d7169ebb580abf8f7dcfc2809f90f6": {
+            "hash": "06faefc9f4d7169ebb580abf8f7dcfc2809f90f6",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #112313 from passivestar/separator-contrast",
+            "body": "Improve visibility of separators in modern theme",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "2132ba89ab60f86dfe9b23b7f2d559be73829c32": {
+            "hash": "2132ba89ab60f86dfe9b23b7f2d559be73829c32",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #112115 from timothyqiu/line-number-min-chars",
+            "body": "CodeEdit: Add line number gutter minimum digits",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "6604a253d7431cf780fbab4c5a60de695045dc47": {
+            "hash": "6604a253d7431cf780fbab4c5a60de695045dc47",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #112333 from Giganzo/tilset-invis",
+            "body": "Fix transparent panel in Tilset polygon editor using Classic theme",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "7cf218e0b4b69f7cc46fc0fb18423aa8af47bc96": {
+            "hash": "7cf218e0b4b69f7cc46fc0fb18423aa8af47bc96",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #112299 from YeldhamDev/inspector_theme_signal_fix",
+            "body": "Make `EditorInspectorCategory`'s theme update happen via signal",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "c95a2e352658c395fb6ce6b9956e73afc3b5a60d": {
+            "hash": "c95a2e352658c395fb6ce6b9956e73afc3b5a60d",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #112298 from KoBeWi/editor_step_slider",
+            "body": "Fix EditorSpinSlider ignoring step",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "417ce3123da21754e067e39b0a1d1a61967879f5": {
+            "hash": "417ce3123da21754e067e39b0a1d1a61967879f5",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #112233 from DeeJayLSP/modern-prop-subsection",
+            "body": "Modern Style: Use a style box for Input Map actions",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "7cd4ee59230b0e66ee0a0ae3b5cb73133f58b652": {
+            "hash": "7cd4ee59230b0e66ee0a0ae3b5cb73133f58b652",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #112291 from kitbdev/fix-warnings-panel-font",
+            "body": "Fix warnings and error panel font not updating",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "83c6da4a458d0708570080049f77292a99600bf6": {
+            "hash": "83c6da4a458d0708570080049f77292a99600bf6",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #112322 from YeldhamDev/hidden_bugs_i_will_tell_ya",
+            "body": "Fix visual shader items not applying the correct theme components",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "990889fe1a3302d43c46a2060cfd461d0f819ea1": {
+            "hash": "990889fe1a3302d43c46a2060cfd461d0f819ea1",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjM3MjQ3Ng=="
+            ],
+            "author_raw": "Haoyu Qiu <timothyqiu32@gmail.com>",
+            "committer_raw": "Haoyu Qiu <timothyqiu32@gmail.com>",
+            "summary": "CodeEdit: Add line number gutter minimum digits",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 112115
+        },
+        "8895dfa56c4a87db3d4b7ebf3f5d6d60ed7f7a18": {
+            "hash": "8895dfa56c4a87db3d4b7ebf3f5d6d60ed7f7a18",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE5MjU5ODk3"
+            ],
+            "author_raw": "Skyth <19259897+blueskythlikesclouds@users.noreply.github.com>",
+            "committer_raw": "Skyth <19259897+blueskythlikesclouds@users.noreply.github.com>",
+            "summary": "Greatly reduce shader conversion time & fix spec constant bitmasking on D3D12.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 111762
+        },
+        "aed8f32e72d68b683fc5030f8f27c4c841e4864a": {
+            "hash": "aed8f32e72d68b683fc5030f8f27c4c841e4864a",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjMwMzg2MDY3"
+            ],
+            "author_raw": "Rindbee <idleman@yeah.net>",
+            "committer_raw": "Rindbee <idleman@yeah.net>",
+            "summary": "Don't assign a uid when copying resource file whose `importer` name",
+            "body": "is `keep` or `skip`",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 112337
+        },
+        "ff6e103d019986ef86c21fb711be76d5d4c939b1": {
+            "hash": "ff6e103d019986ef86c21fb711be76d5d4c939b1",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOCXd9wA"
+            ],
+            "author_raw": "Giganzo <158825920+Giganzo@users.noreply.github.com>",
+            "committer_raw": "Giganzo <158825920+Giganzo@users.noreply.github.com>",
+            "summary": "Fix transparent panel in Tilset polygon editor using Classic theme",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 112333
+        },
+        "e0cb03a3710e97d4f8b9201ceb1a36c7adac8eeb": {
+            "hash": "e0cb03a3710e97d4f8b9201ceb1a36c7adac8eeb",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjMwNzM5MjM5"
+            ],
+            "author_raw": "Michael Alexsander <michaelalexsander@protonmail.com>",
+            "committer_raw": "Michael Alexsander <michaelalexsander@protonmail.com>",
+            "summary": "Fix visual shader items not applying the correct theme components",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 112322
+        },
+        "8e94bfef53fa3ec501db7c4a78ef74bb885ae27c": {
+            "hash": "8e94bfef53fa3ec501db7c4a78ef74bb885ae27c",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjMwNzM5MjM5"
+            ],
+            "author_raw": "Michael Alexsander <michaelalexsander@protonmail.com>",
+            "committer_raw": "Michael Alexsander <michaelalexsander@protonmail.com>",
+            "summary": "Make `EditorInspectorCategory`'s theme update happen via signal",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 112299
+        },
+        "0cbb788a72c5d1ad3a9fd5e824f37d34313526d5": {
+            "hash": "0cbb788a72c5d1ad3a9fd5e824f37d34313526d5",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjYwNTc5MDE0"
+            ],
+            "author_raw": "passivestar <60579014+passivestar@users.noreply.github.com>",
+            "committer_raw": "passivestar <60579014+passivestar@users.noreply.github.com>",
+            "summary": "Improve visibility of separators in modern theme",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 112313
+        },
+        "a54b8b48a0861c891851c0eb048803902c2be996": {
+            "hash": "a54b8b48a0861c891851c0eb048803902c2be996",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIyMjMxNzI="
+            ],
+            "author_raw": "Tomasz Chabora <kobewi4e@gmail.com>",
+            "committer_raw": "Tomasz Chabora <kobewi4e@gmail.com>",
+            "summary": "Fix EditorSpinSlider ignoring step",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 112298
+        },
+        "3b16d96d821e1652e8ffc6f9cbd1f3092e4037a0": {
+            "hash": "3b16d96d821e1652e8ffc6f9cbd1f3092e4037a0",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjUzMTUwMjQ0"
+            ],
+            "author_raw": "BlueCube3310 <53150244+BlueCube3310@users.noreply.github.com>",
+            "committer_raw": "BlueCube3310 <53150244+BlueCube3310@users.noreply.github.com>",
+            "summary": "Fix the material preview sphere",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 112046
+        },
+        "4e22eddb3c582cbaf4665dbb52d6b642ff0b9066": {
+            "hash": "4e22eddb3c582cbaf4665dbb52d6b642ff0b9066",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjEwMDU0MjI2"
+            ],
+            "author_raw": "kit <kitbdev@gmail.com>",
+            "committer_raw": "kit <kitbdev@gmail.com>",
+            "summary": "Fix warnings and error panel font not updating",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 112291
+        },
+        "aee211bcfa2096364eb2f015a4b0d4dcf73b7ab4": {
+            "hash": "aee211bcfa2096364eb2f015a4b0d4dcf73b7ab4",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjYwMDI0Njcx"
+            ],
+            "author_raw": "DeeJayLSP <djlsp@proton.me>",
+            "committer_raw": "DeeJayLSP <djlsp@proton.me>",
+            "summary": "Modern Style: Use a style box for Input Map actions",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 112233
+        },
         "0fdbf050e0c7fc7e0a9d42c2a41ee3bfdffbd8f1": {
             "hash": "0fdbf050e0c7fc7e0a9d42c2a41ee3bfdffbd8f1",
             "is_merge": true,
@@ -5550,6 +6100,20 @@
             "is_cherrypick": false,
             "cherrypick_hash": "",
             "pull": 107855
+        },
+        "865a2b0ec58618413ed3c1f7ec37505fb5bea36d": {
+            "hash": "865a2b0ec58618413ed3c1f7ec37505fb5bea36d",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIyMjMxNzI="
+            ],
+            "author_raw": "Tomasz Chabora <kobewi4e@gmail.com>",
+            "committer_raw": "Tomasz Chabora <kobewi4e@gmail.com>",
+            "summary": "Fix Polygon2D editor undo crash",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 112241
         },
         "5b1d82c9acbe12e698b80d48b45fadb6ac5fa605": {
             "hash": "5b1d82c9acbe12e698b80d48b45fadb6ac5fa605",
@@ -8440,6 +9004,20 @@
             "is_cherrypick": false,
             "cherrypick_hash": "",
             "pull": 111921
+        },
+        "6cfaee037a610031e0d572c36e75bd17ff120845": {
+            "hash": "6cfaee037a610031e0d572c36e75bd17ff120845",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjEyMjM0OTQ="
+            ],
+            "author_raw": "WhenToBen <1223494+WhenToBen@users.noreply.github.com>",
+            "committer_raw": "WhenToBen <1223494+WhenToBen@users.noreply.github.com>",
+            "summary": "MSVC: check catalog_productSemanticVersion instead of catalog_productDisplayVersion for compiler version",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 111918
         },
         "4266a4e4eb3db576f8728abcc6fe14abba89cce6": {
             "hash": "4266a4e4eb3db576f8728abcc6fe14abba89cce6",
@@ -27962,7 +28540,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjEyOTU2Mzk=",
             "created_at": "2025-05-10T10:35:23Z",
-            "updated_at": "2025-10-24T16:30:19Z",
+            "updated_at": "2025-11-06T04:10:31Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -40568,7 +41146,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjQwNjgzMg==",
             "created_at": "2025-09-24T14:48:59Z",
-            "updated_at": "2025-10-22T23:52:27Z",
+            "updated_at": "2025-11-06T22:56:03Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -42949,7 +43527,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjMwNzM5MjM5",
             "created_at": "2025-10-01T15:04:35Z",
-            "updated_at": "2025-10-31T22:17:54Z",
+            "updated_at": "2025-11-06T14:45:15Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -46076,6 +46654,45 @@
                 "f81f08e5bffb35a355686d52944cca9f6f025e56"
             ]
         },
+        "111369": {
+            "id": "PR_kwDOAO6SJc6shG1y",
+            "public_id": 111369,
+            "url": "https://github.com/godotengine/godot/pull/111369",
+            "diff_url": "https://github.com/godotengine/godot/pull/111369.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/111369.patch",
+            "title": "Fix UI focus being shown when it shouldn't",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjMwNzM5MjM5",
+            "created_at": "2025-10-07T15:10:37Z",
+            "updated_at": "2025-11-03T23:53:36Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwxNzMyNzIwNzc5",
+                    "name": "topic:gui",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "e32b9274a3fff2bb8f4ff6ecb9aa2a5ce14c081d"
+            ]
+        },
         "111378": {
             "id": "PR_kwDOAO6SJc6skIb8",
             "public_id": 111378,
@@ -46961,7 +47578,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjYwMDI0Njcx",
             "created_at": "2025-10-09T21:08:26Z",
-            "updated_at": "2025-10-14T01:20:01Z",
+            "updated_at": "2025-11-06T00:00:23Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -47582,13 +48199,18 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjIxMDQ1NTU=",
             "created_at": "2025-10-12T09:52:58Z",
-            "updated_at": "2025-10-27T15:06:36Z",
+            "updated_at": "2025-11-06T09:09:01Z",
             "target_branch": "master",
             "labels": [
                 {
                     "id": "MDU6TGFiZWw3MzMzMDA2NA==",
                     "name": "bug",
                     "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAACF5d_aw",
+                    "name": "cherrypick:4.5",
+                    "color": "#446699"
                 },
                 {
                     "id": "MDU6TGFiZWwxNzMyNzIwNzc5",
@@ -48952,6 +49574,35 @@
                 "6733345f73d04aeca9fa94706ca7451a72433429"
             ]
         },
+        "111762": {
+            "id": "PR_kwDOAO6SJc6uSijj",
+            "public_id": 111762,
+            "url": "https://github.com/godotengine/godot/pull/111762",
+            "diff_url": "https://github.com/godotengine/godot/pull/111762.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/111762.patch",
+            "title": "D3D12: Greatly reduce shader conversion time & fix spec constant bitmasking.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE5MjU5ODk3",
+            "created_at": "2025-10-17T11:33:46Z",
+            "updated_at": "2025-11-04T09:55:51Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "8895dfa56c4a87db3d4b7ebf3f5d6d60ed7f7a18"
+            ]
+        },
         "111766": {
             "id": "PR_kwDOAO6SJc6uWiF2",
             "public_id": 111766,
@@ -49775,7 +50426,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE4MDAzMg==",
             "created_at": "2025-10-21T23:20:02Z",
-            "updated_at": "2025-11-01T18:13:26Z",
+            "updated_at": "2025-11-04T17:39:54Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -49903,6 +50554,45 @@
             ],
             "commits": [
                 "a62b194dc2495fa473c4af76ba3fb5bd78b49c48"
+            ]
+        },
+        "111918": {
+            "id": "PR_kwDOAO6SJc6vEKqA",
+            "public_id": 111918,
+            "url": "https://github.com/godotengine/godot/pull/111918",
+            "diff_url": "https://github.com/godotengine/godot/pull/111918.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/111918.patch",
+            "title": "MSVC: Check `catalog_productSemanticVersion` instead of `catalog_productDisplayVersion`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjEyMjM0OTQ=",
+            "created_at": "2025-10-22T13:05:52Z",
+            "updated_at": "2025-11-04T20:05:40Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAACF5d_aw",
+                    "name": "cherrypick:4.5",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwyMDU0MTc0MTM=",
+                    "name": "platform:windows",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "6cfaee037a610031e0d572c36e75bd17ff120845"
             ]
         },
         "111919": {
@@ -50193,7 +50883,7 @@
             "is_draft": false,
             "authored_by": "U_kgDOBlbdtQ",
             "created_at": "2025-10-23T23:37:23Z",
-            "updated_at": "2025-11-01T18:17:04Z",
+            "updated_at": "2025-11-05T03:45:02Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -50693,6 +51383,40 @@
                 "bc85da65a54cc29a9a18311c5980c25f7f492b2c"
             ]
         },
+        "112046": {
+            "id": "PR_kwDOAO6SJc6vvF2A",
+            "public_id": 112046,
+            "url": "https://github.com/godotengine/godot/pull/112046",
+            "diff_url": "https://github.com/godotengine/godot/pull/112046.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/112046.patch",
+            "title": "Fix the material preview sphere model",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjUzMTUwMjQ0",
+            "created_at": "2025-10-26T11:03:32Z",
+            "updated_at": "2025-11-04T09:55:24Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "3b16d96d821e1652e8ffc6f9cbd1f3092e4037a0"
+            ]
+        },
         "112047": {
             "id": "PR_kwDOAO6SJc6vvH1A",
             "public_id": 112047,
@@ -50997,6 +51721,45 @@
             ],
             "commits": [
                 "b1621dfc0b98f635c5f0c50b2f445a88893d6f37"
+            ]
+        },
+        "112115": {
+            "id": "PR_kwDOAO6SJc6wGEs0",
+            "public_id": 112115,
+            "url": "https://github.com/godotengine/godot/pull/112115",
+            "diff_url": "https://github.com/godotengine/godot/pull/112115.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/112115.patch",
+            "title": "CodeEdit: Add line number gutter minimum digits",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjM3MjQ3Ng==",
+            "created_at": "2025-10-28T09:20:43Z",
+            "updated_at": "2025-11-04T00:31:12Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2OA==",
+                    "name": "feature proposal",
+                    "color": "#4466ff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwxNzMyNzIwNzc5",
+                    "name": "topic:gui",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyODM1MTg3MzM=",
+                    "name": "usability",
+                    "color": "#447744"
+                }
+            ],
+            "commits": [
+                "990889fe1a3302d43c46a2060cfd461d0f819ea1"
             ]
         },
         "112128": {
@@ -51597,6 +52360,40 @@
                 "ca0eb5da24e4f22d4d1887a1f3b79b6434ce5eb9"
             ]
         },
+        "112233": {
+            "id": "PR_kwDOAO6SJc6wvvrF",
+            "public_id": 112233,
+            "url": "https://github.com/godotengine/godot/pull/112233",
+            "diff_url": "https://github.com/godotengine/godot/pull/112233.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/112233.patch",
+            "title": "Modern Style: Use a style box for Input Map actions",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjYwMDI0Njcx",
+            "created_at": "2025-10-31T03:36:28Z",
+            "updated_at": "2025-11-03T17:54:00Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyODM1MTg3MzM=",
+                    "name": "usability",
+                    "color": "#447744"
+                }
+            ],
+            "commits": [
+                "aee211bcfa2096364eb2f015a4b0d4dcf73b7ab4"
+            ]
+        },
         "112239": {
             "id": "PR_kwDOAO6SJc6wzNfr",
             "public_id": 112239,
@@ -51629,6 +52426,50 @@
             ],
             "commits": [
                 "a99fdbd21014dd57a4f8f7448f6ab8f19b6af737"
+            ]
+        },
+        "112241": {
+            "id": "PR_kwDOAO6SJc6wzfvW",
+            "public_id": 112241,
+            "url": "https://github.com/godotengine/godot/pull/112241",
+            "diff_url": "https://github.com/godotengine/godot/pull/112241.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/112241.patch",
+            "title": "Fix Polygon2D editor undo crash",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIyMjMxNzI=",
+            "created_at": "2025-10-31T10:42:35Z",
+            "updated_at": "2025-11-04T00:00:21Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAACF5d_aw",
+                    "name": "cherrypick:4.5",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzI3MzE4Mjcx",
+                    "name": "crash",
+                    "color": "#885544"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4MDU5",
+                    "name": "topic:2d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "865a2b0ec58618413ed3c1f7ec37505fb5bea36d"
             ]
         },
         "112242": {
@@ -52173,6 +53014,409 @@
             ],
             "commits": [
                 "286e578b0221c4d018b39ade558ef5afa8453f04"
+            ]
+        },
+        "112291": {
+            "id": "PR_kwDOAO6SJc6xATRV",
+            "public_id": 112291,
+            "url": "https://github.com/godotengine/godot/pull/112291",
+            "diff_url": "https://github.com/godotengine/godot/pull/112291.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/112291.patch",
+            "title": "Fix warnings and error panel font not updating",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjEwMDU0MjI2",
+            "created_at": "2025-11-01T19:28:46Z",
+            "updated_at": "2025-11-04T01:36:49Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAACF5d_aw",
+                    "name": "cherrypick:4.5",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "4e22eddb3c582cbaf4665dbb52d6b642ff0b9066"
+            ]
+        },
+        "112298": {
+            "id": "PR_kwDOAO6SJc6xA2-r",
+            "public_id": 112298,
+            "url": "https://github.com/godotengine/godot/pull/112298",
+            "diff_url": "https://github.com/godotengine/godot/pull/112298.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/112298.patch",
+            "title": "Fix EditorSpinSlider ignoring step",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIyMjMxNzI=",
+            "created_at": "2025-11-01T22:21:10Z",
+            "updated_at": "2025-11-03T20:12:37Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyODM1MTg3MzM=",
+                    "name": "usability",
+                    "color": "#447744"
+                }
+            ],
+            "commits": [
+                "a54b8b48a0861c891851c0eb048803902c2be996"
+            ]
+        },
+        "112299": {
+            "id": "PR_kwDOAO6SJc6xA7St",
+            "public_id": 112299,
+            "url": "https://github.com/godotengine/godot/pull/112299",
+            "diff_url": "https://github.com/godotengine/godot/pull/112299.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/112299.patch",
+            "title": "Make `EditorInspectorCategory`'s theme update happen via signal",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjMwNzM5MjM5",
+            "created_at": "2025-11-01T22:49:13Z",
+            "updated_at": "2025-11-03T17:50:08Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "8e94bfef53fa3ec501db7c4a78ef74bb885ae27c"
+            ]
+        },
+        "112313": {
+            "id": "PR_kwDOAO6SJc6xDY15",
+            "public_id": 112313,
+            "url": "https://github.com/godotengine/godot/pull/112313",
+            "diff_url": "https://github.com/godotengine/godot/pull/112313.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/112313.patch",
+            "title": "Improve visibility of separators in modern theme",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjYwNTc5MDE0",
+            "created_at": "2025-11-02T10:13:08Z",
+            "updated_at": "2025-11-03T23:22:11Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "0cbb788a72c5d1ad3a9fd5e824f37d34313526d5"
+            ]
+        },
+        "112322": {
+            "id": "PR_kwDOAO6SJc6xEbGX",
+            "public_id": 112322,
+            "url": "https://github.com/godotengine/godot/pull/112322",
+            "diff_url": "https://github.com/godotengine/godot/pull/112322.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/112322.patch",
+            "title": "Fix visual shader items not applying the correct theme components (reverted)",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjMwNzM5MjM5",
+            "created_at": "2025-11-02T17:03:04Z",
+            "updated_at": "2025-11-04T10:48:00Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "e0cb03a3710e97d4f8b9201ceb1a36c7adac8eeb"
+            ]
+        },
+        "112333": {
+            "id": "PR_kwDOAO6SJc6xFdsQ",
+            "public_id": 112333,
+            "url": "https://github.com/godotengine/godot/pull/112333",
+            "diff_url": "https://github.com/godotengine/godot/pull/112333.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/112333.patch",
+            "title": "Fix transparent panel in Tilset polygon editor using Classic theme",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "U_kgDOCXd9wA",
+            "created_at": "2025-11-02T23:04:15Z",
+            "updated_at": "2025-11-03T17:50:10Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "ff6e103d019986ef86c21fb711be76d5d4c939b1"
+            ]
+        },
+        "112337": {
+            "id": "PR_kwDOAO6SJc6xJAMh",
+            "public_id": 112337,
+            "url": "https://github.com/godotengine/godot/pull/112337",
+            "diff_url": "https://github.com/godotengine/godot/pull/112337.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/112337.patch",
+            "title": "Don't assign a uid when copying resource file whose `importer` name is `keep` or `skip`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjMwMzg2MDY3",
+            "created_at": "2025-11-03T08:56:55Z",
+            "updated_at": "2025-11-04T11:07:59Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWw4OTAzMTA1MDI=",
+                    "name": "topic:import",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "aed8f32e72d68b683fc5030f8f27c4c841e4864a"
+            ]
+        },
+        "112339": {
+            "id": "PR_kwDOAO6SJc6xKJTH",
+            "public_id": 112339,
+            "url": "https://github.com/godotengine/godot/pull/112339",
+            "diff_url": "https://github.com/godotengine/godot/pull/112339.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/112339.patch",
+            "title": "Fix crash for classes without an icon",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "U_kgDOCbrODA",
+            "created_at": "2025-11-03T10:43:31Z",
+            "updated_at": "2025-11-04T04:47:51Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzI3MzE4Mjcx",
+                    "name": "crash",
+                    "color": "#885544"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "8a6d044fa1464cacb836de44bc23042397006e50"
+            ]
+        },
+        "112349": {
+            "id": "PR_kwDOAO6SJc6xQoKA",
+            "public_id": 112349,
+            "url": "https://github.com/godotengine/godot/pull/112349",
+            "diff_url": "https://github.com/godotengine/godot/pull/112349.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/112349.patch",
+            "title": "Fix TileSet editor crash on terrain pick in paint mode",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjkyODMwOTg=",
+            "created_at": "2025-11-03T19:34:52Z",
+            "updated_at": "2025-11-04T14:22:36Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzI3MzE4Mjcx",
+                    "name": "crash",
+                    "color": "#885544"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4MDU5",
+                    "name": "topic:2d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "fb5a299a609c5b4bb4ba2101ee6047d3aabb99df"
+            ]
+        },
+        "112350": {
+            "id": "PR_kwDOAO6SJc6xRCBU",
+            "public_id": 112350,
+            "url": "https://github.com/godotengine/godot/pull/112350",
+            "diff_url": "https://github.com/godotengine/godot/pull/112350.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/112350.patch",
+            "title": "Enhance contrast on Modern theme",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjMwNzM5MjM5",
+            "created_at": "2025-11-03T20:07:39Z",
+            "updated_at": "2025-11-03T23:53:51Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "21e3ef9af74b02f8466955523cfe09682357cf23"
+            ]
+        },
+        "112378": {
+            "id": "PR_kwDOAO6SJc6xXkYf",
+            "public_id": 112378,
+            "url": "https://github.com/godotengine/godot/pull/112378",
+            "diff_url": "https://github.com/godotengine/godot/pull/112378.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/112378.patch",
+            "title": "Revert \"Fix visual shader items not applying the correct theme components\"",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjQ3MDEzMzg=",
+            "created_at": "2025-11-04T09:28:26Z",
+            "updated_at": "2025-11-04T09:55:55Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzI3MzE4Mjcx",
+                    "name": "crash",
+                    "color": "#885544"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "5d6ea08a67d9e856597398c7a8a2c71ff0f69edc"
+            ]
+        },
+        "112382": {
+            "id": "PR_kwDOAO6SJc6xY1yb",
+            "public_id": 112382,
+            "url": "https://github.com/godotengine/godot/pull/112382",
+            "diff_url": "https://github.com/godotengine/godot/pull/112382.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/112382.patch",
+            "title": "Update VisualShader on theme changes",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIyMjMxNzI=",
+            "created_at": "2025-11-04T10:46:37Z",
+            "updated_at": "2025-11-04T12:00:57Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwxNzMyNzIwNzc5",
+                    "name": "topic:gui",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "44358a586b8b44d4ba7b626c0be010c01f971346"
             ]
         }
     }
