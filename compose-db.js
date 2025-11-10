@@ -2,7 +2,7 @@ const DataFetcher = require('./build/utils/compose-fetcher.js');
 const DataProcessor = require('./build/utils/compose-processor.js');
 const DataIO = require('./build/utils/compose-io.js');
 
-const COMMITS_PER_PAGE = 150;
+const COMMITS_PER_PAGE = 50;
 
 async function main() {
     // Internal utility methods.
