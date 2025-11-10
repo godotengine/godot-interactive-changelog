@@ -46,8 +46,7 @@ in a `.env` file at the repository root.
    `python -m http.server 8080 -d ./out`).
 
 `rollup` is used for browser packing of scripts and copying of static assets. The
-data fetching script is plain JavaScript with `node-fetch` used to polyfill
-`fetch()`-like API.
+data fetching script is plain JavaScript with the Node `fetch` API.
 
 ### Adding a new version
 
