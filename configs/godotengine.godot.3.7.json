@@ -1,0 +1,16 @@
+{
+    "name": "3.7",
+    "git_tag": "3.x",
+    "ref": "a117d512b00f1646db174e703e7e888519b64608",
+    "from_ref": "3.6-stable",
+    "article": "https://godotengine.org/article/dev-snapshot-godot-3-7-dev-1/",
+
+    "releases": [
+        {
+            "name": "dev1",
+            "ref": "a117d512b00f1646db174e703e7e888519b64608",
+            "from_ref": "3.6-stable",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-3-7-dev-1/"
+        }
+    ]
+}
