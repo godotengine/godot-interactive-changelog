@@ -28,7 +28,7 @@ class DataFetcher {
         this.data_owner = data_owner;
         this.data_repo = data_repo;
 
-        this.repo_ssh_path = `git@github.com:${data_owner}/${data_repo}.git`;
+        this.git_repo_path = `https://github.com/${data_owner}/${data_repo}.git`;
         this.api_rest_path = `https://api.github.com/repos/${data_owner}/${data_repo}`;
         this.api_repository_id = `owner:"${data_owner}" name:"${data_repo}"`;
     }
@@ -81,7 +81,7 @@ class DataFetcher {
             await buildCommon.clearDir("./temp");
 
             // Checkout a shallow clone of the repository; we are only interested in its history.
-            await exec(`git clone --filter=tree:0 --branch ${fromTag} --single-branch ${this.repo_ssh_path}`, { cwd: "./temp", maxBuffer: EXEC_MAX_BUFFER });
+            await exec(`git clone --filter=tree:0 --branch ${fromTag} --single-branch ${this.git_repo_path}`, { cwd: "./temp", maxBuffer: EXEC_MAX_BUFFER });
             if (fromTag !== atCommit) {
                 await exec(`git reset --hard ${atCommit}`, { cwd: `./temp/${this.data_repo}`, maxBuffer: EXEC_MAX_BUFFER });
             }
