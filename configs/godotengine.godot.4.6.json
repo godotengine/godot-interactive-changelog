@@ -1,9 +1,9 @@
 {
     "name": "4.6",
     "git_tag": "master",
-    "ref": "481f36ed20520db3195a09cc309abf48c03cf51a",
+    "ref": "78c6632eb174aabb2790975cf83e28fee065b43d",
     "from_ref": "4.5-stable",
-    "article": "https://godotengine.org/article/release-candidate-godot-4-6-rc-1/",
+    "article": "https://godotengine.org/article/release-candidate-godot-4-6-rc-2/",
 
     "releases": [
         {
@@ -65,6 +65,12 @@
             "ref": "481f36ed20520db3195a09cc309abf48c03cf51a",
             "from_ref": "76dda5c6c50c9cc26128c5e831f1a70b6e8a6785",
             "article": "https://godotengine.org/article/release-candidate-godot-4-6-rc-1/"
+        },
+        {
+            "name": "rc2",
+            "ref": "78c6632eb174aabb2790975cf83e28fee065b43d",
+            "from_ref": "481f36ed20520db3195a09cc309abf48c03cf51a",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-6-rc-2/"
         }
     ]
 }
