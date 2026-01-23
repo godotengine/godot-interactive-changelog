@@ -1,0 +1,16 @@
+{
+    "name": "4.5.2",
+    "git_tag": "4.5",
+    "ref": "f782f6ad05cae079d1e708d1c5c11f43910f6b8e",
+    "from_ref": "4.5.1-stable",
+    "article": "https://godotengine.org/article/release-candidate-godot-4-5-2-rc-1/",
+
+    "releases": [
+        {
+            "name": "rc1",
+            "ref": "f782f6ad05cae079d1e708d1c5c11f43910f6b8e",
+            "from_ref": "4.5.1-stable",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-5-2-rc-1/"
+        }
+    ]
+}
