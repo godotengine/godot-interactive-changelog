@@ -1,0 +1,16 @@
+{
+    "name": "4.7",
+    "git_tag": "master",
+    "ref": "bf95b62586e31b8a3503f5903d7764d7c52bf2ab",
+    "from_ref": "4.6-stable",
+    "article": "https://godotengine.org/article/dev-snapshot-godot-4-7-dev-1/",
+
+    "releases": [
+        {
+            "name": "dev1",
+            "ref": "bf95b62586e31b8a3503f5903d7764d7c52bf2ab",
+            "from_ref": "4.6-stable",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-7-dev-1/"
+        }
+    ]
+}
