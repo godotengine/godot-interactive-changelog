@@ -1,6 +1,15 @@
 {
-    "generated_at": 1770397854962,
+    "generated_at": 1771256407422,
     "log": [
+        "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+        "a6839cd10c957391204fa20a5522e8ecb45c8172",
+        "f3466332fdca2d30aac244063542dadfa4fd1f2e",
+        "c90bb52b3b7518f203b5a296b9dc23ac59a6cecb",
+        "8c223270f28fa8d00c706dfb38bb12c25214695e",
+        "0591470c3627c350dd32a877d200202eac3b8319",
+        "f4e9a0c426d679d8e61a131f9434fb9763192729",
+        "e9861dfe4e1a2bddd62faa3111ae1fd31381ec2a",
+        "bc81d56c1ecf60d678276efa8f14797584063306",
         "7bfffc846d13cf0368a0c59c72f821fd916824d1",
         "a05938e7b139fa8df8f9d22ecf40e6ddf257ec57",
         "21e93094c535c79ecb3ad485fb61343d5631d0d0",
@@ -80,9 +89,60 @@
             "6188f459b35219f0b40d6994ae85732da0718d46",
             "0227be0bdb184f58379d7b21889a1a961e91c079",
             "543f47485c0c952b122747ef05af60e778c44139"
+        ],
+        "stable": [
+            "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+            "a6839cd10c957391204fa20a5522e8ecb45c8172",
+            "f3466332fdca2d30aac244063542dadfa4fd1f2e",
+            "c90bb52b3b7518f203b5a296b9dc23ac59a6cecb",
+            "8c223270f28fa8d00c706dfb38bb12c25214695e",
+            "0591470c3627c350dd32a877d200202eac3b8319",
+            "f4e9a0c426d679d8e61a131f9434fb9763192729",
+            "e9861dfe4e1a2bddd62faa3111ae1fd31381ec2a",
+            "bc81d56c1ecf60d678276efa8f14797584063306"
         ]
     },
     "authors": {
+        "MDQ6VXNlcjE3NDg5Mjky": {
+            "id": "MDQ6VXNlcjE3NDg5Mjky",
+            "user": "Repiteo",
+            "avatar": "https://avatars.githubusercontent.com/u/17489292?u=34072b401722100a7c0c0d61e37b376cf22b4545&v=4",
+            "url": "https://github.com/Repiteo",
+            "pull_count": 4,
+            "commit_count": 5
+        },
+        "MDQ6VXNlcjQ3MDEzMzg=": {
+            "id": "MDQ6VXNlcjQ3MDEzMzg=",
+            "user": "akien-mga",
+            "avatar": "https://avatars.githubusercontent.com/u/4701338?u=4a42fd867f2c449fcc23adf635dd574dae98e6c2&v=4",
+            "url": "https://github.com/akien-mga",
+            "pull_count": 1,
+            "commit_count": 4
+        },
+        "MDQ6VXNlcjE2NTIxMzM5": {
+            "id": "MDQ6VXNlcjE2NTIxMzM5",
+            "user": "clayjohn",
+            "avatar": "https://avatars.githubusercontent.com/u/16521339?u=e44a465cbebabb9ea2be80b59e6dc07966bef5b7&v=4",
+            "url": "https://github.com/clayjohn",
+            "pull_count": 3,
+            "commit_count": 6
+        },
+        "MDQ6VXNlcjQxMDIxMzIy": {
+            "id": "MDQ6VXNlcjQxMDIxMzIy",
+            "user": "cdemirer",
+            "avatar": "https://avatars.githubusercontent.com/u/41021322?v=4",
+            "url": "https://github.com/cdemirer",
+            "pull_count": 3,
+            "commit_count": 6
+        },
+        "MDQ6VXNlcjQ4ODQyNDY=": {
+            "id": "MDQ6VXNlcjQ4ODQyNDY=",
+            "user": "mihe",
+            "avatar": "https://avatars.githubusercontent.com/u/4884246?v=4",
+            "url": "https://github.com/mihe",
+            "pull_count": 1,
+            "commit_count": 3
+        },
         "MDQ6VXNlcjIyMjMxNzI=": {
             "id": "MDQ6VXNlcjIyMjMxNzI=",
             "user": "KoBeWi",
@@ -90,14 +150,6 @@
             "url": "https://github.com/KoBeWi",
             "pull_count": 2,
             "commit_count": 6
-        },
-        "MDQ6VXNlcjE3NDg5Mjky": {
-            "id": "MDQ6VXNlcjE3NDg5Mjky",
-            "user": "Repiteo",
-            "avatar": "https://avatars.githubusercontent.com/u/17489292?u=34072b401722100a7c0c0d61e37b376cf22b4545&v=4",
-            "url": "https://github.com/Repiteo",
-            "pull_count": 2,
-            "commit_count": 1
         },
         "MDQ6VXNlcjY5NTIzNDM2": {
             "id": "MDQ6VXNlcjY5NTIzNDM2",
@@ -114,14 +166,6 @@
             "url": "https://github.com/nhold",
             "pull_count": 1,
             "commit_count": 2
-        },
-        "MDQ6VXNlcjQxMDIxMzIy": {
-            "id": "MDQ6VXNlcjQxMDIxMzIy",
-            "user": "cdemirer",
-            "avatar": "https://avatars.githubusercontent.com/u/41021322?v=4",
-            "url": "https://github.com/cdemirer",
-            "pull_count": 2,
-            "commit_count": 4
         },
         "U_kgDODENRQg": {
             "id": "U_kgDODENRQg",
@@ -195,14 +239,6 @@
             "pull_count": 2,
             "commit_count": 4
         },
-        "MDQ6VXNlcjQ4ODQyNDY=": {
-            "id": "MDQ6VXNlcjQ4ODQyNDY=",
-            "user": "mihe",
-            "avatar": "https://avatars.githubusercontent.com/u/4884246?v=4",
-            "url": "https://github.com/mihe",
-            "pull_count": 1,
-            "commit_count": 2
-        },
         "MDQ6VXNlcjE2MjE2OTM=": {
             "id": "MDQ6VXNlcjE2MjE2OTM=",
             "user": "jrouwe",
@@ -251,14 +287,6 @@
             "pull_count": 1,
             "commit_count": 2
         },
-        "MDQ6VXNlcjE2NTIxMzM5": {
-            "id": "MDQ6VXNlcjE2NTIxMzM5",
-            "user": "clayjohn",
-            "avatar": "https://avatars.githubusercontent.com/u/16521339?u=e44a465cbebabb9ea2be80b59e6dc07966bef5b7&v=4",
-            "url": "https://github.com/clayjohn",
-            "pull_count": 2,
-            "commit_count": 4
-        },
         "MDQ6VXNlcjIzMDgxNjc=": {
             "id": "MDQ6VXNlcjIzMDgxNjc=",
             "user": "Ivorforce",
@@ -266,14 +294,6 @@
             "url": "https://github.com/Ivorforce",
             "pull_count": 1,
             "commit_count": 2
-        },
-        "MDQ6VXNlcjQ3MDEzMzg=": {
-            "id": "MDQ6VXNlcjQ3MDEzMzg=",
-            "user": "akien-mga",
-            "avatar": "https://avatars.githubusercontent.com/u/4701338?u=4a42fd867f2c449fcc23adf635dd574dae98e6c2&v=4",
-            "url": "https://github.com/akien-mga",
-            "pull_count": 1,
-            "commit_count": 3
         },
         "MDQ6VXNlcjM3Mzc4NzQ2": {
             "id": "MDQ6VXNlcjM3Mzc4NzQ2",
@@ -285,6 +305,170 @@
         }
     },
     "commits": {
+        "14d19694e0c88a3f9e82d899a0400f27a24c176e": {
+            "hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE3NDg5Mjky"
+            ],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Bump version to 4.6.1-stable \\o/",
+            "body": "See the release page for details: https://godotengine.org/article/maintenance-release-godot-4-6-1/",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "a6839cd10c957391204fa20a5522e8ecb45c8172": {
+            "hash": "a6839cd10c957391204fa20a5522e8ecb45c8172",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE3NDg5Mjky"
+            ],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Add changelog for 4.6.1",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "f3466332fdca2d30aac244063542dadfa4fd1f2e": {
+            "hash": "f3466332fdca2d30aac244063542dadfa4fd1f2e",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ3MDEzMzg="
+            ],
+            "author_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "committer_raw": "Rémi Verschelde <rverschelde@gmail.com>",
+            "summary": "Sync translations with Weblate",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "c90bb52b3b7518f203b5a296b9dc23ac59a6cecb": {
+            "hash": "c90bb52b3b7518f203b5a296b9dc23ac59a6cecb",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #116142 from Repiteo/4.6.1-cherry-picks-2",
+            "body": "[4.6] Cherry-picks for the 4.6 branch (future 4.6.1) - 3rd batch",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "8c223270f28fa8d00c706dfb38bb12c25214695e": {
+            "hash": "8c223270f28fa8d00c706dfb38bb12c25214695e",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE3NDg5Mjky"
+            ],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Revert \"Change curve range for particle multipliers\"",
+            "body": "This reverts commit c6021f1e5b78e688ea013935c4c630093b785102.\n\n(cherry picked from commit ba5a0758e9a492e87dc79b057cc3c7119e055eec)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "ba5a0758e9a492e87dc79b057cc3c7119e055eec",
+            "pull": 116142
+        },
+        "ba5a0758e9a492e87dc79b057cc3c7119e055eec": {
+            "hash": "ba5a0758e9a492e87dc79b057cc3c7119e055eec",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE3NDg5Mjky"
+            ],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Revert \"Change curve range for particle multipliers\"",
+            "body": "This reverts commit c6021f1e5b78e688ea013935c4c630093b785102.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 116140
+        },
+        "0591470c3627c350dd32a877d200202eac3b8319": {
+            "hash": "0591470c3627c350dd32a877d200202eac3b8319",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE2NTIxMzM5"
+            ],
+            "author_raw": "Clay John <claynjohn@gmail.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Use transmittance instead of opacity in the early-out branch when calculating volumetric fog",
+            "body": "(cherry picked from commit 2343d36b4352ff1c177e611e71df7df6129e993f)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "2343d36b4352ff1c177e611e71df7df6129e993f",
+            "pull": 116142
+        },
+        "2343d36b4352ff1c177e611e71df7df6129e993f": {
+            "hash": "2343d36b4352ff1c177e611e71df7df6129e993f",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE2NTIxMzM5"
+            ],
+            "author_raw": "Clay John <claynjohn@gmail.com>",
+            "committer_raw": "Clay John <claynjohn@gmail.com>",
+            "summary": "Use transmittance instead of opacity in the early-out branch when calculating volumetric fog",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 116107
+        },
+        "f4e9a0c426d679d8e61a131f9434fb9763192729": {
+            "hash": "f4e9a0c426d679d8e61a131f9434fb9763192729",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQxMDIxMzIy"
+            ],
+            "author_raw": "cdemirer <41021322+cdemirer@users.noreply.github.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Fix double memdelete of dummy_player",
+            "body": "It's already deleted as a result of being part of the tree.\n\n(cherry picked from commit d68d42b6f54441e5792f28ed5d22e4fbcc8d5a8d)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "d68d42b6f54441e5792f28ed5d22e4fbcc8d5a8d",
+            "pull": 116142
+        },
+        "d68d42b6f54441e5792f28ed5d22e4fbcc8d5a8d": {
+            "hash": "d68d42b6f54441e5792f28ed5d22e4fbcc8d5a8d",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQxMDIxMzIy"
+            ],
+            "author_raw": "cdemirer <41021322+cdemirer@users.noreply.github.com>",
+            "committer_raw": "cdemirer <41021322+cdemirer@users.noreply.github.com>",
+            "summary": "Fix double memdelete of dummy_player",
+            "body": "It's already deleted as a result of being part of the tree.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 115968
+        },
+        "e9861dfe4e1a2bddd62faa3111ae1fd31381ec2a": {
+            "hash": "e9861dfe4e1a2bddd62faa3111ae1fd31381ec2a",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #116111 from mihe/jolt/soft-body-min-mass",
+            "body": "[4.6] Allow `SoftBody3D` to have a `total_mass` of 0 again",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "bc81d56c1ecf60d678276efa8f14797584063306": {
+            "hash": "bc81d56c1ecf60d678276efa8f14797584063306",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjQ4ODQyNDY="
+            ],
+            "author_raw": "Mikael Hermansson <mikael@hermansson.io>",
+            "committer_raw": "Mikael Hermansson <mikael@hermansson.io>",
+            "summary": "Allow `SoftBody3D` to have a `total_mass` of 0 again",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 116142
+        },
         "7bfffc846d13cf0368a0c59c72f821fd916824d1": {
             "hash": "7bfffc846d13cf0368a0c59c72f821fd916824d1",
             "is_merge": true,
@@ -1340,7 +1524,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE2NDY4NzU=",
             "created_at": "2025-05-13T13:22:51Z",
-            "updated_at": "2026-02-06T14:43:02Z",
+            "updated_at": "2026-02-07T12:37:31Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -1384,7 +1568,7 @@
             "is_draft": false,
             "authored_by": "U_kgDOBkx80A",
             "created_at": "2026-01-15T18:04:44Z",
-            "updated_at": "2026-02-06T14:43:29Z",
+            "updated_at": "2026-02-07T12:37:52Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -1457,7 +1641,7 @@
             "is_draft": false,
             "authored_by": "U_kgDOBkx80A",
             "created_at": "2026-01-23T00:29:16Z",
-            "updated_at": "2026-02-06T14:42:52Z",
+            "updated_at": "2026-02-07T12:36:44Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -1496,7 +1680,7 @@
             "is_draft": false,
             "authored_by": "U_kgDOBkx80A",
             "created_at": "2026-01-23T01:47:41Z",
-            "updated_at": "2026-02-06T14:42:56Z",
+            "updated_at": "2026-02-07T12:37:52Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -1530,7 +1714,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjYxNzk2Mg==",
             "created_at": "2026-01-23T02:32:33Z",
-            "updated_at": "2026-02-06T11:38:32Z",
+            "updated_at": "2026-02-08T16:25:53Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -1564,7 +1748,7 @@
             "is_draft": false,
             "authored_by": "U_kgDOBkx80A",
             "created_at": "2026-01-23T13:25:19Z",
-            "updated_at": "2026-02-06T14:44:08Z",
+            "updated_at": "2026-02-07T12:37:52Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -1637,18 +1821,13 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjQ4ODQyNDY=",
             "created_at": "2026-01-25T15:46:39Z",
-            "updated_at": "2026-02-05T15:51:09Z",
+            "updated_at": "2026-02-09T16:01:57Z",
             "target_branch": "master",
             "labels": [
                 {
                     "id": "MDU6TGFiZWw3MzMzMDA2NA==",
                     "name": "bug",
                     "color": "#ff6055"
-                },
-                {
-                    "id": "LA_kwDOAO6SJc8AAAACF5d_aw",
-                    "name": "cherrypick:4.5",
-                    "color": "#446699"
                 },
                 {
                     "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
@@ -1681,7 +1860,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjMwMzg2MDY3",
             "created_at": "2026-01-27T02:31:47Z",
-            "updated_at": "2026-02-06T14:42:19Z",
+            "updated_at": "2026-02-08T12:20:47Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -1715,18 +1894,13 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
             "created_at": "2026-01-27T08:26:04Z",
-            "updated_at": "2026-02-05T15:50:00Z",
+            "updated_at": "2026-02-09T16:02:22Z",
             "target_branch": "master",
             "labels": [
                 {
                     "id": "MDU6TGFiZWw3MzMzMDA2NA==",
                     "name": "bug",
                     "color": "#ff6055"
-                },
-                {
-                    "id": "LA_kwDOAO6SJc8AAAACF5d_aw",
-                    "name": "cherrypick:4.5",
-                    "color": "#446699"
                 },
                 {
                     "id": "MDU6TGFiZWwyMDU0MTc0MTM=",
@@ -1793,18 +1967,13 @@
             "is_draft": false,
             "authored_by": "U_kgDOCouzNQ",
             "created_at": "2026-01-28T17:07:25Z",
-            "updated_at": "2026-02-05T15:51:44Z",
+            "updated_at": "2026-02-09T14:58:03Z",
             "target_branch": "master",
             "labels": [
                 {
                     "id": "MDU6TGFiZWw3MzMzMDA2NA==",
                     "name": "bug",
                     "color": "#ff6055"
-                },
-                {
-                    "id": "LA_kwDOAO6SJc8AAAACF5d_aw",
-                    "name": "cherrypick:4.5",
-                    "color": "#446699"
                 },
                 {
                     "id": "MDU6TGFiZWwxMzI3MzE4Mjcx",
@@ -1842,7 +2011,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjIyMjMxNzI=",
             "created_at": "2026-01-29T13:04:19Z",
-            "updated_at": "2026-02-06T16:44:15Z",
+            "updated_at": "2026-02-07T12:36:47Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -1910,7 +2079,7 @@
             "is_draft": false,
             "authored_by": "U_kgDOBkx80A",
             "created_at": "2026-01-29T23:10:25Z",
-            "updated_at": "2026-02-05T15:51:16Z",
+            "updated_at": "2026-02-07T12:37:54Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -2100,7 +2269,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjM3Mzc4NzQ2",
             "created_at": "2026-02-01T14:30:25Z",
-            "updated_at": "2026-02-05T15:49:47Z",
+            "updated_at": "2026-02-09T14:59:10Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -2121,11 +2290,6 @@
                 {
                     "id": "LA_kwDOAO6SJc8AAAAB4iS2Xw",
                     "name": "cherrypick:4.4",
-                    "color": "#446699"
-                },
-                {
-                    "id": "LA_kwDOAO6SJc8AAAACF5d_aw",
-                    "name": "cherrypick:4.5",
                     "color": "#446699"
                 },
                 {
@@ -2334,7 +2498,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
             "created_at": "2026-02-03T17:14:48Z",
-            "updated_at": "2026-02-05T15:50:37Z",
+            "updated_at": "2026-02-07T12:36:50Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -2368,7 +2532,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjExMDc0NzQ=",
             "created_at": "2026-02-04T08:23:52Z",
-            "updated_at": "2026-02-06T14:44:20Z",
+            "updated_at": "2026-02-07T12:36:51Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -2402,7 +2566,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE3NDg5Mjky",
             "created_at": "2026-02-04T16:51:56Z",
-            "updated_at": "2026-02-05T20:14:24Z",
+            "updated_at": "2026-02-07T12:37:55Z",
             "target_branch": "4.6",
             "labels": [
                 {
@@ -2601,7 +2765,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjQxMDIxMzIy",
             "created_at": "2026-02-06T00:15:25Z",
-            "updated_at": "2026-02-06T16:02:52Z",
+            "updated_at": "2026-02-07T04:55:03Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -2635,7 +2799,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE3NDg5Mjky",
             "created_at": "2026-02-06T14:41:28Z",
-            "updated_at": "2026-02-06T16:02:52Z",
+            "updated_at": "2026-02-10T16:51:55Z",
             "target_branch": "4.6",
             "labels": [
                 {
@@ -2669,6 +2833,150 @@
                 "c61b9083876d659e9be66b93e0e4343bd4dc1385",
                 "c773197ca553333a6e0b5112cdead3318f879785",
                 "b553150425b1e451020101c5cd05d04b498626d9"
+            ]
+        },
+        "115968": {
+            "id": "PR_kwDOAO6SJc7CDSkK",
+            "public_id": 115968,
+            "url": "https://github.com/godotengine/godot/pull/115968",
+            "diff_url": "https://github.com/godotengine/godot/pull/115968.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/115968.patch",
+            "title": "Fix double memdelete of `dummy_player`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjQxMDIxMzIy",
+            "created_at": "2026-02-06T17:47:41Z",
+            "updated_at": "2026-02-10T16:56:12Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzI3MzE4Mjcx",
+                    "name": "crash",
+                    "color": "#885544"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA1NjQ4",
+                    "name": "topic:animation",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "d68d42b6f54441e5792f28ed5d22e4fbcc8d5a8d"
+            ]
+        },
+        "116107": {
+            "id": "PR_kwDOAO6SJc7CigL5",
+            "public_id": 116107,
+            "url": "https://github.com/godotengine/godot/pull/116107",
+            "diff_url": "https://github.com/godotengine/godot/pull/116107.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/116107.patch",
+            "title": "Use transmittance instead of opacity in the early-out branch when calculating volumetric fog",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE2NTIxMzM5",
+            "created_at": "2026-02-09T17:54:21Z",
+            "updated_at": "2026-02-10T16:55:58Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "2343d36b4352ff1c177e611e71df7df6129e993f"
+            ]
+        },
+        "116140": {
+            "id": "PR_kwDOAO6SJc7CyV4a",
+            "public_id": 116140,
+            "url": "https://github.com/godotengine/godot/pull/116140",
+            "diff_url": "https://github.com/godotengine/godot/pull/116140.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/116140.patch",
+            "title": "Revert \"Change curve range for particle multipliers\"",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE3NDg5Mjky",
+            "created_at": "2026-02-10T16:09:13Z",
+            "updated_at": "2026-02-10T16:56:18Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAABCNCFwA",
+                    "name": "topic:particles",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "ba5a0758e9a492e87dc79b057cc3c7119e055eec"
+            ]
+        },
+        "116142": {
+            "id": "PR_kwDOAO6SJc7Cy_sV",
+            "public_id": 116142,
+            "url": "https://github.com/godotengine/godot/pull/116142",
+            "diff_url": "https://github.com/godotengine/godot/pull/116142.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/116142.patch",
+            "title": "[4.6] Cherry-picks for the 4.6 branch (future 4.6.1) - 3rd batch",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE3NDg5Mjky",
+            "created_at": "2026-02-10T16:53:13Z",
+            "updated_at": "2026-02-10T18:35:51Z",
+            "target_branch": "4.6",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzI3MzE4Mjcx",
+                    "name": "crash",
+                    "color": "#885544"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                }
+            ],
+            "commits": [
+                "8c223270f28fa8d00c706dfb38bb12c25214695e",
+                "0591470c3627c350dd32a877d200202eac3b8319",
+                "f4e9a0c426d679d8e61a131f9434fb9763192729",
+                "bc81d56c1ecf60d678276efa8f14797584063306"
             ]
         }
     }
