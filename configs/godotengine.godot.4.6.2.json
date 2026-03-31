@@ -1,9 +1,8 @@
 {
     "name": "4.6.2",
-    "git_tag": "4.6",
-    "ref": "638b2f1e923cfb75cc812c2cc168d81fc09ee493",
+    "ref": "4.6.2-stable",
     "from_ref": "4.6.1-stable",
-    "article": "https://godotengine.org/article/release-candidate-godot-4-6-2-rc-2/",
+    "article": "https://godotengine.org/article/maintenance-release-godot-4-6-2/",
 
     "releases": [
         {
@@ -17,6 +16,12 @@
             "ref": "638b2f1e923cfb75cc812c2cc168d81fc09ee493",
             "from_ref": "257ac353291f56ce1857836924a6e0625ab21b75",
             "article": "https://godotengine.org/article/release-candidate-godot-4-6-2-rc-2/"
+        },
+        {
+            "name": "stable",
+            "ref": "4.6.2-stable",
+            "from_ref": "638b2f1e923cfb75cc812c2cc168d81fc09ee493",
+            "article": "https://godotengine.org/article/maintenance-release-godot-4-6-2/"
         }
     ]
 }
