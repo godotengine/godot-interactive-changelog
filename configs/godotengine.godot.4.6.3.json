@@ -1,0 +1,16 @@
+{
+    "name": "4.6.3",
+    "git_tag": "4.6",
+    "ref": "6357d9e4cd17bb0d6f7c78183753b76f6852eb05",
+    "from_ref": "4.6.2-stable",
+    "article": "hhttps://godotengine.org/article/release-candidate-godot-4-6-3-rc-1/",
+
+    "releases": [
+        {
+            "name": "rc1",
+            "ref": "6357d9e4cd17bb0d6f7c78183753b76f6852eb05",
+            "from_ref": "4.6.2-stable",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-6-3-rc-1/"
+        }
+    ]
+}
