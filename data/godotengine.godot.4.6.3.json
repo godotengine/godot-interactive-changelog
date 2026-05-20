@@ -1,6 +1,15 @@
 {
-    "generated_at": 1778854165480,
+    "generated_at": 1779286756998,
     "log": [
+        "35e80b3a8822a9df9be390814b62f44c0a9c69e8",
+        "a89dd52037983bacbdc118053eb3f68bb2480303",
+        "2c288995110f9d83d76d5e835fd7aaf1d4057956",
+        "8b7a4f91431dfc5ef8895d2c136b12ca70d59c63",
+        "433fcb2c8f95c10b5ab00e801aaf5aac54afb870",
+        "7a728050acba7d31f3a781423538e08da7f4efc7",
+        "a9fbe3c8429d3a81878c765739029e5834886faf",
+        "a3953b69bc0f52c41cfde7e8fa59e1e8b5872d2b",
+        "99f95bb2526d28cc0e25f835ffee7e14ee3f7304",
         "e880d6bbfb74479376a0cba9b106ac0c39b4cfe4",
         "5aa2c5ae545421b655f88528b921de09a35ac9b8",
         "7c1ba29806eb2c0cc3a8bd241ac57b5d4849d49c",
@@ -170,9 +179,68 @@
             "88c9f52e84766d39e30985938680c9b28de5ceac",
             "8cb6531c843b1e14e5756da13587a1b8eb6b60e4",
             "4a788e4e4c333db10aa3e9f872f67fe60ed898a9"
+        ],
+        "stable": [
+            "35e80b3a8822a9df9be390814b62f44c0a9c69e8",
+            "a89dd52037983bacbdc118053eb3f68bb2480303",
+            "2c288995110f9d83d76d5e835fd7aaf1d4057956",
+            "8b7a4f91431dfc5ef8895d2c136b12ca70d59c63",
+            "433fcb2c8f95c10b5ab00e801aaf5aac54afb870",
+            "7a728050acba7d31f3a781423538e08da7f4efc7",
+            "a9fbe3c8429d3a81878c765739029e5834886faf",
+            "a3953b69bc0f52c41cfde7e8fa59e1e8b5872d2b",
+            "99f95bb2526d28cc0e25f835ffee7e14ee3f7304"
         ]
     },
     "authors": {
+        "MDQ6VXNlcjE3NDg5Mjky": {
+            "id": "MDQ6VXNlcjE3NDg5Mjky",
+            "user": "Repiteo",
+            "avatar": "https://avatars.githubusercontent.com/u/17489292?u=34072b401722100a7c0c0d61e37b376cf22b4545&v=4",
+            "url": "https://github.com/Repiteo",
+            "pull_count": 6,
+            "commit_count": 5
+        },
+        "MDQ6VXNlcjYwMDI0Njcx": {
+            "id": "MDQ6VXNlcjYwMDI0Njcx",
+            "user": "DeeJayLSP",
+            "avatar": "https://avatars.githubusercontent.com/u/60024671?u=7e327c81e8a9552ea98ca69adcccac4a50657dd9&v=4",
+            "url": "https://github.com/DeeJayLSP",
+            "pull_count": 2,
+            "commit_count": 4
+        },
+        "MDQ6VXNlcjkxMTM3NDMy": {
+            "id": "MDQ6VXNlcjkxMTM3NDMy",
+            "user": "0xAlexisSys",
+            "avatar": "https://avatars.githubusercontent.com/u/91137432?u=28a914ba28331dad071aa7eda5b987a0cda5d586&v=4",
+            "url": "https://github.com/0xAlexisSys",
+            "pull_count": 1,
+            "commit_count": 2
+        },
+        "": {
+            "id": "",
+            "user": "ghost",
+            "avatar": "https://avatars.githubusercontent.com/u/10137?v=4",
+            "url": "https://github.com/ghost",
+            "pull_count": 0,
+            "commit_count": 2
+        },
+        "MDQ6VXNlcjE4MDAzMg==": {
+            "id": "MDQ6VXNlcjE4MDAzMg==",
+            "user": "Calinou",
+            "avatar": "https://avatars.githubusercontent.com/u/180032?u=68d23e7ee9cdf810da125e8510b72f845b9dccc8&v=4",
+            "url": "https://github.com/Calinou",
+            "pull_count": 3,
+            "commit_count": 4
+        },
+        "MDQ6VXNlcjkxNDk2OA==": {
+            "id": "MDQ6VXNlcjkxNDk2OA==",
+            "user": "m4gr3d",
+            "avatar": "https://avatars.githubusercontent.com/u/914968?u=5f2b0cb28e37393252e96695f2eaa33494930285&v=4",
+            "url": "https://github.com/m4gr3d",
+            "pull_count": 3,
+            "commit_count": 6
+        },
         "MDQ6VXNlcjIyMjMxNzI=": {
             "id": "MDQ6VXNlcjIyMjMxNzI=",
             "user": "KoBeWi",
@@ -181,14 +249,6 @@
             "pull_count": 4,
             "commit_count": 8
         },
-        "MDQ6VXNlcjE3NDg5Mjky": {
-            "id": "MDQ6VXNlcjE3NDg5Mjky",
-            "user": "Repiteo",
-            "avatar": "https://avatars.githubusercontent.com/u/17489292?u=34072b401722100a7c0c0d61e37b376cf22b4545&v=4",
-            "url": "https://github.com/Repiteo",
-            "pull_count": 4,
-            "commit_count": 1
-        },
         "MDQ6VXNlcjMwNzM5MjM5": {
             "id": "MDQ6VXNlcjMwNzM5MjM5",
             "user": "YeldhamDev",
@@ -196,14 +256,6 @@
             "url": "https://github.com/YeldhamDev",
             "pull_count": 19,
             "commit_count": 38
-        },
-        "MDQ6VXNlcjE4MDAzMg==": {
-            "id": "MDQ6VXNlcjE4MDAzMg==",
-            "user": "Calinou",
-            "avatar": "https://avatars.githubusercontent.com/u/180032?u=68d23e7ee9cdf810da125e8510b72f845b9dccc8&v=4",
-            "url": "https://github.com/Calinou",
-            "pull_count": 2,
-            "commit_count": 4
         },
         "MDQ6VXNlcjYxOTM4MjYz": {
             "id": "MDQ6VXNlcjYxOTM4MjYz",
@@ -293,14 +345,6 @@
             "pull_count": 3,
             "commit_count": 6
         },
-        "MDQ6VXNlcjYwMDI0Njcx": {
-            "id": "MDQ6VXNlcjYwMDI0Njcx",
-            "user": "DeeJayLSP",
-            "avatar": "https://avatars.githubusercontent.com/u/60024671?u=7e327c81e8a9552ea98ca69adcccac4a50657dd9&v=4",
-            "url": "https://github.com/DeeJayLSP",
-            "pull_count": 1,
-            "commit_count": 2
-        },
         "MDQ6VXNlcjc2NDU2ODM=": {
             "id": "MDQ6VXNlcjc2NDU2ODM=",
             "user": "bruvzg",
@@ -322,14 +366,6 @@
             "user": "jon1solution",
             "avatar": "https://avatars.githubusercontent.com/u/143551917?v=4",
             "url": "https://github.com/jon1solution",
-            "pull_count": 1,
-            "commit_count": 2
-        },
-        "MDQ6VXNlcjkxNDk2OA==": {
-            "id": "MDQ6VXNlcjkxNDk2OA==",
-            "user": "m4gr3d",
-            "avatar": "https://avatars.githubusercontent.com/u/914968?u=5f2b0cb28e37393252e96695f2eaa33494930285&v=4",
-            "url": "https://github.com/m4gr3d",
             "pull_count": 1,
             "commit_count": 2
         },
@@ -487,6 +523,214 @@
         }
     },
     "commits": {
+        "35e80b3a8822a9df9be390814b62f44c0a9c69e8": {
+            "hash": "35e80b3a8822a9df9be390814b62f44c0a9c69e8",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE3NDg5Mjky"
+            ],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Bump version to 4.6.3-stable \\o/",
+            "body": "See the release page for details: https://godotengine.org/article/maintenance-release-godot-4-6-3/",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "a89dd52037983bacbdc118053eb3f68bb2480303": {
+            "hash": "a89dd52037983bacbdc118053eb3f68bb2480303",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE3NDg5Mjky"
+            ],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Add changelog for 4.6.3",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "2c288995110f9d83d76d5e835fd7aaf1d4057956": {
+            "hash": "2c288995110f9d83d76d5e835fd7aaf1d4057956",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #119575 from Repiteo/4.6.3-cherry-picks-5",
+            "body": "[4.6] Cherry-picks for the 4.6 branch (future 4.6.3) - 5th batch",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "8b7a4f91431dfc5ef8895d2c136b12ca70d59c63": {
+            "hash": "8b7a4f91431dfc5ef8895d2c136b12ca70d59c63",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjYwMDI0Njcx"
+            ],
+            "author_raw": "DeeJayLSP <djlsp@proton.me>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Suppress GCC 16's `sfinae-incomplete` warning",
+            "body": "(cherry picked from commit 1ade2b8e517f7f0e404afd5dd90962e34d92b4aa)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "1ade2b8e517f7f0e404afd5dd90962e34d92b4aa",
+            "pull": 119575
+        },
+        "1ade2b8e517f7f0e404afd5dd90962e34d92b4aa": {
+            "hash": "1ade2b8e517f7f0e404afd5dd90962e34d92b4aa",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjYwMDI0Njcx"
+            ],
+            "author_raw": "DeeJayLSP <djlsp@proton.me>",
+            "committer_raw": "DeeJayLSP <djlsp@proton.me>",
+            "summary": "Suppress GCC 16's `sfinae-incomplete` warning",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 119445
+        },
+        "433fcb2c8f95c10b5ab00e801aaf5aac54afb870": {
+            "hash": "433fcb2c8f95c10b5ab00e801aaf5aac54afb870",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE3NDg5Mjky"
+            ],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "CI: Replace `pre-commit` with `prek`",
+            "body": "(cherry picked from commit 9c81dfa8645585dda473689d56673dfb1cd45bf9)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "9c81dfa8645585dda473689d56673dfb1cd45bf9",
+            "pull": 119575
+        },
+        "9c81dfa8645585dda473689d56673dfb1cd45bf9": {
+            "hash": "9c81dfa8645585dda473689d56673dfb1cd45bf9",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE3NDg5Mjky"
+            ],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "CI: Replace `pre-commit` with `prek`",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 119150
+        },
+        "7a728050acba7d31f3a781423538e08da7f4efc7": {
+            "hash": "7a728050acba7d31f3a781423538e08da7f4efc7",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjkxMTM3NDMy"
+            ],
+            "author_raw": "Alexis Brooks <91137432+0xAlexisSys@users.noreply.github.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Fix \"subresources\" misspelling in `Resource.DEEP_DUPLICATE_NONE` docs",
+            "body": "(cherry picked from commit 5877ad3f6b5d29eb99cb6432aad177046bc8f77d)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "5877ad3f6b5d29eb99cb6432aad177046bc8f77d",
+            "pull": 119575
+        },
+        "5877ad3f6b5d29eb99cb6432aad177046bc8f77d": {
+            "hash": "5877ad3f6b5d29eb99cb6432aad177046bc8f77d",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjkxMTM3NDMy"
+            ],
+            "author_raw": "Alexis Brooks <91137432+0xAlexisSys@users.noreply.github.com>",
+            "committer_raw": "Alexis Brooks <91137432+0xAlexisSys@users.noreply.github.com>",
+            "summary": "Fix \"subresources\" misspelling in `Resource.DEEP_DUPLICATE_NONE` docs",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 115681
+        },
+        "a9fbe3c8429d3a81878c765739029e5834886faf": {
+            "hash": "a9fbe3c8429d3a81878c765739029e5834886faf",
+            "is_merge": false,
+            "authored_by": [
+                ""
+            ],
+            "author_raw": "Hugo Locurcio <hugo@Hugos-MacBook-Pro.local>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Add search keywords for some Color methods in the class reference",
+            "body": "This makes it easier to find the inverse of `to_rgba32()` and `hex()`.\n\n(cherry picked from commit 3821a9767a49965efa67bc34b57088184d3f0778)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "3821a9767a49965efa67bc34b57088184d3f0778",
+            "pull": 119575
+        },
+        "3821a9767a49965efa67bc34b57088184d3f0778": {
+            "hash": "3821a9767a49965efa67bc34b57088184d3f0778",
+            "is_merge": false,
+            "authored_by": [
+                ""
+            ],
+            "author_raw": "Hugo Locurcio <hugo@Hugos-MacBook-Pro.local>",
+            "committer_raw": "Hugo Locurcio <hugo@Hugos-MacBook-Pro.local>",
+            "summary": "Add search keywords for some Color methods in the class reference",
+            "body": "This makes it easier to find the inverse of `to_rgba32()` and `hex()`.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 119422
+        },
+        "a3953b69bc0f52c41cfde7e8fa59e1e8b5872d2b": {
+            "hash": "a3953b69bc0f52c41cfde7e8fa59e1e8b5872d2b",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjkxNDk2OA=="
+            ],
+            "author_raw": "Fredia Huya-Kouadio <fhuyakou@gmail.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "[Android] Fix the use of `--main-pack`",
+            "body": "(cherry picked from commit 948032c89c96daee19a8f6778f492399c034c93b)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "948032c89c96daee19a8f6778f492399c034c93b",
+            "pull": 119575
+        },
+        "948032c89c96daee19a8f6778f492399c034c93b": {
+            "hash": "948032c89c96daee19a8f6778f492399c034c93b",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjkxNDk2OA=="
+            ],
+            "author_raw": "Fredia Huya-Kouadio <fhuyakou@gmail.com>",
+            "committer_raw": "Fredia Huya-Kouadio <fhuyakou@gmail.com>",
+            "summary": "[Android] Fix the use of `--main-pack`",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 119495
+        },
+        "99f95bb2526d28cc0e25f835ffee7e14ee3f7304": {
+            "hash": "99f95bb2526d28cc0e25f835ffee7e14ee3f7304",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjkxNDk2OA=="
+            ],
+            "author_raw": "Fredia Huya-Kouadio <fhuyakou@gmail.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "[Android] Fix handling of back navigation when targeting API level 36",
+            "body": "(cherry picked from commit ea070aceeccf3d349c197379b28bb8a2b26d06a6)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "ea070aceeccf3d349c197379b28bb8a2b26d06a6",
+            "pull": 119575
+        },
+        "ea070aceeccf3d349c197379b28bb8a2b26d06a6": {
+            "hash": "ea070aceeccf3d349c197379b28bb8a2b26d06a6",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjkxNDk2OA=="
+            ],
+            "author_raw": "Fredia Huya-Kouadio <fhuyakou@gmail.com>",
+            "committer_raw": "Fredia Huya-Kouadio <fhuyakou@gmail.com>",
+            "summary": "[Android] Fix handling of back navigation when targeting API level 36",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 117653
+        },
         "e880d6bbfb74479376a0cba9b106ac0c39b4cfe4": {
             "hash": "e880d6bbfb74479376a0cba9b106ac0c39b4cfe4",
             "is_merge": true,
@@ -2885,14 +3129,9 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjkxNDk2OA==",
             "created_at": "2025-12-08T18:21:15Z",
-            "updated_at": "2026-05-06T17:14:26Z",
+            "updated_at": "2026-05-19T16:06:54Z",
             "target_branch": "master",
             "labels": [
-                {
-                    "id": "LA_kwDOAO6SJc8AAAACF5d_aw",
-                    "name": "cherrypick:4.5",
-                    "color": "#446699"
-                },
                 {
                     "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
                     "name": "enhancement",
@@ -3137,7 +3376,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE0MDI3NTM0",
             "created_at": "2026-01-19T16:02:31Z",
-            "updated_at": "2026-04-13T17:37:38Z",
+            "updated_at": "2026-05-19T16:06:39Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -3424,6 +3663,35 @@
             ],
             "commits": [
                 "80c5e37530ff83351f685c2b29284cb8bec287f0"
+            ]
+        },
+        "115681": {
+            "id": "PR_kwDOAO6SJc7Alcvo",
+            "public_id": 115681,
+            "url": "https://github.com/godotengine/godot/pull/115681",
+            "diff_url": "https://github.com/godotengine/godot/pull/115681.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/115681.patch",
+            "title": "Fix \"subresources\" misspelling in `Resource.DEEP_DUPLICATE_NONE` docs",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjkxMTM3NDMy",
+            "created_at": "2026-01-31T16:46:54Z",
+            "updated_at": "2026-05-19T14:50:27Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyODM1MTg4Mzk=",
+                    "name": "documentation",
+                    "color": "#ffddff"
+                }
+            ],
+            "commits": [
+                "5877ad3f6b5d29eb99cb6432aad177046bc8f77d"
             ]
         },
         "115903": {
@@ -4091,6 +4359,40 @@
                 "c92480752075dca615c8fecd2a49b821784d90f0"
             ]
         },
+        "117653": {
+            "id": "PR_kwDOAO6SJc7L9tWB",
+            "public_id": 117653,
+            "url": "https://github.com/godotengine/godot/pull/117653",
+            "diff_url": "https://github.com/godotengine/godot/pull/117653.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/117653.patch",
+            "title": "[Android] Fix handling of back navigation when targeting API level 36",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjkxNDk2OA==",
+            "created_at": "2026-03-19T20:38:46Z",
+            "updated_at": "2026-05-19T14:50:19Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc1NjI=",
+                    "name": "platform:android",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWw4OTAzMTA2NjQ=",
+                    "name": "topic:input",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "ea070aceeccf3d349c197379b28bb8a2b26d06a6"
+            ]
+        },
         "117673": {
             "id": "PR_kwDOAO6SJc7MKds_",
             "public_id": 117673,
@@ -4452,18 +4754,13 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjQ4ODQyNDY=",
             "created_at": "2026-03-31T14:44:53Z",
-            "updated_at": "2026-04-13T17:39:34Z",
+            "updated_at": "2026-05-18T21:34:55Z",
             "target_branch": "master",
             "labels": [
                 {
                     "id": "MDU6TGFiZWw3MzMzMDA2NA==",
                     "name": "bug",
                     "color": "#ff6055"
-                },
-                {
-                    "id": "LA_kwDOAO6SJc8AAAACF5d_aw",
-                    "name": "cherrypick:4.5",
-                    "color": "#446699"
                 },
                 {
                     "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
@@ -4724,7 +5021,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjQ3MDEzMzg=",
             "created_at": "2026-04-13T08:29:50Z",
-            "updated_at": "2026-04-13T17:39:51Z",
+            "updated_at": "2026-05-19T16:07:34Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -4755,11 +5052,6 @@
                 {
                     "id": "LA_kwDOAO6SJc8AAAAB4iS2Xw",
                     "name": "cherrypick:4.4",
-                    "color": "#446699"
-                },
-                {
-                    "id": "LA_kwDOAO6SJc8AAAACF5d_aw",
-                    "name": "cherrypick:4.5",
                     "color": "#446699"
                 },
                 {
@@ -5046,7 +5338,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjM3Mzc4NzQ2",
             "created_at": "2026-04-19T12:32:02Z",
-            "updated_at": "2026-04-27T17:58:42Z",
+            "updated_at": "2026-05-19T16:06:58Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -5062,11 +5354,6 @@
                 {
                     "id": "MDU6TGFiZWwxNjQ3MDUzMjAw",
                     "name": "cherrypick:3.x",
-                    "color": "#446699"
-                },
-                {
-                    "id": "LA_kwDOAO6SJc8AAAACF5d_aw",
-                    "name": "cherrypick:4.5",
                     "color": "#446699"
                 },
                 {
@@ -5090,7 +5377,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjM3Mzc4NzQ2",
             "created_at": "2026-04-20T12:29:08Z",
-            "updated_at": "2026-04-27T17:58:34Z",
+            "updated_at": "2026-05-19T16:07:02Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -5106,11 +5393,6 @@
                 {
                     "id": "MDU6TGFiZWwxNjQ3MDUzMjAw",
                     "name": "cherrypick:3.x",
-                    "color": "#446699"
-                },
-                {
-                    "id": "LA_kwDOAO6SJc8AAAACF5d_aw",
-                    "name": "cherrypick:4.5",
                     "color": "#446699"
                 },
                 {
@@ -5241,7 +5523,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjUzMTUwMjQ0",
             "created_at": "2026-04-25T12:25:00Z",
-            "updated_at": "2026-04-27T17:58:22Z",
+            "updated_at": "2026-05-19T16:07:06Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -5257,11 +5539,6 @@
                 {
                     "id": "MDU6TGFiZWwxNjQ3MDUzMjAw",
                     "name": "cherrypick:3.x",
-                    "color": "#446699"
-                },
-                {
-                    "id": "LA_kwDOAO6SJc8AAAACF5d_aw",
-                    "name": "cherrypick:4.5",
                     "color": "#446699"
                 },
                 {
@@ -5321,6 +5598,40 @@
                 "56b54c93ec3aef9b6b11c11164515c198429eee3",
                 "baaad75c0515c76ecaa489e90396c258a6e3c18f",
                 "d8fa2662351f0685ede20c7039bd4e4bf59b3cb9"
+            ]
+        },
+        "119150": {
+            "id": "PR_kwDOAO6SJc7XgbqL",
+            "public_id": 119150,
+            "url": "https://github.com/godotengine/godot/pull/119150",
+            "diff_url": "https://github.com/godotengine/godot/pull/119150.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/119150.patch",
+            "title": "CI: Replace `pre-commit` with `prek`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE3NDg5Mjky",
+            "created_at": "2026-05-01T19:01:23Z",
+            "updated_at": "2026-05-19T16:06:36Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwzMjQwOTUwMDYw",
+                    "name": "performance",
+                    "color": "#447777"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "9c81dfa8645585dda473689d56673dfb1cd45bf9"
             ]
         },
         "119265": {
@@ -5472,6 +5783,64 @@
                 "c76223a35ef23546b09fe8f30f43652e4babf576"
             ]
         },
+        "119422": {
+            "id": "PR_kwDOAO6SJc7au10H",
+            "public_id": 119422,
+            "url": "https://github.com/godotengine/godot/pull/119422",
+            "diff_url": "https://github.com/godotengine/godot/pull/119422.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/119422.patch",
+            "title": "Add search keywords for some Color methods in the class reference",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE4MDAzMg==",
+            "created_at": "2026-05-12T15:10:02Z",
+            "updated_at": "2026-05-19T14:50:24Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWwyODM1MTg4Mzk=",
+                    "name": "documentation",
+                    "color": "#ffddff"
+                },
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                }
+            ],
+            "commits": [
+                "3821a9767a49965efa67bc34b57088184d3f0778"
+            ]
+        },
+        "119445": {
+            "id": "PR_kwDOAO6SJc7bT2Hw",
+            "public_id": 119445,
+            "url": "https://github.com/godotengine/godot/pull/119445",
+            "diff_url": "https://github.com/godotengine/godot/pull/119445.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/119445.patch",
+            "title": "Suppress GCC 16's `sfinae-incomplete` warning",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjYwMDI0Njcx",
+            "created_at": "2026-05-13T22:49:42Z",
+            "updated_at": "2026-05-19T17:53:30Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "1ade2b8e517f7f0e404afd5dd90962e34d92b4aa"
+            ]
+        },
         "119463": {
             "id": "PR_kwDOAO6SJc7bkKQO",
             "public_id": 119463,
@@ -5519,6 +5888,74 @@
                 "88c9f52e84766d39e30985938680c9b28de5ceac",
                 "8cb6531c843b1e14e5756da13587a1b8eb6b60e4",
                 "4a788e4e4c333db10aa3e9f872f67fe60ed898a9"
+            ]
+        },
+        "119495": {
+            "id": "PR_kwDOAO6SJc7b_96K",
+            "public_id": 119495,
+            "url": "https://github.com/godotengine/godot/pull/119495",
+            "diff_url": "https://github.com/godotengine/godot/pull/119495.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/119495.patch",
+            "title": "[Android] Fix the use of `--main-pack` in template builds",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjkxNDk2OA==",
+            "created_at": "2026-05-15T17:00:29Z",
+            "updated_at": "2026-05-19T14:50:21Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc1NjI=",
+                    "name": "platform:android",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                }
+            ],
+            "commits": [
+                "948032c89c96daee19a8f6778f492399c034c93b"
+            ]
+        },
+        "119575": {
+            "id": "PR_kwDOAO6SJc7dHgjQ",
+            "public_id": 119575,
+            "url": "https://github.com/godotengine/godot/pull/119575",
+            "diff_url": "https://github.com/godotengine/godot/pull/119575.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/119575.patch",
+            "title": "[4.6] Cherry-picks for the 4.6 branch (future 4.6.3) - 5th batch",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE3NDg5Mjky",
+            "created_at": "2026-05-19T14:48:33Z",
+            "updated_at": "2026-05-19T15:52:44Z",
+            "target_branch": "4.6",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                }
+            ],
+            "commits": [
+                "8b7a4f91431dfc5ef8895d2c136b12ca70d59c63",
+                "433fcb2c8f95c10b5ab00e801aaf5aac54afb870",
+                "7a728050acba7d31f3a781423538e08da7f4efc7",
+                "a9fbe3c8429d3a81878c765739029e5834886faf",
+                "a3953b69bc0f52c41cfde7e8fa59e1e8b5872d2b",
+                "99f95bb2526d28cc0e25f835ffee7e14ee3f7304"
             ]
         }
     }
