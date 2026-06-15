@@ -1,9 +1,9 @@
 {
     "name": "4.7",
     "git_tag": "master",
-    "ref": "3df26a02c446710c979daa541b74f87edeca81b0",
+    "ref": "645638db91769059ed061450e6b348a7033d4225",
     "from_ref": "4.6-stable",
-    "article": "https://godotengine.org/article/release-candidate-godot-4-7-rc-2/",
+    "article": "https://godotengine.org/article/release-candidate-godot-4-7-rc-3/",
 
     "releases": [
         {
@@ -77,6 +77,12 @@
             "ref": "3df26a02c446710c979daa541b74f87edeca81b0",
             "from_ref": "a4f5e8cddf68487bdc358bc2ccf745d98363139b",
             "article": "https://godotengine.org/article/release-candidate-godot-4-7-rc-2/"
+        },
+        {
+            "name": "rc3",
+            "ref": "645638db91769059ed061450e6b348a7033d4225",
+            "from_ref": "3df26a02c446710c979daa541b74f87edeca81b0",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-7-rc-3/"
         }
     ]
 }
