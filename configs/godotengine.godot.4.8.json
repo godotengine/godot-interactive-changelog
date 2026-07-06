@@ -1,0 +1,16 @@
+{
+    "name": "4.8",
+    "git_tag": "master",
+    "ref": "ebbf577a041d1ab8d7824b6f90e7d0575461ca45",
+    "from_ref": "4.7-stable",
+    "article": "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-1/",
+
+    "releases": [
+        {
+            "name": "dev1",
+            "ref": "ebbf577a041d1ab8d7824b6f90e7d0575461ca45",
+            "from_ref": "4.7-stable",
+            "article": "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-1/"
+        }
+    ]
+}
