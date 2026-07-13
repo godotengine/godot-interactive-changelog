@@ -1,6 +1,19 @@
 {
-    "generated_at": 1783604505534,
+    "generated_at": 1783976924000,
     "log": [
+        "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+        "b2788f95a4f7efdffeacca1428c59dd0c77a33e2",
+        "07cb117920589dc2bf146633b088c927b3c17fef",
+        "60eb2824bdc99657441e1676dba50b673fc555da",
+        "1ba7fea71f17f95b41156a52094cee457ed8ab73",
+        "f0da549104f8015e6d05b2d7d3000d6c24894964",
+        "9722b3d6e971562a53dcccae6607d18578580c03",
+        "61fe4ec801a6b44f446568d8167fd762ac9c9fc6",
+        "29c0132a5b39ddefabd9d9e7e2786922c59c131e",
+        "7eae03352a04fadc82b4e0e373c6985f20514252",
+        "9a59ab148e0fc4c3da4a7f3328d836645d1ceacc",
+        "2575428debee2214aec5508ff43a55ce5a9588f8",
+        "c237730200de7d12dd92118deb470af648ccaaeb",
         "d6096250e5d7dbc5850de5bfb415edaee3a4595e",
         "7b97b90e14264d673572a7d151d93090b1c4c033",
         "1de7e257ffc38a88b2b931c2ea1672e27812a225",
@@ -158,9 +171,80 @@
             "042e55efb63dbdbfa25e76cbbfe080a874c21827",
             "346b1ea1196880bc92a2142c8e0dc20eecea69e6",
             "4174f2ecc8e0fca5279f6ef66f216170fd276ac0"
+        ],
+        "stable": [
+            "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+            "b2788f95a4f7efdffeacca1428c59dd0c77a33e2",
+            "07cb117920589dc2bf146633b088c927b3c17fef",
+            "60eb2824bdc99657441e1676dba50b673fc555da",
+            "1ba7fea71f17f95b41156a52094cee457ed8ab73",
+            "f0da549104f8015e6d05b2d7d3000d6c24894964",
+            "9722b3d6e971562a53dcccae6607d18578580c03",
+            "61fe4ec801a6b44f446568d8167fd762ac9c9fc6",
+            "29c0132a5b39ddefabd9d9e7e2786922c59c131e",
+            "7eae03352a04fadc82b4e0e373c6985f20514252",
+            "9a59ab148e0fc4c3da4a7f3328d836645d1ceacc",
+            "2575428debee2214aec5508ff43a55ce5a9588f8",
+            "c237730200de7d12dd92118deb470af648ccaaeb"
         ]
     },
     "authors": {
+        "MDQ6VXNlcjE3NDg5Mjky": {
+            "id": "MDQ6VXNlcjE3NDg5Mjky",
+            "user": "Repiteo",
+            "avatar": "https://avatars.githubusercontent.com/u/17489292?u=34072b401722100a7c0c0d61e37b376cf22b4545&v=4",
+            "url": "https://github.com/Repiteo",
+            "pull_count": 6,
+            "commit_count": 6
+        },
+        "U_kgDOB5iWcw": {
+            "id": "U_kgDOB5iWcw",
+            "user": "AegisTTN",
+            "avatar": "https://avatars.githubusercontent.com/u/127440499?v=4",
+            "url": "https://github.com/AegisTTN",
+            "pull_count": 2,
+            "commit_count": 4
+        },
+        "MDQ6VXNlcjc2NDU2ODM=": {
+            "id": "MDQ6VXNlcjc2NDU2ODM=",
+            "user": "bruvzg",
+            "avatar": "https://avatars.githubusercontent.com/u/7645683?u=2867ee7fcd920bc19b7d1cbf4b10264b9bbc9326&v=4",
+            "url": "https://github.com/bruvzg",
+            "pull_count": 8,
+            "commit_count": 15
+        },
+        "MDQ6VXNlcjUxMDAyNTA=": {
+            "id": "MDQ6VXNlcjUxMDAyNTA=",
+            "user": "brycehutchings",
+            "avatar": "https://avatars.githubusercontent.com/u/5100250?u=7f1cf0938a651d82b17348bd75f5a28089f33096&v=4",
+            "url": "https://github.com/brycehutchings",
+            "pull_count": 2,
+            "commit_count": 4
+        },
+        "U_kgDOCouzNQ": {
+            "id": "U_kgDOCouzNQ",
+            "user": "syntaxerror247",
+            "avatar": "https://avatars.githubusercontent.com/u/176927541?u=25817fe797fcc7a812ba9d7f58f593f5a003abbb&v=4",
+            "url": "https://github.com/syntaxerror247",
+            "pull_count": 4,
+            "commit_count": 8
+        },
+        "MDQ6VXNlcjMwNzM5MjM5": {
+            "id": "MDQ6VXNlcjMwNzM5MjM5",
+            "user": "YeldhamDev",
+            "avatar": "https://avatars.githubusercontent.com/u/30739239?u=ccfc0c8ff4c980eb77e097aa72e9ad04749294a9&v=4",
+            "url": "https://github.com/YeldhamDev",
+            "pull_count": 8,
+            "commit_count": 16
+        },
+        "U_kgDOD-xeiw": {
+            "id": "U_kgDOD-xeiw",
+            "user": "unit-tick",
+            "avatar": "https://avatars.githubusercontent.com/u/267148939?v=4",
+            "url": "https://github.com/unit-tick",
+            "pull_count": 1,
+            "commit_count": 2
+        },
         "MDQ6VXNlcjE2ODc5MTg=": {
             "id": "MDQ6VXNlcjE2ODc5MTg=",
             "user": "Faless",
@@ -176,14 +260,6 @@
             "url": "https://github.com/KoBeWi",
             "pull_count": 4,
             "commit_count": 8
-        },
-        "MDQ6VXNlcjE3NDg5Mjky": {
-            "id": "MDQ6VXNlcjE3NDg5Mjky",
-            "user": "Repiteo",
-            "avatar": "https://avatars.githubusercontent.com/u/17489292?u=34072b401722100a7c0c0d61e37b376cf22b4545&v=4",
-            "url": "https://github.com/Repiteo",
-            "pull_count": 3,
-            "commit_count": 2
         },
         "U_kgDOC1emOQ": {
             "id": "U_kgDOC1emOQ",
@@ -217,14 +293,6 @@
             "pull_count": 1,
             "commit_count": 2
         },
-        "MDQ6VXNlcjc2NDU2ODM=": {
-            "id": "MDQ6VXNlcjc2NDU2ODM=",
-            "user": "bruvzg",
-            "avatar": "https://avatars.githubusercontent.com/u/7645683?u=2867ee7fcd920bc19b7d1cbf4b10264b9bbc9326&v=4",
-            "url": "https://github.com/bruvzg",
-            "pull_count": 6,
-            "commit_count": 12
-        },
         "MDQ6VXNlcjk2NTgzNTU=": {
             "id": "MDQ6VXNlcjk2NTgzNTU=",
             "user": "vaner-org",
@@ -241,27 +309,11 @@
             "pull_count": 1,
             "commit_count": 2
         },
-        "MDQ6VXNlcjMwNzM5MjM5": {
-            "id": "MDQ6VXNlcjMwNzM5MjM5",
-            "user": "YeldhamDev",
-            "avatar": "https://avatars.githubusercontent.com/u/30739239?u=ccfc0c8ff4c980eb77e097aa72e9ad04749294a9&v=4",
-            "url": "https://github.com/YeldhamDev",
-            "pull_count": 7,
-            "commit_count": 14
-        },
         "MDQ6VXNlcjQ0MzA2MDU0": {
             "id": "MDQ6VXNlcjQ0MzA2MDU0",
             "user": "matheusmdx",
             "avatar": "https://avatars.githubusercontent.com/u/44306054?u=dce7f29d6a6129d92609c697036bc5c9ba1d4a58&v=4",
             "url": "https://github.com/matheusmdx",
-            "pull_count": 1,
-            "commit_count": 2
-        },
-        "U_kgDOB5iWcw": {
-            "id": "U_kgDOB5iWcw",
-            "user": "AegisTTN",
-            "avatar": "https://avatars.githubusercontent.com/u/127440499?v=4",
-            "url": "https://github.com/AegisTTN",
             "pull_count": 1,
             "commit_count": 2
         },
@@ -337,14 +389,6 @@
             "pull_count": 1,
             "commit_count": 2
         },
-        "U_kgDOCouzNQ": {
-            "id": "U_kgDOCouzNQ",
-            "user": "syntaxerror247",
-            "avatar": "https://avatars.githubusercontent.com/u/176927541?u=25817fe797fcc7a812ba9d7f58f593f5a003abbb&v=4",
-            "url": "https://github.com/syntaxerror247",
-            "pull_count": 3,
-            "commit_count": 6
-        },
         "MDQ6VXNlcjQ3MDEzMzg=": {
             "id": "MDQ6VXNlcjQ3MDEzMzg=",
             "user": "akien-mga",
@@ -412,7 +456,7 @@
         "U_kgDODsoThg": {
             "id": "U_kgDODsoThg",
             "user": "mxtherfxcker",
-            "avatar": "https://avatars.githubusercontent.com/u/248124294?u=0da80062c124deb444e429418e007363107d37af&v=4",
+            "avatar": "https://avatars.githubusercontent.com/u/248124294?u=ce988cf3284fe34b1c5d241c02c1abf1445c74d5&v=4",
             "url": "https://github.com/mxtherfxcker",
             "pull_count": 1,
             "commit_count": 2
@@ -465,14 +509,6 @@
             "pull_count": 2,
             "commit_count": 4
         },
-        "MDQ6VXNlcjUxMDAyNTA=": {
-            "id": "MDQ6VXNlcjUxMDAyNTA=",
-            "user": "brycehutchings",
-            "avatar": "https://avatars.githubusercontent.com/u/5100250?u=7f1cf0938a651d82b17348bd75f5a28089f33096&v=4",
-            "url": "https://github.com/brycehutchings",
-            "pull_count": 1,
-            "commit_count": 2
-        },
         "MDQ6VXNlcjkwOTMw": {
             "id": "MDQ6VXNlcjkwOTMw",
             "user": "ttencate",
@@ -491,6 +527,280 @@
         }
     },
     "commits": {
+        "a13da4feb8d8aefc283c3763d33a2f170a18d541": {
+            "hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE3NDg5Mjky"
+            ],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Bump version to 4.7.1-stable \\o/",
+            "body": "See the release page for details: https://godotengine.org/article/maintenance-release-godot-4-7-1/",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "b2788f95a4f7efdffeacca1428c59dd0c77a33e2": {
+            "hash": "b2788f95a4f7efdffeacca1428c59dd0c77a33e2",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE3NDg5Mjky"
+            ],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Add changelog for 4.7.1",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "07cb117920589dc2bf146633b088c927b3c17fef": {
+            "hash": "07cb117920589dc2bf146633b088c927b3c17fef",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #121331 from Repiteo/4.7.1-cherry-picks-3",
+            "body": "[4.7] Cherry-picks for the 4.7 branch (future 4.7.1) - 4th batch",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "60eb2824bdc99657441e1676dba50b673fc555da": {
+            "hash": "60eb2824bdc99657441e1676dba50b673fc555da",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOB5iWcw"
+            ],
+            "author_raw": "AegisTTN <tc.dev04@gmail.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Fix crash in GLTFNode.get_scene_node_path",
+            "body": "(cherry picked from commit c77ba84d6fee2dfcaa5fe0ece77ce1f687053acb)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "c77ba84d6fee2dfcaa5fe0ece77ce1f687053acb",
+            "pull": 121331
+        },
+        "c77ba84d6fee2dfcaa5fe0ece77ce1f687053acb": {
+            "hash": "c77ba84d6fee2dfcaa5fe0ece77ce1f687053acb",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOB5iWcw"
+            ],
+            "author_raw": "AegisTTN <tc.dev04@gmail.com>",
+            "committer_raw": "AegisTTN <tc.dev04@gmail.com>",
+            "summary": "Fix crash in GLTFNode.get_scene_node_path",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 121296
+        },
+        "1ba7fea71f17f95b41156a52094cee457ed8ab73": {
+            "hash": "1ba7fea71f17f95b41156a52094cee457ed8ab73",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Fix `EditorContextMenuPluginManager` crash in Project Manager.",
+            "body": "(cherry picked from commit a2150f1efd8b92a2c72a6b3d40a4248ec1471546)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "a2150f1efd8b92a2c72a6b3d40a4248ec1471546",
+            "pull": 121331
+        },
+        "a2150f1efd8b92a2c72a6b3d40a4248ec1471546": {
+            "hash": "a2150f1efd8b92a2c72a6b3d40a4248ec1471546",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "summary": "Fix `EditorContextMenuPluginManager` crash in Project Manager.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 121120
+        },
+        "f0da549104f8015e6d05b2d7d3000d6c24894964": {
+            "hash": "f0da549104f8015e6d05b2d7d3000d6c24894964",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjUxMDAyNTA="
+            ],
+            "author_raw": "Bryce Hutchings <bryceh@microsoft.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "commit to method ptr once to avoid corrupting another thread in certain race conditions",
+            "body": "(cherry picked from commit bc5dee8f27de51c9f27ac8b886c1381d8f491a4f)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "bc5dee8f27de51c9f27ac8b886c1381d8f491a4f",
+            "pull": 121331
+        },
+        "bc5dee8f27de51c9f27ac8b886c1381d8f491a4f": {
+            "hash": "bc5dee8f27de51c9f27ac8b886c1381d8f491a4f",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjUxMDAyNTA="
+            ],
+            "author_raw": "Bryce Hutchings <bryceh@microsoft.com>",
+            "committer_raw": "Bryce Hutchings <bryceh@microsoft.com>",
+            "summary": "commit to method ptr once to avoid corrupting another thread in certain race conditions",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 120796
+        },
+        "9722b3d6e971562a53dcccae6607d18578580c03": {
+            "hash": "9722b3d6e971562a53dcccae6607d18578580c03",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOCouzNQ"
+            ],
+            "author_raw": "Anish Kumar <mishragames@gmail.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Fix crash in org.godotengine.godot.GodotActivity.updatePiPParams",
+            "body": "(cherry picked from commit 899de04acbb717f9cc55fe1dd42bc679372aa355)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "899de04acbb717f9cc55fe1dd42bc679372aa355",
+            "pull": 121331
+        },
+        "899de04acbb717f9cc55fe1dd42bc679372aa355": {
+            "hash": "899de04acbb717f9cc55fe1dd42bc679372aa355",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOCouzNQ"
+            ],
+            "author_raw": "Anish Kumar <mishragames@gmail.com>",
+            "committer_raw": "Anish Kumar <mishragames@gmail.com>",
+            "summary": "Fix crash in org.godotengine.godot.GodotActivity.updatePiPParams",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 121155
+        },
+        "61fe4ec801a6b44f446568d8167fd762ac9c9fc6": {
+            "hash": "61fe4ec801a6b44f446568d8167fd762ac9c9fc6",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE3NDg5Mjky"
+            ],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Core: Fix MSVC compilation with Tracy",
+            "body": "(cherry picked from commit 2aaa46b9d18ff42c315a32043274039b08b3448f)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "2aaa46b9d18ff42c315a32043274039b08b3448f",
+            "pull": 121331
+        },
+        "2aaa46b9d18ff42c315a32043274039b08b3448f": {
+            "hash": "2aaa46b9d18ff42c315a32043274039b08b3448f",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE3NDg5Mjky"
+            ],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Core: Fix MSVC compilation with Tracy",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 121182
+        },
+        "29c0132a5b39ddefabd9d9e7e2786922c59c131e": {
+            "hash": "29c0132a5b39ddefabd9d9e7e2786922c59c131e",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjMwNzM5MjM5"
+            ],
+            "author_raw": "Michael Alexsander <michaelalexsander@protonmail.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Set the Asset Store's default sorting to highest scored",
+            "body": "(cherry picked from commit 07ab13f08aa620bbb332553d581d42d3bf3b2067)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "07ab13f08aa620bbb332553d581d42d3bf3b2067",
+            "pull": 121331
+        },
+        "07ab13f08aa620bbb332553d581d42d3bf3b2067": {
+            "hash": "07ab13f08aa620bbb332553d581d42d3bf3b2067",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjMwNzM5MjM5"
+            ],
+            "author_raw": "Michael Alexsander <michaelalexsander@protonmail.com>",
+            "committer_raw": "Michael Alexsander <michaelalexsander@protonmail.com>",
+            "summary": "Set the Asset Store's default sorting to highest scored",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 121112
+        },
+        "7eae03352a04fadc82b4e0e373c6985f20514252": {
+            "hash": "7eae03352a04fadc82b4e0e373c6985f20514252",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #121129 from bruvzg/47_mac_ver",
+            "body": "[4.7] Update macOS/iOS min. versions in plist and exporter.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "9a59ab148e0fc4c3da4a7f3328d836645d1ceacc": {
+            "hash": "9a59ab148e0fc4c3da4a7f3328d836645d1ceacc",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "GitHub <noreply@github.com>",
+            "summary": "Merge pull request #121140 from Repiteo/4.7-wrap-long-title",
+            "body": "[4.7] Editor: Wrap Long Project Title",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "2575428debee2214aec5508ff43a55ce5a9588f8": {
+            "hash": "2575428debee2214aec5508ff43a55ce5a9588f8",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOD-xeiw"
+            ],
+            "author_raw": "unit-tick <official.prince.john@gmail.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Editor: Wrap Long Project Title",
+            "body": "Wraps project titles above 800px (on 100% Editor Scale) to prevent\nSideBar being pushed beyond Project Manager boundaries.\n\n(cherry picked from commit bb1bd267b9b78acb31421d13eca0d3d996b72a3a)",
+            "is_cherrypick": true,
+            "cherrypick_hash": "bb1bd267b9b78acb31421d13eca0d3d996b72a3a",
+            "pull": 121140
+        },
+        "bb1bd267b9b78acb31421d13eca0d3d996b72a3a": {
+            "hash": "bb1bd267b9b78acb31421d13eca0d3d996b72a3a",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOD-xeiw"
+            ],
+            "author_raw": "unit-tick <official.prince.john@gmail.com>",
+            "committer_raw": "unit-tick <official.prince.john@gmail.com>",
+            "summary": "Editor: Wrap Long Project Title",
+            "body": "Wraps project titles above 800px (on 100% Editor Scale) to prevent\nSideBar being pushed beyond Project Manager boundaries.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 119580
+        },
+        "c237730200de7d12dd92118deb470af648ccaaeb": {
+            "hash": "c237730200de7d12dd92118deb470af648ccaaeb",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "summary": "[4.7] Update macOS/iOS min. versions in plist and exporter.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 121129
+        },
         "d6096250e5d7dbc5850de5bfb415edaee3a4595e": {
             "hash": "d6096250e5d7dbc5850de5bfb415edaee3a4595e",
             "is_merge": true,
@@ -2865,6 +3175,35 @@
                 "f7b5ea9897cb1591034f9b0d5d2691e2cc647380"
             ]
         },
+        "119580": {
+            "id": "PR_kwDOAO6SJc7dNYsf",
+            "public_id": 119580,
+            "url": "https://github.com/godotengine/godot/pull/119580",
+            "diff_url": "https://github.com/godotengine/godot/pull/119580.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/119580.patch",
+            "title": "Editor: Wrap Long Project Title",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "U_kgDOD-xeiw",
+            "created_at": "2026-05-19T19:00:23Z",
+            "updated_at": "2026-07-09T18:08:53Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "bb1bd267b9b78acb31421d13eca0d3d996b72a3a"
+            ]
+        },
         "119614": {
             "id": "PR_kwDOAO6SJc7dvH9n",
             "public_id": 119614,
@@ -3697,7 +4036,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjMwMzYxNzY=",
             "created_at": "2026-06-19T04:14:29Z",
-            "updated_at": "2026-07-04T01:29:38Z",
+            "updated_at": "2026-07-10T00:08:39Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -4624,6 +4963,45 @@
                 "552cca4e7702b5ef944e74b4c86d4656ac82aa46"
             ]
         },
+        "120796": {
+            "id": "PR_kwDOAO6SJc7scCS8",
+            "public_id": 120796,
+            "url": "https://github.com/godotengine/godot/pull/120796",
+            "diff_url": "https://github.com/godotengine/godot/pull/120796.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/120796.patch",
+            "title": "GDExtension: Avoid transient null virtual method store during lazy init",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjUxMDAyNTA=",
+            "created_at": "2026-06-30T22:58:05Z",
+            "updated_at": "2026-07-13T16:34:07Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzI3MzE4Mjcx",
+                    "name": "crash",
+                    "color": "#885544"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc5NjY=",
+                    "name": "topic:core",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWw1ODA1MzcwMDM=",
+                    "name": "topic:gdextension",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "bc5dee8f27de51c9f27ac8b886c1381d8f491a4f"
+            ]
+        },
         "120823": {
             "id": "PR_kwDOAO6SJc7svAfQ",
             "public_id": 120823,
@@ -5029,6 +5407,283 @@
                 "1de7e257ffc38a88b2b931c2ea1672e27812a225",
                 "2254d70d7143768d7a381586447fe3a2c4659402",
                 "745094c9e7baff54551de63bd92994bb623f6678"
+            ]
+        },
+        "121112": {
+            "id": "PR_kwDOAO6SJc7vduO-",
+            "public_id": 121112,
+            "url": "https://github.com/godotengine/godot/pull/121112",
+            "diff_url": "https://github.com/godotengine/godot/pull/121112.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/121112.patch",
+            "title": "Set the Asset Store's default sorting to highest scored",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjMwNzM5MjM5",
+            "created_at": "2026-07-08T21:03:22Z",
+            "updated_at": "2026-07-13T16:34:24Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                },
+                {
+                    "id": "MDU6TGFiZWwzOTEyMzI5OTU=",
+                    "name": "topic:assetlib",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "07ab13f08aa620bbb332553d581d42d3bf3b2067"
+            ]
+        },
+        "121120": {
+            "id": "PR_kwDOAO6SJc7vmKHc",
+            "public_id": 121120,
+            "url": "https://github.com/godotengine/godot/pull/121120",
+            "diff_url": "https://github.com/godotengine/godot/pull/121120.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/121120.patch",
+            "title": "Fix `EditorContextMenuPluginManager` crash in Project Manager.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
+            "created_at": "2026-07-09T06:13:42Z",
+            "updated_at": "2026-07-13T16:34:04Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzI3MzE4Mjcx",
+                    "name": "crash",
+                    "color": "#885544"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "a2150f1efd8b92a2c72a6b3d40a4248ec1471546"
+            ]
+        },
+        "121129": {
+            "id": "PR_kwDOAO6SJc7vp4Kk",
+            "public_id": 121129,
+            "url": "https://github.com/godotengine/godot/pull/121129",
+            "diff_url": "https://github.com/godotengine/godot/pull/121129.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/121129.patch",
+            "title": "[4.7] Update macOS/iOS min. versions in plist and exporter.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
+            "created_at": "2026-07-09T09:05:17Z",
+            "updated_at": "2026-07-10T15:32:21Z",
+            "target_branch": "4.7",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc1MTk=",
+                    "name": "platform:ios",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc3ODA=",
+                    "name": "platform:macos",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgwMDk=",
+                    "name": "topic:buildsystem",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "c237730200de7d12dd92118deb470af648ccaaeb"
+            ]
+        },
+        "121140": {
+            "id": "PR_kwDOAO6SJc7v2kLF",
+            "public_id": 121140,
+            "url": "https://github.com/godotengine/godot/pull/121140",
+            "diff_url": "https://github.com/godotengine/godot/pull/121140.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/121140.patch",
+            "title": "[4.7] Editor: Wrap Long Project Title",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE3NDg5Mjky",
+            "created_at": "2026-07-09T18:07:50Z",
+            "updated_at": "2026-07-10T14:32:45Z",
+            "target_branch": "4.7",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "2575428debee2214aec5508ff43a55ce5a9588f8"
+            ]
+        },
+        "121155": {
+            "id": "PR_kwDOAO6SJc7wBTR0",
+            "public_id": 121155,
+            "url": "https://github.com/godotengine/godot/pull/121155",
+            "diff_url": "https://github.com/godotengine/godot/pull/121155.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/121155.patch",
+            "title": "Fix crash in org.godotengine.godot.GodotActivity.updatePiPParams",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "U_kgDOCouzNQ",
+            "created_at": "2026-07-10T04:50:16Z",
+            "updated_at": "2026-07-13T16:34:13Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWwxMzI3MzE4Mjcx",
+                    "name": "crash",
+                    "color": "#885544"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc1NjI=",
+                    "name": "platform:android",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyNTU=",
+                    "name": "topic:platforms",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "899de04acbb717f9cc55fe1dd42bc679372aa355"
+            ]
+        },
+        "121182": {
+            "id": "PR_kwDOAO6SJc7wTX9W",
+            "public_id": 121182,
+            "url": "https://github.com/godotengine/godot/pull/121182",
+            "diff_url": "https://github.com/godotengine/godot/pull/121182.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/121182.patch",
+            "title": "Core: Fix MSVC compilation with Tracy",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE3NDg5Mjky",
+            "created_at": "2026-07-10T18:35:41Z",
+            "updated_at": "2026-07-13T16:34:16Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc5NjY=",
+                    "name": "topic:core",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "2aaa46b9d18ff42c315a32043274039b08b3448f"
+            ]
+        },
+        "121296": {
+            "id": "PR_kwDOAO6SJc7wzgkt",
+            "public_id": 121296,
+            "url": "https://github.com/godotengine/godot/pull/121296",
+            "diff_url": "https://github.com/godotengine/godot/pull/121296.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/121296.patch",
+            "title": "Fix crash in `GLTFNode.get_scene_node_path`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "U_kgDOB5iWcw",
+            "created_at": "2026-07-12T19:27:50Z",
+            "updated_at": "2026-07-13T16:34:00Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzI3MzE4Mjcx",
+                    "name": "crash",
+                    "color": "#885544"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWw4OTAzMTA1MDI=",
+                    "name": "topic:import",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "c77ba84d6fee2dfcaa5fe0ece77ce1f687053acb"
+            ]
+        },
+        "121331": {
+            "id": "PR_kwDOAO6SJc7xJuMR",
+            "public_id": 121331,
+            "url": "https://github.com/godotengine/godot/pull/121331",
+            "diff_url": "https://github.com/godotengine/godot/pull/121331.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/121331.patch",
+            "title": "[4.7] Cherry-picks for the 4.7 branch (future 4.7.1) - 4th batch",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE3NDg5Mjky",
+            "created_at": "2026-07-13T15:59:46Z",
+            "updated_at": "2026-07-13T17:54:12Z",
+            "target_branch": "4.7",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzI3MzE4Mjcx",
+                    "name": "crash",
+                    "color": "#885544"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                }
+            ],
+            "commits": [
+                "60eb2824bdc99657441e1676dba50b673fc555da",
+                "1ba7fea71f17f95b41156a52094cee457ed8ab73",
+                "f0da549104f8015e6d05b2d7d3000d6c24894964",
+                "9722b3d6e971562a53dcccae6607d18578580c03",
+                "61fe4ec801a6b44f446568d8167fd762ac9c9fc6",
+                "29c0132a5b39ddefabd9d9e7e2786922c59c131e"
             ]
         }
     }
