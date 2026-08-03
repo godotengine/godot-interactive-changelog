@@ -1,0 +1,16 @@
+{
+    "name": "4.7.2",
+    "git_tag": "4.7",
+    "ref": "36a04fe528e63567203b28d0e8b27591ddee7915",
+    "from_ref": "4.7.1-stable",
+    "article": "https://godotengine.org/article/release-candidate-godot-4-7-2-rc-1/",
+
+    "releases": [
+        {
+            "name": "rc1",
+            "ref": "36a04fe528e63567203b28d0e8b27591ddee7915",
+            "from_ref": "4.7.1-stable",
+            "article": "https://godotengine.org/article/release-candidate-godot-4-7-2-rc-1/"
+        }
+    ]
+}
