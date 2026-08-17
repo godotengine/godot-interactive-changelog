@@ -1,9 +1,8 @@
 {
     "name": "4.7.2",
-    "git_tag": "4.7",
-    "ref": "36a04fe528e63567203b28d0e8b27591ddee7915",
+    "ref": "4.7.2-stable",
     "from_ref": "4.7.1-stable",
-    "article": "https://godotengine.org/article/release-candidate-godot-4-7-2-rc-1/",
+    "article": "https://godotengine.org/article/maintenance-release-godot-4-7-2/",
 
     "releases": [
         {
@@ -11,6 +10,12 @@
             "ref": "36a04fe528e63567203b28d0e8b27591ddee7915",
             "from_ref": "4.7.1-stable",
             "article": "https://godotengine.org/article/release-candidate-godot-4-7-2-rc-1/"
+        },
+        {
+            "name": "stable",
+            "ref": "4.7.2-stable",
+            "from_ref": "36a04fe528e63567203b28d0e8b27591ddee7915",
+            "article": "https://godotengine.org/article/maintenance-release-godot-4-7-2/"
         }
     ]
 }
