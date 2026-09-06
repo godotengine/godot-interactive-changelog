@@ -130,6 +130,55 @@ export default class ReleaseNotesItem extends LitElement {
                 padding: 0 10px;
             }
           }
+
+          :host .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 100;
+            background: #1f2430;
+            border: 1px solid #383d4c;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+            min-width: 180px;
+            margin-top: 5px;
+            padding: 8px 0;
+            color: #c6d0e0;
+          }
+
+          :host .dropdown-header {
+            padding: 5px 15px;
+            font-size: 12px;
+            color: #8992a4;
+            border-bottom: 1px solid #383d4c;
+          }
+
+          :host .dropdown-item {
+            padding: 8px 15px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+          }
+
+          :host .dropdown-item input {
+            margin-right: 8px;
+          }
+
+          :host .dropdown-item:hover, :host .dropdown-item.selected {
+            background: #2c3241;
+          }
+
+          :host .dropdown-clear {
+            padding: 8px 15px;
+            cursor: pointer;
+            border-top: 1px solid #383d4c;
+            color: #3f8cff;
+          }
+
+          :host .item-changes-filter {
+            position: relative;
+            display: inline-block;
+          }
         `;
     }
 
@@ -148,6 +197,11 @@ export default class ReleaseNotesItem extends LitElement {
         this._copiableUnifiedText = "";
         this._copiableGroupedText = "";
         this._copyStatus = "idle";
+
+        // Available label filters
+        this._availableLabels = ['bug', 'regression', 'enhancement', 'documentation'];
+        this._selectedLabels = [];
+        this._dropdownOpen = false;
     }
 
     _onViewModeClicked(type) {
@@ -187,14 +241,47 @@ export default class ReleaseNotesItem extends LitElement {
           });
     }
 
+    _toggleDropdown() {
+        this._dropdownOpen = !this._dropdownOpen;
+        this.requestUpdate();
+    }
+
+    _toggleLabel(labelName) {
+        if (this._selectedLabels.includes(labelName)) {
+            this._selectedLabels = this._selectedLabels.filter(label => label !== labelName);
+        } else {
+            this._selectedLabels = [...this._selectedLabels, labelName];
+        }
+
+        this._updateNotes();
+        this.requestUpdate();
+    }
+
+    _clearLabelFilters() {
+        this._selectedLabels = [];
+        this._updateNotes();
+        this.requestUpdate();
+    }
+
     _updateNotes() {
         this._sortedNotes = [];
         this._groupedNotes = [];
         this._copiableUnifiedText = "";
         this._copiableGroupedText = "";
 
+        // Filter pulls based on selected labels (if any)
+        const filteredPulls = this._selectedLabels.length === 0
+            ? this.pulls
+            : this.pulls.filter((pull) => {
+                if (!pull.labels) return false;
+
+                return pull.labels.some(label =>
+                    this._selectedLabels.includes(label.name)
+                );
+            });
+
         let groupedNotes = {};
-        this.pulls.forEach((pull) => {
+        filteredPulls.forEach((pull) => {
             // Store under the determined group.
             if (typeof groupedNotes[pull.group_name] === "undefined") {
                 groupedNotes[pull.group_name] = [];
@@ -306,6 +393,36 @@ export default class ReleaseNotesItem extends LitElement {
             <div class="item-container">
                 <div class="item-changes">
                     <div class="item-changes-types">
+                        <div class="item-changes-filter">
+                            <span
+                                class="item-changes-type"
+                                @click="${this._toggleDropdown}"
+                                style="cursor: pointer;"
+                            >
+                                ${this._selectedLabels.length ?
+                                    `Filtered (${this._selectedLabels.length})` :
+                                    'Filter Labels'} ▼
+                            </span>
+                            ${this._dropdownOpen ? html`
+                                <div class="dropdown-menu">
+                                    <div class="dropdown-header">
+                                        Select labels to show:
+                                    </div>
+                                    ${this._availableLabels.map(label => html`
+                                        <div class="dropdown-item ${this._selectedLabels.includes(label) ? 'selected' : ''}" @click="${(e) => this._toggleLabel(label, e)}">
+                                            <input type="checkbox" .checked="${this._selectedLabels.includes(label)}">
+                                            ${label}
+                                        </div>
+                                    `)}
+                                    ${this._selectedLabels.length ? html`
+                                        <div class="dropdown-clear" @click="${this._clearLabelFilters}">
+                                            Clear all filters
+                                        </div>
+                                    ` : ''}
+                                </div>
+                            ` : ''}
+                        </div>
+                        |
                         <span
                             class="item-changes-type ${(this._viewMode === "pretty" ? "item-changes--active" : "")}"
                             @click="${this._onViewModeClicked.bind(this, "pretty")}"
