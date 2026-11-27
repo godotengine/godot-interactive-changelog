@@ -1,12 +1,50 @@
 {
-    "generated_at": 1795533554498,
+    "generated_at": 1795793523516,
     "log": [
+        "7c97c297793ce4711679491d34693a5719a79ebe",
+        "8486bc154719d87c0a67eae950d8b8e508aa24f5",
+        "6d2235d8e1eaed9b741ec9b0312dc4f8f840563d",
+        "9bdf706bae9c5cbfc59d54ab7ffe460395956f79",
+        "79dd76b6dec7c77be9f0fce729333257e3c5a397",
+        "e02e28e3296b0cffd147a1c6b8bd44b9ebd9edaf",
+        "d92741203d33afa361236168473e94f9c6be985b",
+        "151d57feb98bbb7e86c368fd7e8cf3c958bec6be",
+        "bac14b7c4d74b74d8ae788d339e87a8601502ca8",
+        "e0ecd9dc605c3f8e63c05cb7f61832ded3ad8e03",
+        "a95d56b06292cc04927dab2b4b9f2698f900edf1",
+        "d2518ace220403b6236a4c28b5b13bb38b6360d0",
+        "dd16df6664bf4de0f21c7e98e1af8730dd6b56d2",
+        "e4e72a578a47c7316ebbe63da2b4be657be9459e",
+        "817e151db70670f3ebb29b68cc95d0e263bc44de",
+        "2346973662893c222b53c2b5a46299a09d361a05",
+        "1e8e1bf510e646b1b8311b7f5e5bb446393265fc",
+        "45720c7ea7697c42b75a712e61acc427c3693261",
+        "fe3d236f4e9f3282fd7b96b7e5cda4aec902b9dc",
+        "bc784a1c0caa09fdfda60dcec6c956f2f5d9c4ef",
+        "82d22eebf51c75d2605b5a49fb5897ff75319a34",
+        "8f2e46bca3c1cca8f3b759a0eaf67e44082b81a4",
+        "a7829d1ba5d9d2f9c621f3bb15aa54ef0c5b18bf",
+        "0eafdeb10b09b3789b0956c7ea90a1068225f012",
+        "486384aff766801bfb24c4e65ce88e18ab85023f",
+        "f9f7e9a6ef3a61fc259dd297dcf577e0721da37b",
+        "9188d3545828f45456b6f071c27dd97090b43de2",
+        "e52273de5a5c20cc31b356481a72e4aa64a5feef",
+        "22ab70fd0bb8ec40f9f33c7a152e3ca3c302cd8f",
+        "9a479dff2ee1fac3f3a177ec54cd1289851864cd",
+        "c7f1222807650a9399dee2802fb6bfd8c79622fa",
+        "25d0522345fb8b58cc469b6760dd73c04b0f0186",
+        "54549ed1701b35d7bb9eb1052473c19348171696",
+        "1f008e96770011d7718ed8a98e83581567397637",
+        "ced2b481fc7bfe9afa99ccd9ccca3297b0a3915e",
+        "ef8382c19851ab12bd9fd8872a23b85ea8d6513b",
+        "17468bab671e0047406bc8ffeabeb45c75fcb079",
         "a661dfdbccc664ccca57ad76c2bb5dcd8f3fc768",
         "5f5acf9083f6a9337fc5f71cb3fa75dc6448c913",
         "fc6850564cc6287197a37f62360d9853c7ac8df3",
         "f9dc747ee1c377a574e01a4ebddebfdf92c5435a",
         "94fc09c62dd93f1d318ecd78ef50bd78dcd3955f",
         "8012f0ae006c8e8f57637a82ec7df4c29fd3443a",
+        "67bbd075f5605e9092648e94761833c349c4361b",
         "9844dec53f17f0c412ab3c4c423a43a96cc39453",
         "02088c365b7061007afa20a841195e926faf2b78",
         "b61e14e32c11946334959850b4d7de265e75f5e8",
@@ -23,7 +61,9 @@
         "c15ddad6e8667670e8ea297bb5edea275f775ae5",
         "810d8dbcc7e92a0139b8dbbc57a241b7b21ef263",
         "5bea8bd805537e79d6ab0b3bca2c3e6c3efcd126",
+        "cd5683f7e693b48ab2b139f0fb95a7931033bfde",
         "f2acd867f1b8c4b2b8492b6d11f6c8162fcff3f5",
+        "d000c66ff0a6400c5720fc089d835ade546316ef",
         "a2fd10bf3592e5c90448141d22ef195760b12d7d",
         "4d8b1c7d5814587ec0d496406a91889ce7343d28",
         "f897f19170ba4c8ce23df929f7f8836d355935a6",
@@ -62,6 +102,7 @@
         "ddfbc4f9fc6d69f721d94453a681bae6ea30a697",
         "2c28d891a2ac5f17d4a209d52052fee4f7cf9d6d",
         "81776ed6dfe3d87192ed2ea88a3abadb8061962f",
+        "cd9e0c7b9e87fec48b56f4c86c2ad2535c2b2e30",
         "d1453e15674ce51ca27dc82b8e1d2d741540a45d",
         "e6b346d6b352e1de0f068ff5345083357ed00c6b",
         "0521e8cc8930c86285202f25b2bf757e1d4c80ac",
@@ -81,6 +122,7 @@
         "b9e72ed147f37666174ad80003e8b49800d0105b",
         "7e64338e3591b15ccd452a6affeaad76e92909e9",
         "49c80c4e81a5578c10ffc8018cf2644925cbf47f",
+        "a69384a186cf0d920ba1cfc4970f4062b830508e",
         "56404b3215a3ea19faa5f18ff22074a7679d6e7f",
         "a494bf962c809a5f4d65fb0fc68ecdab4111ee0c",
         "c09c637296f50a45f5362d3a9773944456a53287",
@@ -186,6 +228,7 @@
         "e5a5a9e08b691b057978e8771a9371d8ed979e64",
         "b7666f8f69de15e8af8a56e55d0ff2853a67ff86",
         "c2d813844db5e04e92a4c3cfa14cf0d43a150d17",
+        "7088cc1fc478edab16a8671ef23563322d190550",
         "e3558a47aeef4652451afa11d334228609024632",
         "1a306ae6989a2b3dfc4e181e02a5f243e97c3352",
         "cf9e2d82858675d21fa4a66a9af38038b2d52e87",
@@ -211,6 +254,7 @@
         "1164f9e7630e20b604645b641328377f9d2e88f4",
         "307b9a2094c53d2d21d46830d611c404c6d3262c",
         "73663112d511197828da513b09886194968a7217",
+        "c449246e06a061bcae4bac34e38cd646912b4b01",
         "a84d7ad7d4ebb2d38181b157babb286a4909a41d",
         "0ce70e116b57a8e2b24788b241bf58853e09d1a5",
         "5b61a35deb5995cbbb8687672bd648737885303e",
@@ -1777,6 +1821,7 @@
         "56d99a9270c3ca4b6f11c84abdfdee7eb7e26bea",
         "8f3e628cf4f515f9f4ccc7cb174a0be7655e5ac5",
         "76941b141d05ebd11fd65ac3f44b0b7a464e3265",
+        "7aa6e80b2bb872b04ab02363a7da4e0d8f674424",
         "29e8dfdd0a3b2bf593011402192dd4ea5907c40b",
         "47faa10b4180ae1ecf3e4367daafd208b815a2a4",
         "e80a65faf0b0243cb2d4dd296e29d590736d847c",
@@ -2412,6 +2457,7 @@
         "a0b166a02cf072dec4cb30bf1f746f038ba3e1cc",
         "e74bde3f46b87e20dc355f952a0e25df849e0e0c",
         "d912eb55331568196b3d01237634eba1bb3988e7",
+        "763714e7e41e0bab2d1d919572133c53bd4a7c72",
         "b08f07462cc41d677150677a8a3b88ad229f4995",
         "ccc01e59129bd9e50807d4afb9bf4245831798d2",
         "e69cdff721eab80eb15eaea8266fa971b274598d",
@@ -7754,9 +7800,145 @@
             "9f57f3b7daac5dacaabfa04a48ad226db7d7ef82",
             "88dfcacff221aa575e041da74f1a0655cdfd6f1f",
             "4c65541f597ba5b81df14be70db4c5d84e24ffe5"
+        ],
+        "rc1": [
+            "7c97c297793ce4711679491d34693a5719a79ebe",
+            "8486bc154719d87c0a67eae950d8b8e508aa24f5",
+            "6d2235d8e1eaed9b741ec9b0312dc4f8f840563d",
+            "9bdf706bae9c5cbfc59d54ab7ffe460395956f79",
+            "79dd76b6dec7c77be9f0fce729333257e3c5a397",
+            "e02e28e3296b0cffd147a1c6b8bd44b9ebd9edaf",
+            "d92741203d33afa361236168473e94f9c6be985b",
+            "151d57feb98bbb7e86c368fd7e8cf3c958bec6be",
+            "bac14b7c4d74b74d8ae788d339e87a8601502ca8",
+            "e0ecd9dc605c3f8e63c05cb7f61832ded3ad8e03",
+            "a95d56b06292cc04927dab2b4b9f2698f900edf1",
+            "d2518ace220403b6236a4c28b5b13bb38b6360d0",
+            "dd16df6664bf4de0f21c7e98e1af8730dd6b56d2",
+            "e4e72a578a47c7316ebbe63da2b4be657be9459e",
+            "817e151db70670f3ebb29b68cc95d0e263bc44de",
+            "2346973662893c222b53c2b5a46299a09d361a05",
+            "1e8e1bf510e646b1b8311b7f5e5bb446393265fc",
+            "45720c7ea7697c42b75a712e61acc427c3693261",
+            "fe3d236f4e9f3282fd7b96b7e5cda4aec902b9dc",
+            "bc784a1c0caa09fdfda60dcec6c956f2f5d9c4ef",
+            "82d22eebf51c75d2605b5a49fb5897ff75319a34",
+            "8f2e46bca3c1cca8f3b759a0eaf67e44082b81a4",
+            "a7829d1ba5d9d2f9c621f3bb15aa54ef0c5b18bf",
+            "0eafdeb10b09b3789b0956c7ea90a1068225f012",
+            "486384aff766801bfb24c4e65ce88e18ab85023f",
+            "f9f7e9a6ef3a61fc259dd297dcf577e0721da37b",
+            "9188d3545828f45456b6f071c27dd97090b43de2",
+            "e52273de5a5c20cc31b356481a72e4aa64a5feef",
+            "22ab70fd0bb8ec40f9f33c7a152e3ca3c302cd8f",
+            "9a479dff2ee1fac3f3a177ec54cd1289851864cd",
+            "c7f1222807650a9399dee2802fb6bfd8c79622fa",
+            "25d0522345fb8b58cc469b6760dd73c04b0f0186",
+            "54549ed1701b35d7bb9eb1052473c19348171696",
+            "1f008e96770011d7718ed8a98e83581567397637",
+            "ced2b481fc7bfe9afa99ccd9ccca3297b0a3915e",
+            "ef8382c19851ab12bd9fd8872a23b85ea8d6513b",
+            "17468bab671e0047406bc8ffeabeb45c75fcb079",
+            "67bbd075f5605e9092648e94761833c349c4361b",
+            "cd5683f7e693b48ab2b139f0fb95a7931033bfde",
+            "d000c66ff0a6400c5720fc089d835ade546316ef",
+            "cd9e0c7b9e87fec48b56f4c86c2ad2535c2b2e30",
+            "a69384a186cf0d920ba1cfc4970f4062b830508e",
+            "7088cc1fc478edab16a8671ef23563322d190550",
+            "c449246e06a061bcae4bac34e38cd646912b4b01",
+            "7aa6e80b2bb872b04ab02363a7da4e0d8f674424",
+            "763714e7e41e0bab2d1d919572133c53bd4a7c72"
         ]
     },
     "authors": {
+        "MDQ6VXNlcjE3NDg5Mjky": {
+            "id": "MDQ6VXNlcjE3NDg5Mjky",
+            "user": "Repiteo",
+            "avatar": "https://avatars.githubusercontent.com/u/17489292?u=34072b401722100a7c0c0d61e37b376cf22b4545&v=4",
+            "url": "https://github.com/Repiteo",
+            "pull_count": 54,
+            "commit_count": 60
+        },
+        "U_kgDOC1emOQ": {
+            "id": "U_kgDOC1emOQ",
+            "user": "NoNormalDev",
+            "avatar": "https://avatars.githubusercontent.com/u/190293561?u=081190c3a30acaf77c8531e0c6b9dae737767f58&v=4",
+            "url": "https://github.com/NoNormalDev",
+            "pull_count": 33,
+            "commit_count": 34
+        },
+        "MDQ6VXNlcjIyMjMxNzI=": {
+            "id": "MDQ6VXNlcjIyMjMxNzI=",
+            "user": "KoBeWi",
+            "avatar": "https://avatars.githubusercontent.com/u/2223172?u=fc85633b469acb6e7baef4dba5171f19a2a4ff85&v=4",
+            "url": "https://github.com/KoBeWi",
+            "pull_count": 159,
+            "commit_count": 164
+        },
+        "MDQ6VXNlcjYxNzE3MzQy": {
+            "id": "MDQ6VXNlcjYxNzE3MzQy",
+            "user": "MattParkerDev",
+            "avatar": "https://avatars.githubusercontent.com/u/61717342?u=314f356f8d636229e0c9d72b78f9c8854df00420&v=4",
+            "url": "https://github.com/MattParkerDev",
+            "pull_count": 2,
+            "commit_count": 2
+        },
+        "U_kgDOBd0e_A": {
+            "id": "U_kgDOBd0e_A",
+            "user": "xeemoff",
+            "avatar": "https://avatars.githubusercontent.com/u/98377468?u=2a11dd1e6873e14fe579423798ce9dff014f18a9&v=4",
+            "url": "https://github.com/xeemoff",
+            "pull_count": 1,
+            "commit_count": 1
+        },
+        "MDQ6VXNlcjc2NDU2ODM=": {
+            "id": "MDQ6VXNlcjc2NDU2ODM=",
+            "user": "bruvzg",
+            "avatar": "https://avatars.githubusercontent.com/u/7645683?u=2867ee7fcd920bc19b7d1cbf4b10264b9bbc9326&v=4",
+            "url": "https://github.com/bruvzg",
+            "pull_count": 130,
+            "commit_count": 139
+        },
+        "MDQ6VXNlcjM3Mzc4NzQ2": {
+            "id": "MDQ6VXNlcjM3Mzc4NzQ2",
+            "user": "Chubercik",
+            "avatar": "https://avatars.githubusercontent.com/u/37378746?v=4",
+            "url": "https://github.com/Chubercik",
+            "pull_count": 13,
+            "commit_count": 13
+        },
+        "U_kgDOCiYyuA": {
+            "id": "U_kgDOCiYyuA",
+            "user": "Prawnya",
+            "avatar": "https://avatars.githubusercontent.com/u/170275512?v=4",
+            "url": "https://github.com/Prawnya",
+            "pull_count": 6,
+            "commit_count": 6
+        },
+        "MDQ6VXNlcjE4MDAzMg==": {
+            "id": "MDQ6VXNlcjE4MDAzMg==",
+            "user": "Calinou",
+            "avatar": "https://avatars.githubusercontent.com/u/180032?u=68d23e7ee9cdf810da125e8510b72f845b9dccc8&v=4",
+            "url": "https://github.com/Calinou",
+            "pull_count": 57,
+            "commit_count": 61
+        },
+        "MDQ6VXNlcjc5MTc0NzU=": {
+            "id": "MDQ6VXNlcjc5MTc0NzU=",
+            "user": "QbieShay",
+            "avatar": "https://avatars.githubusercontent.com/u/7917475?u=8060ff50264c5725460375fec406721476a8628e&v=4",
+            "url": "https://github.com/QbieShay",
+            "pull_count": 13,
+            "commit_count": 14
+        },
+        "U_kgDOByme0A": {
+            "id": "U_kgDOByme0A",
+            "user": "stinaaastrom",
+            "avatar": "https://avatars.githubusercontent.com/u/120168144?v=4",
+            "url": "https://github.com/stinaaastrom",
+            "pull_count": 2,
+            "commit_count": 2
+        },
         "MDQ6VXNlcjQyOTY3MzYy": {
             "id": "MDQ6VXNlcjQyOTY3MzYy",
             "user": "ELginas",
@@ -7789,14 +7971,6 @@
             "pull_count": 1,
             "commit_count": 1
         },
-        "MDQ6VXNlcjc2NDU2ODM=": {
-            "id": "MDQ6VXNlcjc2NDU2ODM=",
-            "user": "bruvzg",
-            "avatar": "https://avatars.githubusercontent.com/u/7645683?u=2867ee7fcd920bc19b7d1cbf4b10264b9bbc9326&v=4",
-            "url": "https://github.com/bruvzg",
-            "pull_count": 123,
-            "commit_count": 132
-        },
         "U_kgDOCAXD6Q": {
             "id": "U_kgDOCAXD6Q",
             "user": "huanxiangxingyun",
@@ -7818,8 +7992,8 @@
             "user": "YeldhamDev",
             "avatar": "https://avatars.githubusercontent.com/u/30739239?u=ccfc0c8ff4c980eb77e097aa72e9ad04749294a9&v=4",
             "url": "https://github.com/YeldhamDev",
-            "pull_count": 118,
-            "commit_count": 121
+            "pull_count": 119,
+            "commit_count": 122
         },
         "MDQ6VXNlcjUyODUy": {
             "id": "MDQ6VXNlcjUyODUy",
@@ -7861,37 +8035,21 @@
             "pull_count": 2,
             "commit_count": 2
         },
-        "U_kgDOC1emOQ": {
-            "id": "U_kgDOC1emOQ",
-            "user": "NoNormalDev",
-            "avatar": "https://avatars.githubusercontent.com/u/190293561?u=081190c3a30acaf77c8531e0c6b9dae737767f58&v=4",
-            "url": "https://github.com/NoNormalDev",
-            "pull_count": 32,
-            "commit_count": 33
-        },
         "MDQ6VXNlcjkxNDk2OA==": {
             "id": "MDQ6VXNlcjkxNDk2OA==",
             "user": "m4gr3d",
             "avatar": "https://avatars.githubusercontent.com/u/914968?u=5f2b0cb28e37393252e96695f2eaa33494930285&v=4",
             "url": "https://github.com/m4gr3d",
-            "pull_count": 36,
-            "commit_count": 39
-        },
-        "MDQ6VXNlcjIyMjMxNzI=": {
-            "id": "MDQ6VXNlcjIyMjMxNzI=",
-            "user": "KoBeWi",
-            "avatar": "https://avatars.githubusercontent.com/u/2223172?u=fc85633b469acb6e7baef4dba5171f19a2a4ff85&v=4",
-            "url": "https://github.com/KoBeWi",
-            "pull_count": 155,
-            "commit_count": 160
+            "pull_count": 37,
+            "commit_count": 40
         },
         "MDQ6VXNlcjE2NDY4NzU=": {
             "id": "MDQ6VXNlcjE2NDY4NzU=",
             "user": "aaronfranke",
             "avatar": "https://avatars.githubusercontent.com/u/1646875?u=24618295fece29a0bf5c850faf2555985232f5f2&v=4",
             "url": "https://github.com/aaronfranke",
-            "pull_count": 45,
-            "commit_count": 46
+            "pull_count": 46,
+            "commit_count": 47
         },
         "MDQ6VXNlcjQ5ODYxNzA3": {
             "id": "MDQ6VXNlcjQ5ODYxNzA3",
@@ -7940,22 +8098,6 @@
             "url": "https://github.com/clayjohn",
             "pull_count": 12,
             "commit_count": 13
-        },
-        "U_kgDOCiYyuA": {
-            "id": "U_kgDOCiYyuA",
-            "user": "Prawnya",
-            "avatar": "https://avatars.githubusercontent.com/u/170275512?v=4",
-            "url": "https://github.com/Prawnya",
-            "pull_count": 5,
-            "commit_count": 5
-        },
-        "MDQ6VXNlcjE3NDg5Mjky": {
-            "id": "MDQ6VXNlcjE3NDg5Mjky",
-            "user": "Repiteo",
-            "avatar": "https://avatars.githubusercontent.com/u/17489292?u=34072b401722100a7c0c0d61e37b376cf22b4545&v=4",
-            "url": "https://github.com/Repiteo",
-            "pull_count": 54,
-            "commit_count": 59
         },
         "MDQ6VXNlcjM2NjA2NDI3": {
             "id": "MDQ6VXNlcjM2NjA2NDI3",
@@ -8100,22 +8242,6 @@
             "url": "https://github.com/Khalaq04",
             "pull_count": 1,
             "commit_count": 1
-        },
-        "MDQ6VXNlcjE4MDAzMg==": {
-            "id": "MDQ6VXNlcjE4MDAzMg==",
-            "user": "Calinou",
-            "avatar": "https://avatars.githubusercontent.com/u/180032?u=68d23e7ee9cdf810da125e8510b72f845b9dccc8&v=4",
-            "url": "https://github.com/Calinou",
-            "pull_count": 56,
-            "commit_count": 59
-        },
-        "MDQ6VXNlcjc5MTc0NzU=": {
-            "id": "MDQ6VXNlcjc5MTc0NzU=",
-            "user": "QbieShay",
-            "avatar": "https://avatars.githubusercontent.com/u/7917475?u=8060ff50264c5725460375fec406721476a8628e&v=4",
-            "url": "https://github.com/QbieShay",
-            "pull_count": 12,
-            "commit_count": 13
         },
         "MDQ6VXNlcjQ3MzAzNTMy": {
             "id": "MDQ6VXNlcjQ3MzAzNTMy",
@@ -8349,14 +8475,6 @@
             "pull_count": 1,
             "commit_count": 1
         },
-        "MDQ6VXNlcjM3Mzc4NzQ2": {
-            "id": "MDQ6VXNlcjM3Mzc4NzQ2",
-            "user": "Chubercik",
-            "avatar": "https://avatars.githubusercontent.com/u/37378746?v=4",
-            "url": "https://github.com/Chubercik",
-            "pull_count": 12,
-            "commit_count": 12
-        },
         "MDQ6VXNlcjEzMTQxMjg0": {
             "id": "MDQ6VXNlcjEzMTQxMjg0",
             "user": "donavank",
@@ -8524,14 +8642,6 @@
             "url": "https://github.com/Megane-0",
             "pull_count": 2,
             "commit_count": 0
-        },
-        "U_kgDOByme0A": {
-            "id": "U_kgDOByme0A",
-            "user": "stinaaastrom",
-            "avatar": "https://avatars.githubusercontent.com/u/120168144?v=4",
-            "url": "https://github.com/stinaaastrom",
-            "pull_count": 1,
-            "commit_count": 1
         },
         "U_kgDOCk3bkg": {
             "id": "U_kgDOCk3bkg",
@@ -8828,14 +8938,6 @@
             "url": "https://github.com/shana",
             "pull_count": 3,
             "commit_count": 3
-        },
-        "MDQ6VXNlcjYxNzE3MzQy": {
-            "id": "MDQ6VXNlcjYxNzE3MzQy",
-            "user": "MattParkerDev",
-            "avatar": "https://avatars.githubusercontent.com/u/61717342?u=314f356f8d636229e0c9d72b78f9c8854df00420&v=4",
-            "url": "https://github.com/MattParkerDev",
-            "pull_count": 1,
-            "commit_count": 1
         },
         "MDQ6VXNlcjU2MjY4OTE3": {
             "id": "MDQ6VXNlcjU2MjY4OTE3",
@@ -10951,6 +11053,480 @@
         }
     },
     "commits": {
+        "7c97c297793ce4711679491d34693a5719a79ebe": {
+            "hash": "7c97c297793ce4711679491d34693a5719a79ebe",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE3NDg5Mjky"
+            ],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Bump version to 4.8-rc",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "8486bc154719d87c0a67eae950d8b8e508aa24f5": {
+            "hash": "8486bc154719d87c0a67eae950d8b8e508aa24f5",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125753 from KoBeWi/there_is_always_a_bigger_layer",
+            "body": "Fix runtime selection drawing layer",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "6d2235d8e1eaed9b741ec9b0312dc4f8f840563d": {
+            "hash": "6d2235d8e1eaed9b741ec9b0312dc4f8f840563d",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #122939 from Calinou/doc-update-demo-links",
+            "body": "Update demo links to up-to-date Asset Store versions in the class reference",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "9bdf706bae9c5cbfc59d54ab7ffe460395956f79": {
+            "hash": "9bdf706bae9c5cbfc59d54ab7ffe460395956f79",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125839 from MattParkerDev/stacktracehidden-methods",
+            "body": "[.NET] Filter stack frames by StackTraceHidden instead of skipping a fixed count",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "79dd76b6dec7c77be9f0fce729333257e3c5a397": {
+            "hash": "79dd76b6dec7c77be9f0fce729333257e3c5a397",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125360 from KoBeWi/physical_defaults",
+            "body": "Fix PhysicalBone3D joint constrains revert",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "e02e28e3296b0cffd147a1c6b8bd44b9ebd9edaf": {
+            "hash": "e02e28e3296b0cffd147a1c6b8bd44b9ebd9edaf",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125772 from bruvzg/drag_ac_focus",
+            "body": "[SplitContainerDragger] Fix mouse dragging when accessibility is active.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "d92741203d33afa361236168473e94f9c6be985b": {
+            "hash": "d92741203d33afa361236168473e94f9c6be985b",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125765 from stinaaastrom/fix-polyphonic-volume-click",
+            "body": "Fix volume ramping in AudioStreamPlaybackPolyphonic",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "151d57feb98bbb7e86c368fd7e8cf3c958bec6be": {
+            "hash": "151d57feb98bbb7e86c368fd7e8cf3c958bec6be",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #122119 from bruvzg/gl_fs_tr_b_off",
+            "body": "[Windows] Apply `y` offset to OpenGL blit to screen when using transparent border in full-screen.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "bac14b7c4d74b74d8ae788d339e87a8601502ca8": {
+            "hash": "bac14b7c4d74b74d8ae788d339e87a8601502ca8",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125797 from KoBeWi/hacky_hack_hacking",
+            "body": "Don't hide model scenes when quick instantiating",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "e0ecd9dc605c3f8e63c05cb7f61832ded3ad8e03": {
+            "hash": "e0ecd9dc605c3f8e63c05cb7f61832ded3ad8e03",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125783 from NoNormalDev/paid_for_the_whole_height",
+            "body": "Expand Thumbnail in the Asset Store Download Panel",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "a95d56b06292cc04927dab2b4b9f2698f900edf1": {
+            "hash": "a95d56b06292cc04927dab2b4b9f2698f900edf1",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125833 from xeemoff/fix/span-floating-point-equality",
+            "body": "Compare floating-point spans by value",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "d2518ace220403b6236a4c28b5b13bb38b6360d0": {
+            "hash": "d2518ace220403b6236a4c28b5b13bb38b6360d0",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125821 from Chubercik/signal_typo_fix",
+            "body": "Fix wrong signal argument on `animation_frames_count` change",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "dd16df6664bf4de0f21c7e98e1af8730dd6b56d2": {
+            "hash": "dd16df6664bf4de0f21c7e98e1af8730dd6b56d2",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125828 from bruvzg/ds_size_move",
+            "body": "Save window size in `DisplayServerHeadless`.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "e4e72a578a47c7316ebbe63da2b4be657be9459e": {
+            "hash": "e4e72a578a47c7316ebbe63da2b4be657be9459e",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125812 from Prawnya/filepath-good-filename-bad",
+            "body": "Fix FileSystem selecting wrong file when multiple files have the same name",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "817e151db70670f3ebb29b68cc95d0e263bc44de": {
+            "hash": "817e151db70670f3ebb29b68cc95d0e263bc44de",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOC1emOQ"
+            ],
+            "author_raw": "NoNormalDev <190293561+NoNormalDev@users.noreply.github.com>",
+            "committer_raw": "NoNormalDev <190293561+NoNormalDev@users.noreply.github.com>",
+            "summary": "Expand Thumbnail in the Asset Store Downloader",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125783
+        },
+        "2346973662893c222b53c2b5a46299a09d361a05": {
+            "hash": "2346973662893c222b53c2b5a46299a09d361a05",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIyMjMxNzI="
+            ],
+            "author_raw": "Tomasz Chabora <kobewi4e@gmail.com>",
+            "committer_raw": "Tomasz Chabora <kobewi4e@gmail.com>",
+            "summary": "Don't hide model scenes when quick instantiating",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125797
+        },
+        "1e8e1bf510e646b1b8311b7f5e5bb446393265fc": {
+            "hash": "1e8e1bf510e646b1b8311b7f5e5bb446393265fc",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjYxNzE3MzQy"
+            ],
+            "author_raw": "Matt Parker <61717342+MattParkerDev@users.noreply.github.com>",
+            "committer_raw": "Matt Parker <61717342+MattParkerDev@users.noreply.github.com>",
+            "summary": "[.NET] Filter stack frames by StackTraceHidden instead of skipping a fixed count",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125839
+        },
+        "45720c7ea7697c42b75a712e61acc427c3693261": {
+            "hash": "45720c7ea7697c42b75a712e61acc427c3693261",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOBd0e_A"
+            ],
+            "author_raw": "Vladislav <98377468+xeemoff@users.noreply.github.com>",
+            "committer_raw": "Vladislav <98377468+xeemoff@users.noreply.github.com>",
+            "summary": "Compare floating-point spans by value",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125833
+        },
+        "fe3d236f4e9f3282fd7b96b7e5cda4aec902b9dc": {
+            "hash": "fe3d236f4e9f3282fd7b96b7e5cda4aec902b9dc",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "summary": "Save window size in `DisplayServerHeadless`.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125828
+        },
+        "bc784a1c0caa09fdfda60dcec6c956f2f5d9c4ef": {
+            "hash": "bc784a1c0caa09fdfda60dcec6c956f2f5d9c4ef",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjM3Mzc4NzQ2"
+            ],
+            "author_raw": "Jakub Marcowski <chubercikbattle@gmail.com>",
+            "committer_raw": "Jakub Marcowski <chubercikbattle@gmail.com>",
+            "summary": "Fix wrong signal argument on `animation_frames_count` change",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125821
+        },
+        "82d22eebf51c75d2605b5a49fb5897ff75319a34": {
+            "hash": "82d22eebf51c75d2605b5a49fb5897ff75319a34",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOCiYyuA"
+            ],
+            "author_raw": "Prawnya <170275512+Prawnya@users.noreply.github.com>",
+            "committer_raw": "Prawnya <170275512+Prawnya@users.noreply.github.com>",
+            "summary": "Fix FileSystem selecting wrong file when multiple files have the same name",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125812
+        },
+        "8f2e46bca3c1cca8f3b759a0eaf67e44082b81a4": {
+            "hash": "8f2e46bca3c1cca8f3b759a0eaf67e44082b81a4",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125769 from bruvzg/win_off_fs",
+            "body": "[Windows] Restore offsets when fullscreen window is moved to another screen by external source.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "a7829d1ba5d9d2f9c621f3bb15aa54ef0c5b18bf": {
+            "hash": "a7829d1ba5d9d2f9c621f3bb15aa54ef0c5b18bf",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125741 from bruvzg/em_t_w_id",
+            "body": "Set WindowID of emulated InputEventScreenDrag events.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "0eafdeb10b09b3789b0956c7ea90a1068225f012": {
+            "hash": "0eafdeb10b09b3789b0956c7ea90a1068225f012",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125768 from QbieShay/qbe/fix-trail-crash",
+            "body": "Fix trail crash in rare edge case",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "486384aff766801bfb24c4e65ce88e18ab85023f": {
+            "hash": "486384aff766801bfb24c4e65ce88e18ab85023f",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125737 from bruvzg/metal_vm",
+            "body": "[macOS] Force HazardTracking sync mode in macOS VM.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "f9f7e9a6ef3a61fc259dd297dcf577e0721da37b": {
+            "hash": "f9f7e9a6ef3a61fc259dd297dcf577e0721da37b",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125624 from aaronfranke/linux-x11-lifecycle",
+            "body": "Fix DisplayServerX11 destructor inserting `MAIN_WINDOW_ID` if it does not exist",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "9188d3545828f45456b6f071c27dd97090b43de2": {
+            "hash": "9188d3545828f45456b6f071c27dd97090b43de2",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125654 from m4gr3d/fix_setting_editor_env_variables",
+            "body": "[Android editor] Fix the use of custom feature tags",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "e52273de5a5c20cc31b356481a72e4aa64a5feef": {
+            "hash": "e52273de5a5c20cc31b356481a72e4aa64a5feef",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125440 from YeldhamDev/forgot_about_those",
+            "body": "Fix some wrong warning emissions in the `CanvasItemManipulator`",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "22ab70fd0bb8ec40f9f33c7a152e3ca3c302cd8f": {
+            "hash": "22ab70fd0bb8ec40f9f33c7a152e3ca3c302cd8f",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125792 from bruvzg/mob_dp_vec",
+            "body": "Fix `Mobile` shader using wrong type in double precision builds.",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "9a479dff2ee1fac3f3a177ec54cd1289851864cd": {
+            "hash": "9a479dff2ee1fac3f3a177ec54cd1289851864cd",
+            "is_merge": true,
+            "authored_by": [],
+            "author_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "committer_raw": "Thaddeus Crews <repiteo@outlook.com>",
+            "summary": "Merge pull request #125788 from KoBeWi/revertant",
+            "body": "Don't duplicate default resource when reverting property",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "c7f1222807650a9399dee2802fb6bfd8c79622fa": {
+            "hash": "c7f1222807650a9399dee2802fb6bfd8c79622fa",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "summary": "Fix `Mobile` shader using wrong type in double precision builds.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125792
+        },
+        "25d0522345fb8b58cc469b6760dd73c04b0f0186": {
+            "hash": "25d0522345fb8b58cc469b6760dd73c04b0f0186",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE4MDAzMg=="
+            ],
+            "author_raw": "Hugo Locurcio <hugo.locurcio@hugo.pro>",
+            "committer_raw": "Hugo Locurcio <hugo.locurcio@hugo.pro>",
+            "summary": "Sync translations with Weblate",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": ""
+        },
+        "54549ed1701b35d7bb9eb1052473c19348171696": {
+            "hash": "54549ed1701b35d7bb9eb1052473c19348171696",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIyMjMxNzI="
+            ],
+            "author_raw": "Tomasz Chabora <kobewi4e@gmail.com>",
+            "committer_raw": "Tomasz Chabora <kobewi4e@gmail.com>",
+            "summary": "Don't duplicate default resource when reverting property",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125788
+        },
+        "1f008e96770011d7718ed8a98e83581567397637": {
+            "hash": "1f008e96770011d7718ed8a98e83581567397637",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "summary": "[Windows] Restore offsets when fullscreen window is moved to another screen by external source.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125769
+        },
+        "ced2b481fc7bfe9afa99ccd9ccca3297b0a3915e": {
+            "hash": "ced2b481fc7bfe9afa99ccd9ccca3297b0a3915e",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "summary": "[SplitContainerDragger] Fix mouse dragging when accessibility is active.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125772
+        },
+        "ef8382c19851ab12bd9fd8872a23b85ea8d6513b": {
+            "hash": "ef8382c19851ab12bd9fd8872a23b85ea8d6513b",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc5MTc0NzU="
+            ],
+            "author_raw": "Ilaria Cislaghi <cislaghi.ilaria@gmail.com>",
+            "committer_raw": "Ilaria Cislaghi <cislaghi.ilaria@gmail.com>",
+            "summary": "Fix trail crash in rare edge case",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125768
+        },
+        "17468bab671e0047406bc8ffeabeb45c75fcb079": {
+            "hash": "17468bab671e0047406bc8ffeabeb45c75fcb079",
+            "is_merge": false,
+            "authored_by": [
+                "U_kgDOByme0A"
+            ],
+            "author_raw": "Stina Åström <stias606@student.liu.se>",
+            "committer_raw": "Stina Åström <stias606@student.liu.se>",
+            "summary": "Fix volume ramping in AudioStreamPlaybackPolyphonic",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125765
+        },
         "a661dfdbccc664ccca57ad76c2bb5dcd8f3fc768": {
             "hash": "a661dfdbccc664ccca57ad76c2bb5dcd8f3fc768",
             "is_merge": true,
@@ -11022,6 +11598,20 @@
             "is_cherrypick": false,
             "cherrypick_hash": "",
             "pull": ""
+        },
+        "67bbd075f5605e9092648e94761833c349c4361b": {
+            "hash": "67bbd075f5605e9092648e94761833c349c4361b",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIyMjMxNzI="
+            ],
+            "author_raw": "Tomasz Chabora <kobewi4e@gmail.com>",
+            "committer_raw": "Tomasz Chabora <kobewi4e@gmail.com>",
+            "summary": "Fix runtime selection drawing layer",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125753
         },
         "9844dec53f17f0c412ab3c4c423a43a96cc39453": {
             "hash": "9844dec53f17f0c412ab3c4c423a43a96cc39453",
@@ -11219,6 +11809,20 @@
             "cherrypick_hash": "",
             "pull": 125336
         },
+        "cd5683f7e693b48ab2b139f0fb95a7931033bfde": {
+            "hash": "cd5683f7e693b48ab2b139f0fb95a7931033bfde",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "summary": "Set WindowID of emulated InputEventScreenDrag events.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125741
+        },
         "f2acd867f1b8c4b2b8492b6d11f6c8162fcff3f5": {
             "hash": "f2acd867f1b8c4b2b8492b6d11f6c8162fcff3f5",
             "is_merge": false,
@@ -11232,6 +11836,20 @@
             "is_cherrypick": false,
             "cherrypick_hash": "",
             "pull": 125561
+        },
+        "d000c66ff0a6400c5720fc089d835ade546316ef": {
+            "hash": "d000c66ff0a6400c5720fc089d835ade546316ef",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "summary": "[macOS] Force HazardTracking sync mode in macOS VM.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125737
         },
         "a2fd10bf3592e5c90448141d22ef195760b12d7d": {
             "hash": "a2fd10bf3592e5c90448141d22ef195760b12d7d",
@@ -11724,6 +12342,20 @@
             "cherrypick_hash": "",
             "pull": 125656
         },
+        "cd9e0c7b9e87fec48b56f4c86c2ad2535c2b2e30": {
+            "hash": "cd9e0c7b9e87fec48b56f4c86c2ad2535c2b2e30",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjkxNDk2OA=="
+            ],
+            "author_raw": "Fredia Huya-Kouadio <fhuyakou@gmail.com>",
+            "committer_raw": "Fredia Huya-Kouadio <fhuyakou@gmail.com>",
+            "summary": "Fix the logic to set the editor `GODOT_EDITOR_CUSTOM_FEATURES` environment variable",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125654
+        },
         "d1453e15674ce51ca27dc82b8e1d2d741540a45d": {
             "hash": "d1453e15674ce51ca27dc82b8e1d2d741540a45d",
             "is_merge": false,
@@ -11963,6 +12595,20 @@
             "is_cherrypick": false,
             "cherrypick_hash": "",
             "pull": 125628
+        },
+        "a69384a186cf0d920ba1cfc4970f4062b830508e": {
+            "hash": "a69384a186cf0d920ba1cfc4970f4062b830508e",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE2NDY4NzU="
+            ],
+            "author_raw": "Aaron Franke <arnfranke@yahoo.com>",
+            "committer_raw": "Aaron Franke <arnfranke@yahoo.com>",
+            "summary": "Fix DisplayServerX11 destructor inserting MAIN_WINDOW_ID if it does not exist",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125624
         },
         "56404b3215a3ea19faa5f18ff22074a7679d6e7f": {
             "hash": "56404b3215a3ea19faa5f18ff22074a7679d6e7f",
@@ -13327,6 +13973,20 @@
             "cherrypick_hash": "",
             "pull": 125442
         },
+        "7088cc1fc478edab16a8671ef23563322d190550": {
+            "hash": "7088cc1fc478edab16a8671ef23563322d190550",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjMwNzM5MjM5"
+            ],
+            "author_raw": "Michael Alexsander <michaelalexsander@protonmail.com>",
+            "committer_raw": "Michael Alexsander <michaelalexsander@protonmail.com>",
+            "summary": "Fix some wrong warning connections in the `CanvasItemManipulator`",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125440
+        },
         "e3558a47aeef4652451afa11d334228609024632": {
             "hash": "e3558a47aeef4652451afa11d334228609024632",
             "is_merge": false,
@@ -13657,6 +14317,20 @@
             "is_cherrypick": false,
             "cherrypick_hash": "",
             "pull": 125394
+        },
+        "c449246e06a061bcae4bac34e38cd646912b4b01": {
+            "hash": "c449246e06a061bcae4bac34e38cd646912b4b01",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjIyMjMxNzI="
+            ],
+            "author_raw": "Tomasz Chabora <kobewi4e@gmail.com>",
+            "committer_raw": "Tomasz Chabora <kobewi4e@gmail.com>",
+            "summary": "Fix PhysicalBone3D joint constrains revert",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 125360
         },
         "a84d7ad7d4ebb2d38181b157babb286a4909a41d": {
             "hash": "a84d7ad7d4ebb2d38181b157babb286a4909a41d",
@@ -33982,6 +34656,20 @@
             "cherrypick_hash": "",
             "pull": 122987
         },
+        "7aa6e80b2bb872b04ab02363a7da4e0d8f674424": {
+            "hash": "7aa6e80b2bb872b04ab02363a7da4e0d8f674424",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjE4MDAzMg=="
+            ],
+            "author_raw": "Hugo Locurcio <hugo.locurcio@hugo.pro>",
+            "committer_raw": "Hugo Locurcio <hugo.locurcio@hugo.pro>",
+            "summary": "Update demo links to up-to-date Asset Store versions in the class reference",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 122939
+        },
         "29e8dfdd0a3b2bf593011402192dd4ea5907c40b": {
             "hash": "29e8dfdd0a3b2bf593011402192dd4ea5907c40b",
             "is_merge": false,
@@ -42256,6 +42944,20 @@
             "is_cherrypick": false,
             "cherrypick_hash": "",
             "pull": 122122
+        },
+        "763714e7e41e0bab2d1d919572133c53bd4a7c72": {
+            "hash": "763714e7e41e0bab2d1d919572133c53bd4a7c72",
+            "is_merge": false,
+            "authored_by": [
+                "MDQ6VXNlcjc2NDU2ODM="
+            ],
+            "author_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "committer_raw": "Pāvels Nadtočajevs <7645683+bruvzg@users.noreply.github.com>",
+            "summary": "[Windows] Apply `y` offset to OpenGL blit to screen when using transparent border in full-screen.",
+            "body": "",
+            "is_cherrypick": false,
+            "cherrypick_hash": "",
+            "pull": 122119
         },
         "b08f07462cc41d677150677a8a3b88ad229f4995": {
             "hash": "b08f07462cc41d677150677a8a3b88ad229f4995",
@@ -77501,7 +78203,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjQ1OTA3ODM2",
             "created_at": "2026-06-28T20:54:08Z",
-            "updated_at": "2026-06-30T14:10:20Z",
+            "updated_at": "2026-11-25T19:26:34Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -92068,6 +92770,45 @@
                 "22cb2e523517c53a660d9084c4bf33dde8594946"
             ]
         },
+        "122119": {
+            "id": "PR_kwDOAO6SJc76-ciw",
+            "public_id": 122119,
+            "url": "https://github.com/godotengine/godot/pull/122119",
+            "diff_url": "https://github.com/godotengine/godot/pull/122119.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/122119.patch",
+            "title": "[Windows] Apply `y` offset to OpenGL blit to screen when using transparent border in full-screen.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
+            "created_at": "2026-08-05T08:48:50Z",
+            "updated_at": "2026-11-26T23:51:03Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyMDU0MTc0MTM=",
+                    "name": "platform:windows",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyNTU=",
+                    "name": "topic:platforms",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "763714e7e41e0bab2d1d919572133c53bd4a7c72"
+            ]
+        },
         "122120": {
             "id": "PR_kwDOAO6SJc76_geQ",
             "public_id": 122120,
@@ -99572,6 +100313,35 @@
             ],
             "commits": [
                 "3bad17a44d634fa95d4a525df82acea46bf24c37"
+            ]
+        },
+        "122939": {
+            "id": "PR_kwDOAO6SJc8AAAABBW_I8A",
+            "public_id": 122939,
+            "url": "https://github.com/godotengine/godot/pull/122939",
+            "diff_url": "https://github.com/godotengine/godot/pull/122939.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/122939.patch",
+            "title": "Update demo links to up-to-date Asset Store versions in the class reference",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE4MDAzMg==",
+            "created_at": "2026-08-28T16:01:23Z",
+            "updated_at": "2026-11-27T00:17:59Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWwyODM1MTg4Mzk=",
+                    "name": "documentation",
+                    "color": "#ffddff"
+                },
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2Ng==",
+                    "name": "enhancement",
+                    "color": "#aaccff"
+                }
+            ],
+            "commits": [
+                "7aa6e80b2bb872b04ab02363a7da4e0d8f674424"
             ]
         },
         "122940": {
@@ -117594,7 +118364,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE2NTIxMzM5",
             "created_at": "2026-10-21T18:03:59Z",
-            "updated_at": "2026-10-22T03:08:01Z",
+            "updated_at": "2026-11-25T16:55:52Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -117808,7 +118578,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE2NTIxMzM5",
             "created_at": "2026-10-21T22:33:23Z",
-            "updated_at": "2026-10-22T03:08:00Z",
+            "updated_at": "2026-11-25T16:55:48Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -123252,6 +124022,40 @@
                 "3b69b3a686ec4adfeda404090c2fc23d1af5b370"
             ]
         },
+        "125360": {
+            "id": "PR_kwDOAO6SJc8AAAABOYv6Cg",
+            "public_id": 125360,
+            "url": "https://github.com/godotengine/godot/pull/125360",
+            "diff_url": "https://github.com/godotengine/godot/pull/125360.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125360.patch",
+            "title": "Fix PhysicalBone3D joint constrains revert",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIyMjMxNzI=",
+            "created_at": "2026-11-11T13:35:50Z",
+            "updated_at": "2026-11-26T23:51:05Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwzNzA0NzE4ODA=",
+                    "name": "topic:physics",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "c449246e06a061bcae4bac34e38cd646912b4b01"
+            ]
+        },
         "125362": {
             "id": "PR_kwDOAO6SJc8AAAABOZga0Q",
             "public_id": 125362,
@@ -123838,6 +124642,45 @@
             ],
             "commits": [
                 "e3558a47aeef4652451afa11d334228609024632"
+            ]
+        },
+        "125440": {
+            "id": "PR_kwDOAO6SJc8AAAABO8fWEg",
+            "public_id": 125440,
+            "url": "https://github.com/godotengine/godot/pull/125440",
+            "diff_url": "https://github.com/godotengine/godot/pull/125440.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125440.patch",
+            "title": "Fix some wrong warning emissions in the `CanvasItemManipulator`",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjMwNzM5MjM5",
+            "created_at": "2026-11-13T15:10:31Z",
+            "updated_at": "2026-11-25T15:09:53Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4MDU5",
+                    "name": "topic:2d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "7088cc1fc478edab16a8671ef23563322d190550"
             ]
         },
         "125442": {
@@ -124759,7 +125602,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjMwNzM5MjM5",
             "created_at": "2026-11-16T22:10:06Z",
-            "updated_at": "2026-11-20T14:41:55Z",
+            "updated_at": "2026-11-25T14:17:35Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -125195,7 +126038,7 @@
             "is_draft": false,
             "authored_by": "MDQ6VXNlcjE2NTIxMzM5",
             "created_at": "2026-11-18T04:28:42Z",
-            "updated_at": "2026-11-19T14:20:59Z",
+            "updated_at": "2026-11-25T16:54:48Z",
             "target_branch": "master",
             "labels": [
                 {
@@ -125432,6 +126275,40 @@
                 "56404b3215a3ea19faa5f18ff22074a7679d6e7f"
             ]
         },
+        "125624": {
+            "id": "PR_kwDOAO6SJc8AAAABQSe5CA",
+            "public_id": 125624,
+            "url": "https://github.com/godotengine/godot/pull/125624",
+            "diff_url": "https://github.com/godotengine/godot/pull/125624.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125624.patch",
+            "title": "Fix DisplayServerX11 destructor inserting `MAIN_WINDOW_ID` if it does not exist",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjE2NDY4NzU=",
+            "created_at": "2026-11-19T03:09:45Z",
+            "updated_at": "2026-11-25T17:07:11Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTczMjY=",
+                    "name": "platform:linuxbsd",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyNTU=",
+                    "name": "topic:platforms",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "a69384a186cf0d920ba1cfc4970f4062b830508e"
+            ]
+        },
         "125628": {
             "id": "PR_kwDOAO6SJc8AAAABQVO_jw",
             "public_id": 125628,
@@ -125571,6 +126448,40 @@
             ],
             "commits": [
                 "410fb80eea529c42a39a0720d3cb0bace2226403"
+            ]
+        },
+        "125654": {
+            "id": "PR_kwDOAO6SJc8AAAABQj8tow",
+            "public_id": 125654,
+            "url": "https://github.com/godotengine/godot/pull/125654",
+            "diff_url": "https://github.com/godotengine/godot/pull/125654.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125654.patch",
+            "title": "[Android editor] Fix the use of custom feature tags",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjkxNDk2OA==",
+            "created_at": "2026-11-20T02:04:20Z",
+            "updated_at": "2026-11-27T05:46:00Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc1NjI=",
+                    "name": "platform:android",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "cd9e0c7b9e87fec48b56f4c86c2ad2535c2b2e30"
             ]
         },
         "125656": {
@@ -125868,6 +126779,545 @@
             ],
             "commits": [
                 "a2fd10bf3592e5c90448141d22ef195760b12d7d"
+            ]
+        },
+        "125737": {
+            "id": "PR_kwDOAO6SJc8AAAABRNWqUg",
+            "public_id": 125737,
+            "url": "https://github.com/godotengine/godot/pull/125737",
+            "diff_url": "https://github.com/godotengine/godot/pull/125737.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125737.patch",
+            "title": "[macOS] Force HazardTracking sync mode in macOS VM.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
+            "created_at": "2026-11-23T08:38:10Z",
+            "updated_at": "2026-11-25T14:54:57Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc3ODA=",
+                    "name": "platform:macos",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "d000c66ff0a6400c5720fc089d835ade546316ef"
+            ]
+        },
+        "125741": {
+            "id": "PR_kwDOAO6SJc8AAAABRPwXmQ",
+            "public_id": 125741,
+            "url": "https://github.com/godotengine/godot/pull/125741",
+            "diff_url": "https://github.com/godotengine/godot/pull/125741.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125741.patch",
+            "title": "Set WindowID of emulated InputEventScreenDrag events.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
+            "created_at": "2026-11-23T11:38:39Z",
+            "updated_at": "2026-11-25T14:54:59Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWw4OTAzMTA2NjQ=",
+                    "name": "topic:input",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "cd5683f7e693b48ab2b139f0fb95a7931033bfde"
+            ]
+        },
+        "125753": {
+            "id": "PR_kwDOAO6SJc8AAAABRWhHxQ",
+            "public_id": 125753,
+            "url": "https://github.com/godotengine/godot/pull/125753",
+            "diff_url": "https://github.com/godotengine/godot/pull/125753.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125753.patch",
+            "title": "Fix runtime selection drawing layer",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIyMjMxNzI=",
+            "created_at": "2026-11-23T19:04:46Z",
+            "updated_at": "2026-11-27T00:08:24Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "67bbd075f5605e9092648e94761833c349c4361b"
+            ]
+        },
+        "125765": {
+            "id": "PR_kwDOAO6SJc8AAAABReqAlg",
+            "public_id": 125765,
+            "url": "https://github.com/godotengine/godot/pull/125765",
+            "diff_url": "https://github.com/godotengine/godot/pull/125765.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125765.patch",
+            "title": "Fix volume ramping in AudioStreamPlaybackPolyphonic",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "U_kgDOByme0A",
+            "created_at": "2026-11-24T07:28:27Z",
+            "updated_at": "2026-11-26T23:51:04Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWw1NzI3ODE5OTc=",
+                    "name": "topic:audio",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "17468bab671e0047406bc8ffeabeb45c75fcb079"
+            ]
+        },
+        "125768": {
+            "id": "PR_kwDOAO6SJc8AAAABRfl7jQ",
+            "public_id": 125768,
+            "url": "https://github.com/godotengine/godot/pull/125768",
+            "diff_url": "https://github.com/godotengine/godot/pull/125768.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125768.patch",
+            "title": "Fix trail crash in rare edge case",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc5MTc0NzU=",
+            "created_at": "2026-11-24T08:47:54Z",
+            "updated_at": "2026-11-25T14:54:58Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAABqcb2hg",
+                    "name": "topic:vfx",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "ef8382c19851ab12bd9fd8872a23b85ea8d6513b"
+            ]
+        },
+        "125769": {
+            "id": "PR_kwDOAO6SJc8AAAABRgcobA",
+            "public_id": 125769,
+            "url": "https://github.com/godotengine/godot/pull/125769",
+            "diff_url": "https://github.com/godotengine/godot/pull/125769.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125769.patch",
+            "title": "[Windows] Restore offsets when fullscreen window is moved to another screen by external source.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
+            "created_at": "2026-11-24T09:50:23Z",
+            "updated_at": "2026-11-25T14:54:59Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyMDU0MTc0MTM=",
+                    "name": "platform:windows",
+                    "color": "#e4e4e4"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyNTU=",
+                    "name": "topic:platforms",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "1f008e96770011d7718ed8a98e83581567397637"
+            ]
+        },
+        "125772": {
+            "id": "PR_kwDOAO6SJc8AAAABRjmRhw",
+            "public_id": 125772,
+            "url": "https://github.com/godotengine/godot/pull/125772",
+            "diff_url": "https://github.com/godotengine/godot/pull/125772.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125772.patch",
+            "title": "[SplitContainerDragger] Fix mouse dragging when accessibility is active.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
+            "created_at": "2026-11-24T13:33:44Z",
+            "updated_at": "2026-11-26T23:51:05Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxNzMyNzIwNzc5",
+                    "name": "topic:gui",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "ced2b481fc7bfe9afa99ccd9ccca3297b0a3915e"
+            ]
+        },
+        "125783": {
+            "id": "PR_kwDOAO6SJc8AAAABRplO-w",
+            "public_id": 125783,
+            "url": "https://github.com/godotengine/godot/pull/125783",
+            "diff_url": "https://github.com/godotengine/godot/pull/125783.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125783.patch",
+            "title": "Expand Thumbnail in the Asset Store Download Panel",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "U_kgDOC1emOQ",
+            "created_at": "2026-11-24T20:03:11Z",
+            "updated_at": "2026-11-27T05:38:28Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwzOTEyMzI5OTU=",
+                    "name": "topic:assetlib",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "817e151db70670f3ebb29b68cc95d0e263bc44de"
+            ]
+        },
+        "125788": {
+            "id": "PR_kwDOAO6SJc8AAAABRrermA",
+            "public_id": 125788,
+            "url": "https://github.com/godotengine/godot/pull/125788",
+            "diff_url": "https://github.com/godotengine/godot/pull/125788.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125788.patch",
+            "title": "Don't duplicate default resource when reverting property",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIyMjMxNzI=",
+            "created_at": "2026-11-24T22:29:54Z",
+            "updated_at": "2026-11-25T14:58:25Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "54549ed1701b35d7bb9eb1052473c19348171696"
+            ]
+        },
+        "125792": {
+            "id": "PR_kwDOAO6SJc8AAAABRyG-gA",
+            "public_id": 125792,
+            "url": "https://github.com/godotengine/godot/pull/125792",
+            "diff_url": "https://github.com/godotengine/godot/pull/125792.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125792.patch",
+            "title": "Fix `Mobile` shader using wrong type in double precision builds.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
+            "created_at": "2026-11-25T09:09:26Z",
+            "updated_at": "2026-11-25T14:54:53Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAACjMoaZQ",
+                    "name": "cherrypick:4.7",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4Mjg5",
+                    "name": "topic:3d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgxMTE=",
+                    "name": "topic:rendering",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "c7f1222807650a9399dee2802fb6bfd8c79622fa"
+            ]
+        },
+        "125797": {
+            "id": "PR_kwDOAO6SJc8AAAABR09I5A",
+            "public_id": 125797,
+            "url": "https://github.com/godotengine/godot/pull/125797",
+            "diff_url": "https://github.com/godotengine/godot/pull/125797.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125797.patch",
+            "title": "Don't hide model scenes when quick instantiating",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjIyMjMxNzI=",
+            "created_at": "2026-11-25T12:29:59Z",
+            "updated_at": "2026-11-27T00:07:41Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyODM1MTg3MzM=",
+                    "name": "usability",
+                    "color": "#447744"
+                }
+            ],
+            "commits": [
+                "2346973662893c222b53c2b5a46299a09d361a05"
+            ]
+        },
+        "125812": {
+            "id": "PR_kwDOAO6SJc8AAAABR7T4sw",
+            "public_id": 125812,
+            "url": "https://github.com/godotengine/godot/pull/125812",
+            "diff_url": "https://github.com/godotengine/godot/pull/125812.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125812.patch",
+            "title": "Fix FileSystem selecting wrong file when multiple files have the same name",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "U_kgDOCiYyuA",
+            "created_at": "2026-11-25T19:44:58Z",
+            "updated_at": "2026-11-26T23:51:12Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "82d22eebf51c75d2605b5a49fb5897ff75319a34"
+            ]
+        },
+        "125821": {
+            "id": "PR_kwDOAO6SJc8AAAABR-PfWg",
+            "public_id": 125821,
+            "url": "https://github.com/godotengine/godot/pull/125821",
+            "diff_url": "https://github.com/godotengine/godot/pull/125821.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125821.patch",
+            "title": "Fix wrong signal argument on `animation_frames_count` change",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjM3Mzc4NzQ2",
+            "created_at": "2026-11-25T23:37:42Z",
+            "updated_at": "2026-11-26T23:55:46Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNjY2NzA4MDU5",
+                    "name": "topic:2d",
+                    "color": "#ffee88"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTgyMTk=",
+                    "name": "topic:editor",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "bc784a1c0caa09fdfda60dcec6c956f2f5d9c4ef"
+            ]
+        },
+        "125828": {
+            "id": "PR_kwDOAO6SJc8AAAABSCSiiQ",
+            "public_id": 125828,
+            "url": "https://github.com/godotengine/godot/pull/125828",
+            "diff_url": "https://github.com/godotengine/godot/pull/125828.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125828.patch",
+            "title": "Save window size in `DisplayServerHeadless`.",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjc2NDU2ODM=",
+            "created_at": "2026-11-26T06:42:58Z",
+            "updated_at": "2026-11-26T23:50:59Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWwxNzMyNzIwNzc5",
+                    "name": "topic:gui",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "fe3d236f4e9f3282fd7b96b7e5cda4aec902b9dc"
+            ]
+        },
+        "125833": {
+            "id": "PR_kwDOAO6SJc8AAAABSD_h6A",
+            "public_id": 125833,
+            "url": "https://github.com/godotengine/godot/pull/125833",
+            "diff_url": "https://github.com/godotengine/godot/pull/125833.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125833.patch",
+            "title": "Compare floating-point spans by value",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "U_kgDOBd0e_A",
+            "created_at": "2026-11-26T09:07:40Z",
+            "updated_at": "2026-11-26T23:50:55Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAACUZq8lQ",
+                    "name": "cherrypick:4.6",
+                    "color": "#446699"
+                },
+                {
+                    "id": "LA_kwDOAO6SJc8AAAACjMoaZQ",
+                    "name": "cherrypick:4.7",
+                    "color": "#446699"
+                },
+                {
+                    "id": "MDU6TGFiZWwyNzkwOTc5NjY=",
+                    "name": "topic:core",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "45720c7ea7697c42b75a712e61acc427c3693261"
+            ]
+        },
+        "125839": {
+            "id": "PR_kwDOAO6SJc8AAAABSGZ8GQ",
+            "public_id": 125839,
+            "url": "https://github.com/godotengine/godot/pull/125839",
+            "diff_url": "https://github.com/godotengine/godot/pull/125839.diff",
+            "patch_url": "https://github.com/godotengine/godot/pull/125839.patch",
+            "title": "[.NET] Filter stack frames by StackTraceHidden instead of skipping a fixed count",
+            "state": "MERGED",
+            "is_draft": false,
+            "authored_by": "MDQ6VXNlcjYxNzE3MzQy",
+            "created_at": "2026-11-26T12:00:57Z",
+            "updated_at": "2026-11-26T23:51:06Z",
+            "target_branch": "master",
+            "labels": [
+                {
+                    "id": "MDU6TGFiZWw3MzMzMDA2NA==",
+                    "name": "bug",
+                    "color": "#ff6055"
+                },
+                {
+                    "id": "MDU6TGFiZWwxMzMyMzAzMTE5",
+                    "name": "regression",
+                    "color": "#ff63ac"
+                },
+                {
+                    "id": "MDU6TGFiZWw3MDkyNjk3NzU=",
+                    "name": "topic:dotnet",
+                    "color": "#ffee88"
+                }
+            ],
+            "commits": [
+                "1e8e1bf510e646b1b8311b7f5e5bb446393265fc"
             ]
         }
     }
